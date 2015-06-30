@@ -1,0 +1,162 @@
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLhostcrutil/util/endian.o: \
+ /home/se170/VirtualBox-4.3.28/src/VBox/GuestHost/OpenGL/util/endian.c \
+ /usr/include/stdc-predef.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/GuestHost/OpenGL/include/chromium.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/GuestHost/OpenGL/include/cr_compiler.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/mesa-7.2/include/GL/gl.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/mesa-7.2/include/GL/glext.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h \
+ /usr/include/inttypes.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/mesa-7.2/include/GL/glu.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/mesa-7.2/include/GL/glx.h \
+ /usr/include/X11/Xlib.h /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/X11/X.h \
+ /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h \
+ /usr/include/X11/Xutil.h /usr/include/X11/keysym.h \
+ /usr/include/X11/keysymdef.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/mesa-7.2/include/GL/glxext.h \
+ /usr/include/malloc.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/GuestHost/OpenGL/include/cr_glext.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/assert.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/types.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdint.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/GuestHost/OpenGL/include/cr_endian.h
+
+/usr/include/stdc-predef.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/GuestHost/OpenGL/include/chromium.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/GuestHost/OpenGL/include/cr_compiler.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/mesa-7.2/include/GL/gl.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/mesa-7.2/include/GL/glext.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/mesa-7.2/include/GL/glu.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/mesa-7.2/include/GL/glx.h:
+
+/usr/include/X11/Xlib.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/X11/X.h:
+
+/usr/include/X11/Xfuncproto.h:
+
+/usr/include/X11/Xosdefs.h:
+
+/usr/include/X11/Xutil.h:
+
+/usr/include/X11/keysym.h:
+
+/usr/include/X11/keysymdef.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/mesa-7.2/include/GL/glxext.h:
+
+/usr/include/malloc.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/GuestHost/OpenGL/include/cr_glext.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/assert.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/types.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdint.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/GuestHost/OpenGL/include/cr_endian.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/GuestHost/OpenGL/util/endian.c:
+
+
+define VBoxOGLhostcrutil_/home/se170/VirtualBox-4.3.28/src/VBox/GuestHost/OpenGL/util/endian.c_CMDS_PREV_
+
+@gcc -c -g -g -pipe -Wall -Wextra -Wno-missing-field-initializers -Wno-unused -Wno-trigraphs -fdiagnostics-show-option -Wno-unused-parameter -Wno-long-long -Wno-long-long -Werror-implicit-function-declaration -Wno-variadic-macros -O0 -fno-omit-frame-pointer -fno-strict-aliasing -fvisibility=hidden -DVBOX_HAVE_VISIBILITY_HIDDEN -DRT_USE_VISIBILITY_DEFAULT -fPIC -Wno-sign-compare -Werror-implicit-function-declaration -m64 -I/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/mesa-7.2 -I/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/mesa-7.2/include -I/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/mesa-7.2/src/mesa/ -I/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/mesa-7.2/src/mesa/glapi -I/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/mesa-7.2/src/mesa/main -I/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/mesa-7.2/src/mesa/drivers/dri/common -I/home/se170/VirtualBox-4.3.28/src/VBox/GuestHost/OpenGL/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLgen -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLhostcrutil/dtrace -I/home/se170/VirtualBox-4.3.28/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DRT_LOCK_STRICT -DRT_LOCK_STRICT_ORDER -DCHROMIUM_THREADSAFE -DVBOX_WITH_HGCM -DUNPACKS -DIN_RING3 -DHC_ARCH_BITS=64 -DGC_ARCH_BITS=64 -DVBOX_WITH_DTRACE -DVBOX_WITH_DTRACE_R3 -DPIC -DVBOX_WITH_CRHGSMI -DLinux=1 -D_GNU_SOURCE -Wp,-MD,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLhostcrutil/util/endian.o.dep -Wp,-MT,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLhostcrutil/util/endian.o -Wp,-MP -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLhostcrutil/util/endian.o /home/se170/VirtualBox-4.3.28/src/VBox/GuestHost/OpenGL/util/endian.c
+@kmk_builtin_append -n "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLhostcrutil/util/endian.o.dep" "" "/home/se170/VirtualBox-4.3.28/src/VBox/GuestHost/OpenGL/util/endian.c:" ""
+endef

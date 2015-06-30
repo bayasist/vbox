@@ -1,0 +1,18 @@
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3LazyImp/gen/VMMR3LazyLoad.o: /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3LazyImp/VMMR3LazyLoad.asm \
+   /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3LazyImp/VMMR3LazyLoad.asm:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac:
+
+
+define VMMR3LazyImp_/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3LazyImp/VMMR3LazyLoad.asm_CMDS_PREV_
+
+@yasm -f elf64 -DASM_FORMAT_ELF -D__YASM__ -Worphan-labels -g dwarf2 -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3LazyImp/dtrace/ -I/home/se170/VirtualBox-4.3.28/include/ -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/ -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DIN_RING3 -DHC_ARCH_BITS=64 -DGC_ARCH_BITS=64 -DVBOX_WITH_DTRACE -DVBOX_WITH_DTRACE_R3 -DPIC -l /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3LazyImp/gen/VMMR3LazyLoad.lst -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3LazyImp/gen/VMMR3LazyLoad.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3LazyImp/VMMR3LazyLoad.asm
+@/home/se170/VirtualBox-4.3.28/kBuild/bin/linux.amd64/kmk_redirect -wo /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3LazyImp/gen/VMMR3LazyLoad.o.dep -- yasm -DKBUILD_GENERATING_MAKEFILE_DEPENDENCIES -f elf64 -DASM_FORMAT_ELF -D__YASM__ -Worphan-labels -g dwarf2 -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3LazyImp/dtrace/ -I/home/se170/VirtualBox-4.3.28/include/ -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/ -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DIN_RING3 -DHC_ARCH_BITS=64 -DGC_ARCH_BITS=64 -DVBOX_WITH_DTRACE -DVBOX_WITH_DTRACE_R3 -DPIC -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3LazyImp/gen/VMMR3LazyLoad.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3LazyImp/VMMR3LazyLoad.asm -M
+@kmk_builtin_cp -f -- "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3LazyImp/gen/VMMR3LazyLoad.o.dep" "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3LazyImp/gen/VMMR3LazyLoad.o.dep.tmp"
+@kmk_builtin_append -n "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3LazyImp/gen/VMMR3LazyLoad.o.dep.tmp" "" ""
+@/home/se170/VirtualBox-4.3.28/kBuild/bin/linux.amd64/kmk_sed  -e 's/^[^ ]*: / /' -e 's/ *\\$//' -e 's/^ *//' -e 's/  */\n/g' -e 's/ *\([^ \n][^ \n]*\)/\1:\n/g' --append "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3LazyImp/gen/VMMR3LazyLoad.o.dep.tmp" "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3LazyImp/gen/VMMR3LazyLoad.o.dep"
+@kmk_builtin_mv -f -- "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3LazyImp/gen/VMMR3LazyLoad.o.dep.tmp" "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3LazyImp/gen/VMMR3LazyLoad.o.dep"
+endef

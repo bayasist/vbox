@@ -1,0 +1,24 @@
+CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/VBox-xpcom-io.a
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsAppFileLocationProvider.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsBinaryStream.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsByteArrayInputStream.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsDirectoryService.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsEscape.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsFastLoadFile.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsFastLoadService.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsInputStreamTee.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsLinebreakConverter.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsLocalFileCommon.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsMultiplexInputStream.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsPipe3.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsStreamUtils.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsScriptableInputStream.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsSegmentedBuffer.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/SpecialSystemDirectory.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsStorageStream.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsStringStream.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsUnicharInputStream.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsNativeCharsetUtils.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsLocalFileUnix.o
+SAVE
+END

@@ -1,0 +1,338 @@
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxmouse_drv_14/vboxmouse.o: \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/vboxmouse/vboxmouse.c \
+ /usr/include/stdc-predef.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/VMMDev.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/cdefs.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/param.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/param.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/types.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/types.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdint.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/time.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/err.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/err.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/ostypes.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/VMMDev2.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/assert.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/VBoxGuestLib.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/xf86.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/xf86str.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/misc.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xproto-7.0.18/X11/Xosdefs.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xproto-7.0.18/X11/Xfuncproto.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xproto-7.0.18/X11/Xmd.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xproto-7.0.18/X11/X.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xproto-7.0.18/X11/Xdefs.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/os.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xproto-7.0.18/X11/Xalloca.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xproto-7.0.18/X11/Xfuncs.h \
+ /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/huge_val.h \
+ /usr/include/x86_64-linux-gnu/bits/huge_valf.h \
+ /usr/include/x86_64-linux-gnu/bits/huge_vall.h \
+ /usr/include/x86_64-linux-gnu/bits/inf.h \
+ /usr/include/x86_64-linux-gnu/bits/nan.h \
+ /usr/include/x86_64-linux-gnu/bits/mathdef.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h /usr/include/assert.h \
+ /usr/include/ctype.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/input.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/screenint.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xproto-7.0.18/X11/Xproto.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xproto-7.0.18/X11/Xprotostr.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/window.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/region.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/regionstr.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/miscstruct.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/gc.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/pixmap.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/pixman-0.16.0/pixman.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/pixman-0.16.0/pixman-version.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/scrnintstr.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/bstore.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/bstorestr.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/colormap.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/cursor.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/validate.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/dix.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/pixmapstr.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xproto-7.0.18/X11/Xarch.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/colormapst.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/xf86Module.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/xf86Version.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/xf86Opt.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/xf86Pci.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/propertyst.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/property.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/xf86Xinput.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/inputstr.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/dixstruct.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/resource.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/inputproto-1.9.99.902/X11/extensions/XI.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/inputproto-1.9.99.902/X11/extensions/XIproto.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/XIstubs.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/mipointer.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/xf86Module.h \
+ /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+ /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/product-generated.h
+
+/usr/include/stdc-predef.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/VMMDev.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/cdefs.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/param.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/param.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/types.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/types.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdint.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/err.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/err.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/ostypes.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/VMMDev2.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/assert.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/VBoxGuestLib.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/xf86.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/xf86str.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/misc.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xproto-7.0.18/X11/Xosdefs.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xproto-7.0.18/X11/Xfuncproto.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xproto-7.0.18/X11/Xmd.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xproto-7.0.18/X11/X.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xproto-7.0.18/X11/Xdefs.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/os.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xproto-7.0.18/X11/Xalloca.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xproto-7.0.18/X11/Xfuncs.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/math.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_val.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_valf.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_vall.h:
+
+/usr/include/x86_64-linux-gnu/bits/inf.h:
+
+/usr/include/x86_64-linux-gnu/bits/nan.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathdef.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/assert.h:
+
+/usr/include/ctype.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/input.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/screenint.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xproto-7.0.18/X11/Xproto.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xproto-7.0.18/X11/Xprotostr.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/window.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/region.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/regionstr.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/miscstruct.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/gc.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/pixmap.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/pixman-0.16.0/pixman.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/pixman-0.16.0/pixman-version.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/scrnintstr.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/bstore.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/bstorestr.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/colormap.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/cursor.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/validate.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/dix.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/pixmapstr.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xproto-7.0.18/X11/Xarch.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/colormapst.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/xf86Module.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/xf86Version.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/xf86Opt.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/xf86Pci.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/propertyst.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/property.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/xf86Xinput.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/inputstr.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/dixstruct.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/resource.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/inputproto-1.9.99.902/X11/extensions/XI.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/inputproto-1.9.99.902/X11/extensions/XIproto.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/XIstubs.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/mipointer.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2/xf86Module.h:
+
+/usr/include/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/x86_64-linux-gnu/bits/fcntl.h:
+
+/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
+
+/usr/include/unistd.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/product-generated.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/vboxmouse/vboxmouse.c:
+
+
+define vboxmouse_drv_14_/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/vboxmouse/vboxmouse.c_CMDS_PREV_
+
+@gcc -c -g -g -pipe -pedantic -Wshadow -Wshadow -Wall -Wextra -Wno-missing-field-initializers -Wno-unused -Wno-trigraphs -fdiagnostics-show-option -Wno-unused-parameter -Wno-long-long -Wno-long-long -Wmissing-prototypes -Wstrict-prototypes -Wmissing-declarations -Werror-implicit-function-declaration   -Wno-variadic-macros -O0 -fno-omit-frame-pointer -fno-strict-aliasing -fvisibility=hidden -DVBOX_HAVE_VISIBILITY_HIDDEN -DRT_USE_VISIBILITY_DEFAULT -fPIC -std=c99 -Wno-conversion -Wno-unused-parameter -Wno-variadic-macros -m64 -I/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/inputproto-1.9.99.902 -I/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/libpciaccess-0.10.8 -I/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/pixman-0.16.0 -I/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xextproto-7.1.1 -I/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xproto-7.0.18 -I/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/xorg-server-1.4.2 -I/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/vboxmouse -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxmouse_drv_14/dtrace -I/home/se170/VirtualBox-4.3.28/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DRT_LOCK_STRICT -DRT_LOCK_STRICT_ORDER -DIN_RING3 -DVBOX_WITH_DTRACE -DVBOX_WITH_DTRACE_R3 -DIN_GUEST -DIN_GUEST_R3 -DIN_RT_R3 -DGC_ARCH_BITS=64 -DPIC -DVBOX_GUESTR3XORGMOD -DRTMEM_NO_WRAP_TO_EF_APIS -D_XSERVER64 -DXFree86Server -DIN_MODULE -DXFree86Module -DXFree86LOADER -DXINPUT -DXORG_7X -DIN_XF86_MODULE -DDONT_DEFINE_WRAPPERS -DNO_ANSIC -DNO_ANSIC -DLOG_USE_C99 -DRT_WITHOUT_EXEC_ALLOC -Wp,-MD,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxmouse_drv_14/vboxmouse.o.dep -Wp,-MT,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxmouse_drv_14/vboxmouse.o -Wp,-MP -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxmouse_drv_14/vboxmouse.o /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/vboxmouse/vboxmouse.c
+@kmk_builtin_append -n "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxmouse_drv_14/vboxmouse.o.dep" "" "/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/vboxmouse/vboxmouse.c:" ""
+endef

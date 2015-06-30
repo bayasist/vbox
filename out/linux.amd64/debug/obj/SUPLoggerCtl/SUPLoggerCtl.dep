@@ -1,0 +1,5 @@
+define SUPLoggerCtl_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPLoggerCtl/SUPLoggerCtl.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPLoggerCtl/SUPLoggerCtl  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPLoggerCtl/SUPLoggerCtl.map 
+@g++  -g             '-Wl,-rpath,$ORIGIN'  -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPLoggerCtl/SUPLoggerCtl /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPLoggerCtl/SUPLoggerCtl.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxRT.so   -lpthread   -lm   -lrt   -ldl 
+endef

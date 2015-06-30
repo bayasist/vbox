@@ -1,0 +1,10 @@
+CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-ipcshared/VBox-xpcom-ipcshared.a
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-ipcshared/ipc/ipcd/shared/src/ipcLog.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-ipcshared/ipc/ipcd/shared/src/ipcConfig.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-ipcshared/ipc/ipcd/shared/src/ipcMessage.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-ipcshared/ipc/ipcd/shared/src/ipcMessagePrimitives.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-ipcshared/ipc/ipcd/shared/src/ipcStringList.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-ipcshared/ipc/ipcd/shared/src/ipcIDList.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-ipcshared/ipc/ipcd/shared/src/ipcm.o
+SAVE
+END

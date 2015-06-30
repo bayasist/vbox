@@ -1,0 +1,2597 @@
+     1                                 %line 1+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+     2                                 
+     3                                 
+     4                                 
+     5                                 
+     6                                 
+     7                                 
+     8                                 
+     9                                 
+    10                                 
+    11                                 
+    12                                 
+    13                                 
+    14                                 
+    15                                 
+    16                                 
+    17                                 
+    18                                 
+    19                                 
+    20                                 
+    21                                 
+    22                                 %line 1+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+    23                                 
+    24                                 
+    25                                 
+    26                                 
+    27                                 
+    28                                 
+    29                                 
+    30                                 
+    31                                 
+    32                                 
+    33                                 
+    34                                 
+    35                                 
+    36                                 
+    37                                 
+    38                                 
+    39                                 
+    40                                 
+    41                                 
+    42                                 
+    43                                 
+    44                                 
+    45                                 
+    46                                 
+    47                                 
+    48                                 %line 28+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+    49                                 
+    50                                 
+    51                                 
+    52                                 
+    53                                 %line 37+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+    54                                 
+    55                                 %line 1+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    56                                 
+    57                                 
+    58                                 
+    59                                 
+    60                                 
+    61                                 
+    62                                 
+    63                                 
+    64                                 
+    65                                 
+    66                                 
+    67                                 
+    68                                 
+    69                                 
+    70                                 
+    71                                 
+    72                                 
+    73                                 
+    74                                 
+    75                                 
+    76                                 
+    77                                 
+    78                                 
+    79                                 
+    80                                 
+    81                                 %line 28+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    82                                 
+    83                                 
+    84                                 
+    85                                 
+    86                                 
+    87                                 
+    88                                 %line 35+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    89                                 
+    90                                 %line 37+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    91                                 
+    92                                 %line 39+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    93                                 
+    94                                 %line 41+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    95                                 
+    96                                 %line 43+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    97                                 
+    98                                 %line 45+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    99                                 
+   100                                 %line 47+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   101                                 
+   102                                 %line 49+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   103                                 
+   104                                 %line 51+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   105                                 
+   106                                 %line 53+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   107                                 
+   108                                 %line 55+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   109                                 
+   110                                 %line 57+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   111                                 
+   112                                 %line 59+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   113                                 
+   114                                 %line 61+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   115                                 
+   116                                 %line 63+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   117                                 
+   118                                 %line 65+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   119                                 
+   120                                 %line 67+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   121                                 
+   122                                 
+   123                                 
+   124                                 
+   125                                 
+   126                                 %line 73+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   127                                 
+   128                                 
+   129                                 
+   130                                 %line 77+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   131                                 
+   132                                 
+   133                                 %line 84+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   134                                 
+   135                                 
+   136                                 
+   137                                 %line 92+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   138                                 
+   139                                 
+   140                                 
+   141                                 %line 100+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   142                                 
+   143                                 
+   144                                 
+   145                                 %line 108+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   146                                 
+   147                                 
+   148                                 
+   149                                 %line 116+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   150                                 
+   151                                 
+   152                                 
+   153                                 
+   154                                 %line 121+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   155                                 
+   156                                 
+   157                                 
+   158                                 %line 125+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   159                                 
+   160                                 
+   161                                 
+   162                                 %line 129+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   163                                 
+   164                                 
+   165                                 
+   166                                 
+   167                                 
+   168                                 %line 137+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   169                                 
+   170                                 
+   171                                 
+   172                                 
+   173                                 %line 157+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   174                                 
+   175                                 
+   176                                 
+   177                                 %line 165+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   178                                 
+   179                                 
+   180                                 
+   181                                 %line 177+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   182                                 
+   183                                 
+   184                                 
+   185                                 
+   186                                 %line 188+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   187                                 
+   188                                 
+   189                                 
+   190                                 %line 211+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   191                                 
+   192                                 
+   193                                 
+   194                                 
+   195                                 
+   196                                 %line 222+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   197                                 
+   198                                 
+   199                                 
+   200                                 %line 236+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   201                                 
+   202                                 
+   203                                 
+   204                                 %line 249+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   205                                 
+   206                                 
+   207                                 
+   208                                 %line 263+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   209                                 
+   210                                 
+   211                                 
+   212                                 %line 274+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   213                                 
+   214                                 
+   215                                 
+   216                                 %line 288+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   217                                 
+   218                                 
+   219                                 
+   220                                 %line 302+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   221                                 
+   222                                 
+   223                                 
+   224                                 
+   225                                 
+   226                                 
+   227                                 
+   228                                 
+   229                                 %line 356+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   230                                 
+   231                                 %line 363+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   232                                 
+   233                                 
+   234                                 
+   235                                 
+   236                                 %line 376+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   237                                 
+   238                                 
+   239                                 
+   240                                 
+   241                                 
+   242                                 
+   243                                 
+   244                                 %line 396+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   245                                 
+   246                                 
+   247                                 
+   248                                 %line 408+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   249                                 
+   250                                 
+   251                                 
+   252                                 %line 420+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   253                                 
+   254                                 
+   255                                 
+   256                                 
+   257                                 
+   258                                 %line 432+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   259                                 
+   260                                 
+   261                                 
+   262                                 %line 442+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   263                                 
+   264                                 
+   265                                 
+   266                                 %line 452+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   267                                 
+   268                                 
+   269                                 
+   270                                 %line 462+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   271                                 
+   272                                 
+   273                                 
+   274                                 %line 472+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   275                                 
+   276                                 
+   277                                 
+   278                                 
+   279                                 
+   280                                 %line 482+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   281                                 
+   282                                 
+   283                                 
+   284                                 
+   285                                 %line 491+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   286                                 
+   287                                 
+   288                                 
+   289                                 %line 499+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   290                                 
+   291                                 
+   292                                 
+   293                                 %line 507+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   294                                 
+   295                                 
+   296                                 
+   297                                 
+   298                                 
+   299                                 %line 517+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   300                                 
+   301                                 
+   302                                 
+   303                                 
+   304                                 %line 526+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   305                                 
+   306                                 
+   307                                 
+   308                                 %line 534+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   309                                 
+   310                                 
+   311                                 
+   312                                 %line 542+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   313                                 
+   314                                 
+   315                                 
+   316                                 
+   317                                 
+   318                                 %line 552+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   319                                 
+   320                                 
+   321                                 
+   322                                 
+   323                                 %line 561+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   324                                 
+   325                                 
+   326                                 
+   327                                 %line 569+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   328                                 
+   329                                 
+   330                                 
+   331                                 %line 577+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   332                                 
+   333                                 
+   334                                 
+   335                                 
+   336                                 
+   337                                 %line 587+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   338                                 
+   339                                 
+   340                                 
+   341                                 
+   342                                 %line 596+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   343                                 
+   344                                 %line 599+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   345                                 
+   346                                 
+   347                                 
+   348                                 %line 607+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   349                                 
+   350                                 
+   351                                 
+   352                                 %line 615+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   353                                 
+   354                                 
+   355                                 
+   356                                 
+   357                                 %line 620+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   358                                 
+   359                                 
+   360                                 
+   361                                 
+   362                                 %line 625+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   363                                 
+   364                                 
+   365                                 
+   366                                 %line 629+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   367                                 
+   368                                 
+   369                                 
+   370                                 %line 633+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   371                                 
+   372                                 
+   373                                 
+   374                                 
+   375                                 
+   376                                 
+   377                                 
+   378                                 
+   379                                 
+   380                                 
+   381                                 
+   382                                 
+   383                                 
+   384                                 
+   385                                 
+   386                                 %line 666+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   387                                 
+   388                                 
+   389                                 
+   390                                 
+   391                                 
+   392                                 %line 672+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   393                                 
+   394                                 
+   395                                 
+   396                                 
+   397                                 %line 677+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   398                                 
+   399                                 
+   400                                 
+   401                                 %line 681+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   402                                 
+   403                                 
+   404                                 
+   405                                 %line 685+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   406                                 
+   407                                 
+   408                                 
+   409                                 
+   410                                 
+   411                                 %line 691+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   412                                 
+   413                                 
+   414                                 
+   415                                 
+   416                                 %line 696+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   417                                 
+   418                                 
+   419                                 
+   420                                 %line 700+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   421                                 
+   422                                 
+   423                                 
+   424                                 %line 704+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   425                                 
+   426                                 
+   427                                 
+   428                                 
+   429                                 
+   430                                 
+   431                                 
+   432                                 
+   433                                 %line 721+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   434                                 
+   435                                 
+   436                                 
+   437                                 
+   438                                 
+   439                                 
+   440                                 
+   441                                 
+   442                                 
+   443                                 
+   444                                 
+   445                                 
+   446                                 
+   447                                 
+   448                                 %line 738+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   449                                 
+   450                                 %line 752+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   451                                 
+   452                                 
+   453                                 
+   454                                 
+   455                                 
+   456                                 
+   457                                 
+   458                                 
+   459                                 
+   460                                 
+   461                                 
+   462                                 
+   463                                 
+   464                                 %line 770+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   465                                 
+   466                                 
+   467                                 
+   468                                 
+   469                                 
+   470                                 
+   471                                 
+   472                                 %line 791+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   473                                 
+   474                                 %line 797+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   475                                 
+   476                                 
+   477                                 
+   478                                 
+   479                                 
+   480                                 
+   481                                 
+   482                                 
+   483                                 
+   484                                 
+   485                                 
+   486                                 
+   487                                 
+   488                                 
+   489                                 
+   490                                 
+   491                                 
+   492                                 
+   493                                 
+   494                                 
+   495                                 
+   496                                 
+   497                                 
+   498                                 
+   499                                 
+   500                                 
+   501                                 
+   502                                 
+   503                                 
+   504                                 
+   505                                 
+   506                                 
+   507                                 
+   508                                 %line 853+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   509                                 
+   510                                 
+   511                                 
+   512                                 
+   513                                 
+   514                                 
+   515                                 
+   516                                 
+   517                                 
+   518                                 
+   519                                 %line 873+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   520                                 
+   521                                 
+   522                                 
+   523                                 %line 886+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   524                                 
+   525                                 %line 39+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   526                                 
+   527                                 
+   528                                 
+   529                                 
+   530                                 %line 51+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   531                                 
+   532                                 
+   533                                 %line 66+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   534                                 
+   535                                 
+   536                                 
+   537                                 
+   538                                 
+   539                                 
+   540                                 
+   541                                 %line 116+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   542                                 
+   543                                 
+   544                                 
+   545                                 
+   546                                 
+   547                                 
+   548                                 %line 159+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   549                                 
+   550                                 %line 195+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   551                                 
+   552                                 %line 203+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   553                                 
+   554                                 
+   555                                 
+   556                                 
+   557                                 %line 232+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   558                                 
+   559                                 
+   560                                 
+   561                                 
+   562                                 
+   563                                 %line 260+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   564                                 
+   565                                 %line 284+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   566                                 
+   567                                 %line 292+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   568                                 
+   569                                 
+   570                                 
+   571                                 
+   572                                 %line 331+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   573                                 
+   574                                 
+   575                                 
+   576                                 
+   577                                 
+   578                                 %line 369+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   579                                 
+   580                                 %line 403+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   581                                 
+   582                                 %line 411+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   583                                 
+   584                                 
+   585                                 
+   586                                 
+   587                                 
+   588                                 %line 453+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   589                                 
+   590                                 
+   591                                 
+   592                                 
+   593                                 
+   594                                 %line 494+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   595                                 
+   596                                 %line 531+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   597                                 
+   598                                 %line 539+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   599                                 
+   600                                 
+   601                                 
+   602                                 
+   603                                 %line 579+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   604                                 
+   605                                 
+   606                                 
+   607                                 
+   608                                 
+   609                                 %line 621+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   610                                 
+   611                                 %line 659+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   612                                 
+   613                                 %line 667+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   614                                 
+   615                                 
+   616                                 
+   617                                 
+   618                                 
+   619                                 
+   620                                 %line 701+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   621                                 
+   622                                 %line 730+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   623                                 
+   624                                 %line 738+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   625                                 
+   626                                 
+   627                                 
+   628                                 
+   629                                 
+   630                                 %line 756+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   631                                 
+   632                                 
+   633                                 
+   634                                 
+   635                                 
+   636                                 %line 773+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   637                                 
+   638                                 %line 775+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   639                                 
+   640                                 %line 1+1 /home/se170/VirtualBox-4.3.28/include/VBox/vmm/hm_vmx.mac
+   641                                 
+   642                                 
+   643                                 
+   644                                 
+   645                                 
+   646                                 
+   647                                 
+   648                                 
+   649                                 
+   650                                 
+   651                                 
+   652                                 
+   653                                 
+   654                                 
+   655                                 
+   656                                 
+   657                                 
+   658                                 
+   659                                 
+   660                                 
+   661                                 
+   662                                 
+   663                                 
+   664                                 
+   665                                 
+   666                                 %line 153+1 /home/se170/VirtualBox-4.3.28/include/VBox/vmm/hm_vmx.mac
+   667                                 
+   668                                 %line 163+1 /home/se170/VirtualBox-4.3.28/include/VBox/vmm/hm_vmx.mac
+   669                                 
+   670                                 
+   671                                 [absolute 0]
+   672                                 %line 165+0 /home/se170/VirtualBox-4.3.28/include/VBox/vmm/hm_vmx.mac
+   673                                 VMXRESTOREHOST:
+   674                                 %line 166+1 /home/se170/VirtualBox-4.3.28/include/VBox/vmm/hm_vmx.mac
+   675                                  .uHostSelDS resw 1
+   676                                  .uHostSelES resw 1
+   677                                  .uHostSelFS resw 1
+   678                                  .uHostSelGS resw 1
+   679                                  .uHostSelTR resw 1
+   680                                  .abPadding0 resb 4
+   681                                  .HostGdtr resb 10
+   682                                  .abPadding1 resb 6
+   683                                  .HostIdtr resb 10
+   684                                  .uHostFSBase resq 1
+   685                                  .uHostGSBase resq 1
+   686                                 VMXRESTOREHOST_size:
+   687                                 %line 177+0 /home/se170/VirtualBox-4.3.28/include/VBox/vmm/hm_vmx.mac
+   688                                 [section .text]
+   689                                 %line 182+1 /home/se170/VirtualBox-4.3.28/include/VBox/vmm/hm_vmx.mac
+   690                                 
+   691                                 %line 1+1 /home/se170/VirtualBox-4.3.28/include/VBox/vmm/cpum.mac
+   692                                 
+   693                                 
+   694                                 
+   695                                 
+   696                                 
+   697                                 
+   698                                 
+   699                                 
+   700                                 
+   701                                 
+   702                                 
+   703                                 
+   704                                 
+   705                                 
+   706                                 
+   707                                 
+   708                                 
+   709                                 
+   710                                 
+   711                                 
+   712                                 
+   713                                 
+   714                                 
+   715                                 
+   716                                 
+   717                                 %line 28+1 /home/se170/VirtualBox-4.3.28/include/VBox/vmm/cpum.mac
+   718                                 
+   719                                 
+   720                                 
+   721                                 
+   722                                 
+   723                                 [absolute 0]
+   724                                 %line 33+0 /home/se170/VirtualBox-4.3.28/include/VBox/vmm/cpum.mac
+   725                                 CPUMCTXCORE:
+   726                                 %line 34+1 /home/se170/VirtualBox-4.3.28/include/VBox/vmm/cpum.mac
+   727                                  .eax resq 1
+   728                                  .ecx resq 1
+   729                                  .edx resq 1
+   730                                  .ebx resq 1
+   731                                  .esp resq 1
+   732                                  .ebp resq 1
+   733                                  .esi resq 1
+   734                                  .edi resq 1
+   735                                  .r8 resq 1
+   736                                  .r9 resq 1
+   737                                  .r10 resq 1
+   738                                  .r11 resq 1
+   739                                  .r12 resq 1
+   740                                  .r13 resq 1
+   741                                  .r14 resq 1
+   742                                  .r15 resq 1
+   743                                  .es.Sel resw 1
+   744                                  .es.PaddingSel resw 1
+   745                                  .es.ValidSel resw 1
+   746                                  .es.fFlags resw 1
+   747                                  .es.u64Base resq 1
+   748                                  .es.u32Limit resd 1
+   749                                  .es.Attr resd 1
+   750                                  .cs.Sel resw 1
+   751                                  .cs.PaddingSel resw 1
+   752                                  .cs.ValidSel resw 1
+   753                                  .cs.fFlags resw 1
+   754                                  .cs.u64Base resq 1
+   755                                  .cs.u32Limit resd 1
+   756                                  .cs.Attr resd 1
+   757                                  .ss.Sel resw 1
+   758                                  .ss.PaddingSel resw 1
+   759                                  .ss.ValidSel resw 1
+   760                                  .ss.fFlags resw 1
+   761                                  .ss.u64Base resq 1
+   762                                  .ss.u32Limit resd 1
+   763                                  .ss.Attr resd 1
+   764                                  .ds.Sel resw 1
+   765                                  .ds.PaddingSel resw 1
+   766                                  .ds.ValidSel resw 1
+   767                                  .ds.fFlags resw 1
+   768                                  .ds.u64Base resq 1
+   769                                  .ds.u32Limit resd 1
+   770                                  .ds.Attr resd 1
+   771                                  .fs.Sel resw 1
+   772                                  .fs.PaddingSel resw 1
+   773                                  .fs.ValidSel resw 1
+   774                                  .fs.fFlags resw 1
+   775                                  .fs.u64Base resq 1
+   776                                  .fs.u32Limit resd 1
+   777                                  .fs.Attr resd 1
+   778                                  .gs.Sel resw 1
+   779                                  .gs.PaddingSel resw 1
+   780                                  .gs.ValidSel resw 1
+   781                                  .gs.fFlags resw 1
+   782                                  .gs.u64Base resq 1
+   783                                  .gs.u32Limit resd 1
+   784                                  .gs.Attr resd 1
+   785                                  .eip resq 1
+   786                                  .eflags resq 1
+   787                                 CPUMCTXCORE_size:
+   788                                 %line 94+0 /home/se170/VirtualBox-4.3.28/include/VBox/vmm/cpum.mac
+   789                                 [section .text]
+   790                                 %line 95+1 /home/se170/VirtualBox-4.3.28/include/VBox/vmm/cpum.mac
+   791                                 
+   792                                 
+   793                                 [absolute 0]
+   794                                 %line 97+0 /home/se170/VirtualBox-4.3.28/include/VBox/vmm/cpum.mac
+   795                                 CPUMCTX:
+   796                                 %line 98+1 /home/se170/VirtualBox-4.3.28/include/VBox/vmm/cpum.mac
+   797                                  .fpu resb 512
+   798                                  .eax resq 1
+   799                                  .ecx resq 1
+   800                                  .edx resq 1
+   801                                  .ebx resq 1
+   802                                  .esp resq 1
+   803                                  .ebp resq 1
+   804                                  .esi resq 1
+   805                                  .edi resq 1
+   806                                  .r8 resq 1
+   807                                  .r9 resq 1
+   808                                  .r10 resq 1
+   809                                  .r11 resq 1
+   810                                  .r12 resq 1
+   811                                  .r13 resq 1
+   812                                  .r14 resq 1
+   813                                  .r15 resq 1
+   814                                  .es.Sel resw 1
+   815                                  .es.PaddingSel resw 1
+   816                                  .es.ValidSel resw 1
+   817                                  .es.fFlags resw 1
+   818                                  .es.u64Base resq 1
+   819                                  .es.u32Limit resd 1
+   820                                  .es.Attr resd 1
+   821                                  .cs.Sel resw 1
+   822                                  .cs.PaddingSel resw 1
+   823                                  .cs.ValidSel resw 1
+   824                                  .cs.fFlags resw 1
+   825                                  .cs.u64Base resq 1
+   826                                  .cs.u32Limit resd 1
+   827                                  .cs.Attr resd 1
+   828                                  .ss.Sel resw 1
+   829                                  .ss.PaddingSel resw 1
+   830                                  .ss.ValidSel resw 1
+   831                                  .ss.fFlags resw 1
+   832                                  .ss.u64Base resq 1
+   833                                  .ss.u32Limit resd 1
+   834                                  .ss.Attr resd 1
+   835                                  .ds.Sel resw 1
+   836                                  .ds.PaddingSel resw 1
+   837                                  .ds.ValidSel resw 1
+   838                                  .ds.fFlags resw 1
+   839                                  .ds.u64Base resq 1
+   840                                  .ds.u32Limit resd 1
+   841                                  .ds.Attr resd 1
+   842                                  .fs.Sel resw 1
+   843                                  .fs.PaddingSel resw 1
+   844                                  .fs.ValidSel resw 1
+   845                                  .fs.fFlags resw 1
+   846                                  .fs.u64Base resq 1
+   847                                  .fs.u32Limit resd 1
+   848                                  .fs.Attr resd 1
+   849                                  .gs.Sel resw 1
+   850                                  .gs.PaddingSel resw 1
+   851                                  .gs.ValidSel resw 1
+   852                                  .gs.fFlags resw 1
+   853                                  .gs.u64Base resq 1
+   854                                  .gs.u32Limit resd 1
+   855                                  .gs.Attr resd 1
+   856                                  .eip resq 1
+   857                                  .eflags resq 1
+   858                                  .cr0 resq 1
+   859                                  .cr2 resq 1
+   860                                  .cr3 resq 1
+   861                                  .cr4 resq 1
+   862                                  .dr resq 8
+   863                                  .gdtrPadding resw 3
+   864                                  .gdtr resw 0
+   865                                  .gdtr.cbGdt resw 1
+   866                                  .gdtr.pGdt resq 1
+   867                                  .idtrPadding resw 3
+   868                                  .idtr resw 0
+   869                                  .idtr.cbIdt resw 1
+   870                                  .idtr.pIdt resq 1
+   871                                  .ldtr.Sel resw 1
+   872                                  .ldtr.PaddingSel resw 1
+   873                                  .ldtr.ValidSel resw 1
+   874                                  .ldtr.fFlags resw 1
+   875                                  .ldtr.u64Base resq 1
+   876                                  .ldtr.u32Limit resd 1
+   877                                  .ldtr.Attr resd 1
+   878                                  .tr.Sel resw 1
+   879                                  .tr.PaddingSel resw 1
+   880                                  .tr.ValidSel resw 1
+   881                                  .tr.fFlags resw 1
+   882                                  .tr.u64Base resq 1
+   883                                  .tr.u32Limit resd 1
+   884                                  .tr.Attr resd 1
+   885                                  .SysEnter.cs resb 8
+   886                                  .SysEnter.eip resb 8
+   887                                  .SysEnter.esp resb 8
+   888                                  .msrEFER resb 8
+   889                                  .msrSTAR resb 8
+   890                                  .msrPAT resb 8
+   891                                  .msrLSTAR resb 8
+   892                                  .msrCSTAR resb 8
+   893                                  .msrSFMASK resb 8
+   894                                  .msrKERNELGSBASE resb 8
+   895                                  .msrApicBase resb 8
+   896                                  .au32SizePadding resb 24
+   897                                 CPUMCTX_size:
+   898                                 %line 198+0 /home/se170/VirtualBox-4.3.28/include/VBox/vmm/cpum.mac
+   899                                 [section .text]
+   900                                 %line 199+1 /home/se170/VirtualBox-4.3.28/include/VBox/vmm/cpum.mac
+   901                                 
+   902                                 
+   903                                 
+   904                                 
+   905                                 [absolute 0]
+   906                                 %line 203+0 /home/se170/VirtualBox-4.3.28/include/VBox/vmm/cpum.mac
+   907                                 CPUMCTXMSRS:
+   908                                 %line 204+1 /home/se170/VirtualBox-4.3.28/include/VBox/vmm/cpum.mac
+   909                                  .au64 resq 64
+   910                                 CPUMCTXMSRS_size:
+   911                                 %line 205+0 /home/se170/VirtualBox-4.3.28/include/VBox/vmm/cpum.mac
+   912                                 [section .text]
+   913                                 %line 206+1 /home/se170/VirtualBox-4.3.28/include/VBox/vmm/cpum.mac
+   914                                 
+   915                                 
+   916                                 %line 209+1 /home/se170/VirtualBox-4.3.28/include/VBox/vmm/cpum.mac
+   917                                 
+   918                                 %line 1+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   919                                 
+   920                                 
+   921                                 
+   922                                 
+   923                                 
+   924                                 
+   925                                 
+   926                                 
+   927                                 
+   928                                 
+   929                                 
+   930                                 
+   931                                 
+   932                                 
+   933                                 
+   934                                 
+   935                                 
+   936                                 
+   937                                 
+   938                                 
+   939                                 
+   940                                 
+   941                                 
+   942                                 
+   943                                 
+   944                                 
+   945                                 %line 29+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   946                                 
+   947                                 
+   948                                 %line 52+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   949                                 
+   950                                 %line 54+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   951                                 
+   952                                 
+   953                                 
+   954                                 
+   955                                 
+   956                                 [absolute 0]
+   957                                 %line 59+0 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   958                                 X86FSTENV32P:
+   959                                 %line 60+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   960                                  .FCW resw 1
+   961                                  .padding1 resw 1
+   962                                  .FSW resw 1
+   963                                  .padding2 resw 1
+   964                                  .FTW resw 1
+   965                                  .padding3 resw 1
+   966                                  .FPUIP resd 1
+   967                                  .FPUCS resw 1
+   968                                  .FOP resw 1
+   969                                  .FPUDP resd 1
+   970                                  .FPUDS resw 1
+   971                                  .padding4 resw 1
+   972                                 X86FSTENV32P_size:
+   973                                 %line 72+0 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   974                                 [section .text]
+   975                                 %line 73+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   976                                 
+   977                                 
+   978                                 
+   979                                 
+   980                                 
+   981                                 [absolute 0]
+   982                                 %line 78+0 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   983                                 X86FXSTATE:
+   984                                 %line 79+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   985                                  .FCW resw 1
+   986                                  .FSW resw 1
+   987                                  .FTW resw 1
+   988                                  .FOP resw 1
+   989                                  .FPUIP resd 1
+   990                                  .FPUCS resw 1
+   991                                  .Rsrvd1 resw 1
+   992                                  .FPUDP resd 1
+   993                                  .FPUDS resw 1
+   994                                  .Rsrvd2 resw 1
+   995                                  .MXCSR resd 1
+   996                                  .MXCSR_MASK resd 1
+   997                                  .st0 resd 4
+   998                                  .st1 resd 4
+   999                                  .st2 resd 4
+  1000                                  .st3 resd 4
+  1001                                  .st4 resd 4
+  1002                                  .st5 resd 4
+  1003                                  .st6 resd 4
+  1004                                  .st7 resd 4
+  1005                                  .xmm0 resd 4
+  1006                                  .xmm1 resd 4
+  1007                                  .xmm2 resd 4
+  1008                                  .xmm3 resd 4
+  1009                                  .xmm4 resd 4
+  1010                                  .xmm5 resd 4
+  1011                                  .xmm6 resd 4
+  1012                                  .xmm7 resd 4
+  1013                                  .xmm8 resd 4
+  1014                                  .xmm9 resd 4
+  1015                                  .xmm10 resd 4
+  1016                                  .xmm11 resd 4
+  1017                                  .xmm12 resd 4
+  1018                                  .xmm13 resd 4
+  1019                                  .xmm14 resd 4
+  1020                                  .xmm15 resd 4
+  1021                                  .au32RsrvdRest resd 24
+  1022                                 X86FXSTATE_size:
+  1023                                 %line 116+0 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+  1024                                 [section .text]
+  1025                                 %line 117+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+  1026                                 
+  1027                                 
+  1028                                 [absolute 0]
+  1029                                 %line 119+0 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+  1030                                 X86TSS16:
+  1031                                 %line 120+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+  1032                                  .selPrev resw 1
+  1033                                  .sp0 resw 1
+  1034                                  .ss0 resw 1
+  1035                                  .sp1 resw 1
+  1036                                  .ss1 resw 1
+  1037                                  .sp2 resw 1
+  1038                                  .ss2 resw 1
+  1039                                  .ip resw 1
+  1040                                  .flags resw 1
+  1041                                  .ax resw 1
+  1042                                  .cx resw 1
+  1043                                  .dx resw 1
+  1044                                  .bx resw 1
+  1045                                  .sp resw 1
+  1046                                  .bp resw 1
+  1047                                  .si resw 1
+  1048                                  .di resw 1
+  1049                                  .es resw 1
+  1050                                  .cs resw 1
+  1051                                  .ss resw 1
+  1052                                  .ds resw 1
+  1053                                  .selLdt resw 1
+  1054                                 X86TSS16_size:
+  1055                                 %line 142+0 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+  1056                                 [section .text]
+  1057                                 %line 144+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+  1058                                 
+  1059                                 
+  1060                                 [absolute 0]
+  1061                                 %line 146+0 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+  1062                                 X86TSS32:
+  1063                                 %line 147+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+  1064                                  .selPrev resw 1
+  1065                                  .padding1 resw 1
+  1066                                  .esp0 resd 1
+  1067                                  .ss0 resw 1
+  1068                                  .padding_ss0 resw 1
+  1069                                  .esp1 resd 1
+  1070                                  .ss1 resw 1
+  1071                                  .padding_ss1 resw 1
+  1072                                  .esp2 resd 1
+  1073                                  .ss2 resw 1
+  1074                                  .padding_ss2 resw 1
+  1075                                  .cr3 resd 1
+  1076                                  .eip resd 1
+  1077                                  .eflags resd 1
+  1078                                  .eax resd 1
+  1079                                  .ecx resd 1
+  1080                                  .edx resd 1
+  1081                                  .ebx resd 1
+  1082                                  .esp resd 1
+  1083                                  .ebp resd 1
+  1084                                  .esi resd 1
+  1085                                  .edi resd 1
+  1086                                  .es resw 1
+  1087                                  .padding_es resw 1
+  1088                                  .cs resw 1
+  1089                                  .padding_cs resw 1
+  1090                                  .ss resw 1
+  1091                                  .padding_ss resw 1
+  1092                                  .ds resw 1
+  1093                                  .padding_ds resw 1
+  1094                                  .fs resw 1
+  1095                                  .padding_fs resw 1
+  1096                                  .gs resw 1
+  1097                                  .padding_gs resw 1
+  1098                                  .selLdt resw 1
+  1099                                  .padding_ldt resw 1
+  1100                                  .fDebugTrap resw 1
+  1101                                  .offIoBitmap resw 1
+  1102                                  .IntRedirBitmap resb 32
+  1103                                 X86TSS32_size:
+  1104                                 %line 186+0 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+  1105                                 [section .text]
+  1106                                 %line 187+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+  1107                                 
+  1108                                 
+  1109                                 [absolute 0]
+  1110                                 %line 189+0 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+  1111                                 X86TSS64:
+  1112                                 %line 190+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+  1113                                  .u32Reserved resd 1
+  1114                                  .rsp0 resq 1
+  1115                                  .rsp1 resq 1
+  1116                                  .rsp2 resq 1
+  1117                                  .u32Reserved2 resd 2
+  1118                                  .ist1 resq 1
+  1119                                  .ist2 resq 1
+  1120                                  .ist3 resq 1
+  1121                                  .ist4 resq 1
+  1122                                  .ist5 resq 1
+  1123                                  .ist6 resq 1
+  1124                                  .ist7 resq 1
+  1125                                  .u16Reserved resw 5
+  1126                                  .offIoBitmap resw 1
+  1127                                  .IntRedirBitmap resb 32
+  1128                                 X86TSS64_size:
+  1129                                 %line 205+0 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+  1130                                 [section .text]
+  1131                                 %line 207+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+  1132                                 
+  1133                                 %line 209+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+  1134                                 
+  1135                                 %line 1+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/include/HMInternal.mac
+  1136                                 
+  1137                                 
+  1138                                 
+  1139                                 
+  1140                                 
+  1141                                 
+  1142                                 
+  1143                                 
+  1144                                 
+  1145                                 
+  1146                                 
+  1147                                 
+  1148                                 
+  1149                                 
+  1150                                 
+  1151                                 
+  1152                                 %line 22+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/include/HMInternal.mac
+  1153                                 
+  1154                                 %line 24+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/include/HMInternal.mac
+  1155                                 
+  1156                                 
+  1157                                 %line 27+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/include/HMInternal.mac
+  1158                                 
+  1159                                 
+  1160                                 [absolute 0]
+  1161                                 %line 29+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/include/HMInternal.mac
+  1162                                 VMCSCACHE:
+  1163                                 %line 41+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/include/HMInternal.mac
+  1164                                  .cr2 resq 1
+  1165                                  .Write.cValidEntries resd 1
+  1166                                  .Write.uAlignment resd 1
+  1167                                  .Write.aField resd 128
+  1168                                  .Write.aFieldVal resq 128
+  1169                                  .Read.cValidEntries resd 1
+  1170                                  .Read.uAlignment resd 1
+  1171                                  .Read.aField resd 128
+  1172                                  .Read.aFieldVal resq 128
+  1173                                 %line 51+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/include/HMInternal.mac
+  1174                                  .TestIn.HCPhysCpuPage resq 1
+  1175                                  .TestIn.HCPhysVmcs resq 1
+  1176                                  .TestIn.pCache resq 1
+  1177                                  .TestIn.pCtx resq 1
+  1178                                  .TestOut.HCPhysVmcs resq 1
+  1179                                  .TestOut.pCache resq 1
+  1180                                  .TestOut.pCtx resq 1
+  1181                                  .TestOut.eflags resq 1
+  1182                                  .TestOut.cr8 resq 1
+  1183                                  .ScratchPad.param1 resq 1
+  1184                                  .ScratchPad.param2 resq 1
+  1185                                  .ScratchPad.param3 resq 1
+  1186                                  .ScratchPad.param4 resq 1
+  1187                                 %line 65+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/include/HMInternal.mac
+  1188                                 VMCSCACHE_size:
+  1189                                 %line 65+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/include/HMInternal.mac
+  1190                                 [section .text]
+  1191                                 %line 66+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/include/HMInternal.mac
+  1192                                 
+  1193                                 %line 27+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1194                                 
+  1195                                 %line 43+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1196                                 
+  1197                                 
+  1198                                 
+  1199                                 
+  1200                                 %line 62+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1201                                 
+  1202                                 %line 66+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1203                                 
+  1204                                 
+  1205                                 
+  1206                                 %line 70+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1207                                 
+  1208                                 
+  1209                                 
+  1210                                 
+  1211                                 
+  1212                                 
+  1213                                 
+  1214                                 
+  1215                                 
+  1216                                 
+  1217                                 
+  1218                                 
+  1219                                 
+  1220                                 
+  1221                                 
+  1222                                 
+  1223                                 
+  1224                                 %line 88+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1225                                 
+  1226                                 %line 98+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1227                                 
+  1228                                 
+  1229                                 
+  1230                                 %line 110+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1231                                 
+  1232                                 
+  1233                                 %line 119+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1234                                 
+  1235                                 %line 135+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1236                                 
+  1237                                 %line 156+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1238                                 
+  1239                                 %line 160+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1240                                 
+  1241                                 %line 228+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1242                                 
+  1243                                 %line 235+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1244                                 
+  1245                                 %line 248+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1246                                 
+  1247                                 
+  1248                                 
+  1249                                 
+  1250                                 
+  1251                                 %line 263+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1252                                 
+  1253                                 
+  1254                                 
+  1255                                 
+  1256                                 
+  1257                                 %line 277+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1258                                 
+  1259                                 
+  1260                                 [section .text]
+  1261                                 
+  1262                                 
+  1263                                 
+  1264                                 
+  1265                                 
+  1266                                 
+  1267                                 
+  1268                                 
+  1269                                 
+  1270                                 [global VMXRestoreHostState:function hidden]
+  1271                                 %line 290+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1272                                 VMXRestoreHostState:
+  1273                                 %line 301+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1274                                 
+  1275 00000000 F7C720000000            test edi, 20
+  1276 00000006 7402                    jz .test_idtr
+  1277 00000008 0F01560E                lgdt [rsi + VMXRESTOREHOST.HostGdtr]
+  1278                                 
+  1279                                 .test_idtr:
+  1280 0000000C F7C740000000            test edi, 40
+  1281 00000012 7402                    jz .test_ds
+  1282 00000014 0F015E1E                lidt [rsi + VMXRESTOREHOST.HostIdtr]
+  1283                                 
+  1284                                 .test_ds:
+  1285 00000018 F7C701000000            test edi, 1
+  1286 0000001E 7403                    jz .test_es
+  1287 00000020 668B06                  mov ax, [rsi + VMXRESTOREHOST.uHostSelDS]
+  1288 00000023 8ED8                    mov ds, eax
+  1289                                 
+  1290                                 .test_es:
+  1291 00000025 F7C702000000            test edi, 2
+  1292 0000002B 7404                    jz .test_tr
+  1293 0000002D 668B4602                mov ax, [rsi + VMXRESTOREHOST.uHostSelES]
+  1294 00000031 8EC0                    mov es, eax
+  1295                                 
+  1296                                 .test_tr:
+  1297 00000033 F7C710000000            test edi, 10
+  1298 00000039 7440                    jz .test_fs
+  1299                                 
+  1300 0000003B 668B5608                mov dx, [rsi + VMXRESTOREHOST.uHostSelTR]
+  1301 0000003F 6689D0                  mov ax, dx
+  1302 00000042 25FCFF0000              and eax, 0xfffc
+  1303 00000047 48034610                add rax, qword [rsi + VMXRESTOREHOST.HostGdtr + 2]
+  1304 0000004B F7C780000000            test edi, 80
+  1305 00000051 750A                    jnz .gdt_readonly
+  1306 00000053 816004FFFDFFFF          and dword [rax + 4], ~(1 << 9)
+  1307 0000005A 0F00DA                  ltr dx
+  1308 0000005D EB1C                    jmp short .test_fs
+  1309                                 .gdt_readonly:
+  1310 0000005F 0F20C1                  mov rcx, cr0
+  1311 00000062 4989C9                  mov r9, rcx
+  1312 00000065 4881E1FFFFFEFF          and rcx, ~(1 << 16)
+  1313 0000006C 0F22C1                  mov cr0, rcx
+  1314 0000006F 816004FFFDFFFF          and dword [rax + 4], ~(1 << 9)
+  1315 00000076 0F00DA                  ltr dx
+  1316 00000079 410F22C1                mov cr0, r9
+  1317                                 
+  1318                                 .test_fs:
+  1319                                 
+  1320                                 
+  1321                                 
+  1322                                 
+  1323                                 
+  1324                                 
+  1325                                 
+  1326                                 
+  1327                                 
+  1328 0000007D F7C70C000000            test edi, 4
+  1329 00000083 7437                    jz .restore_success
+  1330 00000085 9C                      pushfq
+  1331 00000086 FA                      cli
+  1332                                 
+  1333 00000087 F7C704000000            test edi, 4
+  1334 0000008D 7411                    jz .test_gs
+  1335 0000008F 668B4604                mov ax, word [rsi + VMXRESTOREHOST.uHostSelFS]
+  1336 00000093 8EE0                    mov fs, eax
+  1337 00000095 8B4628                  mov eax, dword [rsi + VMXRESTOREHOST.uHostFSBase]
+  1338 00000098 8B562C                  mov edx, dword [rsi + VMXRESTOREHOST.uHostFSBase + 4
+  1339 0000009B B9000100C0              mov ecx, 0xc0000100
+  1340 000000A0 0F30                    wrmsr
+  1341                                 
+  1342                                 .test_gs:
+  1343 000000A2 F7C708000000            test edi, 8
+  1344 000000A8 7411                    jz .restore_flags
+  1345 000000AA 668B4606                mov ax, word [rsi + VMXRESTOREHOST.uHostSelGS]
+  1346 000000AE 8EE8                    mov gs, eax
+  1347 000000B0 8B4630                  mov eax, dword [rsi + VMXRESTOREHOST.uHostGSBase]
+  1348 000000B3 8B5634                  mov edx, dword [rsi + VMXRESTOREHOST.uHostGSBase + 4
+  1349 000000B6 B9010100C0              mov ecx, 0xc0000101
+  1350 000000BB 0F30                    wrmsr
+  1351                                 
+  1352                                 .restore_flags:
+  1353 000000BD 9D                      popfq
+  1354                                 
+  1355                                 .restore_success:
+  1356 000000BE B800000000              mov eax, 0
+  1357                                 %line 392+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1358 000000C3 C3                      ret
+  1359                                 [global VMXRestoreHostState_EndProc:function hidden]
+  1360                                 %line 393+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1361                                 VMXRestoreHostState_EndProc:
+  1362                                 [size VMXRestoreHostState VMXRestoreHostState_EndProc - VMXRestoreHostState]
+  1363                                 [size VMXRestoreHostState_EndProc 0]
+  1364 000000C4 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1365                                 %line 394+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1366                                 
+  1367                                 
+  1368                                 
+  1369                                 
+  1370                                 
+  1371 000000C8 CC<rept>               times ($$-$) & ((16)-1) db 0cc
+  1372                                 [global VMXDispatchHostNmi:function hidden]
+  1373                                 %line 400+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1374                                 VMXDispatchHostNmi:
+  1375                                 %line 401+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1376 000000D0 CD02                    int 2
+  1377 000000D2 C3                      ret
+  1378                                 [global VMXDispatchHostNmi_EndProc:function hidden]
+  1379                                 %line 403+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1380                                 VMXDispatchHostNmi_EndProc:
+  1381                                 [size VMXDispatchHostNmi VMXDispatchHostNmi_EndProc - VMXDispatchHostNmi]
+  1382                                 [size VMXDispatchHostNmi_EndProc 0]
+  1383 000000D3 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1384                                 %line 404+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1385                                 
+  1386                                 
+  1387                                 
+  1388                                 
+  1389                                 
+  1390                                 
+  1391                                 
+  1392                                 
+  1393                                 
+  1394 000000D7 CC<rept>               times ($$-$) & ((16)-1) db 0cc
+  1395                                 [global VMXWriteVmcs64:function hidden]
+  1396                                 %line 414+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1397                                 VMXWriteVmcs64:
+  1398                                 %line 417+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1399 000000E0 81E7FFFFFFFF            and edi, 0ffffffff
+  1400 000000E6 4831C0                  xor rax, rax
+  1401 000000E9 0F79FE                  vmwrite rdi, rsi
+  1402                                 %line 443+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1403 000000EC 7304                    jnc .valid_vmcs
+  1404 000000EE B85FF0FFFF              mov eax, (-4001)
+  1405 000000F3 C3                      ret
+  1406                                 .valid_vmcs:
+  1407 000000F4 7503                    jnz .the_end
+  1408 000000F6 B85EF0FFFF              mov eax, (-4002)
+  1409                                 .the_end:
+  1410 000000FB C3                      ret
+  1411                                 
+  1412                                 %line 469+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1413                                 [global VMXWriteVmcs64_EndProc:function hidden]
+  1414                                 %line 469+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1415                                 VMXWriteVmcs64_EndProc:
+  1416                                 [size VMXWriteVmcs64 VMXWriteVmcs64_EndProc - VMXWriteVmcs64]
+  1417                                 [size VMXWriteVmcs64_EndProc 0]
+  1418 000000FC CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1419                                 %line 470+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1420                                 
+  1421                                 
+  1422                                 
+  1423                                 
+  1424                                 
+  1425                                 
+  1426                                 
+  1427                                 
+  1428                                 
+  1429                                 
+  1430                                 [global VMXReadVmcs64:function hidden]
+  1431                                 %line 481+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1432                                 VMXReadVmcs64:
+  1433                                 %line 484+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1434 00000100 81E7FFFFFFFF            and edi, 0ffffffff
+  1435 00000106 4831C0                  xor rax, rax
+  1436 00000109 0F783E                  vmread [rsi], rdi
+  1437                                 %line 510+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1438 0000010C 7304                    jnc .valid_vmcs
+  1439 0000010E B85FF0FFFF              mov eax, (-4001)
+  1440 00000113 C3                      ret
+  1441                                 .valid_vmcs:
+  1442 00000114 7503                    jnz .the_end
+  1443 00000116 B85EF0FFFF              mov eax, (-4002)
+  1444                                 .the_end:
+  1445 0000011B C3                      ret
+  1446                                 
+  1447                                 %line 536+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1448                                 [global VMXReadVmcs64_EndProc:function hidden]
+  1449                                 %line 536+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1450                                 VMXReadVmcs64_EndProc:
+  1451                                 [size VMXReadVmcs64 VMXReadVmcs64_EndProc - VMXReadVmcs64]
+  1452                                 [size VMXReadVmcs64_EndProc 0]
+  1453 0000011C CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1454                                 %line 537+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1455                                 
+  1456                                 
+  1457                                 
+  1458                                 
+  1459                                 
+  1460                                 
+  1461                                 
+  1462                                 
+  1463                                 
+  1464                                 
+  1465                                 [global VMXReadVmcs32:function hidden]
+  1466                                 %line 548+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1467                                 VMXReadVmcs32:
+  1468                                 %line 551+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1469 00000120 81E7FFFFFFFF            and edi, 0ffffffff
+  1470 00000126 4831C0                  xor rax, rax
+  1471 00000129 410F78FA                vmread r10, rdi
+  1472 0000012D 448916                  mov [rsi], r10d
+  1473                                 %line 574+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1474 00000130 7304                    jnc .valid_vmcs
+  1475 00000132 B85FF0FFFF              mov eax, (-4001)
+  1476 00000137 C3                      ret
+  1477                                 .valid_vmcs:
+  1478 00000138 7503                    jnz .the_end
+  1479 0000013A B85EF0FFFF              mov eax, (-4002)
+  1480                                 .the_end:
+  1481 0000013F C3                      ret
+  1482                                 
+  1483                                 %line 601+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1484                                 [global VMXReadVmcs32_EndProc:function hidden]
+  1485                                 %line 601+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1486                                 VMXReadVmcs32_EndProc:
+  1487                                 [size VMXReadVmcs32 VMXReadVmcs32_EndProc - VMXReadVmcs32]
+  1488                                 [size VMXReadVmcs32_EndProc 0]
+  1489 00000140 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1490                                 %line 602+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1491                                 
+  1492                                 
+  1493                                 
+  1494                                 
+  1495                                 
+  1496                                 
+  1497                                 
+  1498                                 
+  1499                                 
+  1500                                 
+  1501 00000144 CC<rept>               times ($$-$) & ((16)-1) db 0cc
+  1502                                 [global VMXWriteVmcs32:function hidden]
+  1503                                 %line 613+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1504                                 VMXWriteVmcs32:
+  1505                                 %line 616+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1506 00000150 81E7FFFFFFFF            and edi, 0ffffffff
+  1507 00000156 81E6FFFFFFFF            and esi, 0ffffffff
+  1508 0000015C 4831C0                  xor rax, rax
+  1509 0000015F 0F79FE                  vmwrite rdi, rsi
+  1510                                 %line 639+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1511 00000162 7304                    jnc .valid_vmcs
+  1512 00000164 B85FF0FFFF              mov eax, (-4001)
+  1513 00000169 C3                      ret
+  1514                                 .valid_vmcs:
+  1515 0000016A 7503                    jnz .the_end
+  1516 0000016C B85EF0FFFF              mov eax, (-4002)
+  1517                                 .the_end:
+  1518 00000171 C3                      ret
+  1519                                 
+  1520                                 %line 665+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1521                                 [global VMXWriteVmcs32_EndProc:function hidden]
+  1522                                 %line 665+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1523                                 VMXWriteVmcs32_EndProc:
+  1524                                 [size VMXWriteVmcs32 VMXWriteVmcs32_EndProc - VMXWriteVmcs32]
+  1525                                 [size VMXWriteVmcs32_EndProc 0]
+  1526 00000172 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1527                                 %line 666+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1528                                 
+  1529                                 
+  1530                                 
+  1531                                 
+  1532                                 
+  1533                                 
+  1534                                 
+  1535                                 
+  1536                                 
+  1537                                 [global VMXEnable:function hidden]
+  1538                                 %line 675+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1539                                 VMXEnable:
+  1540                                 %line 677+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1541 00000176 4831C0                  xor rax, rax
+  1542                                 %line 679+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1543 00000179 57                      push rdi
+  1544                                 %line 683+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1545 0000017A F30FC73424              vmxon [rsp]
+  1546                                 %line 695+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1547 0000017F 7305                    jnc .good
+  1548 00000181 B85CF0FFFF              mov eax, (-4004)
+  1549 00000186 EB05                    jmp .the_end
+  1550                                 
+  1551                                 .good:
+  1552 00000188 7503                    jnz .the_end
+  1553 0000018A B860F0FFFF              mov eax, (-4000)
+  1554                                 
+  1555                                 .the_end:
+  1556                                 %line 705+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1557 0000018F 4883C408                add rsp, 8
+  1558                                 %line 707+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1559 00000193 C3                      ret
+  1560                                 
+  1561                                 %line 726+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1562                                 [global VMXEnable_EndProc:function hidden]
+  1563                                 %line 726+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1564                                 VMXEnable_EndProc:
+  1565                                 [size VMXEnable VMXEnable_EndProc - VMXEnable]
+  1566                                 [size VMXEnable_EndProc 0]
+  1567 00000194 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1568                                 %line 727+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1569                                 
+  1570                                 
+  1571                                 
+  1572                                 
+  1573                                 
+  1574                                 
+  1575                                 [global VMXDisable:function hidden]
+  1576                                 %line 733+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1577                                 VMXDisable:
+  1578                                 %line 741+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1579 00000198 0F01C4                  vmxoff
+  1580                                 .the_end:
+  1581 0000019B C3                      ret
+  1582                                 
+  1583                                 %line 755+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1584                                 [global VMXDisable_EndProc:function hidden]
+  1585                                 %line 755+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1586                                 VMXDisable_EndProc:
+  1587                                 [size VMXDisable VMXDisable_EndProc - VMXDisable]
+  1588                                 [size VMXDisable_EndProc 0]
+  1589 0000019C CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1590                                 %line 756+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1591                                 
+  1592                                 
+  1593                                 
+  1594                                 
+  1595                                 
+  1596                                 
+  1597                                 
+  1598                                 
+  1599                                 
+  1600                                 [global VMXClearVmcs:function hidden]
+  1601                                 %line 766+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1602                                 VMXClearVmcs:
+  1603                                 %line 768+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1604 000001A0 4831C0                  xor rax, rax
+  1605                                 %line 770+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1606 000001A3 57                      push rdi
+  1607                                 %line 774+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1608 000001A4 660FC73424              vmclear [rsp]
+  1609                                 %line 786+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1610 000001A9 7303                    jnc .the_end
+  1611 000001AB B85FF0FFFF              mov eax, (-4001)
+  1612                                 .the_end:
+  1613                                 %line 790+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1614 000001B0 4883C408                add rsp, 8
+  1615                                 %line 792+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1616 000001B4 C3                      ret
+  1617                                 
+  1618                                 %line 809+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1619                                 [global VMXClearVmcs_EndProc:function hidden]
+  1620                                 %line 809+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1621                                 VMXClearVmcs_EndProc:
+  1622                                 [size VMXClearVmcs VMXClearVmcs_EndProc - VMXClearVmcs]
+  1623                                 [size VMXClearVmcs_EndProc 0]
+  1624 000001B5 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1625                                 %line 810+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1626                                 
+  1627                                 
+  1628                                 
+  1629                                 
+  1630                                 
+  1631                                 
+  1632                                 
+  1633                                 
+  1634                                 
+  1635 000001B9 CC<rept>               times ($$-$) & ((16)-1) db 0cc
+  1636                                 [global VMXActivateVmcs:function hidden]
+  1637                                 %line 820+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1638                                 VMXActivateVmcs:
+  1639                                 %line 822+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1640 000001C0 4831C0                  xor rax, rax
+  1641                                 %line 824+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1642 000001C3 57                      push rdi
+  1643                                 %line 828+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1644 000001C4 0FC73424                vmptrld [rsp]
+  1645                                 %line 840+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1646 000001C8 7303                    jnc .the_end
+  1647 000001CA B85FF0FFFF              mov eax, (-4001)
+  1648                                 .the_end:
+  1649                                 %line 844+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1650 000001CF 4883C408                add rsp, 8
+  1651                                 %line 846+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1652 000001D3 C3                      ret
+  1653                                 
+  1654                                 %line 863+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1655                                 [global VMXActivateVmcs_EndProc:function hidden]
+  1656                                 %line 863+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1657                                 VMXActivateVmcs_EndProc:
+  1658                                 [size VMXActivateVmcs VMXActivateVmcs_EndProc - VMXActivateVmcs]
+  1659                                 [size VMXActivateVmcs_EndProc 0]
+  1660 000001D4 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1661                                 %line 864+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1662                                 
+  1663                                 
+  1664                                 
+  1665                                 
+  1666                                 
+  1667                                 
+  1668                                 
+  1669                                 
+  1670                                 
+  1671                                 [global VMXGetActivatedVmcs:function hidden]
+  1672                                 %line 873+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1673                                 VMXGetActivatedVmcs:
+  1674                                 %line 880+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1675 000001D8 0FC73F                  vmptrst qword [rdi]
+  1676                                 %line 894+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1677 000001DB 31C0                    xor eax, eax
+  1678                                 .the_end:
+  1679 000001DD C3                      ret
+  1680                                 
+  1681                                 %line 912+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1682                                 [global VMXGetActivatedVmcs_EndProc:function hidden]
+  1683                                 %line 912+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1684                                 VMXGetActivatedVmcs_EndProc:
+  1685                                 [size VMXGetActivatedVmcs VMXGetActivatedVmcs_EndProc - VMXGetActivatedVmcs]
+  1686                                 [size VMXGetActivatedVmcs_EndProc 0]
+  1687 000001DE CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1688                                 %line 913+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1689                                 
+  1690                                 
+  1691                                 
+  1692                                 
+  1693                                 
+  1694                                 
+  1695                                 
+  1696                                 [global VMXR0InvEPT:function hidden]
+  1697                                 %line 920+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1698                                 VMXR0InvEPT:
+  1699                                 %line 923+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1700 000001E2 81E7FFFFFFFF            and edi, 0ffffffff
+  1701 000001E8 4831C0                  xor rax, rax
+  1702                                 
+  1703 000001EB 660F38803E              DB 0x66, 0x0F, 0x38, 0x80, 0x3E
+  1704                                 %line 947+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1705 000001F0 7304                    jnc .valid_vmcs
+  1706 000001F2 B85FF0FFFF              mov eax, (-4001)
+  1707 000001F7 C3                      ret
+  1708                                 .valid_vmcs:
+  1709 000001F8 7503                    jnz .the_end
+  1710 000001FA B8FEFFFFFF              mov eax, (-2)
+  1711                                 .the_end:
+  1712 000001FF C3                      ret
+  1713                                 
+  1714                                 %line 975+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1715                                 [global VMXR0InvEPT_EndProc:function hidden]
+  1716                                 %line 975+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1717                                 VMXR0InvEPT_EndProc:
+  1718                                 [size VMXR0InvEPT VMXR0InvEPT_EndProc - VMXR0InvEPT]
+  1719                                 [size VMXR0InvEPT_EndProc 0]
+  1720 00000200 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1721                                 %line 976+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1722                                 
+  1723                                 
+  1724                                 
+  1725                                 
+  1726                                 
+  1727                                 
+  1728                                 
+  1729                                 
+  1730                                 [global VMXR0InvVPID:function hidden]
+  1731                                 %line 984+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1732                                 VMXR0InvVPID:
+  1733                                 %line 987+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1734 00000204 81E7FFFFFFFF            and edi, 0ffffffff
+  1735 0000020A 4831C0                  xor rax, rax
+  1736                                 
+  1737 0000020D 660F38813E              DB 0x66, 0x0F, 0x38, 0x81, 0x3E
+  1738                                 %line 1011+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1739 00000212 7304                    jnc .valid_vmcs
+  1740 00000214 B85FF0FFFF              mov eax, (-4001)
+  1741 00000219 C3                      ret
+  1742                                 .valid_vmcs:
+  1743 0000021A 7503                    jnz .the_end
+  1744 0000021C B8FEFFFFFF              mov eax, (-2)
+  1745                                 .the_end:
+  1746 00000221 C3                      ret
+  1747                                 
+  1748                                 %line 1039+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1749                                 [global VMXR0InvVPID_EndProc:function hidden]
+  1750                                 %line 1039+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1751                                 VMXR0InvVPID_EndProc:
+  1752                                 [size VMXR0InvVPID VMXR0InvVPID_EndProc - VMXR0InvVPID]
+  1753                                 [size VMXR0InvVPID_EndProc 0]
+  1754 00000222 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1755                                 %line 1040+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1756                                 
+  1757                                 
+  1758                                 %line 1043+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1759                                 
+  1760                                 
+  1761                                 
+  1762                                 
+  1763                                 
+  1764                                 
+  1765                                 
+  1766                                 [global SVMR0InvlpgA:function hidden]
+  1767                                 %line 1050+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1768                                 SVMR0InvlpgA:
+  1769                                 %line 1053+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1770 00000226 4889F8                  mov rax, rdi
+  1771 00000229 4889F1                  mov rcx, rsi
+  1772                                 %line 1063+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1773 0000022C 0F01DF                  invlpga [rax], ecx
+  1774 0000022F C3                      ret
+  1775                                 [global SVMR0InvlpgA_EndProc:function hidden]
+  1776                                 %line 1065+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1777                                 SVMR0InvlpgA_EndProc:
+  1778                                 [size SVMR0InvlpgA SVMR0InvlpgA_EndProc - SVMR0InvlpgA]
+  1779                                 [size SVMR0InvlpgA_EndProc 0]
+  1780 00000230 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1781                                 %line 1066+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1782                                 
+  1783                                 %line 1097+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1784                                 
+  1785                                 %line 1153+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1786                                 
+  1787                                 %line 1413+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1788                                 
+  1789                                 
+  1790                                 
+  1791                                 
+  1792                                 %line 1433+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  1793                                 
+  1794                                 %line 1+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  1795                                 
+  1796                                 
+  1797                                 
+  1798                                 
+  1799                                 
+  1800                                 
+  1801                                 
+  1802                                 
+  1803                                 
+  1804                                 
+  1805                                 
+  1806                                 
+  1807                                 
+  1808                                 
+  1809                                 
+  1810                                 
+  1811                                 
+  1812                                 
+  1813                                 
+  1814                                 
+  1815                                 %line 22+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  1816                                 
+  1817                                 
+  1818                                 
+  1819                                 %line 37+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  1820                                 
+  1821                                 
+  1822                                 
+  1823                                 
+  1824                                 %line 127+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  1825                                 
+  1826                                 
+  1827                                 
+  1828                                 
+  1829                                 
+  1830                                 
+  1831                                 
+  1832                                 
+  1833                                 
+  1834                                 
+  1835 00000234 CC<rept>               times ($$-$) & ((16)-1) db 0cc
+  1836                                 [global VMXR0StartVM32:function hidden]
+  1837                                 %line 138+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  1838                                 VMXR0StartVM32:
+  1839                                 %line 139+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  1840 00000240 55                      push rbp
+  1841 00000241 4889E5                  mov rbp, rsp
+  1842                                 
+  1843 00000244 9C                      pushf
+  1844 00000245 FA                      cli
+  1845                                 
+  1846                                 
+  1847 00000246 4157                    push r15
+  1848                                 %line 146+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  1849 00000248 4156                    push r14
+  1850 0000024A 4155                    push r13
+  1851 0000024C 4154                    push r12
+  1852 0000024E 53                      push rbx
+  1853                                 %line 147+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  1854                                 
+  1855                                 
+  1856 0000024F B8166C0000              mov eax, 06C16
+  1857                                 %line 151+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  1858 00000254 4C8D156E000000          lea r10, [.vmlaunch_done wrt rip]
+  1859 0000025B 410F79C2                vmwrite rax, r10
+  1860                                 %line 157+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  1861                                 
+  1862                                 
+  1863                                 
+  1864                                 %line 162+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  1865                                 
+  1866                                 
+  1867 0000025F 4889D3                  mov rbx, rdx
+  1868                                 %line 175+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  1869                                 
+  1870                                 
+  1871                                 
+  1872                                 %line 179+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  1873                                 
+  1874                                 %line 202+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  1875                                 
+  1876                                 
+  1877 00000262 56                      push rsi
+  1878                                 
+  1879                                 
+  1880 00000263 31C0                    xor eax, eax
+  1881 00000265 660F00C0                sldt ax
+  1882 00000269 50                      push rax
+  1883                                 
+  1884                                 %line 216+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  1885                                 
+  1886                                 %line 226+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  1887                                 
+  1888                                 
+  1889 0000026A 488B9E28030000          mov rbx, [rsi + CPUMCTX.cr2]
+  1890 00000271 0F20D2                  mov rdx, cr2
+  1891 00000274 4839D3                  cmp rbx, rdx
+  1892 00000277 7401                    je .skip_cr2_write32
+  1893 00000279 0F22D3                  mov cr2, rbx
+  1894                                 
+  1895                                 .skip_cr2_write32:
+  1896 0000027C B8146C0000              mov eax, 06C14
+  1897 00000281 0F79C4                  vmwrite rax, rsp
+  1898                                 
+  1899                                 
+  1900                                 
+  1901                                 
+  1902 00000284 8B8600020000            mov eax, [rsi + CPUMCTX.eax]
+  1903 0000028A 8B9E18020000            mov ebx, [rsi + CPUMCTX.ebx]
+  1904 00000290 8B8E08020000            mov ecx, [rsi + CPUMCTX.ecx]
+  1905 00000296 8B9610020000            mov edx, [rsi + CPUMCTX.edx]
+  1906 0000029C 8BAE28020000            mov ebp, [rsi + CPUMCTX.ebp]
+  1907                                 
+  1908                                 
+  1909 000002A2 4883FF00                cmp rdi, 0
+  1910 000002A6 740F                    je .vmlaunch_launch
+  1911                                 
+  1912                                 
+  1913 000002A8 8BBE38020000            mov edi, [rsi + CPUMCTX.edi]
+  1914 000002AE 8BB630020000            mov esi, [rsi + CPUMCTX.esi]
+  1915                                 
+  1916 000002B4 0F01C3                  vmresume
+  1917 000002B7 EB15                    jmp .vmlaunch_done
+  1918                                 
+  1919                                 .vmlaunch_launch:
+  1920                                 
+  1921 000002B9 8BBE38020000            mov edi, [rsi + CPUMCTX.edi]
+  1922 000002BF 8BB630020000            mov esi, [rsi + CPUMCTX.esi]
+  1923                                 
+  1924 000002C5 0F01C2                  vmlaunch
+  1925 000002C8 EB04                    jmp .vmlaunch_done
+  1926                                 
+  1927 000002CA CC<rept>               times ($$-$) & ((16)-1) db 0cc
+  1928                                 .vmlaunch_done:
+  1929 000002D0 0F8261000000            jc near .vmxstart_invalid_vmcs_ptr
+  1930 000002D6 0F84BB000000            jz near .vmxstart_start_failed
+  1931                                 
+  1932                                 
+  1933                                 %line 271+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  1934                                 
+  1935 000002DC 57                      push rdi
+  1936 000002DD 488B7C2410              mov rdi, [rsp + 8 * 2]
+  1937                                 
+  1938 000002E2 36898700020000          mov [ss:rdi + CPUMCTX.eax], eax
+  1939 000002E9 36899F18020000          mov [ss:rdi + CPUMCTX.ebx], ebx
+  1940 000002F0 36898F08020000          mov [ss:rdi + CPUMCTX.ecx], ecx
+  1941 000002F7 36899710020000          mov [ss:rdi + CPUMCTX.edx], edx
+  1942 000002FE 3689B730020000          mov [ss:rdi + CPUMCTX.esi], esi
+  1943 00000305 3689AF28020000          mov [ss:rdi + CPUMCTX.ebp], ebp
+  1944 0000030C 0F20D0                  mov rax, cr2
+  1945 0000030F 3648898728030000        mov [ss:rdi + CPUMCTX.cr2], rax
+  1946                                 
+  1947 00000317 58                      pop rax
+  1948 00000318 36898738020000          mov dword [ss:rdi + CPUMCTX.edi], eax
+  1949                                 
+  1950                                 
+  1951 0000031F 58                      pop rax
+  1952 00000320 83F800                  cmp eax, 0
+  1953 00000323 7401                    je ..@165.skip_ldt_write32
+  1954 00000325 0F00D0                  lldt ax
+  1955                                 
+  1956                                 ..@165.skip_ldt_write32:
+  1957 00000328 4883C408                add rsp, 8
+  1958                                 
+  1959                                 
+  1960                                 
+  1961                                 
+  1962                                 
+  1963 0000032C 5B                      pop rbx
+  1964 0000032D 415C                    pop r12
+  1965 0000032F 415D                    pop r13
+  1966 00000331 415E                    pop r14
+  1967 00000333 415F                    pop r15
+  1968                                 %line 272+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  1969 00000335 B800000000              mov eax, 0
+  1970                                 
+  1971                                 .vmstart_end:
+  1972 0000033A 9D                      popf
+  1973 0000033B 5D                      pop rbp
+  1974 0000033C C3                      ret
+  1975                                 
+  1976                                 .vmxstart_invalid_vmcs_ptr:
+  1977                                 
+  1978                                 %line 280+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  1979                                 
+  1980 0000033D 57                      push rdi
+  1981 0000033E 488B7C2410              mov rdi, [rsp + 8 * 2]
+  1982                                 
+  1983 00000343 36898700020000          mov [ss:rdi + CPUMCTX.eax], eax
+  1984 0000034A 36899F18020000          mov [ss:rdi + CPUMCTX.ebx], ebx
+  1985 00000351 36898F08020000          mov [ss:rdi + CPUMCTX.ecx], ecx
+  1986 00000358 36899710020000          mov [ss:rdi + CPUMCTX.edx], edx
+  1987 0000035F 3689B730020000          mov [ss:rdi + CPUMCTX.esi], esi
+  1988 00000366 3689AF28020000          mov [ss:rdi + CPUMCTX.ebp], ebp
+  1989 0000036D 0F20D0                  mov rax, cr2
+  1990 00000370 3648898728030000        mov [ss:rdi + CPUMCTX.cr2], rax
+  1991                                 
+  1992 00000378 58                      pop rax
+  1993 00000379 36898738020000          mov dword [ss:rdi + CPUMCTX.edi], eax
+  1994                                 
+  1995                                 
+  1996 00000380 58                      pop rax
+  1997 00000381 83F800                  cmp eax, 0
+  1998 00000384 7401                    je ..@168.skip_ldt_write32
+  1999 00000386 0F00D0                  lldt ax
+  2000                                 
+  2001                                 ..@168.skip_ldt_write32:
+  2002 00000389 4883C408                add rsp, 8
+  2003                                 
+  2004                                 
+  2005                                 
+  2006                                 
+  2007                                 
+  2008 0000038D 5B                      pop rbx
+  2009 0000038E 415C                    pop r12
+  2010 00000390 415D                    pop r13
+  2011 00000392 415E                    pop r14
+  2012 00000394 415F                    pop r15
+  2013                                 %line 281+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2014 00000396 B84AF0FFFF              mov eax, (-4022)
+  2015 0000039B EB9B                    jmp .vmstart_end
+  2016                                 
+  2017                                 .vmxstart_start_failed:
+  2018                                 
+  2019                                 %line 285+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2020                                 
+  2021 0000039D 57                      push rdi
+  2022 0000039E 488B7C2410              mov rdi, [rsp + 8 * 2]
+  2023                                 
+  2024 000003A3 36898700020000          mov [ss:rdi + CPUMCTX.eax], eax
+  2025 000003AA 36899F18020000          mov [ss:rdi + CPUMCTX.ebx], ebx
+  2026 000003B1 36898F08020000          mov [ss:rdi + CPUMCTX.ecx], ecx
+  2027 000003B8 36899710020000          mov [ss:rdi + CPUMCTX.edx], edx
+  2028 000003BF 3689B730020000          mov [ss:rdi + CPUMCTX.esi], esi
+  2029 000003C6 3689AF28020000          mov [ss:rdi + CPUMCTX.ebp], ebp
+  2030 000003CD 0F20D0                  mov rax, cr2
+  2031 000003D0 3648898728030000        mov [ss:rdi + CPUMCTX.cr2], rax
+  2032                                 
+  2033 000003D8 58                      pop rax
+  2034 000003D9 36898738020000          mov dword [ss:rdi + CPUMCTX.edi], eax
+  2035                                 
+  2036                                 
+  2037 000003E0 58                      pop rax
+  2038 000003E1 83F800                  cmp eax, 0
+  2039 000003E4 7401                    je ..@171.skip_ldt_write32
+  2040 000003E6 0F00D0                  lldt ax
+  2041                                 
+  2042                                 ..@171.skip_ldt_write32:
+  2043 000003E9 4883C408                add rsp, 8
+  2044                                 
+  2045                                 
+  2046                                 
+  2047                                 
+  2048                                 
+  2049 000003ED 5B                      pop rbx
+  2050 000003EE 415C                    pop r12
+  2051 000003F0 415D                    pop r13
+  2052 000003F2 415E                    pop r14
+  2053 000003F4 415F                    pop r15
+  2054                                 %line 286+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2055 000003F6 B85BF0FFFF              mov eax, (-4005)
+  2056 000003FB E935FFFFFF              jmp .vmstart_end
+  2057                                 
+  2058                                 [global VMXR0StartVM32_EndProc:function hidden]
+  2059                                 %line 289+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2060                                 VMXR0StartVM32_EndProc:
+  2061                                 [size VMXR0StartVM32 VMXR0StartVM32_EndProc - VMXR0StartVM32]
+  2062                                 [size VMXR0StartVM32_EndProc 0]
+  2063 00000400 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  2064                                 %line 290+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2065                                 
+  2066                                 
+  2067                                 %line 293+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2068                                 
+  2069                                 
+  2070                                 
+  2071                                 
+  2072                                 %line 393+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2073                                 
+  2074                                 
+  2075                                 
+  2076                                 
+  2077                                 
+  2078                                 
+  2079                                 
+  2080                                 
+  2081                                 
+  2082                                 
+  2083 00000404 CC<rept>               times ($$-$) & ((16)-1) db 0cc
+  2084                                 [global VMXR0StartVM64:function hidden]
+  2085                                 %line 404+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2086                                 VMXR0StartVM64:
+  2087                                 %line 405+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2088 00000410 55                      push rbp
+  2089 00000411 4889E5                  mov rbp, rsp
+  2090                                 
+  2091 00000414 9C                      pushf
+  2092 00000415 FA                      cli
+  2093                                 
+  2094                                 
+  2095 00000416 4157                    push r15
+  2096                                 %line 412+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2097 00000418 4156                    push r14
+  2098 0000041A 4155                    push r13
+  2099 0000041C 4154                    push r12
+  2100 0000041E 53                      push rbx
+  2101                                 %line 413+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2102                                 
+  2103                                 
+  2104 0000041F 4C8D15B3000000          lea r10, [.vmlaunch64_done wrt rip]
+  2105 00000426 48C7C0166C0000          mov rax, 06C16
+  2106 0000042D 410F79C2                vmwrite rax, r10
+  2107                                 
+  2108                                 
+  2109                                 
+  2110                                 %line 422+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2111                                 
+  2112                                 
+  2113 00000431 4889D3                  mov rbx, rdx
+  2114                                 %line 430+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2115                                 
+  2116                                 
+  2117                                 
+  2118                                 %line 434+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2119                                 
+  2120                                 %line 457+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2121                                 
+  2122                                 %line 465+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2123                                 
+  2124                                 
+  2125 00000434 56                      push rsi
+  2126                                 
+  2127                                 
+  2128 00000435 31C0                    xor eax, eax
+  2129 00000437 660F00C0                sldt ax
+  2130 0000043B 50                      push rax
+  2131                                 
+  2132                                 %line 479+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2133                                 
+  2134                                 %line 489+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2135                                 
+  2136                                 
+  2137 0000043C 488B9E28030000          mov rbx, qword [rsi + CPUMCTX.cr2]
+  2138 00000443 0F20D2                  mov rdx, cr2
+  2139 00000446 4839D3                  cmp rbx, rdx
+  2140 00000449 7401                    je .skip_cr2_write
+  2141 0000044B 0F22D3                  mov cr2, rbx
+  2142                                 
+  2143                                 .skip_cr2_write:
+  2144 0000044E B8146C0000              mov eax, 06C14
+  2145 00000453 0F79C4                  vmwrite rax, rsp
+  2146                                 
+  2147                                 
+  2148                                 
+  2149                                 
+  2150 00000456 488B8600020000          mov rax, qword [rsi + CPUMCTX.eax]
+  2151 0000045D 488B9E18020000          mov rbx, qword [rsi + CPUMCTX.ebx]
+  2152 00000464 488B8E08020000          mov rcx, qword [rsi + CPUMCTX.ecx]
+  2153 0000046B 488B9610020000          mov rdx, qword [rsi + CPUMCTX.edx]
+  2154 00000472 488BAE28020000          mov rbp, qword [rsi + CPUMCTX.ebp]
+  2155 00000479 4C8B8640020000          mov r8, qword [rsi + CPUMCTX.r8]
+  2156 00000480 4C8B8E48020000          mov r9, qword [rsi + CPUMCTX.r9]
+  2157 00000487 4C8B9650020000          mov r10, qword [rsi + CPUMCTX.r10]
+  2158 0000048E 4C8B9E58020000          mov r11, qword [rsi + CPUMCTX.r11]
+  2159 00000495 4C8BA660020000          mov r12, qword [rsi + CPUMCTX.r12]
+  2160 0000049C 4C8BAE68020000          mov r13, qword [rsi + CPUMCTX.r13]
+  2161 000004A3 4C8BB670020000          mov r14, qword [rsi + CPUMCTX.r14]
+  2162 000004AA 4C8BBE78020000          mov r15, qword [rsi + CPUMCTX.r15]
+  2163                                 
+  2164                                 
+  2165 000004B1 4883FF00                cmp rdi, 0
+  2166 000004B5 7411                    je .vmlaunch64_launch
+  2167                                 
+  2168                                 
+  2169 000004B7 488BBE38020000          mov rdi, qword [rsi + CPUMCTX.edi]
+  2170 000004BE 488BB630020000          mov rsi, qword [rsi + CPUMCTX.esi]
+  2171                                 
+  2172 000004C5 0F01C3                  vmresume
+  2173 000004C8 EB14                    jmp .vmlaunch64_done
+  2174                                 
+  2175                                 .vmlaunch64_launch:
+  2176                                 
+  2177 000004CA 488BBE38020000          mov rdi, qword [rsi + CPUMCTX.edi]
+  2178 000004D1 488BB630020000          mov rsi, qword [rsi + CPUMCTX.esi]
+  2179                                 
+  2180 000004D8 0F01C2                  vmlaunch
+  2181 000004DB EB01                    jmp .vmlaunch64_done
+  2182                                 
+  2183 000004DD CC<rept>               times ($$-$) & ((16)-1) db 0cc
+  2184                                 .vmlaunch64_done:
+  2185 000004E0 0F8295000000            jc near .vmxstart64_invalid_vmcs_ptr
+  2186 000004E6 0F8426010000            jz near .vmxstart64_start_failed
+  2187                                 
+  2188                                 
+  2189                                 %line 542+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2190                                 
+  2191 000004EC 57                      push rdi
+  2192 000004ED 488B7C2410              mov rdi, [rsp + 8 * 2]
+  2193                                 
+  2194 000004F2 48898700020000          mov qword [rdi + CPUMCTX.eax], rax
+  2195 000004F9 48899F18020000          mov qword [rdi + CPUMCTX.ebx], rbx
+  2196 00000500 48898F08020000          mov qword [rdi + CPUMCTX.ecx], rcx
+  2197 00000507 48899710020000          mov qword [rdi + CPUMCTX.edx], rdx
+  2198 0000050E 4889B730020000          mov qword [rdi + CPUMCTX.esi], rsi
+  2199 00000515 4889AF28020000          mov qword [rdi + CPUMCTX.ebp], rbp
+  2200 0000051C 4C898740020000          mov qword [rdi + CPUMCTX.r8], r8
+  2201 00000523 4C898F48020000          mov qword [rdi + CPUMCTX.r9], r9
+  2202 0000052A 4C899750020000          mov qword [rdi + CPUMCTX.r10], r10
+  2203 00000531 4C899F58020000          mov qword [rdi + CPUMCTX.r11], r11
+  2204 00000538 4C89A760020000          mov qword [rdi + CPUMCTX.r12], r12
+  2205 0000053F 4C89AF68020000          mov qword [rdi + CPUMCTX.r13], r13
+  2206 00000546 4C89B770020000          mov qword [rdi + CPUMCTX.r14], r14
+  2207 0000054D 4C89BF78020000          mov qword [rdi + CPUMCTX.r15], r15
+  2208 00000554 0F20D0                  mov rax, cr2
+  2209 00000557 48898728030000          mov qword [rdi + CPUMCTX.cr2], rax
+  2210                                 
+  2211 0000055E 58                      pop rax
+  2212 0000055F 48898738020000          mov qword [rdi + CPUMCTX.edi], rax
+  2213                                 
+  2214                                 
+  2215 00000566 58                      pop rax
+  2216 00000567 83F800                  cmp eax, 0
+  2217 0000056A 7401                    je ..@186.skip_ldt_write64
+  2218 0000056C 0F00D0                  lldt ax
+  2219                                 
+  2220                                 ..@186.skip_ldt_write64:
+  2221 0000056F 5E                      pop rsi
+  2222                                 
+  2223                                 
+  2224                                 
+  2225                                 
+  2226                                 
+  2227                                 
+  2228 00000570 5B                      pop rbx
+  2229 00000571 415C                    pop r12
+  2230 00000573 415D                    pop r13
+  2231 00000575 415E                    pop r14
+  2232 00000577 415F                    pop r15
+  2233                                 %line 543+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2234 00000579 B800000000              mov eax, 0
+  2235                                 
+  2236                                 .vmstart64_end:
+  2237 0000057E 9D                      popf
+  2238 0000057F 5D                      pop rbp
+  2239 00000580 C3                      ret
+  2240                                 
+  2241                                 .vmxstart64_invalid_vmcs_ptr:
+  2242                                 
+  2243                                 %line 551+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2244                                 
+  2245 00000581 57                      push rdi
+  2246 00000582 488B7C2410              mov rdi, [rsp + 8 * 2]
+  2247                                 
+  2248 00000587 48898700020000          mov qword [rdi + CPUMCTX.eax], rax
+  2249 0000058E 48899F18020000          mov qword [rdi + CPUMCTX.ebx], rbx
+  2250 00000595 48898F08020000          mov qword [rdi + CPUMCTX.ecx], rcx
+  2251 0000059C 48899710020000          mov qword [rdi + CPUMCTX.edx], rdx
+  2252 000005A3 4889B730020000          mov qword [rdi + CPUMCTX.esi], rsi
+  2253 000005AA 4889AF28020000          mov qword [rdi + CPUMCTX.ebp], rbp
+  2254 000005B1 4C898740020000          mov qword [rdi + CPUMCTX.r8], r8
+  2255 000005B8 4C898F48020000          mov qword [rdi + CPUMCTX.r9], r9
+  2256 000005BF 4C899750020000          mov qword [rdi + CPUMCTX.r10], r10
+  2257 000005C6 4C899F58020000          mov qword [rdi + CPUMCTX.r11], r11
+  2258 000005CD 4C89A760020000          mov qword [rdi + CPUMCTX.r12], r12
+  2259 000005D4 4C89AF68020000          mov qword [rdi + CPUMCTX.r13], r13
+  2260 000005DB 4C89B770020000          mov qword [rdi + CPUMCTX.r14], r14
+  2261 000005E2 4C89BF78020000          mov qword [rdi + CPUMCTX.r15], r15
+  2262 000005E9 0F20D0                  mov rax, cr2
+  2263 000005EC 48898728030000          mov qword [rdi + CPUMCTX.cr2], rax
+  2264                                 
+  2265 000005F3 58                      pop rax
+  2266 000005F4 48898738020000          mov qword [rdi + CPUMCTX.edi], rax
+  2267                                 
+  2268                                 
+  2269 000005FB 58                      pop rax
+  2270 000005FC 83F800                  cmp eax, 0
+  2271 000005FF 7401                    je ..@189.skip_ldt_write64
+  2272 00000601 0F00D0                  lldt ax
+  2273                                 
+  2274                                 ..@189.skip_ldt_write64:
+  2275 00000604 5E                      pop rsi
+  2276                                 
+  2277                                 
+  2278                                 
+  2279                                 
+  2280                                 
+  2281                                 
+  2282 00000605 5B                      pop rbx
+  2283 00000606 415C                    pop r12
+  2284 00000608 415D                    pop r13
+  2285 0000060A 415E                    pop r14
+  2286 0000060C 415F                    pop r15
+  2287                                 %line 552+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2288 0000060E B84AF0FFFF              mov eax, (-4022)
+  2289 00000613 E961FFFFFF              jmp .vmstart64_end
+  2290                                 
+  2291                                 .vmxstart64_start_failed:
+  2292                                 
+  2293                                 %line 556+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2294                                 
+  2295 00000618 57                      push rdi
+  2296 00000619 488B7C2410              mov rdi, [rsp + 8 * 2]
+  2297                                 
+  2298 0000061E 48898700020000          mov qword [rdi + CPUMCTX.eax], rax
+  2299 00000625 48899F18020000          mov qword [rdi + CPUMCTX.ebx], rbx
+  2300 0000062C 48898F08020000          mov qword [rdi + CPUMCTX.ecx], rcx
+  2301 00000633 48899710020000          mov qword [rdi + CPUMCTX.edx], rdx
+  2302 0000063A 4889B730020000          mov qword [rdi + CPUMCTX.esi], rsi
+  2303 00000641 4889AF28020000          mov qword [rdi + CPUMCTX.ebp], rbp
+  2304 00000648 4C898740020000          mov qword [rdi + CPUMCTX.r8], r8
+  2305 0000064F 4C898F48020000          mov qword [rdi + CPUMCTX.r9], r9
+  2306 00000656 4C899750020000          mov qword [rdi + CPUMCTX.r10], r10
+  2307 0000065D 4C899F58020000          mov qword [rdi + CPUMCTX.r11], r11
+  2308 00000664 4C89A760020000          mov qword [rdi + CPUMCTX.r12], r12
+  2309 0000066B 4C89AF68020000          mov qword [rdi + CPUMCTX.r13], r13
+  2310 00000672 4C89B770020000          mov qword [rdi + CPUMCTX.r14], r14
+  2311 00000679 4C89BF78020000          mov qword [rdi + CPUMCTX.r15], r15
+  2312 00000680 0F20D0                  mov rax, cr2
+  2313 00000683 48898728030000          mov qword [rdi + CPUMCTX.cr2], rax
+  2314                                 
+  2315 0000068A 58                      pop rax
+  2316 0000068B 48898738020000          mov qword [rdi + CPUMCTX.edi], rax
+  2317                                 
+  2318                                 
+  2319 00000692 58                      pop rax
+  2320 00000693 83F800                  cmp eax, 0
+  2321 00000696 7401                    je ..@192.skip_ldt_write64
+  2322 00000698 0F00D0                  lldt ax
+  2323                                 
+  2324                                 ..@192.skip_ldt_write64:
+  2325 0000069B 5E                      pop rsi
+  2326                                 
+  2327                                 
+  2328                                 
+  2329                                 
+  2330                                 
+  2331                                 
+  2332 0000069C 5B                      pop rbx
+  2333 0000069D 415C                    pop r12
+  2334 0000069F 415D                    pop r13
+  2335 000006A1 415E                    pop r14
+  2336 000006A3 415F                    pop r15
+  2337                                 %line 557+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2338 000006A5 B85BF0FFFF              mov eax, (-4005)
+  2339 000006AA E9CAFEFFFF              jmp .vmstart64_end
+  2340                                 [global VMXR0StartVM64_EndProc:function hidden]
+  2341                                 %line 559+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2342                                 VMXR0StartVM64_EndProc:
+  2343                                 [size VMXR0StartVM64 VMXR0StartVM64_EndProc - VMXR0StartVM64]
+  2344                                 [size VMXR0StartVM64_EndProc 0]
+  2345 000006AF CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  2346                                 %line 561+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2347                                 
+  2348                                 
+  2349                                 
+  2350                                 
+  2351                                 
+  2352                                 
+  2353                                 
+  2354                                 
+  2355                                 
+  2356                                 
+  2357 000006B3 CC<rept>               times ($$-$) & ((16)-1) db 0cc
+  2358                                 [global SVMR0VMRun:function hidden]
+  2359                                 %line 572+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2360                                 SVMR0VMRun:
+  2361                                 %line 575+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2362 000006C0 52                      push rdx
+  2363 000006C1 56                      push rsi
+  2364 000006C2 57                      push rdi
+  2365                                 %line 583+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2366 000006C3 6A00                    push 0
+  2367                                 %line 585+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2368 000006C5 55                      push rbp
+  2369 000006C6 4889E5                  mov rbp, rsp
+  2370 000006C9 9C                      pushf
+  2371                                 
+  2372                                 
+  2373 000006CA 4157                    push r15
+  2374                                 %line 590+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2375 000006CC 4156                    push r14
+  2376 000006CE 4155                    push r13
+  2377 000006D0 4154                    push r12
+  2378 000006D2 53                      push rbx
+  2379                                 %line 591+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2380                                 
+  2381                                 
+  2382 000006D3 488B7520                mov rsi, [rbp + 8 * 2 + 8 * 2]
+  2383 000006D7 56                      push rsi
+  2384                                 
+  2385                                 
+  2386 000006D8 488B4510                mov rax, [rbp + 8 * 2]
+  2387 000006DC 50                      push rax
+  2388 000006DD 0F01DB                  vmsave
+  2389                                 
+  2390                                 
+  2391 000006E0 488B4518                mov rax, [rbp + 8 * 2 + 8]
+  2392                                 
+  2393                                 
+  2394                                 
+  2395 000006E4 8B9E18020000            mov ebx, [rsi + CPUMCTX.ebx]
+  2396 000006EA 8B8E08020000            mov ecx, [rsi + CPUMCTX.ecx]
+  2397 000006F0 8B9610020000            mov edx, [rsi + CPUMCTX.edx]
+  2398 000006F6 8BBE38020000            mov edi, [rsi + CPUMCTX.edi]
+  2399 000006FC 8BAE28020000            mov ebp, [rsi + CPUMCTX.ebp]
+  2400 00000702 8BB630020000            mov esi, [rsi + CPUMCTX.esi]
+  2401                                 
+  2402                                 
+  2403 00000708 0F01DD                  clgi
+  2404 0000070B FB                      sti
+  2405                                 
+  2406                                 
+  2407 0000070C 0F01DA                  vmload
+  2408                                 
+  2409 0000070F 0F01D8                  vmrun
+  2410                                 
+  2411                                 
+  2412                                 
+  2413                                 
+  2414 00000712 0F01DB                  vmsave
+  2415                                 
+  2416                                 
+  2417 00000715 58                      pop rax
+  2418 00000716 0F01DA                  vmload
+  2419                                 
+  2420                                 
+  2421 00000719 FA                      cli
+  2422 0000071A 0F01DC                  stgi
+  2423                                 
+  2424 0000071D 58                      pop rax
+  2425                                 
+  2426 0000071E 36899818020000          mov [ss:rax + CPUMCTX.ebx], ebx
+  2427 00000725 36898808020000          mov [ss:rax + CPUMCTX.ecx], ecx
+  2428 0000072C 36899010020000          mov [ss:rax + CPUMCTX.edx], edx
+  2429 00000733 3689B030020000          mov [ss:rax + CPUMCTX.esi], esi
+  2430 0000073A 3689B838020000          mov [ss:rax + CPUMCTX.edi], edi
+  2431 00000741 3689A828020000          mov [ss:rax + CPUMCTX.ebp], ebp
+  2432                                 
+  2433                                 
+  2434 00000748 5B                      pop rbx
+  2435                                 %line 645+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2436 00000749 415C                    pop r12
+  2437 0000074B 415D                    pop r13
+  2438 0000074D 415E                    pop r14
+  2439 0000074F 415F                    pop r15
+  2440                                 %line 646+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2441                                 
+  2442 00000751 B800000000              mov eax, 0
+  2443                                 
+  2444 00000756 9D                      popf
+  2445 00000757 5D                      pop rbp
+  2446                                 %line 652+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2447 00000758 4883C420                add rsp, 4*8
+  2448                                 %line 654+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2449 0000075C C3                      ret
+  2450                                 [global SVMR0VMRun_EndProc:function hidden]
+  2451                                 %line 655+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2452                                 SVMR0VMRun_EndProc:
+  2453                                 [size SVMR0VMRun SVMR0VMRun_EndProc - SVMR0VMRun]
+  2454                                 [size SVMR0VMRun_EndProc 0]
+  2455 0000075D CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  2456                                 %line 656+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2457                                 
+  2458                                 %line 658+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2459                                 
+  2460                                 
+  2461                                 
+  2462                                 
+  2463                                 
+  2464                                 
+  2465                                 
+  2466                                 
+  2467 00000761 CC<rept>               times ($$-$) & ((16)-1) db 0cc
+  2468                                 [global SVMR0VMRun64:function hidden]
+  2469                                 %line 667+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2470                                 SVMR0VMRun64:
+  2471                                 %line 668+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2472                                 
+  2473                                 %line 670+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2474 00000770 52                      push rdx
+  2475 00000771 56                      push rsi
+  2476 00000772 57                      push rdi
+  2477                                 %line 678+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2478 00000773 6A00                    push 0
+  2479 00000775 55                      push rbp
+  2480 00000776 4889E5                  mov rbp, rsp
+  2481 00000779 9C                      pushf
+  2482                                 
+  2483                                 
+  2484                                 
+  2485                                 
+  2486                                 
+  2487                                 
+  2488                                 
+  2489                                 
+  2490                                 
+  2491                                 
+  2492                                 
+  2493                                 
+  2494 0000077A 4157                    push r15
+  2495                                 %line 694+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2496 0000077C 4156                    push r14
+  2497 0000077E 4155                    push r13
+  2498 00000780 4154                    push r12
+  2499 00000782 53                      push rbx
+  2500                                 %line 695+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2501                                 
+  2502                                 
+  2503 00000783 488B7520                mov rsi, [rbp + 8 * 2 + 8 * 2]
+  2504 00000787 56                      push rsi
+  2505                                 
+  2506                                 
+  2507 00000788 488B4510                mov rax, [rbp + 8 * 2]
+  2508 0000078C 50                      push rax
+  2509 0000078D 0F01DB                  vmsave
+  2510                                 
+  2511                                 
+  2512 00000790 488B4518                mov rax, [rbp + 8 * 2 + 8]
+  2513                                 
+  2514                                 
+  2515                                 
+  2516 00000794 488B9E18020000          mov rbx, qword [rsi + CPUMCTX.ebx]
+  2517 0000079B 488B8E08020000          mov rcx, qword [rsi + CPUMCTX.ecx]
+  2518 000007A2 488B9610020000          mov rdx, qword [rsi + CPUMCTX.edx]
+  2519 000007A9 488BBE38020000          mov rdi, qword [rsi + CPUMCTX.edi]
+  2520 000007B0 488BAE28020000          mov rbp, qword [rsi + CPUMCTX.ebp]
+  2521 000007B7 4C8B8640020000          mov r8, qword [rsi + CPUMCTX.r8]
+  2522 000007BE 4C8B8E48020000          mov r9, qword [rsi + CPUMCTX.r9]
+  2523 000007C5 4C8B9650020000          mov r10, qword [rsi + CPUMCTX.r10]
+  2524 000007CC 4C8B9E58020000          mov r11, qword [rsi + CPUMCTX.r11]
+  2525 000007D3 4C8BA660020000          mov r12, qword [rsi + CPUMCTX.r12]
+  2526 000007DA 4C8BAE68020000          mov r13, qword [rsi + CPUMCTX.r13]
+  2527 000007E1 4C8BB670020000          mov r14, qword [rsi + CPUMCTX.r14]
+  2528 000007E8 4C8BBE78020000          mov r15, qword [rsi + CPUMCTX.r15]
+  2529 000007EF 488BB630020000          mov rsi, qword [rsi + CPUMCTX.esi]
+  2530                                 
+  2531                                 
+  2532 000007F6 0F01DD                  clgi
+  2533 000007F9 FB                      sti
+  2534                                 
+  2535                                 
+  2536 000007FA 0F01DA                  vmload
+  2537                                 
+  2538 000007FD 0F01D8                  vmrun
+  2539                                 
+  2540                                 
+  2541                                 
+  2542                                 
+  2543 00000800 0F01DB                  vmsave
+  2544                                 
+  2545                                 
+  2546 00000803 58                      pop rax
+  2547 00000804 0F01DA                  vmload
+  2548                                 
+  2549                                 
+  2550 00000807 FA                      cli
+  2551 00000808 0F01DC                  stgi
+  2552                                 
+  2553 0000080B 58                      pop rax
+  2554                                 
+  2555 0000080C 48899818020000          mov qword [rax + CPUMCTX.ebx], rbx
+  2556 00000813 48898808020000          mov qword [rax + CPUMCTX.ecx], rcx
+  2557 0000081A 48899010020000          mov qword [rax + CPUMCTX.edx], rdx
+  2558 00000821 4889B030020000          mov qword [rax + CPUMCTX.esi], rsi
+  2559 00000828 4889B838020000          mov qword [rax + CPUMCTX.edi], rdi
+  2560 0000082F 4889A828020000          mov qword [rax + CPUMCTX.ebp], rbp
+  2561 00000836 4C898040020000          mov qword [rax + CPUMCTX.r8], r8
+  2562 0000083D 4C898848020000          mov qword [rax + CPUMCTX.r9], r9
+  2563 00000844 4C899050020000          mov qword [rax + CPUMCTX.r10], r10
+  2564 0000084B 4C899858020000          mov qword [rax + CPUMCTX.r11], r11
+  2565 00000852 4C89A060020000          mov qword [rax + CPUMCTX.r12], r12
+  2566 00000859 4C89A868020000          mov qword [rax + CPUMCTX.r13], r13
+  2567 00000860 4C89B070020000          mov qword [rax + CPUMCTX.r14], r14
+  2568 00000867 4C89B878020000          mov qword [rax + CPUMCTX.r15], r15
+  2569                                 
+  2570                                 
+  2571 0000086E 5B                      pop rbx
+  2572                                 %line 765+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2573 0000086F 415C                    pop r12
+  2574 00000871 415D                    pop r13
+  2575 00000873 415E                    pop r14
+  2576 00000875 415F                    pop r15
+  2577                                 %line 766+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2578                                 
+  2579 00000877 B800000000              mov eax, 0
+  2580                                 
+  2581 0000087C 9D                      popf
+  2582 0000087D 5D                      pop rbp
+  2583 0000087E 4883C420                add rsp, 4 * 8
+  2584 00000882 C3                      ret
+  2585                                 [global SVMR0VMRun64_EndProc:function hidden]
+  2586                                 %line 773+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2587                                 SVMR0VMRun64_EndProc:
+  2588                                 [size SVMR0VMRun64 SVMR0VMRun64_EndProc - SVMR0VMRun64]
+  2589                                 [size SVMR0VMRun64_EndProc 0]
+  2590 00000883 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  2591                                 %line 775+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0Mixed.mac
+  2592                                 
+  2593                                 %line 1435+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  2594                                 
+  2595                                 
+  2596                                 %line 1639+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMR0/HMR0A.asm
+  2597                                 

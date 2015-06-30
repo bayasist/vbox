@@ -1,0 +1,46 @@
+\
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxBrand.tmp.gen.cpp: \
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/misc/VirtualBoxBrand.qrc \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/about.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/about_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/VirtualBox_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/VirtualBox_20px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/VirtualBox_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/VirtualBox_40px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/VirtualBox_48px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/VirtualBox_64px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Resources/OSE/virtualbox.svg \
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/about.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/about_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/VirtualBox_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/VirtualBox_20px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/VirtualBox_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/VirtualBox_40px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/VirtualBox_48px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/VirtualBox_64px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Resources/OSE/virtualbox.svg:
+
+
+
+define VirtualBox_/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/misc/VirtualBoxBrand.qrc_QT4_RCC_CMDS_PREV_
+
+@kmk_builtin_rm -f /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxBrand.tmp.gen.cpp   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxBrand.gen.cpp.dep
+@/usr/share/qt4/bin/rcc -name BRAND -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxBrand.tmp.gen.cpp /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/misc/VirtualBoxBrand.qrc
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxBrand.gen.cpp.dep '\'
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxBrand.gen.cpp.dep '/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxBrand.tmp.gen.cpp: \'
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxBrand.gen.cpp.dep '/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/misc/VirtualBoxBrand.qrc \'
+@/home/se170/VirtualBox-4.3.28/kBuild/bin/linux.amd64/kmk_sed -e '/^[[:blank:]]*<file[[:blank:]][^>]*>/!d' -e 's/^.*<file[[:blank:]][^>]*>\([^<]*\)<\/file>.*$/\1/' -e 's|^[^/][^:]|/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/misc/&|' -e 's|$| \\|' --append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxBrand.gen.cpp.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/misc/VirtualBoxBrand.qrc
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxBrand.gen.cpp.dep
+@/home/se170/VirtualBox-4.3.28/kBuild/bin/linux.amd64/kmk_sed -e '/^[[:blank:]]*<file[[:blank:]][^>]*>/!d' -e 's/^.*<file[[:blank:]][^>]*>\([^<]*\)<\/file>.*$/\1/' -e 's|^[^/][^:]|/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/misc/&|' -e 's|$|:\n|' --append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxBrand.gen.cpp.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/misc/VirtualBoxBrand.qrc
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxBrand.gen.cpp.dep
+@kmk_builtin_cp --changed -f /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxBrand.tmp.gen.cpp /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxBrand.gen.cpp
+endef

@@ -1,0 +1,5 @@
+define tstSDL_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSDL/tstSDL.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSDL/tstSDL  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSDL/tstSDL.map 
+@g++  -g                   '-Wl,-rpath,$ORIGIN'  -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSDL/tstSDL /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSDL/VBoxSDLTest.o   -L/usr/X11R6/lib64  -L/usr/X11R6/lib  -L/usr/lib/x86_64-linux-gnu   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxRT.so   -lpthread   -lm   -lrt   -ldl   -lSDL 
+endef

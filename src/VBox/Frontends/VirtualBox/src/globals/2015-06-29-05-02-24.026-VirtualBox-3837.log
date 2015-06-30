@@ -1,0 +1,3053 @@
+Log created: 2015-06-29T05:02:24.263903000Z
+Executable: /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VirtualBox
+Arg[0]: /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VirtualBox
+Arg[1]: --comment
+Arg[2]: Test
+Arg[3]: --startvm
+Arg[4]: e55b453b-509b-473f-9eee-7850db5ce0fb
+Arg[5]: --no-startvm-errormsgbox
+
+
+The VM was reset:
+Guest CPUM (VCPU 0) state: 
+eax=00000000 ebx=00000000 ecx=00000000 edx=00000600 esi=00000000 edi=00000000
+eip=0000fff0 esp=00000000 ebp=00000000 iopl=0         nv up di pl zr na pe nc
+cs={f000 base=00000000ffff0000 limit=0000ffff flags=0000009b} dr0=00000000 dr1=00000000
+ds={0000 base=0000000000000000 limit=0000ffff flags=00000093} dr2=00000000 dr3=00000000
+es={0000 base=0000000000000000 limit=0000ffff flags=00000093} dr4=00000000 dr5=00000000
+fs={0000 base=0000000000000000 limit=0000ffff flags=00000093} dr6=ffff0ff0 dr7=00000400
+gs={0000 base=0000000000000000 limit=0000ffff flags=00000093} cr0=60000010 cr2=00000000
+ss={0000 base=0000000000000000 limit=0000ffff flags=00000093} cr3=00000000 cr4=00000000
+gdtr=0000000000000000:ffff  idtr=0000000000000000:ffff  eflags=00000002
+ldtr={0000 base=00000000 limit=0000ffff flags=00000082}
+tr  ={0000 base=00000000 limit=0000ffff flags=0000008b}
+SysEnter={cs=0000 eip=00000000 esp=00000000}
+FCW=037f FSW=0000 FTW=0000 FOP=0000 MXCSR=00001f80 MXCSR_MASK=0000ffff
+FPUIP=00000000 CS=0000 Rsrvd1=0000  FPUDP=00000000 DS=0000 Rsvrd2=0000
+ST(0)=FPR0={0000'00000000'00000000} t0 +0.0000000000000000000000 ^ 0
+ST(1)=FPR1={0000'00000000'00000000} t0 +0.0000000000000000000000 ^ 0
+ST(2)=FPR2={0000'00000000'00000000} t0 +0.0000000000000000000000 ^ 0
+ST(3)=FPR3={0000'00000000'00000000} t0 +0.0000000000000000000000 ^ 0
+ST(4)=FPR4={0000'00000000'00000000} t0 +0.0000000000000000000000 ^ 0
+ST(5)=FPR5={0000'00000000'00000000} t0 +0.0000000000000000000000 ^ 0
+ST(6)=FPR6={0000'00000000'00000000} t0 +0.0000000000000000000000 ^ 0
+ST(7)=FPR7={0000'00000000'00000000} t0 +0.0000000000000000000000 ^ 0
+XMM0 =00000000'00000000'00000000'00000000  XMM1 =00000000'00000000'00000000'00000000
+XMM2 =00000000'00000000'00000000'00000000  XMM3 =00000000'00000000'00000000'00000000
+XMM4 =00000000'00000000'00000000'00000000  XMM5 =00000000'00000000'00000000'00000000
+XMM6 =00000000'00000000'00000000'00000000  XMM7 =00000000'00000000'00000000'00000000
+XMM8 =00000000'00000000'00000000'00000000  XMM9 =00000000'00000000'00000000'00000000
+XMM10=00000000'00000000'00000000'00000000  XMM11=00000000'00000000'00000000'00000000
+XMM12=00000000'00000000'00000000'00000000  XMM13=00000000'00000000'00000000'00000000
+XMM14=00000000'00000000'00000000'00000000  XMM15=00000000'00000000'00000000'00000000
+EFER         =0000000000000000
+PAT          =0007040600070406
+STAR         =0000000000000000
+CSTAR        =0000000000000000
+LSTAR        =0000000000000000
+SFMASK       =0000000000000000
+KERNELGSBASE =0000000000000000
+
+CPUM: f000:fff0 ea 5b e0 00 f0          jmp far 0f000h:0e05bh
+
+Hypervisor CPUM state: 
+.eax=00000000 .ebx=00000000 .ecx=00000000 .edx=00000000 .esi=00000000 .edi=00000000
+.eip=00000000 .esp=ff518000 .ebp=00000000 .iopl=0           nv up di pl zr na pe nc
+.cs={0000 base=0000000000000000 limit=00000000 flags=00000000} .dr0=00000000 .dr1=00000000
+.ds={0000 base=0000000000000000 limit=00000000 flags=00000000} .dr2=00000000 .dr3=00000000
+.es={0000 base=0000000000000000 limit=00000000 flags=00000000} .dr4=00000000 .dr5=00000000
+.fs={0000 base=0000000000000000 limit=00000000 flags=00000000} .dr6=00000000 .dr7=00000400
+.gs={0000 base=0000000000000000 limit=00000000 flags=00000000} .cr0=00000000 .cr2=00000000
+.ss={0000 base=0000000000000000 limit=00000000 flags=00000000} .cr3=ab271000 .cr4=00000000
+.gdtr=0000000000000000:0000  .idtr=0000000000000000:0000  .eflags=00000000
+.ldtr={0000 base=00000000 limit=00000000 flags=00000000}
+.tr  ={0000 base=00000000 limit=00000000 flags=00000000}
+.SysEnter={cs=0000 eip=00000000 esp=00000000}
+.FCW=0000 .FSW=0000 .FTW=0000 .FOP=0000 .MXCSR=00000000 .MXCSR_MASK=00000000
+.FPUIP=00000000 .CS=0000 .Rsrvd1=0000  .FPUDP=00000000 .DS=0000 .Rsvrd2=0000
+.ST(0)=.FPR0={0000'00000000'00000000} t0 +0.0000000000000000000000 ^ 0
+.ST(1)=.FPR1={0000'00000000'00000000} t0 +0.0000000000000000000000 ^ 0
+.ST(2)=.FPR2={0000'00000000'00000000} t0 +0.0000000000000000000000 ^ 0
+.ST(3)=.FPR3={0000'00000000'00000000} t0 +0.0000000000000000000000 ^ 0
+.ST(4)=.FPR4={0000'00000000'00000000} t0 +0.0000000000000000000000 ^ 0
+.ST(5)=.FPR5={0000'00000000'00000000} t0 +0.0000000000000000000000 ^ 0
+.ST(6)=.FPR6={0000'00000000'00000000} t0 +0.0000000000000000000000 ^ 0
+.ST(7)=.FPR7={0000'00000000'00000000} t0 +0.0000000000000000000000 ^ 0
+.XMM0 =00000000'00000000'00000000'00000000  .XMM1 =00000000'00000000'00000000'00000000
+.XMM2 =00000000'00000000'00000000'00000000  .XMM3 =00000000'00000000'00000000'00000000
+.XMM4 =00000000'00000000'00000000'00000000  .XMM5 =00000000'00000000'00000000'00000000
+.XMM6 =00000000'00000000'00000000'00000000  .XMM7 =00000000'00000000'00000000'00000000
+.XMM8 =00000000'00000000'00000000'00000000  .XMM9 =00000000'00000000'00000000'00000000
+.XMM10=00000000'00000000'00000000'00000000  .XMM11=00000000'00000000'00000000'00000000
+.XMM12=00000000'00000000'00000000'00000000  .XMM13=00000000'00000000'00000000'00000000
+.XMM14=00000000'00000000'00000000'00000000  .XMM15=00000000'00000000'00000000'00000000
+.EFER         =0000000000000000
+.PAT          =0000000000000000
+.STAR         =0000000000000000
+.CSTAR        =0000000000000000
+.LSTAR        =0000000000000000
+.SFMASK       =0000000000000000
+.KERNELGSBASE =0000000000000000
+CR4OrMask=0x204 CR4AndMask=0x403
+Host CPUM state: 
+rax=xxxxxxxxxxxxxxxx rbx=0000000000000000 rcx=xxxxxxxxxxxxxxxx
+rdx=xxxxxxxxxxxxxxxx rsi=0000000000000000 rdi=0000000000000000
+rip=xxxxxxxxxxxxxxxx rsp=0000000000000000 rbp=0000000000000000
+ r8=xxxxxxxxxxxxxxxx  r9=xxxxxxxxxxxxxxxx r10=0000000000000000
+r11=0000000000000000 r12=0000000000000000 r13=0000000000000000
+r14=0000000000000000 r15=0000000000000000
+iopl=0          nv up di pl zr na pe nc
+cs=0000  ds=0000  es=0000  fs=0000  gs=0000                   eflags=00000000
+cr0=0000000000000000 cr2=xxxxxxxxxxxxxxxx cr3=0000000000000000
+cr4=0000000000000000 ldtr=0000 tr=0000
+dr[0]=0000000000000000 dr[1]=0000000000000000 dr[2]=0000000000000000
+dr[3]=0000000000000000 dr[6]=0000000000000000 dr[7]=0000000000000000
+gdtr=0000000000000000:0000  idtr=0000000000000000:0000
+SysEnter={cs=0000 eip=00000000 esp=00000000}
+FSbase=0000000000000000 GSbase=0000000000000000 efer=00000000
+/CPUM/MSR-Totals/Reads                  6 times
+/CPUM/MSR-Totals/ReadsRaisingGP         0 times
+/CPUM/MSR-Totals/ReadsUnknown           0 times
+/CPUM/MSR-Totals/Writes                 5 times
+/CPUM/MSR-Totals/WritesRaisingGP        0 times
+/CPUM/MSR-Totals/WritesToIgnoredBits        2 times
+/CPUM/MSR-Totals/WritesUnknown          0 times
+/CPUM/MSRs/0x00000000-IA32_P5_MC_ADDR-reads        0 times
+/CPUM/MSRs/0x00000001-IA32_P5_MC_TYPE-reads        0 times
+/CPUM/MSRs/0x00000006-IA32_MONITOR_FILTER_LINE_SIZE-reads        0 times
+/CPUM/MSRs/0x00000010-IA32_TIME_STAMP_COUNTER-reads        0 times
+/CPUM/MSRs/0x00000017-IA32_PLATFORM_ID-reads        0 times
+/CPUM/MSRs/0x0000001b-IA32_APIC_BASE-reads        0 times
+/CPUM/MSRs/0x0000002a-EBL_CR_POWERON-reads        0 times
+/CPUM/MSRs/0x0000002e-I7_UNK_0000_002e-reads        0 times
+/CPUM/MSRs/0x00000033-TEST_CTL-reads        0 times
+/CPUM/MSRs/0x00000034-P6_UNK_0000_0034-reads        0 times
+/CPUM/MSRs/0x00000035-MSR_CORE_THREAD_COUNT-reads        0 times
+/CPUM/MSRs/0x0000003a-IA32_FEATURE_CONTROL-reads        0 times
+/CPUM/MSRs/0x0000003e-I7_UNK_0000_003e-reads        0 times
+/CPUM/MSRs/0x00000079-IA32_BIOS_UPDT_TRIG-reads        0 times
+/CPUM/MSRs/0x0000008b-BBL_CR_D3|BIOS_SIGN-reads        0 times
+/CPUM/MSRs/0x0000009b-IA32_SMM_MONITOR_CTL-reads        0 times
+/CPUM/MSRs/0x000000c1-0x000000c4-IA32_PMCn-reads        0 times
+/CPUM/MSRs/0x000000ce-IA32_PLATFORM_INFO-reads        0 times
+/CPUM/MSRs/0x000000e2-MSR_PKG_CST_CONFIG_CONTROL-reads        0 times
+/CPUM/MSRs/0x000000e4-MSR_PMG_IO_CAPTURE_BASE-reads        0 times
+/CPUM/MSRs/0x000000e7-IA32_MPERF-reads        0 times
+/CPUM/MSRs/0x000000e8-IA32_APERF-reads        0 times
+/CPUM/MSRs/0x000000fe-IA32_MTRRCAP-reads        1 times
+/CPUM/MSRs/0x00000132-CPUID1_FEATURE_MASK-reads        0 times
+/CPUM/MSRs/0x00000133-CPUIDD_01_FEATURE_MASK-reads        0 times
+/CPUM/MSRs/0x00000134-CPUID80000001_FEATURE_MASK-reads        0 times
+/CPUM/MSRs/0x0000013c-I7_SB_AES_NI_CTL-reads        0 times
+/CPUM/MSRs/0x00000174-IA32_SYSENTER_CS-reads        0 times
+/CPUM/MSRs/0x00000175-IA32_SYSENTER_ESP-reads        0 times
+/CPUM/MSRs/0x00000176-IA32_SYSENTER_EIP-reads        0 times
+/CPUM/MSRs/0x00000179-IA32_MCG_CAP-reads        1 times
+/CPUM/MSRs/0x0000017a-IA32_MCG_STATUS-reads        0 times
+/CPUM/MSRs/0x00000186-0x00000189-IA32_PERFEVTSELn-reads        0 times
+/CPUM/MSRs/0x00000194-CLOCK_FLEX_MAX-reads        0 times
+/CPUM/MSRs/0x00000198-IA32_PERF_STATUS-reads        0 times
+/CPUM/MSRs/0x00000199-IA32_PERF_CTL-reads        0 times
+/CPUM/MSRs/0x0000019a-IA32_CLOCK_MODULATION-reads        0 times
+/CPUM/MSRs/0x0000019b-IA32_THERM_INTERRUPT-reads        0 times
+/CPUM/MSRs/0x0000019c-IA32_THERM_STATUS-reads        0 times
+/CPUM/MSRs/0x0000019d-IA32_THERM2_CTL-reads        0 times
+/CPUM/MSRs/0x000001a0-IA32_MISC_ENABLE-reads        0 times
+/CPUM/MSRs/0x000001a2-I7_MSR_TEMPERATURE_TARGET-reads        0 times
+/CPUM/MSRs/0x000001a4-I7_UNK_0000_01a4-reads        0 times
+/CPUM/MSRs/0x000001a6-0x000001a7-I7_MSR_OFFCORE_RSP_n-reads        0 times
+/CPUM/MSRs/0x000001a8-I7_UNK_0000_01a8-reads        0 times
+/CPUM/MSRs/0x000001aa-MSR_MISC_PWR_MGMT-reads        0 times
+/CPUM/MSRs/0x000001ad-I7_MSR_TURBO_RATIO_LIMIT-reads        0 times
+/CPUM/MSRs/0x000001b0-IA32_ENERGY_PERF_BIAS-reads        0 times
+/CPUM/MSRs/0x000001b1-IA32_PACKAGE_THERM_STATUS-reads        0 times
+/CPUM/MSRs/0x000001b2-IA32_PACKAGE_THERM_INTERRUPT-reads        0 times
+/CPUM/MSRs/0x000001c6-I7_UNK_0000_01c6-reads        0 times
+/CPUM/MSRs/0x000001c8-MSR_LBR_SELECT-reads        0 times
+/CPUM/MSRs/0x000001c9-MSR_LASTBRANCH_TOS-reads        0 times
+/CPUM/MSRs/0x000001d9-IA32_DEBUGCTL-reads        0 times
+/CPUM/MSRs/0x000001db-P6_LAST_BRANCH_FROM_IP-reads        0 times
+/CPUM/MSRs/0x000001dc-P6_LAST_BRANCH_TO_IP-reads        0 times
+/CPUM/MSRs/0x000001dd-P6_LAST_INT_FROM_IP-reads        0 times
+/CPUM/MSRs/0x000001de-P6_LAST_INT_TO_IP-reads        0 times
+/CPUM/MSRs/0x000001e1-I7_SB_UNK_0000_01e1-reads        0 times
+/CPUM/MSRs/0x000001f0-I7_VLW_CAPABILITY-reads        0 times
+/CPUM/MSRs/0x000001f2-IA32_SMRR_PHYSBASE-reads        0 times
+/CPUM/MSRs/0x000001f3-IA32_SMRR_PHYSMASK-reads        0 times
+/CPUM/MSRs/0x000001fc-I7_MSR_POWER_CTL-reads        0 times
+/CPUM/MSRs/0x00000200-IA32_MTRR_PHYS_BASE0-reads        0 times
+/CPUM/MSRs/0x00000201-IA32_MTRR_PHYS_MASK0-reads        0 times
+/CPUM/MSRs/0x00000202-IA32_MTRR_PHYS_BASE1-reads        0 times
+/CPUM/MSRs/0x00000203-IA32_MTRR_PHYS_MASK1-reads        0 times
+/CPUM/MSRs/0x00000204-IA32_MTRR_PHYS_BASE2-reads        0 times
+/CPUM/MSRs/0x00000205-IA32_MTRR_PHYS_MASK2-reads        0 times
+/CPUM/MSRs/0x00000206-IA32_MTRR_PHYS_BASE3-reads        0 times
+/CPUM/MSRs/0x00000207-IA32_MTRR_PHYS_MASK3-reads        0 times
+/CPUM/MSRs/0x00000208-IA32_MTRR_PHYS_BASE4-reads        0 times
+/CPUM/MSRs/0x00000209-IA32_MTRR_PHYS_MASK4-reads        0 times
+/CPUM/MSRs/0x0000020a-IA32_MTRR_PHYS_BASE5-reads        0 times
+/CPUM/MSRs/0x0000020b-IA32_MTRR_PHYS_MASK5-reads        0 times
+/CPUM/MSRs/0x0000020c-IA32_MTRR_PHYS_BASE6-reads        0 times
+/CPUM/MSRs/0x0000020d-IA32_MTRR_PHYS_MASK6-reads        0 times
+/CPUM/MSRs/0x0000020e-IA32_MTRR_PHYS_BASE7-reads        0 times
+/CPUM/MSRs/0x0000020f-IA32_MTRR_PHYS_MASK7-reads        0 times
+/CPUM/MSRs/0x00000210-IA32_MTRR_PHYS_BASE8-reads        0 times
+/CPUM/MSRs/0x00000211-IA32_MTRR_PHYS_MASK8-reads        0 times
+/CPUM/MSRs/0x00000212-IA32_MTRR_PHYS_BASE9-reads        0 times
+/CPUM/MSRs/0x00000213-IA32_MTRR_PHYS_MASK9-reads        0 times
+/CPUM/MSRs/0x00000250-IA32_MTRR_FIX64K_00000-reads        0 times
+/CPUM/MSRs/0x00000258-IA32_MTRR_FIX16K_80000-reads        0 times
+/CPUM/MSRs/0x00000259-IA32_MTRR_FIX16K_A0000-reads        0 times
+/CPUM/MSRs/0x00000268-IA32_MTRR_FIX4K_C0000-reads        0 times
+/CPUM/MSRs/0x00000269-IA32_MTRR_FIX4K_C8000-reads        0 times
+/CPUM/MSRs/0x0000026a-IA32_MTRR_FIX4K_D0000-reads        0 times
+/CPUM/MSRs/0x0000026b-IA32_MTRR_FIX4K_D8000-reads        0 times
+/CPUM/MSRs/0x0000026c-IA32_MTRR_FIX4K_E0000-reads        0 times
+/CPUM/MSRs/0x0000026d-IA32_MTRR_FIX4K_E8000-reads        0 times
+/CPUM/MSRs/0x0000026e-IA32_MTRR_FIX4K_F0000-reads        0 times
+/CPUM/MSRs/0x0000026f-IA32_MTRR_FIX4K_F8000-reads        0 times
+/CPUM/MSRs/0x00000277-IA32_PAT-reads        0 times
+/CPUM/MSRs/0x00000277-IA32_PAT-writes        1 times
+/CPUM/MSRs/0x00000280-0x00000281-IA32_MC0_CTLn-reads        0 times
+/CPUM/MSRs/0x00000282-IA32_MC2_CTL2-reads        0 times
+/CPUM/MSRs/0x00000283-IA32_MC3_CTL2-reads        0 times
+/CPUM/MSRs/0x00000284-IA32_MC4_CTL2-reads        0 times
+/CPUM/MSRs/0x00000285-0x00000288-IA32_MC5_CTLn-reads        0 times
+/CPUM/MSRs/0x000002e0-I7_SB_NO_EVICT_MODE-reads        0 times
+/CPUM/MSRs/0x000002e6-I7_IB_UNK_0000_02e6-reads        0 times
+/CPUM/MSRs/0x000002e7-I7_IB_UNK_0000_02e7-reads        0 times
+/CPUM/MSRs/0x000002ff-IA32_MTRR_DEF_TYPE-reads        1 times
+/CPUM/MSRs/0x00000305-I7_SB_UNK_0000_0305-reads        0 times
+/CPUM/MSRs/0x00000309-0x0000030b-IA32_FIXED_CTRn-reads        0 times
+/CPUM/MSRs/0x00000345-IA32_PERF_CAPABILITIES-reads        0 times
+/CPUM/MSRs/0x0000038d-IA32_FIXED_CTR_CTRL-reads        0 times
+/CPUM/MSRs/0x0000038e-IA32_PERF_GLOBAL_STATUS-reads        0 times
+/CPUM/MSRs/0x0000038f-IA32_PERF_GLOBAL_CTRL-reads        0 times
+/CPUM/MSRs/0x00000390-IA32_PERF_GLOBAL_OVF_CTRL-reads        0 times
+/CPUM/MSRs/0x00000391-I7_UNC_PERF_GLOBAL_CTRL-reads        0 times
+/CPUM/MSRs/0x00000392-I7_UNC_PERF_GLOBAL_STATUS-reads        0 times
+/CPUM/MSRs/0x00000393-I7_UNC_PERF_GLOBAL_OVF_CTRL-reads        0 times
+/CPUM/MSRs/0x00000394-I7_UNC_PERF_FIXED_CTR_CTRL-reads        0 times
+/CPUM/MSRs/0x00000395-I7_UNC_PERF_FIXED_CTR-reads        0 times
+/CPUM/MSRs/0x00000396-I7_UNC_CBO_CONFIG-reads        0 times
+/CPUM/MSRs/0x00000397-I7_SB_UNK_0000_0397-reads        0 times
+/CPUM/MSRs/0x000003b0-I7_UNC_ARB_PERF_CTR0-reads        0 times
+/CPUM/MSRs/0x000003b1-I7_UNC_ARB_PERF_CTR1-reads        0 times
+/CPUM/MSRs/0x000003b2-I7_UNC_ARB_PERF_EVT_SEL0-reads        0 times
+/CPUM/MSRs/0x000003b3-I7_UNC_ARB_PERF_EVT_SEL1-reads        0 times
+/CPUM/MSRs/0x000003f1-IA32_PEBS_ENABLE-reads        0 times
+/CPUM/MSRs/0x000003f6-I7_MSR_PEBS_LD_LAT-reads        0 times
+/CPUM/MSRs/0x000003f8-I7_MSR_PKG_C3_RESIDENCY-reads        0 times
+/CPUM/MSRs/0x000003f9-0x000003fa-I7_MSR_PKG_Cn_RESIDENCY-reads        0 times
+/CPUM/MSRs/0x000003fc-I7_MSR_CORE_C3_RESIDENCY-reads        0 times
+/CPUM/MSRs/0x000003fd-0x000003fe-I7_MSR_CORE_Cn_RESIDENCY-reads        0 times
+/CPUM/MSRs/0x00000400-0x00000423-IA32_MCi_CTL_STATUS_ADDR_MISC-reads        0 times
+/CPUM/MSRs/0x00000480-IA32_VMX_BASIC-reads        0 times
+/CPUM/MSRs/0x00000481-IA32_VMX_PINBASED_CTLS-reads        0 times
+/CPUM/MSRs/0x00000482-IA32_VMX_PROCBASED_CTLS-reads        0 times
+/CPUM/MSRs/0x00000483-IA32_VMX_EXIT_CTLS-reads        0 times
+/CPUM/MSRs/0x00000484-IA32_VMX_ENTRY_CTLS-reads        0 times
+/CPUM/MSRs/0x00000485-IA32_VMX_MISC-reads        0 times
+/CPUM/MSRs/0x00000486-IA32_VMX_CR0_FIXED0-reads        0 times
+/CPUM/MSRs/0x00000487-IA32_VMX_CR0_FIXED1-reads        0 times
+/CPUM/MSRs/0x00000488-IA32_VMX_CR4_FIXED0-reads        0 times
+/CPUM/MSRs/0x00000489-IA32_VMX_CR4_FIXED1-reads        0 times
+/CPUM/MSRs/0x0000048a-IA32_VMX_VMCS_ENUM-reads        0 times
+/CPUM/MSRs/0x0000048b-IA32_VMX_PROCBASED_CTLS2-reads        0 times
+/CPUM/MSRs/0x0000048c-IA32_VMX_EPT_VPID_CAP-reads        0 times
+/CPUM/MSRs/0x0000048d-IA32_VMX_TRUE_PINBASED_CTLS-reads        0 times
+/CPUM/MSRs/0x0000048e-IA32_VMX_TRUE_PROCBASED_CTLS-reads        0 times
+/CPUM/MSRs/0x0000048f-IA32_VMX_TRUE_EXIT_CTLS-reads        0 times
+/CPUM/MSRs/0x00000490-IA32_VMX_TRUE_ENTRY_CTLS-reads        0 times
+/CPUM/MSRs/0x000004c1-0x000004c4-IA32_A_PMCn-reads        0 times
+/CPUM/MSRs/0x00000502-I7_SB_UNK_0000_0502-reads        0 times
+/CPUM/MSRs/0x00000600-IA32_DS_AREA-reads        0 times
+/CPUM/MSRs/0x00000601-I7_SB_MSR_VR_CURRENT_CONFIG-reads        0 times
+/CPUM/MSRs/0x00000602-I7_IB_UNK_0000_0602-reads        0 times
+/CPUM/MSRs/0x00000603-I7_SB_MSR_VR_MISC_CONFIG-reads        0 times
+/CPUM/MSRs/0x00000604-I7_IB_UNK_0000_0602-reads        0 times
+/CPUM/MSRs/0x00000606-I7_SB_MSR_RAPL_POWER_UNIT-reads        0 times
+/CPUM/MSRs/0x00000609-I7_SB_UNK_0000_0609-reads        0 times
+/CPUM/MSRs/0x0000060a-I7_SB_MSR_PKGC3_IRTL-reads        0 times
+/CPUM/MSRs/0x0000060b-0x0000060c-I7_SB_MSR_PKGC6_IRTn-reads        0 times
+/CPUM/MSRs/0x0000060d-I7_SB_MSR_PKG_C2_RESIDENCY-reads        0 times
+/CPUM/MSRs/0x00000610-I7_SB_MSR_PKG_POWER_LIMIT-reads        0 times
+/CPUM/MSRs/0x00000611-I7_SB_MSR_PKG_ENERGY_STATUS-reads        0 times
+/CPUM/MSRs/0x00000614-I7_SB_MSR_PKG_POWER_INFO-reads        0 times
+/CPUM/MSRs/0x00000638-I7_SB_MSR_PP0_POWER_LIMIT-reads        0 times
+/CPUM/MSRs/0x00000639-I7_SB_MSR_PP0_ENERGY_STATUS-reads        0 times
+/CPUM/MSRs/0x0000063a-I7_SB_MSR_PP0_POLICY-reads        0 times
+/CPUM/MSRs/0x00000640-I7_HW_MSR_PP0_POWER_LIMIT-reads        0 times
+/CPUM/MSRs/0x00000641-I7_HW_MSR_PP0_ENERGY_STATUS-reads        0 times
+/CPUM/MSRs/0x00000642-I7_HW_MSR_PP0_POLICY-reads        0 times
+/CPUM/MSRs/0x00000680-0x0000068f-MSR_LASTBRANCH_n_FROM_IP-reads        0 times
+/CPUM/MSRs/0x000006c0-0x000006cf-MSR_LASTBRANCH_n_TO_IP-reads        0 times
+/CPUM/MSRs/0x000006e0-IA32_TSC_DEADLINE-reads        0 times
+/CPUM/MSRs/0x00000700-MSR_UNC_CBO_0_PERFEVTSEL0-reads        0 times
+/CPUM/MSRs/0x00000701-MSR_UNC_CBO_0_PERFEVTSEL1-reads        0 times
+/CPUM/MSRs/0x00000702-MSR_UNC_CBO_0_PERFEVTSEL2?-reads        0 times
+/CPUM/MSRs/0x00000703-MSR_UNC_CBO_0_PERFEVTSEL3?-reads        0 times
+/CPUM/MSRs/0x00000704-MSR_UNC_CBO_0_UNK_4-reads        0 times
+/CPUM/MSRs/0x00000705-MSR_UNC_CBO_0_UNK_5-reads        0 times
+/CPUM/MSRs/0x00000706-MSR_UNC_CBO_0_PER_CTR0-reads        0 times
+/CPUM/MSRs/0x00000707-MSR_UNC_CBO_0_PER_CTR1-reads        0 times
+/CPUM/MSRs/0x00000708-MSR_UNC_CBO_0_PER_CTR2?-reads        0 times
+/CPUM/MSRs/0x00000709-MSR_UNC_CBO_0_PER_CTR3?-reads        0 times
+/CPUM/MSRs/0x00000710-MSR_UNC_CBO_1_PERFEVTSEL0-reads        0 times
+/CPUM/MSRs/0x00000711-MSR_UNC_CBO_1_PERFEVTSEL1-reads        0 times
+/CPUM/MSRs/0x00000712-MSR_UNC_CBO_1_PERFEVTSEL2?-reads        0 times
+/CPUM/MSRs/0x00000713-MSR_UNC_CBO_1_PERFEVTSEL3?-reads        0 times
+/CPUM/MSRs/0x00000714-MSR_UNC_CBO_1_UNK_4-reads        0 times
+/CPUM/MSRs/0x00000715-MSR_UNC_CBO_1_UNK_5-reads        0 times
+/CPUM/MSRs/0x00000716-MSR_UNC_CBO_1_PER_CTR0-reads        0 times
+/CPUM/MSRs/0x00000717-MSR_UNC_CBO_1_PER_CTR1-reads        0 times
+/CPUM/MSRs/0x00000718-MSR_UNC_CBO_1_PER_CTR2?-reads        0 times
+/CPUM/MSRs/0x00000719-MSR_UNC_CBO_1_PER_CTR3?-reads        0 times
+/CPUM/MSRs/0x00000720-MSR_UNC_CBO_2_PERFEVTSEL0-reads        0 times
+/CPUM/MSRs/0x00000721-MSR_UNC_CBO_2_PERFEVTSEL1-reads        0 times
+/CPUM/MSRs/0x00000722-MSR_UNC_CBO_2_PERFEVTSEL2?-reads        0 times
+/CPUM/MSRs/0x00000723-MSR_UNC_CBO_2_PERFEVTSEL3?-reads        0 times
+/CPUM/MSRs/0x00000724-MSR_UNC_CBO_2_UNK_4-reads        0 times
+/CPUM/MSRs/0x00000725-MSR_UNC_CBO_2_UNK_5-reads        0 times
+/CPUM/MSRs/0x00000726-MSR_UNC_CBO_2_PER_CTR0-reads        0 times
+/CPUM/MSRs/0x00000727-MSR_UNC_CBO_2_PER_CTR1-reads        0 times
+/CPUM/MSRs/0x00000728-MSR_UNC_CBO_2_PER_CTR2?-reads        0 times
+/CPUM/MSRs/0x00000729-MSR_UNC_CBO_2_PER_CTR3?-reads        0 times
+/CPUM/MSRs/0x00000730-MSR_UNC_CBO_3_PERFEVTSEL0-reads        0 times
+/CPUM/MSRs/0x00000731-MSR_UNC_CBO_3_PERFEVTSEL1-reads        0 times
+/CPUM/MSRs/0x00000732-MSR_UNC_CBO_3_PERFEVTSEL2?-reads        0 times
+/CPUM/MSRs/0x00000733-MSR_UNC_CBO_3_PERFEVTSEL3?-reads        0 times
+/CPUM/MSRs/0x00000734-MSR_UNC_CBO_3_UNK_4-reads        0 times
+/CPUM/MSRs/0x00000735-MSR_UNC_CBO_3_UNK_5-reads        0 times
+/CPUM/MSRs/0x00000736-MSR_UNC_CBO_3_PER_CTR0-reads        0 times
+/CPUM/MSRs/0x00000737-MSR_UNC_CBO_3_PER_CTR1-reads        0 times
+/CPUM/MSRs/0x00000738-MSR_UNC_CBO_3_PER_CTR2?-reads        0 times
+/CPUM/MSRs/0x00000739-MSR_UNC_CBO_3_PER_CTR3?-reads        0 times
+/CPUM/MSRs/0x00000740-MSR_UNC_CBO_4_PERFEVTSEL0?-reads        0 times
+/CPUM/MSRs/0x00000741-MSR_UNC_CBO_4_PERFEVTSEL1?-reads        0 times
+/CPUM/MSRs/0x00000742-MSR_UNC_CBO_4_PERFEVTSEL2?-reads        0 times
+/CPUM/MSRs/0x00000743-MSR_UNC_CBO_4_PERFEVTSEL3?-reads        0 times
+/CPUM/MSRs/0x00000744-MSR_UNC_CBO_4_UNK_4-reads        0 times
+/CPUM/MSRs/0x00000745-MSR_UNC_CBO_4_UNK_5-reads        0 times
+/CPUM/MSRs/0x00000746-MSR_UNC_CBO_4_PER_CTR0?-reads        0 times
+/CPUM/MSRs/0x00000747-MSR_UNC_CBO_4_PER_CTR1?-reads        0 times
+/CPUM/MSRs/0x00000748-MSR_UNC_CBO_4_PER_CTR2?-reads        0 times
+/CPUM/MSRs/0x00000749-MSR_UNC_CBO_4_PER_CTR3?-reads        0 times
+/CPUM/MSRs/0xc0000080-AMD64_EFER-ign-bits-writes        2 times
+/CPUM/MSRs/0xc0000080-AMD64_EFER-reads        3 times
+/CPUM/MSRs/0xc0000080-AMD64_EFER-writes        3 times
+/CPUM/MSRs/0xc0000081-AMD64_STAR-reads        0 times
+/CPUM/MSRs/0xc0000082-AMD64_STAR64-reads        0 times
+/CPUM/MSRs/0xc0000083-AMD64_STARCOMPAT-reads        0 times
+/CPUM/MSRs/0xc0000083-AMD64_STARCOMPAT-writes        1 times
+/CPUM/MSRs/0xc0000084-AMD64_SYSCALL_FLAG_MASK-reads        0 times
+/CPUM/MSRs/0xc0000100-AMD64_FS_BASE-reads        0 times
+/CPUM/MSRs/0xc0000101-AMD64_GS_BASE-reads        0 times
+/CPUM/MSRs/0xc0000102-AMD64_KERNEL_GS_BASE-reads        0 times
+/CPUM/MSRs/0xc0000103-AMD64_TSC_AUX-reads        0 times
+/Devices/APIC/0/TimerSetInitialCount     2939 times
+/Devices/APIC/0/TimerSetInitialCount/Arm     2938 times
+/Devices/APIC/0/TimerSetInitialCount/Disasm        0 times
+/Devices/APIC/0/TimerSetLvt          2940 times
+/Devices/APIC/0/TimerSetLvt/Arm         1 times
+/Devices/APIC/0/TimerSetLvt/ArmRetries        0 times
+/Devices/APIC/0/TimerSetLvt/Armed        0 times
+/Devices/APIC/0/TimerSetLvt/ClearPeriodic        0 times
+/Devices/APIC/0/TimerSetLvt/NoRelevantChange     2939 times
+/Devices/APIC/0/TimerSetLvt/Postponed        0 times
+/Devices/APIC/MMIOReadGC                0 times
+/Devices/APIC/MMIOReadHC             3503 times
+/Devices/APIC/MMIOWriteGC               0 times
+/Devices/APIC/MMIOWriteHC           10925 times
+/Devices/APIC/MaskedActiveIRQ           0 times
+/Devices/E1k0/EEPROM/Read             112 ticks/call (      187026 ticks,    1656 times, max       638, min      63)
+/Devices/E1k0/EEPROM/Write            278 ticks/call (     1365845 ticks,    4899 times, max      2412, min     169)
+/Devices/E1k0/IO/ReadR3                 0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Devices/E1k0/IO/ReadRZ                 0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Devices/E1k0/IO/WriteR3            12479 ticks/call (       24959 ticks,       2 times, max     16759, min    8200)
+/Devices/E1k0/IO/WriteRZ              646 ticks/call (        2585 ticks,       4 times, max      1144, min     328)
+/Devices/E1k0/Interrupts/Prevented        0 times
+/Devices/E1k0/Interrupts/Raised         0 times
+/Devices/E1k0/LateInt/Occured           0 times
+/Devices/E1k0/LateInt/Timer             0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Devices/E1k0/MMIO/ReadR3             969 ticks/call (     1673017 ticks,    1726 times, max     28222, min     738)
+/Devices/E1k0/MMIO/ReadRZ             242 ticks/call (     1614631 ticks,    6669 times, max      3326, min     121)
+/Devices/E1k0/MMIO/WriteR3            989 ticks/call (     4917653 ticks,    4968 times, max      9569, min     609)
+/Devices/E1k0/MMIO/WriteRZ            238 ticks/call (     1271023 ticks,    5321 times, max     18963, min     125)
+/Devices/E1k0/PHYAccesses              32 times
+/Devices/E1k0/Receive/CRC               0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Devices/E1k0/Receive/Filter            0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Devices/E1k0/Receive/Store             0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Devices/E1k0/Receive/Total             0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Devices/E1k0/ReceiveBytes              0 bytes
+/Devices/E1k0/Regs/AIFS-Reads           0 times
+/Devices/E1k0/Regs/AIFS-Writes          0 times
+/Devices/E1k0/Regs/ALGNERRC-Reads        2 times
+/Devices/E1k0/Regs/ALGNERRC-Writes        0 times
+/Devices/E1k0/Regs/BPRC-Reads           2 times
+/Devices/E1k0/Regs/BPRC-Writes          0 times
+/Devices/E1k0/Regs/BPTC-Reads           2 times
+/Devices/E1k0/Regs/BPTC-Writes          0 times
+/Devices/E1k0/Regs/CEXTERR-Reads        2 times
+/Devices/E1k0/Regs/CEXTERR-Writes        0 times
+/Devices/E1k0/Regs/COLC-Reads           2 times
+/Devices/E1k0/Regs/COLC-Writes          0 times
+/Devices/E1k0/Regs/CRCERRS-Reads        2 times
+/Devices/E1k0/Regs/CRCERRS-Writes        0 times
+/Devices/E1k0/Regs/CTRL-Reads          10 times
+/Devices/E1k0/Regs/CTRL-Writes         10 times
+/Devices/E1k0/Regs/CTRL_EXT-Reads        0 times
+/Devices/E1k0/Regs/CTRL_EXT-Writes        0 times
+/Devices/E1k0/Regs/DC-Reads             2 times
+/Devices/E1k0/Regs/DC-Writes            0 times
+/Devices/E1k0/Regs/ECOL-Reads           2 times
+/Devices/E1k0/Regs/ECOL-Writes          0 times
+/Devices/E1k0/Regs/EECD-Reads        1726 times
+/Devices/E1k0/Regs/EECD-Writes       4968 times
+/Devices/E1k0/Regs/EERD-Reads           0 times
+/Devices/E1k0/Regs/EERD-Writes          0 times
+/Devices/E1k0/Regs/FCAH-Reads           0 times
+/Devices/E1k0/Regs/FCAH-Writes          1 times
+/Devices/E1k0/Regs/FCAL-Reads           0 times
+/Devices/E1k0/Regs/FCAL-Writes          1 times
+/Devices/E1k0/Regs/FCRTH-Reads          0 times
+/Devices/E1k0/Regs/FCRTH-Writes         1 times
+/Devices/E1k0/Regs/FCRTL-Reads          0 times
+/Devices/E1k0/Regs/FCRTL-Writes         1 times
+/Devices/E1k0/Regs/FCRUC-Reads          2 times
+/Devices/E1k0/Regs/FCRUC-Writes         0 times
+/Devices/E1k0/Regs/FCT-Reads            0 times
+/Devices/E1k0/Regs/FCT-Writes           1 times
+/Devices/E1k0/Regs/FCTTV-Reads          0 times
+/Devices/E1k0/Regs/FCTTV-Writes         1 times
+/Devices/E1k0/Regs/FFLT-Reads           0 times
+/Devices/E1k0/Regs/FFLT-Writes          0 times
+/Devices/E1k0/Regs/FFMT-Reads           0 times
+/Devices/E1k0/Regs/FFMT-Writes          0 times
+/Devices/E1k0/Regs/FFVT-Reads           0 times
+/Devices/E1k0/Regs/FFVT-Writes          0 times
+/Devices/E1k0/Regs/FLA-Reads            0 times
+/Devices/E1k0/Regs/FLA-Writes           0 times
+/Devices/E1k0/Regs/GORCH-Reads          2 times
+/Devices/E1k0/Regs/GORCH-Writes         0 times
+/Devices/E1k0/Regs/GORCL-Reads          2 times
+/Devices/E1k0/Regs/GORCL-Writes         0 times
+/Devices/E1k0/Regs/GOTCH-Reads          2 times
+/Devices/E1k0/Regs/GOTCH-Writes         0 times
+/Devices/E1k0/Regs/GOTCL-Reads          2 times
+/Devices/E1k0/Regs/GOTCL-Writes         0 times
+/Devices/E1k0/Regs/GPRC-Reads           2 times
+/Devices/E1k0/Regs/GPRC-Writes          0 times
+/Devices/E1k0/Regs/GPTC-Reads           2 times
+/Devices/E1k0/Regs/GPTC-Writes          0 times
+/Devices/E1k0/Regs/ICR-Reads            2 times
+/Devices/E1k0/Regs/ICR-Writes           0 times
+/Devices/E1k0/Regs/ICS-Reads            0 times
+/Devices/E1k0/Regs/ICS-Writes           0 times
+/Devices/E1k0/Regs/IMC-Reads            0 times
+/Devices/E1k0/Regs/IMC-Writes           5 times
+/Devices/E1k0/Regs/IMS-Reads            0 times
+/Devices/E1k0/Regs/IMS-Writes           0 times
+/Devices/E1k0/Regs/IP4AT-Reads          0 times
+/Devices/E1k0/Regs/IP4AT-Writes         0 times
+/Devices/E1k0/Regs/IP6AT-Reads          0 times
+/Devices/E1k0/Regs/IP6AT-Writes         0 times
+/Devices/E1k0/Regs/IPAV-Reads           0 times
+/Devices/E1k0/Regs/IPAV-Writes          0 times
+/Devices/E1k0/Regs/ITR-Reads            0 times
+/Devices/E1k0/Regs/ITR-Writes           0 times
+/Devices/E1k0/Regs/LATECOL-Reads        2 times
+/Devices/E1k0/Regs/LATECOL-Writes        0 times
+/Devices/E1k0/Regs/LEDCTL-Reads         1 times
+/Devices/E1k0/Regs/LEDCTL-Writes        2 times
+/Devices/E1k0/Regs/MANC-Reads           2 times
+/Devices/E1k0/Regs/MANC-Writes          2 times
+/Devices/E1k0/Regs/MCC-Reads            2 times
+/Devices/E1k0/Regs/MCC-Writes           0 times
+/Devices/E1k0/Regs/MDIC-Reads          32 times
+/Devices/E1k0/Regs/MDIC-Writes         32 times
+/Devices/E1k0/Regs/MGTPDC-Reads         1 times
+/Devices/E1k0/Regs/MGTPDC-Writes        0 times
+/Devices/E1k0/Regs/MGTPRC-Reads         1 times
+/Devices/E1k0/Regs/MGTPRC-Writes        0 times
+/Devices/E1k0/Regs/MGTPTC-Reads         1 times
+/Devices/E1k0/Regs/MGTPTC-Writes        0 times
+/Devices/E1k0/Regs/MPC-Reads            2 times
+/Devices/E1k0/Regs/MPC-Writes           0 times
+/Devices/E1k0/Regs/MPRC-Reads           2 times
+/Devices/E1k0/Regs/MPRC-Writes          0 times
+/Devices/E1k0/Regs/MPTC-Reads           2 times
+/Devices/E1k0/Regs/MPTC-Writes          0 times
+/Devices/E1k0/Regs/MTA-Reads            0 times
+/Devices/E1k0/Regs/MTA-Writes         128 times
+/Devices/E1k0/Regs/MTA82542-Reads        0 times
+/Devices/E1k0/Regs/MTA82542-Writes        0 times
+/Devices/E1k0/Regs/PBA-Reads            1 times
+/Devices/E1k0/Regs/PBA-Writes           0 times
+/Devices/E1k0/Regs/PBM-Reads            0 times
+/Devices/E1k0/Regs/PBM-Writes           0 times
+/Devices/E1k0/Regs/PRC1023-Reads        2 times
+/Devices/E1k0/Regs/PRC1023-Writes        0 times
+/Devices/E1k0/Regs/PRC127-Reads         2 times
+/Devices/E1k0/Regs/PRC127-Writes        0 times
+/Devices/E1k0/Regs/PRC1522-Reads        2 times
+/Devices/E1k0/Regs/PRC1522-Writes        0 times
+/Devices/E1k0/Regs/PRC255-Reads         2 times
+/Devices/E1k0/Regs/PRC255-Writes        0 times
+/Devices/E1k0/Regs/PRC511-Reads         2 times
+/Devices/E1k0/Regs/PRC511-Writes        0 times
+/Devices/E1k0/Regs/PRC64-Reads          2 times
+/Devices/E1k0/Regs/PRC64-Writes         0 times
+/Devices/E1k0/Regs/PTC1023-Reads        2 times
+/Devices/E1k0/Regs/PTC1023-Writes        0 times
+/Devices/E1k0/Regs/PTC127-Reads         2 times
+/Devices/E1k0/Regs/PTC127-Writes        0 times
+/Devices/E1k0/Regs/PTC1522-Reads        2 times
+/Devices/E1k0/Regs/PTC1522-Writes        0 times
+/Devices/E1k0/Regs/PTC255-Reads         2 times
+/Devices/E1k0/Regs/PTC255-Writes        0 times
+/Devices/E1k0/Regs/PTC511-Reads         2 times
+/Devices/E1k0/Regs/PTC511-Writes        0 times
+/Devices/E1k0/Regs/PTC64-Reads          2 times
+/Devices/E1k0/Regs/PTC64-Writes         0 times
+/Devices/E1k0/Regs/RA-Reads             0 times
+/Devices/E1k0/Regs/RA-Writes           30 times
+/Devices/E1k0/Regs/RA82542-Reads        0 times
+/Devices/E1k0/Regs/RA82542-Writes        0 times
+/Devices/E1k0/Regs/RADV-Reads           0 times
+/Devices/E1k0/Regs/RADV-Writes          0 times
+/Devices/E1k0/Regs/RCTL-Reads           0 times
+/Devices/E1k0/Regs/RCTL-Writes          2 times
+/Devices/E1k0/Regs/RDBAH-Reads          0 times
+/Devices/E1k0/Regs/RDBAH-Writes         0 times
+/Devices/E1k0/Regs/RDBAL-Reads          0 times
+/Devices/E1k0/Regs/RDBAL-Writes         0 times
+/Devices/E1k0/Regs/RDFH-Reads           0 times
+/Devices/E1k0/Regs/RDFH-Writes          0 times
+/Devices/E1k0/Regs/RDFHS-Reads          0 times
+/Devices/E1k0/Regs/RDFHS-Writes         0 times
+/Devices/E1k0/Regs/RDFPC-Reads          0 times
+/Devices/E1k0/Regs/RDFPC-Writes         0 times
+/Devices/E1k0/Regs/RDFT-Reads           0 times
+/Devices/E1k0/Regs/RDFT-Writes          0 times
+/Devices/E1k0/Regs/RDFTS-Reads          0 times
+/Devices/E1k0/Regs/RDFTS-Writes         0 times
+/Devices/E1k0/Regs/RDH-Reads            0 times
+/Devices/E1k0/Regs/RDH-Writes           0 times
+/Devices/E1k0/Regs/RDLEN-Reads          0 times
+/Devices/E1k0/Regs/RDLEN-Writes         0 times
+/Devices/E1k0/Regs/RDT-Reads            0 times
+/Devices/E1k0/Regs/RDT-Writes           0 times
+/Devices/E1k0/Regs/RDTR-Reads           0 times
+/Devices/E1k0/Regs/RDTR-Writes          0 times
+/Devices/E1k0/Regs/RFC-Reads            2 times
+/Devices/E1k0/Regs/RFC-Writes           0 times
+/Devices/E1k0/Regs/RJC-Reads            2 times
+/Devices/E1k0/Regs/RJC-Writes           0 times
+/Devices/E1k0/Regs/RLEC-Reads           2 times
+/Devices/E1k0/Regs/RLEC-Writes          0 times
+/Devices/E1k0/Regs/RNBC-Reads           2 times
+/Devices/E1k0/Regs/RNBC-Writes          0 times
+/Devices/E1k0/Regs/ROC-Reads            2 times
+/Devices/E1k0/Regs/ROC-Writes           0 times
+/Devices/E1k0/Regs/RSRPD-Reads          0 times
+/Devices/E1k0/Regs/RSRPD-Writes         0 times
+/Devices/E1k0/Regs/RUC-Reads            2 times
+/Devices/E1k0/Regs/RUC-Writes           0 times
+/Devices/E1k0/Regs/RXCSUM-Reads         0 times
+/Devices/E1k0/Regs/RXCSUM-Writes        0 times
+/Devices/E1k0/Regs/RXCW-Reads           0 times
+/Devices/E1k0/Regs/RXCW-Writes          0 times
+/Devices/E1k0/Regs/RXDCTL-Reads         0 times
+/Devices/E1k0/Regs/RXDCTL-Writes        0 times
+/Devices/E1k0/Regs/RXERRC-Reads         2 times
+/Devices/E1k0/Regs/RXERRC-Writes        0 times
+/Devices/E1k0/Regs/SCC-Reads            2 times
+/Devices/E1k0/Regs/SCC-Writes           0 times
+/Devices/E1k0/Regs/SEC-Reads            2 times
+/Devices/E1k0/Regs/SEC-Writes           0 times
+/Devices/E1k0/Regs/STATUS-Reads      4781 times
+/Devices/E1k0/Regs/STATUS-Writes        0 times
+/Devices/E1k0/Regs/SYMERRS-Reads        2 times
+/Devices/E1k0/Regs/SYMERRS-Writes        0 times
+/Devices/E1k0/Regs/TADV-Reads           0 times
+/Devices/E1k0/Regs/TADV-Writes          0 times
+/Devices/E1k0/Regs/TCTL-Reads           3 times
+/Devices/E1k0/Regs/TCTL-Writes          5 times
+/Devices/E1k0/Regs/TDBAH-Reads          0 times
+/Devices/E1k0/Regs/TDBAH-Writes         0 times
+/Devices/E1k0/Regs/TDBAL-Reads          0 times
+/Devices/E1k0/Regs/TDBAL-Writes         0 times
+/Devices/E1k0/Regs/TDFH-Reads           0 times
+/Devices/E1k0/Regs/TDFH-Writes          0 times
+/Devices/E1k0/Regs/TDFHS-Reads          0 times
+/Devices/E1k0/Regs/TDFHS-Writes         0 times
+/Devices/E1k0/Regs/TDFPC-Reads          0 times
+/Devices/E1k0/Regs/TDFPC-Writes         0 times
+/Devices/E1k0/Regs/TDFT-Reads           0 times
+/Devices/E1k0/Regs/TDFT-Writes          0 times
+/Devices/E1k0/Regs/TDFTS-Reads          0 times
+/Devices/E1k0/Regs/TDFTS-Writes         0 times
+/Devices/E1k0/Regs/TDH-Reads            0 times
+/Devices/E1k0/Regs/TDH-Writes           0 times
+/Devices/E1k0/Regs/TDLEN-Reads          0 times
+/Devices/E1k0/Regs/TDLEN-Writes         0 times
+/Devices/E1k0/Regs/TDT-Reads            0 times
+/Devices/E1k0/Regs/TDT-Writes           0 times
+/Devices/E1k0/Regs/TIDV-Reads           0 times
+/Devices/E1k0/Regs/TIDV-Writes          0 times
+/Devices/E1k0/Regs/TIPG-Reads           0 times
+/Devices/E1k0/Regs/TIPG-Writes          0 times
+/Devices/E1k0/Regs/TNCRS-Reads          2 times
+/Devices/E1k0/Regs/TNCRS-Writes         0 times
+/Devices/E1k0/Regs/TORH-Reads           2 times
+/Devices/E1k0/Regs/TORH-Writes          0 times
+/Devices/E1k0/Regs/TORL-Reads           1 times
+/Devices/E1k0/Regs/TORL-Writes          0 times
+/Devices/E1k0/Regs/TOTH-Reads           2 times
+/Devices/E1k0/Regs/TOTH-Writes          0 times
+/Devices/E1k0/Regs/TOTL-Reads           1 times
+/Devices/E1k0/Regs/TOTL-Writes          0 times
+/Devices/E1k0/Regs/TPR-Reads            2 times
+/Devices/E1k0/Regs/TPR-Writes           0 times
+/Devices/E1k0/Regs/TPT-Reads            2 times
+/Devices/E1k0/Regs/TPT-Writes           0 times
+/Devices/E1k0/Regs/TSCTC-Reads          2 times
+/Devices/E1k0/Regs/TSCTC-Writes         0 times
+/Devices/E1k0/Regs/TSCTFC-Reads         2 times
+/Devices/E1k0/Regs/TSCTFC-Writes        0 times
+/Devices/E1k0/Regs/TSPMT-Reads          0 times
+/Devices/E1k0/Regs/TSPMT-Writes         0 times
+/Devices/E1k0/Regs/TXCW-Reads           0 times
+/Devices/E1k0/Regs/TXCW-Writes          0 times
+/Devices/E1k0/Regs/TXDCTL-Reads         1 times
+/Devices/E1k0/Regs/TXDCTL-Writes        1 times
+/Devices/E1k0/Regs/TXDMAC-Reads         0 times
+/Devices/E1k0/Regs/TXDMAC-Writes        0 times
+/Devices/E1k0/Regs/VET-Reads            0 times
+/Devices/E1k0/Regs/VET-Writes           1 times
+/Devices/E1k0/Regs/VFTA-Reads           0 times
+/Devices/E1k0/Regs/VFTA-Writes        128 times
+/Devices/E1k0/Regs/VFTA82542-Reads        0 times
+/Devices/E1k0/Regs/VFTA82542-Writes        0 times
+/Devices/E1k0/Regs/WUC-Reads            0 times
+/Devices/E1k0/Regs/WUC-Writes           2 times
+/Devices/E1k0/Regs/WUFC-Reads           0 times
+/Devices/E1k0/Regs/WUFC-Writes          1 times
+/Devices/E1k0/Regs/WUPL-Reads           0 times
+/Devices/E1k0/Regs/WUPL-Writes          0 times
+/Devices/E1k0/Regs/WUPM-Reads           0 times
+/Devices/E1k0/Regs/WUPM-Writes          0 times
+/Devices/E1k0/Regs/WUS-Reads            0 times
+/Devices/E1k0/Regs/WUS-Writes           0 times
+/Devices/E1k0/Regs/XOFFRXC-Reads        2 times
+/Devices/E1k0/Regs/XOFFRXC-Writes        0 times
+/Devices/E1k0/Regs/XOFFTXC-Reads        2 times
+/Devices/E1k0/Regs/XOFFTXC-Writes        0 times
+/Devices/E1k0/Regs/XONRXC-Reads         2 times
+/Devices/E1k0/Regs/XONRXC-Writes        0 times
+/Devices/E1k0/Regs/XONTXC-Reads         2 times
+/Devices/E1k0/Regs/XONTXC-Writes        0 times
+/Devices/E1k0/RxOverflow                0 ticks/time (           0 ticks,       0 times, max         0, min      -1)
+/Devices/E1k0/RxOverflowWakeup          0 times
+/Devices/E1k0/Transmit/SendR3           0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Devices/E1k0/Transmit/SendRZ           0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Devices/E1k0/Transmit/TotalR3          0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Devices/E1k0/Transmit/TotalRZ          0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Devices/E1k0/TransmitBytes             0 bytes
+/Devices/E1k0/TxDesc/ContexNormal        0 times
+/Devices/E1k0/TxDesc/ContextTSE         0 times
+/Devices/E1k0/TxDesc/Data               0 times
+/Devices/E1k0/TxDesc/Legacy             0 times
+/Devices/E1k0/TxDesc/TSEData            0 times
+/Devices/E1k0/TxPath/Fallback           0 times
+/Devices/E1k0/TxPath/GSO                0 times
+/Devices/E1k0/TxPath/Normal             0 times
+/Devices/IDE0/ATA0/Async/LockWait     2270 ticks/call (   146718597 ticks,   64607 times, max    238629, min     409)
+/Devices/IDE0/ATA0/Async/MaxWait    27847 
+/Devices/IDE0/ATA0/Async/MinWait        6 
+/Devices/IDE0/ATA0/Async/Operations    14306 times
+/Devices/IDE0/ATA0/Async/Time      283331 ticks/call (  4053342314 ticks,   14306 times, max  69666093, min   12889)
+/Devices/IDE0/ATA0/Async/TotalTimeUS  1624803 
+/Devices/IDE0/ATA0/Unit0/AtapiDMA        0 times
+/Devices/IDE0/ATA0/Unit0/AtapiPIO        0 times
+/Devices/IDE0/ATA0/Unit0/DMA           33 times
+/Devices/IDE0/ATA0/Unit0/Flushes        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Devices/IDE0/ATA0/Unit0/PIO            3 times
+/Devices/IDE0/ATA0/Unit0/ReadBytes    81408 bytes
+/Devices/IDE0/ATA0/Unit0/Reads       6579 ticks/call (      217131 ticks,      33 times, max     24238, min    4150)
+/Devices/IDE0/ATA0/Unit0/Writes         0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Devices/IDE0/ATA0/Unit0/WrittenBytes        0 bytes
+/Devices/IDE0/ATA0/Unit1/AtapiDMA     3360 times
+/Devices/IDE0/ATA0/Unit1/AtapiPIO    10875 times
+/Devices/IDE0/ATA0/Unit1/DMA            0 times
+/Devices/IDE0/ATA0/Unit1/Flushes        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Devices/IDE0/ATA0/Unit1/PIO            0 times
+/Devices/IDE0/ATA0/Unit1/ReadBytes 31778816 bytes
+/Devices/IDE0/ATA0/Unit1/Reads      18596 ticks/call (   264083970 ticks,   14201 times, max    521512, min    7335)
+/Devices/IDE0/ATA0/Unit1/Writes         0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Devices/IDE0/ATA0/Unit1/WrittenBytes        0 bytes
+/Devices/IDE0/ATA1/Async/LockWait    10299 ticks/call (       41198 ticks,       4 times, max     25619, min    3111)
+/Devices/IDE0/ATA1/Async/MaxWait      244 
+/Devices/IDE0/ATA1/Async/MinWait       59 
+/Devices/IDE0/ATA1/Async/Operations        2 times
+/Devices/IDE0/ATA1/Async/Time      381694 ticks/call (      763389 ticks,       2 times, max    615858, min  147531)
+/Devices/IDE0/ATA1/Async/TotalTimeUS      303 
+/Devices/IDE0/ATA1/Unit0/AtapiDMA        0 times
+/Devices/IDE0/ATA1/Unit0/AtapiPIO        0 times
+/Devices/IDE0/ATA1/Unit0/DMA            0 times
+/Devices/IDE0/ATA1/Unit0/Flushes        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Devices/IDE0/ATA1/Unit0/PIO            0 times
+/Devices/IDE0/ATA1/Unit0/ReadBytes        0 bytes
+/Devices/IDE0/ATA1/Unit0/Reads          0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Devices/IDE0/ATA1/Unit0/Writes         0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Devices/IDE0/ATA1/Unit0/WrittenBytes        0 bytes
+/Devices/IDE0/ATA1/Unit1/AtapiDMA        0 times
+/Devices/IDE0/ATA1/Unit1/AtapiPIO        0 times
+/Devices/IDE0/ATA1/Unit1/DMA            0 times
+/Devices/IDE0/ATA1/Unit1/Flushes        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Devices/IDE0/ATA1/Unit1/PIO            0 times
+/Devices/IDE0/ATA1/Unit1/ReadBytes        0 bytes
+/Devices/IDE0/ATA1/Unit1/Reads          0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Devices/IDE0/ATA1/Unit1/Writes         0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Devices/IDE0/ATA1/Unit1/WrittenBytes        0 bytes
+/Devices/IOAPIC/MMIOReadGC              0 times
+/Devices/IOAPIC/MMIOReadHC             37 times
+/Devices/IOAPIC/MMIOWriteGC             0 times
+/Devices/IOAPIC/MMIOWriteHC           215 times
+/Devices/IOAPIC/SetIrqGC                0 times
+/Devices/IOAPIC/SetIrqHC            23279 times
+/Devices/OHCI/CanceledGenUrbs           0 times
+/Devices/OHCI/CanceledIsocUrbs          0 times
+/Devices/OHCI/DroppedUrbs               0 times
+/Devices/OHCI/Timer                     0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Devices/PIC/Masked/ActiveIRQ2          0 times
+/Devices/PIC/Masked/ActiveMaster        0 times
+/Devices/PIC/Masked/ActiveSlave         0 times
+/Devices/PIC/SetIrqGC                   0 times
+/Devices/PIC/SetIrqHC               23243 times
+/Devices/VGA/MapPageCalls               0 times
+/Devices/VGA/R3/MMIO-Read             431 ticks/call (     2565456 ticks,    5952 times, max     19075, min     197)
+/Devices/VGA/R3/MMIO-Write            489 ticks/call (    18844423 ticks,   38528 times, max     94967, min     294)
+/Devices/VGA/RZ/MMIO-Read             365 ticks/call (    13931219 ticks,   38128 times, max     27336, min     131)
+/Devices/VGA/RZ/MMIO-Write            259 ticks/call (    62157117 ticks,  239398 times, max     49956, min     134)
+/Devices/VGA/UpdateDisplay           3303 times
+/Devices/VMMDev/BalloonChunks           0 count
+/Drivers/NAT0/ALIAS_input               0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Drivers/NAT0/ALIAS_output              0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Drivers/NAT0/ConsumerFalse             0 count
+/Drivers/NAT0/FastTimer                 0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Drivers/NAT0/Fill                   4071 ticks/call (        8142 ticks,       2 times, max      4663, min    3479)
+/Drivers/NAT0/IF_encap                  0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Drivers/NAT0/IORead_in_1               0 count
+/Drivers/NAT0/IORead_in_1_bytes         0 count
+/Drivers/NAT0/IORead_in_2               0 count
+/Drivers/NAT0/IORead_in_2_1st_bytes        0 count
+/Drivers/NAT0/IORead_in_2_2nd_bytes        0 count
+/Drivers/NAT0/IOSBAppend                0 count
+/Drivers/NAT0/IOSBAppendSB              0 count
+/Drivers/NAT0/IOSBAppendSB_w_alter        0 count
+/Drivers/NAT0/IOSBAppendSB_w_ge_r        0 count
+/Drivers/NAT0/IOSBAppendSB_w_l_r        0 count
+/Drivers/NAT0/IOSBAppend_pf             0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Drivers/NAT0/IOSBAppend_pf_wa          0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Drivers/NAT0/IOSBAppend_pf_wf          0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Drivers/NAT0/IOSBAppend_pf_wp          0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Drivers/NAT0/IOSBAppend_wa             0 count
+/Drivers/NAT0/IOSBAppend_wf             0 count
+/Drivers/NAT0/IOSBAppend_wp             0 count
+/Drivers/NAT0/IOSBAppend_zm             0 count
+/Drivers/NAT0/IOWrite_in_1              0 count
+/Drivers/NAT0/IOWrite_in_1_bytes        0 count
+/Drivers/NAT0/IOWrite_in_2              0 count
+/Drivers/NAT0/IOWrite_in_2_1st_bytes        0 count
+/Drivers/NAT0/IOWrite_in_2_2nd_bytes        0 count
+/Drivers/NAT0/IOWrite_no_w              0 count
+/Drivers/NAT0/IOWrite_rest              0 count
+/Drivers/NAT0/IOWrite_rest_bytes        0 count
+/Drivers/NAT0/IOread                    0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Drivers/NAT0/IOwrite                   0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Drivers/NAT0/IP_input                  0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Drivers/NAT0/IP_output                 0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Drivers/NAT0/MBufAllocation            0 count
+/Drivers/NAT0/NATRecv                   0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Drivers/NAT0/NATRecvWait               0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Drivers/NAT0/NATRecvWakeups            1 count
+/Drivers/NAT0/Poll                  19731 ticks/call (       39462 ticks,       2 times, max     31025, min    8437)
+/Drivers/NAT0/QueuePktDropped           0 count
+/Drivers/NAT0/QueuePktSent              0 count
+/Drivers/NAT0/SlowTimer                 0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Drivers/NAT0/TCP                       0 count
+/Drivers/NAT0/TCPHot                    0 count
+/Drivers/NAT0/TCP_input                 0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Drivers/NAT0/TCP_reassamble            0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Drivers/NAT0/TCP_retransmit            0 count
+/Drivers/NAT0/UDP                       0 count
+/Drivers/NAT0/UDPHot                    0 count
+/EM/CPU0/Cli/Total                      0 times
+/EM/CPU0/R3/Interpret                   0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/EM/CPU0/R3/Interpret/Failed            0 times
+/EM/CPU0/R3/Interpret/Success           0 ticks/call (           0 ticks,       0 times, max         0, min       0)
+/EM/CPU0/R3/PrivInst/IoIem          14274 times
+/EM/CPU0/R3/PrivInst/IoRestarted   888722 times
+/EM/CPU0/RZ/Interpret                   0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/EM/CPU0/RZ/Interpret/Failed            0 times
+/EM/CPU0/RZ/Interpret/Success           0 ticks/call (           0 ticks,       0 times, max         0, min       0)
+/FT/Checkpoint                          0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/FT/Checkpoint/Network                  0 times
+/FT/Checkpoint/Pause                    0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/FT/Checkpoint/Resume                   0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/FT/Checkpoint/Storage                  0 times
+/FT/Received/Mem                        0 bytes
+/FT/Received/State                      0 bytes
+/FT/Sent/Mem                            0 bytes
+/FT/Sent/Mem/MMIO2                      0 bytes
+/FT/Sent/Mem/RAM                        0 bytes
+/FT/Sent/Mem/ShwROM                     0 bytes
+/FT/Sent/State                          0 bytes
+/FT/Sent/State/Writes                   0 bytes
+/FT/Sync/DeltaMem                       0 times
+/FT/Sync/DeltaVM                        0 times
+/FT/Sync/Full                           0 times
+/GMM/VM/Allocated/cBasePages         1633 pages
+/GMM/VM/Allocated/cFixedPages           0 pages
+/GMM/VM/Allocated/cShadowPages          0 pages
+/GMM/VM/Reserved/cBasePages        262302 pages
+/GMM/VM/Reserved/cFixedPages         5636 pages
+/GMM/VM/Reserved/cShadowPages           1 pages
+/GMM/VM/cBalloonedPages                 0 pages
+/GMM/VM/cMaxBalloonedPages              0 pages
+/GMM/VM/cPrivatePages                1633 pages
+/GMM/VM/cReqActuallyBalloonedPages        0 pages
+/GMM/VM/cReqBalloonedPages              0 pages
+/GMM/VM/cReqDeflatePages                0 pages
+/GMM/VM/cShareableModules               0 count
+/GMM/VM/cSharedPages                    0 pages
+/GMM/VM/enmPolicy                       1 
+/GMM/VM/enmPriority                     2 
+/GMM/VM/fBallooningEnabled       false    
+/GMM/VM/fMayAllocate             true     
+/GMM/VM/fSharedPagingEnabled     false    
+/GMM/cAllocatedPages                 1633 pages
+/GMM/cBalloonedPages                    0 pages
+/GMM/cChunks                          310 count
+/GMM/cDuplicatePages                    0 pages
+/GMM/cFreedChunks                       0 count
+/GMM/cLeftBehindSharedPages             0 pages
+/GMM/cMaxPages                   4294967295 pages
+/GMM/cOverCommittedPages                0 pages
+/GMM/cReservedPages                267939 pages
+/GMM/cShareableModules                  0 count
+/GMM/cSharedPages                       0 pages
+/GVMM/EMTs                              1 calls
+/GVMM/HostCPUs                          8 calls
+/GVMM/HostCpus/0                        0 
+/GVMM/HostCpus/0/CurTimerHz             0 Hz
+/GVMM/HostCpus/0/DesiredHz              0 Hz
+/GVMM/HostCpus/0/PPTChanges             0 times
+/GVMM/HostCpus/0/PPTStarts              0 times
+/GVMM/HostCpus/0/idxCpuSet              0 
+/GVMM/HostCpus/1                        1 
+/GVMM/HostCpus/1/CurTimerHz             0 Hz
+/GVMM/HostCpus/1/DesiredHz              0 Hz
+/GVMM/HostCpus/1/PPTChanges             0 times
+/GVMM/HostCpus/1/PPTStarts              0 times
+/GVMM/HostCpus/1/idxCpuSet              1 
+/GVMM/HostCpus/2                        2 
+/GVMM/HostCpus/2/CurTimerHz             0 Hz
+/GVMM/HostCpus/2/DesiredHz              0 Hz
+/GVMM/HostCpus/2/PPTChanges             0 times
+/GVMM/HostCpus/2/PPTStarts              0 times
+/GVMM/HostCpus/2/idxCpuSet              2 
+/GVMM/HostCpus/3                        3 
+/GVMM/HostCpus/3/CurTimerHz             0 Hz
+/GVMM/HostCpus/3/DesiredHz              0 Hz
+/GVMM/HostCpus/3/PPTChanges             0 times
+/GVMM/HostCpus/3/PPTStarts              0 times
+/GVMM/HostCpus/3/idxCpuSet              3 
+/GVMM/HostCpus/4                        4 
+/GVMM/HostCpus/4/CurTimerHz             0 Hz
+/GVMM/HostCpus/4/DesiredHz              0 Hz
+/GVMM/HostCpus/4/PPTChanges             0 times
+/GVMM/HostCpus/4/PPTStarts              0 times
+/GVMM/HostCpus/4/idxCpuSet              4 
+/GVMM/HostCpus/5                        5 
+/GVMM/HostCpus/5/CurTimerHz             0 Hz
+/GVMM/HostCpus/5/DesiredHz              0 Hz
+/GVMM/HostCpus/5/PPTChanges             0 times
+/GVMM/HostCpus/5/PPTStarts              0 times
+/GVMM/HostCpus/5/idxCpuSet              5 
+/GVMM/HostCpus/6                        6 
+/GVMM/HostCpus/6/CurTimerHz             0 Hz
+/GVMM/HostCpus/6/DesiredHz              0 Hz
+/GVMM/HostCpus/6/PPTChanges             0 times
+/GVMM/HostCpus/6/PPTStarts              0 times
+/GVMM/HostCpus/6/idxCpuSet              6 
+/GVMM/HostCpus/7                        7 
+/GVMM/HostCpus/7/CurTimerHz             0 Hz
+/GVMM/HostCpus/7/DesiredHz              0 Hz
+/GVMM/HostCpus/7/PPTChanges             0 times
+/GVMM/HostCpus/7/PPTStarts              0 times
+/GVMM/HostCpus/7/idxCpuSet              7 
+/GVMM/Sum/HaltBlocking               7529 calls
+/GVMM/Sum/HaltCalls                  7654 calls
+/GVMM/Sum/HaltNotBlocking             125 calls
+/GVMM/Sum/HaltTimeouts               5768 calls
+/GVMM/Sum/HaltWakeUps                   0 calls
+/GVMM/Sum/PokeCalls                  2900 calls
+/GVMM/Sum/PokeNotBusy                 417 calls
+/GVMM/Sum/PollCalls                     0 calls
+/GVMM/Sum/PollHalts                     0 calls
+/GVMM/Sum/PollWakeUps                   0 calls
+/GVMM/Sum/WakeUpCalls                2074 calls
+/GVMM/Sum/WakeUpNotHalted             929 calls
+/GVMM/Sum/WakeUpWakeUps                 0 calls
+/GVMM/VM/HaltBlocking                7529 calls
+/GVMM/VM/HaltCalls                   7654 calls
+/GVMM/VM/HaltNotBlocking              125 calls
+/GVMM/VM/HaltTimeouts                5768 calls
+/GVMM/VM/HaltWakeUps                    0 calls
+/GVMM/VM/PokeCalls                   2900 calls
+/GVMM/VM/PokeNotBusy                  417 calls
+/GVMM/VM/PollCalls                      0 calls
+/GVMM/VM/PollHalts                      0 calls
+/GVMM/VM/PollWakeUps                    0 calls
+/GVMM/VM/WakeUpCalls                 2074 calls
+/GVMM/VM/WakeUpNotHalted              929 calls
+/GVMM/VM/WakeUpWakeUps                  0 calls
+/GVMM/VMs                               1 calls
+/HM/CPU0/Debug/Armed                    0 times
+/HM/CPU0/Debug/ContextSwitch            0 times
+/HM/CPU0/Debug/IOCheck                  0 times
+/HM/CPU0/EventInject/Event/IRQ/20      618 times
+/HM/CPU0/EventInject/Event/IRQ/32     3427 times
+/HM/CPU0/EventInject/Event/IRQ/36       18 times
+/HM/CPU0/EventInject/Event/IRQ/37       45 times
+/HM/CPU0/EventInject/Event/IRQ/EF     1550 times
+/HM/CPU0/EventInject/Event/Trap/07     1353 times
+/HM/CPU0/EventInject/Event/Trap/08       10 times
+/HM/CPU0/EventInject/Interrupt       5668 times
+/HM/CPU0/EventInject/PendingReflect     4731 times
+/HM/CPU0/EventInject/Trap            1353 times
+/HM/CPU0/Exit/All                 4048900 times
+/HM/CPU0/Exit/ApicAccess            14428 times
+/HM/CPU0/Exit/ExtInt                 3945 times
+/HM/CPU0/Exit/HostNmiInGC               0 times
+/HM/CPU0/Exit/IO/Read             3035661 times
+/HM/CPU0/Exit/IO/ReadString         10889 times
+/HM/CPU0/Exit/IO/Write             492208 times
+/HM/CPU0/Exit/IO/WriteString        14260 times
+/HM/CPU0/Exit/Instr/CLTS             1355 times
+/HM/CPU0/Exit/Instr/CR/Write/0     152485 times
+/HM/CPU0/Exit/Instr/CR/Write/3          1 times
+/HM/CPU0/Exit/Instr/CR/Write/4       7640 times
+/HM/CPU0/Exit/Instr/Cli                 0 times
+/HM/CPU0/Exit/Instr/Cpuid             276 times
+/HM/CPU0/Exit/Instr/DR/Read             0 times
+/HM/CPU0/Exit/Instr/DR/Write            0 times
+/HM/CPU0/Exit/Instr/Hlt               652 times
+/HM/CPU0/Exit/Instr/Int                 0 times
+/HM/CPU0/Exit/Instr/Invd                0 times
+/HM/CPU0/Exit/Instr/Invlpg              0 times
+/HM/CPU0/Exit/Instr/Iret                0 times
+/HM/CPU0/Exit/Instr/LMSW                0 times
+/HM/CPU0/Exit/Instr/Monitor           957 times
+/HM/CPU0/Exit/Instr/Mwait             957 times
+/HM/CPU0/Exit/Instr/Pause               0 times
+/HM/CPU0/Exit/Instr/Popf                0 times
+/HM/CPU0/Exit/Instr/Pushf               0 times
+/HM/CPU0/Exit/Instr/Rdmsr               6 times
+/HM/CPU0/Exit/Instr/Rdpmc               0 times
+/HM/CPU0/Exit/Instr/Rdrand              0 times
+/HM/CPU0/Exit/Instr/Rdtsc            1084 times
+/HM/CPU0/Exit/Instr/Rdtscp              0 times
+/HM/CPU0/Exit/Instr/Sti                 0 times
+/HM/CPU0/Exit/Instr/Wbinvd             10 times
+/HM/CPU0/Exit/Instr/Wrmsr               5 times
+/HM/CPU0/Exit/Instr/XdtrAccess          0 times
+/HM/CPU0/Exit/IntWindow              1462 times
+/HM/CPU0/Exit/MaxResume                 0 times
+/HM/CPU0/Exit/MonitorTrapFlag           0 times
+/HM/CPU0/Exit/PreemptTimer            154 times
+/HM/CPU0/Exit/Reason/#NPF            1566 times
+/HM/CPU0/Exit/Reason/00              3856 times
+/HM/CPU0/Exit/Reason/01              3945 times
+/HM/CPU0/Exit/Reason/07              1462 times
+/HM/CPU0/Exit/Reason/0a               276 times
+/HM/CPU0/Exit/Reason/0c               652 times
+/HM/CPU0/Exit/Reason/10              1084 times
+/HM/CPU0/Exit/Reason/1c            161481 times
+/HM/CPU0/Exit/Reason/1e           3553018 times
+/HM/CPU0/Exit/Reason/1f                 6 times
+/HM/CPU0/Exit/Reason/20                 5 times
+/HM/CPU0/Exit/Reason/24               957 times
+/HM/CPU0/Exit/Reason/27               957 times
+/HM/CPU0/Exit/Reason/2c             14428 times
+/HM/CPU0/Exit/Reason/30              1567 times
+/HM/CPU0/Exit/Reason/31            305042 times
+/HM/CPU0/Exit/Reason/34               154 times
+/HM/CPU0/Exit/Reason/36                10 times
+/HM/CPU0/Exit/TaskSwitch                0 times
+/HM/CPU0/Exit/TprBelowThreshold         0 times
+/HM/CPU0/Exit/Trap/Gst/#BP              0 times
+/HM/CPU0/Exit/Trap/Gst/#DB              0 times
+/HM/CPU0/Exit/Trap/Gst/#DE              0 times
+/HM/CPU0/Exit/Trap/Gst/#GP              0 times
+/HM/CPU0/Exit/Trap/Gst/#MF              0 times
+/HM/CPU0/Exit/Trap/Gst/#NM           1353 times
+/HM/CPU0/Exit/Trap/Gst/#NP              0 times
+/HM/CPU0/Exit/Trap/Gst/#PF              0 times
+/HM/CPU0/Exit/Trap/Gst/#SS              0 times
+/HM/CPU0/Exit/Trap/Gst/#UD              0 times
+/HM/CPU0/Exit/Trap/Gst/#XF              0 times
+/HM/CPU0/Exit/Trap/Gst/Other            0 times
+/HM/CPU0/Exit/Trap/Shw/#NM           2503 times
+/HM/CPU0/Exit/Trap/Shw/#PF              0 times
+/HM/CPU0/Exit/Trap/Shw/#PF-EM           0 times
+/HM/CPU0/Flush/Page                     0 times
+/HM/CPU0/Flush/Page/Phys                0 times
+/HM/CPU0/Flush/Page/Virt                0 times
+/HM/CPU0/Flush/Shootdown/Page           0 times
+/HM/CPU0/Flush/Shootdown/TLB            0 times
+/HM/CPU0/Flush/TLB                   7622 times
+/HM/CPU0/Flush/TLB/ASID                 0 times
+/HM/CPU0/Flush/TLB/CpuSwitch      1102336 times
+/HM/CPU0/Flush/TLB/Entire               0 times
+/HM/CPU0/Flush/TLB/InvlpgPhys           0 times
+/HM/CPU0/Flush/TLB/InvlpgVirt           0 times
+/HM/CPU0/Flush/TLB/Manual          312604 times
+/HM/CPU0/Flush/TLB/NestedPaging   1109958 times
+/HM/CPU0/Flush/TLB/Skipped        2938942 times
+/HM/CPU0/Load/Full                1426629 times
+/HM/CPU0/Load/Minimal             2616209 times
+/HM/CPU0/Preempt/Preempting         23655 times
+/HM/CPU0/Preempt/SaveHostState      23539 times
+/HM/CPU0/Switch/ExitToR3          1079062 times
+/HM/CPU0/Switch/HmToR3FF             2970 times
+/HM/CPU0/Switch/IrqPending              0 times
+/HM/CPU0/Switch/LongJmpToR3         24950 times
+/HM/CPU0/Switch/PendingHostIrq        597 times
+/HM/CPU0/TSC/Intercept               1930 times
+/HM/CPU0/TSC/InterceptOverflow       2916 times
+/HM/CPU0/TSC/Offset               1098489 times
+/HM/CPU0/VMXCheck/LDT                   0 times
+/HM/CPU0/VMXCheck/RMSelBase             0 times
+/HM/CPU0/VMXCheck/RMSelLimit            0 times
+/HM/CPU0/VMXCheck/RPL                   0 times
+/HM/CPU0/VMXCheck/Selector              0 times
+/HM/CPU0/VMXCheck/TR                    0 times
+/HM/CPU0/VMXCheck/VMX_PM                0 times
+/HM/CPU0/VMXCheck/VMX_RM                0 times
+/HM/TPR/Patch/Failed                    0 times
+/HM/TPR/Patch/Success                   0 times
+/HM/TPR/Replace/Failed                  0 times
+/HM/TPR/Replace/Success                 0 times
+/IEM/CPU0/cInstructions             33055 count
+/IEM/CPU0/cPotentialExits           51225 count
+/IEM/CPU0/cRetAspectNotImplemented        0 count
+/IEM/CPU0/cRetErrStatuses               0 count
+/IEM/CPU0/cRetInfStatuses               0 count
+/IEM/CPU0/cRetInstrNotImplemented        0 count
+/IEM/CPU0/cbWritten                 82426 bytes
+/IOM/IOWork/In                          0 times
+/IOM/IOWork/Ins                     10889 times
+/IOM/IOWork/Out                         0 times
+/IOM/IOWork/Outs                    14260 times
+/IOM/MMIO/00000000000a0000         322006 times
+/IOM/MMIO/00000000000a0000/Read-R3      543 ticks/call (     3235931 ticks,    5952 times, max     19315, min     281)
+/IOM/MMIO/00000000000a0000/Read-RZ      525 ticks/call (    20037748 ticks,   38128 times, max     28424, min     215)
+/IOM/MMIO/00000000000a0000/Read-RZtoR3     1160 times
+/IOM/MMIO/00000000000a0000/Write-R3      577 ticks/call (    22241883 ticks,   38528 times, max     95200, min     353)
+/IOM/MMIO/00000000000a0000/Write-RZ      310 ticks/call (    74444104 ticks,  239398 times, max     50075, min     175)
+/IOM/MMIO/00000000f0000000          18684 times
+/IOM/MMIO/00000000f0000000/Read-R3     1383 ticks/call (     2387527 ticks,    1726 times, max     28694, min    1119)
+/IOM/MMIO/00000000f0000000/Read-RZ      413 ticks/call (     2758890 ticks,    6669 times, max      3923, min     179)
+/IOM/MMIO/00000000f0000000/Read-RZtoR3     1725 times
+/IOM/MMIO/00000000f0000000/Write-R3     1255 ticks/call (     6237492 ticks,    4968 times, max     19877, min     857)
+/IOM/MMIO/00000000f0000000/Write-RZ      318 ticks/call (     1692238 ticks,    5321 times, max     19091, min     175)
+/IOM/MMIO/00000000f0000000/Write-RZtoR3     4968 times
+/IOM/MMIO/00000000f0804004             38 times
+/IOM/MMIO/00000000f0804004/Read-R3     2794 ticks/call (        2794 ticks,       1 times, max      2794, min    2794)
+/IOM/MMIO/00000000f0804004/Read-RZ     1939 ticks/call (       32976 ticks,      17 times, max      3862, min     277)
+/IOM/MMIO/00000000f0804004/Write-R3   607565 ticks/call (     1215131 ticks,       2 times, max   1170650, min   44481)
+/IOM/MMIO/00000000f0804004/Write-RZ     1529 ticks/call (       27530 ticks,      18 times, max      3737, min     168)
+/IOM/MMIO/00000000f0804004/Write-RZtoR3        2 times
+/IOM/MMIO/00000000f0804008             22 times
+/IOM/MMIO/00000000f0804008/Read-RZ     1854 ticks/call (        3709 ticks,       2 times, max      2212, min    1497)
+/IOM/MMIO/00000000f0804008/Write-R3  1176720 ticks/call (     2353440 ticks,       2 times, max   1240512, min 1112928)
+/IOM/MMIO/00000000f0804008/Write-RZ     1171 ticks/call (       21079 ticks,      18 times, max      2975, min     571)
+/IOM/MMIO/00000000f0804008/Write-RZtoR3        1 times
+/IOM/MMIO/00000000f080400c             47 times
+/IOM/MMIO/00000000f080400c/Read-RZ     1481 ticks/call (       26666 ticks,      18 times, max      3493, min     583)
+/IOM/MMIO/00000000f080400c/Write-R3    13557 ticks/call (       13557 ticks,       1 times, max     13557, min   13557)
+/IOM/MMIO/00000000f080400c/Write-RZ     5217 ticks/call (      146083 ticks,      28 times, max     15779, min    1100)
+/IOM/MMIO/00000000f0804010             12 times
+/IOM/MMIO/00000000f0804010/Write-R3     4810 ticks/call (        4810 ticks,       1 times, max      4810, min    4810)
+/IOM/MMIO/00000000f0804010/Write-RZ     3914 ticks/call (       43064 ticks,      11 times, max     11762, min    1578)
+/IOM/MMIO/00000000f0804014              2 times
+/IOM/MMIO/00000000f0804014/Write-R3     7631 ticks/call (        7631 ticks,       1 times, max      7631, min    7631)
+/IOM/MMIO/00000000f0804014/Write-RZ     1416 ticks/call (        1416 ticks,       1 times, max      1416, min    1416)
+/IOM/MMIO/00000000f0804018              1 times
+/IOM/MMIO/00000000f0804018/Write-R3     1366 ticks/call (        1366 ticks,       1 times, max      1366, min    1366)
+/IOM/MMIO/00000000f0804020              1 times
+/IOM/MMIO/00000000f0804020/Write-R3      969 ticks/call (         969 ticks,       1 times, max       969, min     969)
+/IOM/MMIO/00000000f0804028              1 times
+/IOM/MMIO/00000000f0804028/Write-R3     1082 ticks/call (        1082 ticks,       1 times, max      1082, min    1082)
+/IOM/MMIO/00000000f0804034              4 times
+/IOM/MMIO/00000000f0804034/Read-R3     2953 ticks/call (        2953 ticks,       1 times, max      2953, min    2953)
+/IOM/MMIO/00000000f0804034/Read-RZ     2143 ticks/call (        4287 ticks,       2 times, max      3200, min    1087)
+/IOM/MMIO/00000000f0804034/Write-RZ      878 ticks/call (         878 ticks,       1 times, max       878, min     878)
+/IOM/MMIO/00000000f0804040              1 times
+/IOM/MMIO/00000000f0804040/Write-R3     1819 ticks/call (        1819 ticks,       1 times, max      1819, min    1819)
+/IOM/MMIO/00000000f0804048              6 times
+/IOM/MMIO/00000000f0804048/Read-R3      682 ticks/call (         682 ticks,       1 times, max       682, min     682)
+/IOM/MMIO/00000000f0804048/Read-RZ      834 ticks/call (        2503 ticks,       3 times, max      1200, min     588)
+/IOM/MMIO/00000000f0804048/Write-RZ      773 ticks/call (        1547 ticks,       2 times, max      1050, min     497)
+/IOM/MMIO/00000000f080404c              2 times
+/IOM/MMIO/00000000f080404c/Read-R3     5491 ticks/call (        5491 ticks,       1 times, max      5491, min    5491)
+/IOM/MMIO/00000000f080404c/Read-RZ      421 ticks/call (         421 ticks,       1 times, max       421, min     421)
+/IOM/MMIO/00000000f0804050             13 times
+/IOM/MMIO/00000000f0804050/Read-RZ      691 ticks/call (        8293 ticks,      12 times, max      2503, min     226)
+/IOM/MMIO/00000000f0804050/Write-R3     2250 ticks/call (        2250 ticks,       1 times, max      2250, min    2250)
+/IOM/MMIO/00000000f0804054             38 times
+/IOM/MMIO/00000000f0804054/Read-RZ     1064 ticks/call (       30871 ticks,      29 times, max      4750, min     174)
+/IOM/MMIO/00000000f0804054/Write-R3    76771 ticks/call (      383858 ticks,       5 times, max    335237, min    4094)
+/IOM/MMIO/00000000f0804054/Write-RZ      633 ticks/call (        2533 ticks,       4 times, max      1460, min     130)
+/IOM/MMIO/00000000f0804054/Write-RZtoR3        4 times
+/IOM/MMIO/00000000f0804058             27 times
+/IOM/MMIO/00000000f0804058/Read-RZ      296 ticks/call (        7104 ticks,      24 times, max       900, min      96)
+/IOM/MMIO/00000000f0804058/Write-R3     3834 ticks/call (        7669 ticks,       2 times, max      3965, min    3704)
+/IOM/MMIO/00000000f0804058/Write-RZ      378 ticks/call (         378 ticks,       1 times, max       378, min     378)
+/IOM/MMIO/00000000f0804058/Write-RZtoR3        1 times
+/IOM/MMIO/00000000f080405c             27 times
+/IOM/MMIO/00000000f080405c/Read-RZ      202 ticks/call (        4848 ticks,      24 times, max       675, min      91)
+/IOM/MMIO/00000000f080405c/Write-R3     3472 ticks/call (        6944 ticks,       2 times, max      5060, min    1884)
+/IOM/MMIO/00000000f080405c/Write-RZ      120 ticks/call (         120 ticks,       1 times, max       120, min     120)
+/IOM/MMIO/00000000f080405c/Write-RZtoR3        1 times
+/IOM/MMIO/00000000f0804060             27 times
+/IOM/MMIO/00000000f0804060/Read-RZ      182 ticks/call (        4388 ticks,      24 times, max       392, min      85)
+/IOM/MMIO/00000000f0804060/Write-R3     3880 ticks/call (        7760 ticks,       2 times, max      5752, min    2008)
+/IOM/MMIO/00000000f0804060/Write-RZ      126 ticks/call (         126 ticks,       1 times, max       126, min     126)
+/IOM/MMIO/00000000f0804060/Write-RZtoR3        1 times
+/IOM/MMIO/00000000f0804064             27 times
+/IOM/MMIO/00000000f0804064/Read-RZ      191 ticks/call (        4598 ticks,      24 times, max       596, min      85)
+/IOM/MMIO/00000000f0804064/Write-R3     3512 ticks/call (        7024 ticks,       2 times, max      4470, min    2554)
+/IOM/MMIO/00000000f0804064/Write-RZ      122 ticks/call (         122 ticks,       1 times, max       122, min     122)
+/IOM/MMIO/00000000f0804064/Write-RZtoR3        1 times
+/IOM/MMIO/00000000f0804068             27 times
+/IOM/MMIO/00000000f0804068/Read-RZ      178 ticks/call (        4282 ticks,      24 times, max       382, min      78)
+/IOM/MMIO/00000000f0804068/Write-R3     4237 ticks/call (        8474 ticks,       2 times, max      6556, min    1918)
+/IOM/MMIO/00000000f0804068/Write-RZ      126 ticks/call (         126 ticks,       1 times, max       126, min     126)
+/IOM/MMIO/00000000f0804068/Write-RZtoR3        1 times
+/IOM/MMIO/00000000f080406c             27 times
+/IOM/MMIO/00000000f080406c/Read-RZ      183 ticks/call (        4402 ticks,      24 times, max       384, min      84)
+/IOM/MMIO/00000000f080406c/Write-R3     5171 ticks/call (       10343 ticks,       2 times, max      8655, min    1688)
+/IOM/MMIO/00000000f080406c/Write-RZ      120 ticks/call (         120 ticks,       1 times, max       120, min     120)
+/IOM/MMIO/00000000f080406c/Write-RZtoR3        1 times
+/IOM/MMIO/00000000f0804070             27 times
+/IOM/MMIO/00000000f0804070/Read-RZ      183 ticks/call (        4406 ticks,      24 times, max       450, min      88)
+/IOM/MMIO/00000000f0804070/Write-R3     3110 ticks/call (        6221 ticks,       2 times, max      4541, min    1680)
+/IOM/MMIO/00000000f0804070/Write-RZ      120 ticks/call (         120 ticks,       1 times, max       120, min     120)
+/IOM/MMIO/00000000f0804070/Write-RZtoR3        1 times
+/IOM/MMIO/00000000fec00000            126 times
+/IOM/MMIO/00000000fec00000/Write-R3     7018 ticks/call (        7018 ticks,       1 times, max      7018, min    7018)
+/IOM/MMIO/00000000fec00000/Write-RZ     1071 ticks/call (      133967 ticks,     125 times, max      5442, min     338)
+/IOM/MMIO/00000000fec00010            126 times
+/IOM/MMIO/00000000fec00010/Read-R3     4091 ticks/call (        4091 ticks,       1 times, max      4091, min    4091)
+/IOM/MMIO/00000000fec00010/Read-RZ      692 ticks/call (       24924 ticks,      36 times, max      1712, min     439)
+/IOM/MMIO/00000000fec00010/Write-RZ     1203 ticks/call (      107106 ticks,      89 times, max      3843, min     540)
+/IOM/MMIO/00000000fee00020              2 times
+/IOM/MMIO/00000000fee00020/Read-R3     8765 ticks/call (        8765 ticks,       1 times, max      8765, min    8765)
+/IOM/MMIO/00000000fee00020/Read-RZ     3179 ticks/call (        3179 ticks,       1 times, max      3179, min    3179)
+/IOM/MMIO/00000000fee00030              1 times
+/IOM/MMIO/00000000fee00030/Read-R3     8971 ticks/call (        8971 ticks,       1 times, max      8971, min    8971)
+/IOM/MMIO/00000000fee000b0           5033 times
+/IOM/MMIO/00000000fee000b0/Write-R3     5309 ticks/call (        5309 ticks,       1 times, max      5309, min    5309)
+/IOM/MMIO/00000000fee000b0/Write-RZ     1917 ticks/call (     9648826 ticks,    5032 times, max     56612, min     497)
+/IOM/MMIO/00000000fee000f0              4 times
+/IOM/MMIO/00000000fee000f0/Read-R3    21087 ticks/call (       21087 ticks,       1 times, max     21087, min   21087)
+/IOM/MMIO/00000000fee000f0/Read-RZ     1415 ticks/call (        1415 ticks,       1 times, max      1415, min    1415)
+/IOM/MMIO/00000000fee000f0/Write-RZ     2700 ticks/call (        5401 ticks,       2 times, max      3965, min    1436)
+/IOM/MMIO/00000000fee00110           3488 times
+/IOM/MMIO/00000000fee00110/Read-R3     5562 ticks/call (        5562 ticks,       1 times, max      5562, min    5562)
+/IOM/MMIO/00000000fee00110/Read-RZ     1079 ticks/call (     3764255 ticks,    3487 times, max     24396, min     485)
+/IOM/MMIO/00000000fee00280              1 times
+/IOM/MMIO/00000000fee00280/Write-R3     2759 ticks/call (        2759 ticks,       1 times, max      2759, min    2759)
+/IOM/MMIO/00000000fee00320           2941 times
+/IOM/MMIO/00000000fee00320/Read-R3     3235 ticks/call (        3235 ticks,       1 times, max      3235, min    3235)
+/IOM/MMIO/00000000fee00320/Write-RZ     2476 ticks/call (     7282088 ticks,    2940 times, max    118475, min     600)
+/IOM/MMIO/00000000fee00340              2 times
+/IOM/MMIO/00000000fee00340/Read-R3     3521 ticks/call (        3521 ticks,       1 times, max      3521, min    3521)
+/IOM/MMIO/00000000fee00340/Write-RZ      853 ticks/call (         853 ticks,       1 times, max       853, min     853)
+/IOM/MMIO/00000000fee00350              6 times
+/IOM/MMIO/00000000fee00350/Read-R3     8966 ticks/call (        8966 ticks,       1 times, max      8966, min    8966)
+/IOM/MMIO/00000000fee00350/Read-RZ     1619 ticks/call (        3239 ticks,       2 times, max      2433, min     806)
+/IOM/MMIO/00000000fee00350/Write-RZ     1688 ticks/call (        5065 ticks,       3 times, max      2842, min     741)
+/IOM/MMIO/00000000fee00360              6 times
+/IOM/MMIO/00000000fee00360/Read-R3     5949 ticks/call (        5949 ticks,       1 times, max      5949, min    5949)
+/IOM/MMIO/00000000fee00360/Read-RZ      460 ticks/call (         920 ticks,       2 times, max       462, min     458)
+/IOM/MMIO/00000000fee00360/Write-RZ      599 ticks/call (        1798 ticks,       3 times, max      1019, min     388)
+/IOM/MMIO/00000000fee00370              2 times
+/IOM/MMIO/00000000fee00370/Read-R3     3265 ticks/call (        3265 ticks,       1 times, max      3265, min    3265)
+/IOM/MMIO/00000000fee00370/Write-RZ      858 ticks/call (         858 ticks,       1 times, max       858, min     858)
+/IOM/MMIO/00000000fee00380           2939 times
+/IOM/MMIO/00000000fee00380/Write-R3    12127 ticks/call (       12127 ticks,       1 times, max     12127, min   12127)
+/IOM/MMIO/00000000fee00380/Write-RZ     9612 ticks/call (    28241069 ticks,    2938 times, max    139335, min    1763)
+/IOM/MMIO/00000000fee00390              1 times
+/IOM/MMIO/00000000fee00390/Read-R3    12391 ticks/call (       12391 ticks,       1 times, max     12391, min   12391)
+/IOM/MMIO/00000000fee003e0              2 times
+/IOM/MMIO/00000000fee003e0/Write-R3     7988 ticks/call (        7988 ticks,       1 times, max      7988, min    7988)
+/IOM/MMIO/00000000fee003e0/Write-RZ     2300 ticks/call (        2300 ticks,       1 times, max      2300, min    2300)
+/IOM/Ports/0002-In-R3                  24 times
+/IOM/Ports/0002-In-R3/Prof            466 ticks/call (       11190 ticks,      24 times, max      1260, min     318)
+/IOM/Ports/0002-In-RZtoR3              24 times
+/IOM/Ports/0002-Out-R3                 24 times
+/IOM/Ports/0002-Out-R3/Prof           454 ticks/call (       10905 ticks,      24 times, max       944, min     368)
+/IOM/Ports/0002-Out-RZtoR3             24 times
+/IOM/Ports/0003-In-R3                  24 times
+/IOM/Ports/0003-In-R3/Prof            358 ticks/call (        8597 ticks,      24 times, max       572, min     303)
+/IOM/Ports/0003-In-RZtoR3              24 times
+/IOM/Ports/0003-Out-R3                 24 times
+/IOM/Ports/0003-Out-R3/Prof           455 ticks/call (       10939 ticks,      24 times, max       968, min     369)
+/IOM/Ports/0003-Out-RZtoR3             24 times
+/IOM/Ports/0006-Out-R3                 64 times
+/IOM/Ports/0006-Out-R3/Prof           459 ticks/call (       29421 ticks,      64 times, max      2553, min     265)
+/IOM/Ports/0006-Out-RZtoR3             64 times
+/IOM/Ports/0007-In-R3                2152 times
+/IOM/Ports/0007-In-R3/Prof            303 ticks/call (      653240 ticks,    2152 times, max      1097, min     240)
+/IOM/Ports/0007-In-RZtoR3            2152 times
+/IOM/Ports/000a-Out-R3                  2 times
+/IOM/Ports/000a-Out-R3/Prof           903 ticks/call (        1806 ticks,       2 times, max       912, min     894)
+/IOM/Ports/000a-Out-RZtoR3              2 times
+/IOM/Ports/000d-Out-R3                  2 times
+/IOM/Ports/000d-Out-R3/Prof          3139 ticks/call (        6278 ticks,       2 times, max      4430, min    1848)
+/IOM/Ports/000d-Out-RZtoR3              2 times
+/IOM/Ports/0020-Out-RZ                636 times
+/IOM/Ports/0020-Out-RZ/Prof          4989 ticks/call (     3173106 ticks,     636 times, max     27998, min     403)
+/IOM/Ports/0021-In-RZ                   4 times
+/IOM/Ports/0021-In-RZ/Prof           2043 ticks/call (        8175 ticks,       4 times, max      2535, min     832)
+/IOM/Ports/0021-Out-RZ                 28 times
+/IOM/Ports/0021-Out-RZ/Prof           740 ticks/call (       20738 ticks,      28 times, max      2390, min     363)
+/IOM/Ports/0040-In-RZ              432082 times
+/IOM/Ports/0040-In-RZ/Prof            318 ticks/call (   137577786 ticks,  432082 times, max     41394, min     281)
+/IOM/Ports/0040-Out-R3                 14 times
+/IOM/Ports/0040-Out-R3/Prof         42991 ticks/call (      601875 ticks,      14 times, max     97150, min    4722)
+/IOM/Ports/0040-Out-RZ/Prof            93 ticks/call (        1306 ticks,      14 times, max       194, min      59)
+/IOM/Ports/0040-Out-RZtoR3             14 times
+/IOM/Ports/0042-Out-R3                  8 times
+/IOM/Ports/0042-Out-R3/Prof         10263 ticks/call (       82105 ticks,       8 times, max     15128, min    6779)
+/IOM/Ports/0042-Out-RZ/Prof           290 ticks/call (        2321 ticks,       8 times, max       500, min     228)
+/IOM/Ports/0042-Out-RZtoR3              8 times
+/IOM/Ports/0043-Out-RZ             216050 times
+/IOM/Ports/0043-Out-RZ/Prof          1012 ticks/call (   218671239 ticks,  216050 times, max     24285, min     656)
+/IOM/Ports/0060-In-R3                 168 times
+/IOM/Ports/0060-In-R3/Prof          18548 ticks/call (     3116198 ticks,     168 times, max     86713, min    8590)
+/IOM/Ports/0060-In-RZtoR3             168 times
+/IOM/Ports/0060-Out-R3                103 times
+/IOM/Ports/0060-Out-R3/Prof         25783 ticks/call (     2655729 ticks,     103 times, max    248446, min    6884)
+/IOM/Ports/0060-Out-RZtoR3            103 times
+/IOM/Ports/0061-In-R3              853273 times
+/IOM/Ports/0061-In-R3/Prof           4402 ticks/call (  3756547447 ticks,  853273 times, max     98500, min    3288)
+/IOM/Ports/0061-In-RZtoR3          853273 times
+/IOM/Ports/0061-Out-R3                  2 times
+/IOM/Ports/0061-Out-R3/Prof         10299 ticks/call (       20598 ticks,       2 times, max     14128, min    6470)
+/IOM/Ports/0061-Out-RZtoR3              2 times
+/IOM/Ports/0064-In-R3                1146 times
+/IOM/Ports/0064-In-R3/Prof           1457 ticks/call (     1670865 ticks,    1146 times, max      6638, min     312)
+/IOM/Ports/0064-In-RZtoR3            1146 times
+/IOM/Ports/0064-Out-R3                100 times
+/IOM/Ports/0064-Out-R3/Prof          1859 ticks/call (      185920 ticks,     100 times, max     22386, min     400)
+/IOM/Ports/0064-Out-RZtoR3            100 times
+/IOM/Ports/0070-Out-RZ               9807 times
+/IOM/Ports/0070-Out-RZ/Prof           203 ticks/call (     1991507 ticks,    9807 times, max      5818, min      18)
+/IOM/Ports/0071-In-RZ                9803 times
+/IOM/Ports/0071-In-RZ/Prof             73 ticks/call (      723797 ticks,    9803 times, max      1644, min      39)
+/IOM/Ports/0071-Out-RZ                  4 times
+/IOM/Ports/0071-Out-RZ/Prof          2038 ticks/call (        8153 ticks,       4 times, max      5385, min     233)
+/IOM/Ports/0080-Out-R3                140 times
+/IOM/Ports/0080-Out-R3/Prof           432 ticks/call (       60594 ticks,     140 times, max      1597, min     263)
+/IOM/Ports/0080-Out-RZtoR3            140 times
+/IOM/Ports/0084-In-R3                  24 times
+/IOM/Ports/0084-In-R3/Prof            475 ticks/call (       11417 ticks,      24 times, max      2004, min     239)
+/IOM/Ports/0084-In-RZtoR3              24 times
+/IOM/Ports/0092-In-R3                   2 times
+/IOM/Ports/0092-In-R3/Prof           4122 ticks/call (        8244 ticks,       2 times, max      5359, min    2885)
+/IOM/Ports/0092-In-RZtoR3               2 times
+/IOM/Ports/0092-Out-R3                  2 times
+/IOM/Ports/0092-Out-R3/Prof         39782 ticks/call (       79565 ticks,       2 times, max     52338, min   27227)
+/IOM/Ports/0092-Out-RZtoR3              2 times
+/IOM/Ports/00a0-Out-RZ                  8 times
+/IOM/Ports/00a0-Out-RZ/Prof           605 ticks/call (        4846 ticks,       8 times, max       768, min     338)
+/IOM/Ports/00a1-In-RZ                   4 times
+/IOM/Ports/00a1-In-RZ/Prof            396 ticks/call (        1587 ticks,       4 times, max       421, min     333)
+/IOM/Ports/00a1-Out-RZ                 28 times
+/IOM/Ports/00a1-Out-RZ/Prof           697 ticks/call (       19526 ticks,      28 times, max      2653, min     333)
+/IOM/Ports/00d4-Out-R3                  2 times
+/IOM/Ports/00d4-Out-R3/Prof           640 ticks/call (        1280 ticks,       2 times, max       895, min     385)
+/IOM/Ports/00d4-Out-RZtoR3              2 times
+/IOM/Ports/00d6-Out-R3                  2 times
+/IOM/Ports/00d6-Out-R3/Prof          1184 ticks/call (        2368 ticks,       2 times, max      1620, min     748)
+/IOM/Ports/00d6-Out-RZtoR3              2 times
+/IOM/Ports/00da-Out-R3                  2 times
+/IOM/Ports/00da-Out-R3/Prof           948 ticks/call (        1896 ticks,       2 times, max      1260, min     636)
+/IOM/Ports/00da-Out-RZtoR3              2 times
+/IOM/Ports/0172-In-RZ/Prof            756 ticks/call (        3027 ticks,       4 times, max       897, min     503)
+/IOM/Ports/0172-Out-RZ                 12 times
+/IOM/Ports/0172-Out-RZ/Prof           476 ticks/call (        5722 ticks,      12 times, max       697, min     347)
+/IOM/Ports/0173-In-RZ/Prof            421 ticks/call (        1687 ticks,       4 times, max       506, min     350)
+/IOM/Ports/0173-Out-RZ                 12 times
+/IOM/Ports/0173-Out-RZ/Prof           467 ticks/call (        5612 ticks,      12 times, max       606, min     344)
+/IOM/Ports/0176-Out-RZ                  6 times
+/IOM/Ports/0176-Out-RZ/Prof           791 ticks/call (        4747 ticks,       6 times, max      1706, min     347)
+/IOM/Ports/0177-In-RZ/Prof            574 ticks/call (        1149 ticks,       2 times, max       590, min     559)
+/IOM/Ports/01ce-Out-RZ                 48 times
+/IOM/Ports/01ce-Out-RZ/Prof           274 ticks/call (       13154 ticks,      48 times, max      1177, min      33)
+/IOM/Ports/01cf-In-RZ                  42 times
+/IOM/Ports/01cf-In-RZ/Prof            301 ticks/call (       12658 ticks,      42 times, max       974, min     175)
+/IOM/Ports/01cf-Out-R3                  2 times
+/IOM/Ports/01cf-Out-R3/Prof          5331 ticks/call (       10662 ticks,       2 times, max      9318, min    1344)
+/IOM/Ports/01cf-Out-RZ                  4 times
+/IOM/Ports/01cf-Out-RZ/Prof           455 ticks/call (        2732 ticks,       6 times, max      1165, min     115)
+/IOM/Ports/01cf-Out-RZtoR3              2 times
+/IOM/Ports/01f0-In-R3            12202240 times
+/IOM/Ports/01f0-In-R3/Prof           1059 ticks/call ( 12933536987 ticks, 12202240 times, max    203117, min     869)
+/IOM/Ports/01f0-In-RZtoR3           10889 times
+/IOM/Ports/01f0-Out-R3              85560 times
+/IOM/Ports/01f0-Out-R3/Prof          3115 ticks/call (   266580887 ticks,   85560 times, max    153546, min     856)
+/IOM/Ports/01f0-Out-RZtoR3           3385 times
+/IOM/Ports/01f1-In-RZ                   3 times
+/IOM/Ports/01f1-In-RZ/Prof           1034 ticks/call (        3103 ticks,       3 times, max      2369, min     343)
+/IOM/Ports/01f1-Out-RZ               3429 times
+/IOM/Ports/01f1-Out-RZ/Prof           471 ticks/call (     1617171 ticks,    3429 times, max      7300, min     366)
+/IOM/Ports/01f2-In-RZ                3422 times
+/IOM/Ports/01f2-In-RZ/Prof            847 ticks/call (     2901206 ticks,    3422 times, max    206338, min     347)
+/IOM/Ports/01f2-Out-RZ                 56 times
+/IOM/Ports/01f2-Out-RZ/Prof           362 ticks/call (       20305 ticks,      56 times, max       515, min     313)
+/IOM/Ports/01f3-In-RZ                  12 times
+/IOM/Ports/01f3-In-RZ/Prof           4943 ticks/call (       59326 ticks,      12 times, max     54185, min     335)
+/IOM/Ports/01f3-Out-RZ                 56 times
+/IOM/Ports/01f3-Out-RZ/Prof           352 ticks/call (       19713 ticks,      56 times, max       385, min     312)
+/IOM/Ports/01f4-In-RZ               10914 times
+/IOM/Ports/01f4-In-RZ/Prof            361 ticks/call (     3950486 ticks,   10914 times, max     18337, min     313)
+/IOM/Ports/01f4-Out-RZ              14304 times
+/IOM/Ports/01f4-Out-RZ/Prof           516 ticks/call (     7389330 ticks,   14304 times, max     29173, min     322)
+/IOM/Ports/01f5-In-RZ               10914 times
+/IOM/Ports/01f5-In-RZ/Prof            498 ticks/call (     5435674 ticks,   10914 times, max     20822, min     340)
+/IOM/Ports/01f5-Out-RZ              14304 times
+/IOM/Ports/01f5-Out-RZ/Prof           353 ticks/call (     5050768 ticks,   14304 times, max     18468, min     309)
+/IOM/Ports/01f6-Out-RZ              14361 times
+/IOM/Ports/01f6-Out-RZ/Prof           454 ticks/call (     6532769 ticks,   14361 times, max     72074, min     310)
+/IOM/Ports/01f7-In-R3                 745 times
+/IOM/Ports/01f7-In-R3/Prof           6680 ticks/call (     4976938 ticks,     745 times, max     82662, min    3118)
+/IOM/Ports/01f7-In-RZ              233821 times
+/IOM/Ports/01f7-In-RZ/Prof           3663 ticks/call (   859404034 ticks,  234566 times, max    331109, min     300)
+/IOM/Ports/01f7-In-RZtoR3             745 times
+/IOM/Ports/01f7-Out-R3              14304 times
+/IOM/Ports/01f7-Out-R3/Prof         17900 ticks/call (   256052059 ticks,   14304 times, max    115925, min   11072)
+/IOM/Ports/01f7-Out-RZ/Prof           361 ticks/call (     5164524 ticks,   14304 times, max     50706, min     287)
+/IOM/Ports/01f7-Out-RZtoR3          14304 times
+/IOM/Ports/0376-Out-RZ                  8 times
+/IOM/Ports/0376-Out-RZ/Prof           706 ticks/call (        5649 ticks,       8 times, max      1628, min     362)
+/IOM/Ports/03b6-In-R3                3854 times
+/IOM/Ports/03b6-In-R3/Prof            393 ticks/call (     1517054 ticks,    3854 times, max      1524, min     303)
+/IOM/Ports/03b6-In-RZtoR3            3854 times
+/IOM/Ports/03b6-Out-R3               3854 times
+/IOM/Ports/03b6-Out-R3/Prof           293 ticks/call (     1132229 ticks,    3854 times, max      2543, min     247)
+/IOM/Ports/03b6-Out-RZtoR3           3854 times
+/IOM/Ports/03b8-In-R3                  10 times
+/IOM/Ports/03b8-In-R3/Prof            502 ticks/call (        5028 ticks,      10 times, max      1272, min     319)
+/IOM/Ports/03b8-In-RZtoR3              10 times
+/IOM/Ports/03b8-Out-R3                 10 times
+/IOM/Ports/03b8-Out-R3/Prof           397 ticks/call (        3978 ticks,      10 times, max      1087, min     237)
+/IOM/Ports/03b8-Out-RZtoR3             10 times
+/IOM/Ports/03c0-Out-RZ                214 times
+/IOM/Ports/03c0-Out-RZ/Prof           133 ticks/call (       28629 ticks,     214 times, max       756, min      68)
+/IOM/Ports/03c1-In-RZ                  23 times
+/IOM/Ports/03c1-In-RZ/Prof            101 ticks/call (        2329 ticks,      23 times, max       188, min      93)
+/IOM/Ports/03c2-Out-RZ                  6 times
+/IOM/Ports/03c2-Out-RZ/Prof           686 ticks/call (        4118 ticks,       6 times, max      1937, min     128)
+/IOM/Ports/03c4-Out-RZ                 87 times
+/IOM/Ports/03c4-Out-RZ/Prof           295 ticks/call (       25729 ticks,      87 times, max      2356, min      69)
+/IOM/Ports/03c5-In-RZ                  10 times
+/IOM/Ports/03c5-In-RZ/Prof            278 ticks/call (        2784 ticks,      10 times, max       803, min     100)
+/IOM/Ports/03c5-Out-RZ                 29 times
+/IOM/Ports/03c5-Out-RZ/Prof           261 ticks/call (        7574 ticks,      29 times, max       800, min     128)
+/IOM/Ports/03c6-Out-RZ                  4 times
+/IOM/Ports/03c6-Out-RZ/Prof           107 ticks/call (         428 ticks,       4 times, max       134, min      97)
+/IOM/Ports/03c7-Out-RZ                  1 times
+/IOM/Ports/03c7-Out-RZ/Prof           131 ticks/call (         131 ticks,       1 times, max       131, min     131)
+/IOM/Ports/03c8-Out-RZ                  4 times
+/IOM/Ports/03c8-Out-RZ/Prof           114 ticks/call (         459 ticks,       4 times, max       128, min     106)
+/IOM/Ports/03c9-In-RZ                 768 times
+/IOM/Ports/03c9-In-RZ/Prof             80 ticks/call (       62083 ticks,     768 times, max       406, min      68)
+/IOM/Ports/03c9-Out-RZ               3072 times
+/IOM/Ports/03c9-Out-RZ/Prof           112 ticks/call (      345945 ticks,    3072 times, max      2281, min      66)
+/IOM/Ports/03cc-In-RZ                   5 times
+/IOM/Ports/03cc-In-RZ/Prof            596 ticks/call (        2984 ticks,       5 times, max       832, min     291)
+/IOM/Ports/03ce-Out-RZ                 96 times
+/IOM/Ports/03ce-Out-RZ/Prof           190 ticks/call (       18335 ticks,      96 times, max      1015, min      65)
+/IOM/Ports/03cf-In-RZ                  18 times
+/IOM/Ports/03cf-In-RZ/Prof            159 ticks/call (        2863 ticks,      18 times, max       409, min      93)
+/IOM/Ports/03cf-Out-RZ                 36 times
+/IOM/Ports/03cf-Out-RZ/Prof           158 ticks/call (        5690 ticks,      36 times, max       350, min     125)
+/IOM/Ports/03d4-In-RZ                   1 times
+/IOM/Ports/03d4-In-RZ/Prof            772 ticks/call (         772 ticks,       1 times, max       772, min     772)
+/IOM/Ports/03d4-Out-RZ              51164 times
+/IOM/Ports/03d4-Out-RZ/Prof           245 ticks/call (    12560601 ticks,   51164 times, max     18847, min      65)
+/IOM/Ports/03d5-In-RZ                  27 times
+/IOM/Ports/03d5-In-RZ/Prof            137 ticks/call (        3702 ticks,      27 times, max      1112, min      94)
+/IOM/Ports/03d5-Out-RZ              51132 times
+/IOM/Ports/03d5-Out-RZ/Prof           146 ticks/call (     7481222 ticks,   51132 times, max     12684, min      94)
+/IOM/Ports/03da-In-RZ                  48 times
+/IOM/Ports/03da-In-RZ/Prof            236 ticks/call (       11366 ticks,      48 times, max      1347, min      69)
+/IOM/Ports/03f6-In-RZ               10660 times
+/IOM/Ports/03f6-In-RZ/Prof            801 ticks/call (     8541634 ticks,   10660 times, max    229454, min     313)
+/IOM/Ports/03f6-Out-R3                 10 times
+/IOM/Ports/03f6-Out-R3/Prof         58735 ticks/call (      587354 ticks,      10 times, max    140724, min    6797)
+/IOM/Ports/03f6-Out-RZ              25195 times
+/IOM/Ports/03f6-Out-RZ/Prof           477 ticks/call (    12033938 ticks,   25205 times, max     42252, min     303)
+/IOM/Ports/03f6-Out-RZtoR3             10 times
+/IOM/Ports/04d0-Out-R3                  2 times
+/IOM/Ports/04d0-Out-R3/Prof          9687 ticks/call (       19375 ticks,       2 times, max     12900, min    6475)
+/IOM/Ports/04d0-Out-RZ                  2 times
+/IOM/Ports/04d0-Out-RZ/Prof          1428 ticks/call (        2856 ticks,       2 times, max      1950, min     906)
+/IOM/Ports/04d1-In-RZ                   8 times
+/IOM/Ports/04d1-In-RZ/Prof            898 ticks/call (        7186 ticks,       8 times, max      1466, min     530)
+/IOM/Ports/04d1-Out-R3                  2 times
+/IOM/Ports/04d1-Out-R3/Prof          3181 ticks/call (        6363 ticks,       2 times, max      4325, min    2038)
+/IOM/Ports/04d1-Out-RZ                 10 times
+/IOM/Ports/04d1-Out-RZ/Prof           444 ticks/call (        4444 ticks,      10 times, max       719, min     312)
+/IOM/Ports/0504-Out-R3                410 times
+/IOM/Ports/0504-Out-R3/Prof          1329 ticks/call (      544966 ticks,     410 times, max    104036, min     240)
+/IOM/Ports/0504-Out-RZtoR3            410 times
+/IOM/Ports/0cf8-Out-RZ              50952 times
+/IOM/Ports/0cf8-Out-RZ/Prof           324 ticks/call (    16516185 ticks,   50952 times, max     24788, min     284)
+/IOM/Ports/0cfc-In-R3                 564 times
+/IOM/Ports/0cfc-In-R3/Prof           2882 ticks/call (     1625724 ticks,     564 times, max     19525, min    2084)
+/IOM/Ports/0cfc-In-RZ               49573 times
+/IOM/Ports/0cfc-In-RZ/Prof            310 ticks/call (    15589056 ticks,   50137 times, max     19806, min     281)
+/IOM/Ports/0cfc-In-RZtoR3             564 times
+/IOM/Ports/0cfc-Out-R3                324 times
+/IOM/Ports/0cfc-Out-R3/Prof         93441 ticks/call (    30274951 ticks,     324 times, max   2386456, min    2266)
+/IOM/Ports/0cfc-Out-RZ/Prof           625 ticks/call (      202666 ticks,     324 times, max      1910, min     422)
+/IOM/Ports/0cfc-Out-RZtoR3            324 times
+/IOM/Ports/0cfd-In-R3                 106 times
+/IOM/Ports/0cfd-In-R3/Prof           2787 ticks/call (      295489 ticks,     106 times, max      5665, min    2118)
+/IOM/Ports/0cfd-In-RZ/Prof            449 ticks/call (       47620 ticks,     106 times, max       794, min     351)
+/IOM/Ports/0cfd-In-RZtoR3             106 times
+/IOM/Ports/0cfd-Out-R3                 31 times
+/IOM/Ports/0cfd-Out-R3/Prof          2774 ticks/call (       86014 ticks,      31 times, max      4681, min    2391)
+/IOM/Ports/0cfd-Out-RZ/Prof           516 ticks/call (       16008 ticks,      31 times, max      1150, min     442)
+/IOM/Ports/0cfd-Out-RZtoR3             31 times
+/IOM/Ports/0cfe-In-R3                 214 times
+/IOM/Ports/0cfe-In-R3/Prof           2753 ticks/call (      589277 ticks,     214 times, max      9312, min    2084)
+/IOM/Ports/0cfe-In-RZ                  72 times
+/IOM/Ports/0cfe-In-RZ/Prof            436 ticks/call (      124907 ticks,     286 times, max      1555, min     281)
+/IOM/Ports/0cfe-In-RZtoR3             214 times
+/IOM/Ports/0cfe-Out-R3                 20 times
+/IOM/Ports/0cfe-Out-R3/Prof          2959 ticks/call (       59186 ticks,      20 times, max      6747, min    2253)
+/IOM/Ports/0cfe-Out-RZ/Prof           637 ticks/call (       12749 ticks,      20 times, max      1622, min     447)
+/IOM/Ports/0cfe-Out-RZtoR3             20 times
+/IOM/Ports/0cff-In-R3                  62 times
+/IOM/Ports/0cff-In-R3/Prof           2648 ticks/call (      164216 ticks,      62 times, max      5918, min    2144)
+/IOM/Ports/0cff-In-RZ/Prof            446 ticks/call (       27673 ticks,      62 times, max      1091, min     360)
+/IOM/Ports/0cff-In-RZtoR3              62 times
+/IOM/Ports/0cff-Out-R3                 12 times
+/IOM/Ports/0cff-Out-R3/Prof          2710 ticks/call (       32531 ticks,      12 times, max      3536, min    2357)
+/IOM/Ports/0cff-Out-RZ/Prof           523 ticks/call (        6285 ticks,      12 times, max       816, min     438)
+/IOM/Ports/0cff-Out-RZtoR3             12 times
+/IOM/Ports/3000-Out-R3                 16 times
+/IOM/Ports/3000-Out-R3/Prof           436 ticks/call (        6977 ticks,      16 times, max      1144, min     321)
+/IOM/Ports/3000-Out-RZtoR3             16 times
+/IOM/Ports/3001-Out-R3                287 times
+/IOM/Ports/3001-Out-R3/Prof           300 ticks/call (       86321 ticks,     287 times, max      2162, min     229)
+/IOM/Ports/3001-Out-RZtoR3            287 times
+/IOM/Ports/4000-Out-R3                  2 times
+/IOM/Ports/4000-Out-R3/Prof          3879 ticks/call (        7759 ticks,       2 times, max      4050, min    3709)
+/IOM/Ports/4000-Out-RZtoR3              2 times
+/IOM/Ports/4002-In-R3                  11 times
+/IOM/Ports/4002-In-R3/Prof           1900 ticks/call (       20901 ticks,      11 times, max      2309, min    1731)
+/IOM/Ports/4002-In-RZtoR3              11 times
+/IOM/Ports/4002-Out-R3                  8 times
+/IOM/Ports/4002-Out-R3/Prof          2260 ticks/call (       18081 ticks,       8 times, max      3437, min    1913)
+/IOM/Ports/4002-Out-RZtoR3              8 times
+/IOM/Ports/4004-In-R3                   3 times
+/IOM/Ports/4004-In-R3/Prof           4326 ticks/call (       12978 ticks,       3 times, max      9219, min    1747)
+/IOM/Ports/4004-In-RZtoR3               3 times
+/IOM/Ports/4008-In-RZ             1394535 times
+/IOM/Ports/4008-In-RZ/Prof           1053 ticks/call (  1469261161 ticks, 1394535 times, max    130662, min     931)
+/IOM/Ports/4020-Out-R3                  3 times
+/IOM/Ports/4020-Out-R3/Prof          4939 ticks/call (       14818 ticks,       3 times, max     10106, min    2112)
+/IOM/Ports/4020-Out-RZtoR3              3 times
+/IOM/Ports/4021-In-R3                   2 times
+/IOM/Ports/4021-In-R3/Prof           2019 ticks/call (        4038 ticks,       2 times, max      2323, min    1715)
+/IOM/Ports/4021-In-RZtoR3               2 times
+/IOM/Ports/4021-Out-R3                  3 times
+/IOM/Ports/4021-Out-R3/Prof          2557 ticks/call (        7672 ticks,       3 times, max      2869, min    1962)
+/IOM/Ports/4021-Out-RZtoR3              3 times
+/IOM/Ports/4040-Out-R3                 30 times
+/IOM/Ports/4040-Out-R3/Prof          2618 ticks/call (       78561 ticks,      30 times, max      3675, min    2194)
+/IOM/Ports/4040-Out-RZtoR3             30 times
+/IOM/Ports/4044-In-R3                  30 times
+/IOM/Ports/4044-In-R3/Prof           4270 ticks/call (      128119 ticks,      30 times, max     16997, min    1847)
+/IOM/Ports/4044-In-RZtoR3              30 times
+/IOM/Ports/4048-Out-R3                151 times
+/IOM/Ports/4048-Out-R3/Prof          2514 ticks/call (      379737 ticks,     151 times, max      8432, min    1972)
+/IOM/Ports/4048-Out-RZtoR3            151 times
+/IOM/Ports/404c-In-R3                 150 times
+/IOM/Ports/404c-In-R3/Prof           2016 ticks/call (      302443 ticks,     150 times, max      3100, min    1836)
+/IOM/Ports/404c-In-RZtoR3             150 times
+/IOM/Ports/404c-Out-R3                  1 times
+/IOM/Ports/404c-Out-R3/Prof          3450 ticks/call (        3450 ticks,       1 times, max      3450, min    3450)
+/IOM/Ports/404c-Out-RZtoR3              1 times
+/IOM/Ports/4050-Out-R3/Prof        125013 ticks/call (      125013 ticks,       1 times, max    125013, min  125013)
+/IOM/Ports/4050-Out-RZtoR3              1 times
+/IOM/Ports/442e-Out-R3                  1 times
+/IOM/Ports/442e-Out-R3/Prof          3000 ticks/call (        3000 ticks,       1 times, max      3000, min    3000)
+/IOM/Ports/442e-Out-RZtoR3              1 times
+/IOM/Ports/d000-In-RZ                6787 times
+/IOM/Ports/d000-In-RZ/Prof            788 ticks/call (     5354408 ticks,    6787 times, max     90195, min     336)
+/IOM/Ports/d000-Out-R3               3393 times
+/IOM/Ports/d000-Out-R3/Prof         12988 ticks/call (    44069550 ticks,    3393 times, max    173990, min    2020)
+/IOM/Ports/d000-Out-RZ               3394 times
+/IOM/Ports/d000-Out-RZ/Prof           799 ticks/call (     5426415 ticks,    6787 times, max    129673, min     303)
+/IOM/Ports/d000-Out-RZtoR3           3393 times
+/IOM/Ports/d002-In-RZ                6786 times
+/IOM/Ports/d002-In-RZ/Prof           1312 ticks/call (     8906446 ticks,    6786 times, max    175030, min     315)
+/IOM/Ports/d002-Out-RZ               6787 times
+/IOM/Ports/d002-Out-RZ/Prof           885 ticks/call (     6008726 ticks,    6787 times, max    130340, min     321)
+/IOM/Ports/d004-Out-RZ               3393 times
+/IOM/Ports/d004-Out-RZ/Prof           941 ticks/call (     3195614 ticks,    3393 times, max    121993, min     344)
+/IOM/Ports/d008-In-RZ                   1 times
+/IOM/Ports/d008-In-RZ/Prof           1222 ticks/call (        1222 ticks,       1 times, max      1222, min    1222)
+/IOM/Ports/d008-Out-RZ                  1 times
+/IOM/Ports/d008-Out-RZ/Prof           925 ticks/call (         925 ticks,       1 times, max       925, min     925)
+/IOM/Ports/d00a-Out-RZ                  1 times
+/IOM/Ports/d00a-Out-RZ/Prof           378 ticks/call (         378 ticks,       1 times, max       378, min     378)
+/IOM/Ports/d010-Out-RZ                  2 times
+/IOM/Ports/d010-Out-RZ/Prof          1275 ticks/call (        2550 ticks,       2 times, max      1634, min     916)
+/IOM/Ports/d014-Out-R3                  2 times
+/IOM/Ports/d014-Out-R3/Prof         13009 ticks/call (       26019 ticks,       2 times, max     17475, min    8544)
+/IOM/Ports/d014-Out-RZ/Prof          1020 ticks/call (        2041 ticks,       2 times, max      1300, min     741)
+/IOM/Ports/d014-Out-RZtoR3              2 times
+/IOM/Ports/d100-In-R3                   3 times
+/IOM/Ports/d100-In-R3/Prof            479 ticks/call (        1437 ticks,       3 times, max       553, min     400)
+/IOM/Ports/d100-In-RZtoR3               3 times
+/IOM/Ports/d100-Out-R3                  1 times
+/IOM/Ports/d100-Out-R3/Prof         74850 ticks/call (       74850 ticks,       1 times, max     74850, min   74850)
+/IOM/Ports/d100-Out-RZtoR3              1 times
+/IOM/Ports/d102-In-R3                   3 times
+/IOM/Ports/d102-In-R3/Prof            530 ticks/call (        1591 ticks,       3 times, max       566, min     475)
+/IOM/Ports/d102-In-RZtoR3               3 times
+/IOM/Ports/d102-Out-R3                  4 times
+/IOM/Ports/d102-Out-R3/Prof          1022 ticks/call (        4090 ticks,       4 times, max      2150, min     628)
+/IOM/Ports/d102-Out-RZtoR3              4 times
+/IOM/Ports/d104-In-R3                   1 times
+/IOM/Ports/d104-In-R3/Prof            531 ticks/call (         531 ticks,       1 times, max       531, min     531)
+/IOM/Ports/d104-In-RZtoR3               1 times
+/IOM/Ports/d106-In-R3                   3 times
+/IOM/Ports/d106-In-R3/Prof            467 ticks/call (        1403 ticks,       3 times, max       475, min     456)
+/IOM/Ports/d106-In-RZtoR3               3 times
+/IOM/Ports/d106-Out-R3                  4 times
+/IOM/Ports/d106-Out-R3/Prof           415 ticks/call (        1661 ticks,       4 times, max       481, min     381)
+/IOM/Ports/d106-Out-RZtoR3              4 times
+/IOM/Ports/d10a-In-R3                   3 times
+/IOM/Ports/d10a-In-R3/Prof            471 ticks/call (        1413 ticks,       3 times, max       491, min     447)
+/IOM/Ports/d10a-In-RZtoR3               3 times
+/IOM/Ports/d10a-Out-R3                  4 times
+/IOM/Ports/d10a-Out-R3/Prof           614 ticks/call (        2456 ticks,       4 times, max       925, min     381)
+/IOM/Ports/d10a-Out-RZtoR3              4 times
+/IOM/Ports/d10c-In-R3                   3 times
+/IOM/Ports/d10c-In-R3/Prof            502 ticks/call (        1506 ticks,       3 times, max       543, min     475)
+/IOM/Ports/d10c-In-RZtoR3               3 times
+/IOM/Ports/d10c-Out-R3                  4 times
+/IOM/Ports/d10c-Out-R3/Prof           428 ticks/call (        1713 ticks,       4 times, max       506, min     397)
+/IOM/Ports/d10c-Out-RZtoR3              4 times
+/IOM/Ports/d10e-In-R3                   7 times
+/IOM/Ports/d10e-In-R3/Prof            476 ticks/call (        3334 ticks,       7 times, max       494, min     431)
+/IOM/Ports/d10e-In-RZtoR3               7 times
+/IOM/Ports/d10e-Out-R3                  7 times
+/IOM/Ports/d10e-Out-R3/Prof           410 ticks/call (        2876 ticks,       7 times, max       497, min     356)
+/IOM/Ports/d10e-Out-RZtoR3              7 times
+/IOM/Ports/d110-In-R3                   3 times
+/IOM/Ports/d110-In-R3/Prof            466 ticks/call (        1400 ticks,       3 times, max       475, min     453)
+/IOM/Ports/d110-In-RZtoR3               3 times
+/IOM/Ports/d110-Out-R3                  4 times
+/IOM/Ports/d110-Out-R3/Prof           656 ticks/call (        2625 ticks,       4 times, max       738, min     625)
+/IOM/Ports/d110-Out-RZtoR3              4 times
+/IOM/Ports/d112-In-R3                   3 times
+/IOM/Ports/d112-In-R3/Prof            466 ticks/call (        1398 ticks,       3 times, max       475, min     454)
+/IOM/Ports/d112-In-RZtoR3               3 times
+/IOM/Ports/d112-Out-R3                  4 times
+/IOM/Ports/d112-Out-R3/Prof           401 ticks/call (        1607 ticks,       4 times, max       438, min     366)
+/IOM/Ports/d112-Out-RZtoR3              4 times
+/IOM/Ports/d114-In-R3                   3 times
+/IOM/Ports/d114-In-R3/Prof            487 ticks/call (        1462 ticks,       3 times, max       537, min     459)
+/IOM/Ports/d114-In-RZtoR3               3 times
+/IOM/Ports/d114-Out-R3                  4 times
+/IOM/Ports/d114-Out-R3/Prof           422 ticks/call (        1688 ticks,       4 times, max       491, min     375)
+/IOM/Ports/d114-Out-RZtoR3              4 times
+/IOM/Ports/d116-In-R3                   3 times
+/IOM/Ports/d116-In-R3/Prof            496 ticks/call (        1488 ticks,       3 times, max       512, min     485)
+/IOM/Ports/d116-In-RZtoR3               3 times
+/IOM/Ports/d116-Out-R3                  4 times
+/IOM/Ports/d116-Out-R3/Prof           426 ticks/call (        1706 ticks,       4 times, max       516, min     362)
+/IOM/Ports/d116-Out-RZtoR3              4 times
+/IOM/Ports/d118-In-R3                   3 times
+/IOM/Ports/d118-In-R3/Prof            456 ticks/call (        1369 ticks,       3 times, max       463, min     447)
+/IOM/Ports/d118-In-RZtoR3               3 times
+/IOM/Ports/d118-Out-R3                  4 times
+/IOM/Ports/d118-Out-R3/Prof           700 ticks/call (        2802 ticks,       4 times, max       881, min     631)
+/IOM/Ports/d118-Out-RZtoR3              4 times
+/IOM/Ports/d11a-Out-R3                  1 times
+/IOM/Ports/d11a-Out-R3/Prof         69606 ticks/call (       69606 ticks,       1 times, max     69606, min   69606)
+/IOM/Ports/d11a-Out-RZtoR3              1 times
+/IOM/Ports/d11c-In-R3                   3 times
+/IOM/Ports/d11c-In-R3/Prof            483 ticks/call (        1449 ticks,       3 times, max       493, min     469)
+/IOM/Ports/d11c-In-RZtoR3               3 times
+/IOM/Ports/d11c-Out-R3                  4 times
+/IOM/Ports/d11c-Out-R3/Prof           415 ticks/call (        1660 ticks,       4 times, max       450, min     397)
+/IOM/Ports/d11c-Out-RZtoR3              4 times
+/IOM/Ports/d126-In-R3                   4 times
+/IOM/Ports/d126-In-R3/Prof            832 ticks/call (        3331 ticks,       4 times, max      1725, min     454)
+/IOM/Ports/d126-In-RZtoR3               4 times
+/IOM/Ports/d126-Out-R3                  4 times
+/IOM/Ports/d126-Out-R3/Prof           897 ticks/call (        3588 ticks,       4 times, max      1638, min     306)
+/IOM/Ports/d126-Out-RZtoR3              4 times
+/IOM/Ports/d128-In-R3                   1 times
+/IOM/Ports/d128-In-R3/Prof            456 ticks/call (         456 ticks,       1 times, max       456, min     456)
+/IOM/Ports/d128-In-RZtoR3               1 times
+/IOM/Ports/d12a-In-R3                   2 times
+/IOM/Ports/d12a-In-R3/Prof            449 ticks/call (         899 ticks,       2 times, max       484, min     415)
+/IOM/Ports/d12a-In-RZtoR3               2 times
+/IOM/Ports/d12a-Out-R3                  1 times
+/IOM/Ports/d12a-Out-R3/Prof           891 ticks/call (         891 ticks,       1 times, max       891, min     891)
+/IOM/Ports/d12a-Out-RZtoR3              1 times
+/IOM/Ports/d12c-In-R3                   2 times
+/IOM/Ports/d12c-In-R3/Prof            822 ticks/call (        1644 ticks,       2 times, max      1044, min     600)
+/IOM/Ports/d12c-In-RZtoR3               2 times
+/IOM/Ports/d12c-Out-R3                  2 times
+/IOM/Ports/d12c-Out-R3/Prof          4144 ticks/call (        8288 ticks,       2 times, max      5900, min    2388)
+/IOM/Ports/d12c-Out-RZtoR3              2 times
+/IOM/Ports/d132-In-R3                   2 times
+/IOM/Ports/d132-In-R3/Prof            660 ticks/call (        1320 ticks,       2 times, max       720, min     600)
+/IOM/Ports/d132-In-RZtoR3               2 times
+/IOM/Ports/d132-Out-R3                  2 times
+/IOM/Ports/d132-Out-R3/Prof          2496 ticks/call (        4992 ticks,       2 times, max      3592, min    1400)
+/IOM/Ports/d132-Out-RZtoR3              2 times
+/IOM/Ports/d17c-In-R3                   1 times
+/IOM/Ports/d17c-In-R3/Prof            479 ticks/call (         479 ticks,       1 times, max       479, min     479)
+/IOM/Ports/d17c-In-RZtoR3               1 times
+/IOM/Ports/d17e-In-R3                   1 times
+/IOM/Ports/d17e-In-R3/Prof            462 ticks/call (         462 ticks,       1 times, max       462, min     462)
+/IOM/Ports/d17e-In-RZtoR3               1 times
+/IOM/Ports/d200-Out-R3                  2 times
+/IOM/Ports/d200-Out-R3/Prof           639 ticks/call (        1278 ticks,       2 times, max       728, min     550)
+/IOM/Ports/d200-Out-RZtoR3              2 times
+/IOM/Ports/d204-In-R3                2548 times
+/IOM/Ports/d204-In-R3/Prof            600 ticks/call (     1531010 ticks,    2548 times, max     40330, min     396)
+/IOM/Ports/d204-In-RZtoR3            2548 times
+/IOM/Ports/d205-Out-R3                  3 times
+/IOM/Ports/d205-Out-R3/Prof           976 ticks/call (        2930 ticks,       3 times, max      1534, min     480)
+/IOM/Ports/d205-Out-RZtoR3              3 times
+/IOM/Ports/d20b-In-R3                   1 times
+/IOM/Ports/d20b-In-R3/Prof            594 ticks/call (         594 ticks,       1 times, max       594, min     594)
+/IOM/Ports/d20b-In-RZtoR3               1 times
+/IOM/Ports/d20b-Out-R3                  5 times
+/IOM/Ports/d20b-Out-R3/Prof      81916615 ticks/call (   409583075 ticks,       5 times, max 408218742, min     832)
+/IOM/Ports/d20b-Out-RZtoR3              5 times
+/IOM/Ports/d210-Out-R3                  1 times
+/IOM/Ports/d210-Out-R3/Prof          2043 ticks/call (        2043 ticks,       1 times, max      2043, min    2043)
+/IOM/Ports/d210-Out-RZtoR3              1 times
+/IOM/Ports/d215-Out-R3                  2 times
+/IOM/Ports/d215-Out-R3/Prof          1050 ticks/call (        2100 ticks,       2 times, max      1688, min     412)
+/IOM/Ports/d215-Out-RZtoR3              2 times
+/IOM/Ports/d21b-In-R3                   1 times
+/IOM/Ports/d21b-In-R3/Prof           1206 ticks/call (        1206 ticks,       1 times, max      1206, min    1206)
+/IOM/Ports/d21b-In-RZtoR3               1 times
+/IOM/Ports/d21b-Out-R3                  2 times
+/IOM/Ports/d21b-Out-R3/Prof          1817 ticks/call (        3634 ticks,       2 times, max      1856, min    1778)
+/IOM/Ports/d21b-Out-RZtoR3              2 times
+/IOM/Ports/d22c-Out-R3                  2 times
+/IOM/Ports/d22c-Out-R3/Prof          1764 ticks/call (        3528 ticks,       2 times, max      1853, min    1675)
+/IOM/Ports/d22c-Out-RZtoR3              2 times
+/IOM/Ports/d230-In-R3                   1 times
+/IOM/Ports/d230-In-R3/Prof           2203 ticks/call (        2203 ticks,       1 times, max      2203, min    2203)
+/IOM/Ports/d230-In-RZtoR3               1 times
+/IOM/Ports/d234-In-R3                 112 times
+/IOM/Ports/d234-In-R3/Prof            463 ticks/call (       51878 ticks,     112 times, max      3831, min     331)
+/IOM/Ports/d234-In-RZtoR3             112 times
+/IOM/R3-MMIOHandler                 51225 times
+/IOM/RZ-MMIOHandler                  3598 ticks/call (  1149609021 ticks,  319472 times, max    472397, min     288)
+/IOM/RZ-MMIOHandler/Access1           804 times
+/IOM/RZ-MMIOHandler/Access2        290473 times
+/IOM/RZ-MMIOHandler/Access4         20289 times
+/IOM/RZ-MMIOHandler/Access8             0 times
+/IOM/RZ-MMIOHandler/Inst/AND         3167 ticks/call (        3167 ticks,       1 times, max      3167, min    3167)
+/IOM/RZ-MMIOHandler/Inst/BT             0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/IOM/RZ-MMIOHandler/Inst/CMP            0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/IOM/RZ-MMIOHandler/Inst/LODS           0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/IOM/RZ-MMIOHandler/Inst/MOV          871 ticks/call (   265454589 ticks,  304521 times, max    141047, min     344)
+/IOM/RZ-MMIOHandler/Inst/OR             0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/IOM/RZ-MMIOHandler/Inst/Other       1160 times
+/IOM/RZ-MMIOHandler/Inst/STOS         873 ticks/call (    12013993 ticks,   13751 times, max    462547, min     378)
+/IOM/RZ-MMIOHandler/Inst/TEST           0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/IOM/RZ-MMIOHandler/Inst/XCHG           0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/IOM/RZ-MMIOHandler/Inst/XOR            0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/IOM/RZ-MMIOHandler/MMIOFailures     7906 times
+/MM/HyperHeap/CPUM_CPUID              688 bytes
+/MM/HyperHeap/CPUM_CPUID/cAllocations        1 count
+/MM/HyperHeap/CPUM_CPUID/cFailures        0 count
+/MM/HyperHeap/CPUM_CPUID/cFrees         0 count
+/MM/HyperHeap/CPUM_CPUID/cbAllocated      688 bytes
+/MM/HyperHeap/CPUM_CPUID/cbFreed        0 bytes
+/MM/HyperHeap/CPUM_CPUID/cbMaxAllocated      688 bytes
+/MM/HyperHeap/CPUM_MSRS             29328 bytes
+/MM/HyperHeap/CPUM_MSRS/cAllocations        1 count
+/MM/HyperHeap/CPUM_MSRS/cFailures        0 count
+/MM/HyperHeap/CPUM_MSRS/cFrees          0 count
+/MM/HyperHeap/CPUM_MSRS/cbAllocated    29328 bytes
+/MM/HyperHeap/CPUM_MSRS/cbFreed         0 bytes
+/MM/HyperHeap/CPUM_MSRS/cbMaxAllocated    29328 bytes
+/MM/HyperHeap/EM                     1616 bytes
+/MM/HyperHeap/EM/cAllocations           1 count
+/MM/HyperHeap/EM/cFailures              0 count
+/MM/HyperHeap/EM/cFrees                 0 count
+/MM/HyperHeap/EM/cbAllocated         1616 bytes
+/MM/HyperHeap/EM/cbFreed                0 bytes
+/MM/HyperHeap/EM/cbMaxAllocated      1616 bytes
+/MM/HyperHeap/HM                     4128 bytes
+/MM/HyperHeap/HM/cAllocations           2 count
+/MM/HyperHeap/HM/cFailures              0 count
+/MM/HyperHeap/HM/cFrees                 0 count
+/MM/HyperHeap/HM/cbAllocated         4128 bytes
+/MM/HyperHeap/HM/cbFreed                0 bytes
+/MM/HyperHeap/HM/cbMaxAllocated      4128 bytes
+/MM/HyperHeap/IOM                    8896 bytes
+/MM/HyperHeap/IOM/cAllocations        122 count
+/MM/HyperHeap/IOM/cFailures             0 count
+/MM/HyperHeap/IOM/cFrees               33 count
+/MM/HyperHeap/IOM/cbAllocated       13104 bytes
+/MM/HyperHeap/IOM/cbFreed            4208 bytes
+/MM/HyperHeap/IOM/cbMaxAllocated     8896 bytes
+/MM/HyperHeap/IOM_STATS            116064 bytes
+/MM/HyperHeap/IOM_STATS/cAllocations      561 count
+/MM/HyperHeap/IOM_STATS/cFailures        0 count
+/MM/HyperHeap/IOM_STATS/cFrees          0 count
+/MM/HyperHeap/IOM_STATS/cbAllocated   116064 bytes
+/MM/HyperHeap/IOM_STATS/cbFreed         0 bytes
+/MM/HyperHeap/IOM_STATS/cbMaxAllocated   116064 bytes
+/MM/HyperHeap/MM                     1664 bytes
+/MM/HyperHeap/MM/cAllocations          26 count
+/MM/HyperHeap/MM/cFailures              0 count
+/MM/HyperHeap/MM/cFrees                 0 count
+/MM/HyperHeap/MM/cbAllocated         1664 bytes
+/MM/HyperHeap/MM/cbFreed                0 bytes
+/MM/HyperHeap/MM/cbMaxAllocated      1664 bytes
+/MM/HyperHeap/MM_PAGE               27552 bytes
+/MM/HyperHeap/MM_PAGE/cAllocations        6 count
+/MM/HyperHeap/MM_PAGE/cFailures         0 count
+/MM/HyperHeap/MM_PAGE/cFrees            0 count
+/MM/HyperHeap/MM_PAGE/cbAllocated    27552 bytes
+/MM/HyperHeap/MM_PAGE/cbFreed           0 bytes
+/MM/HyperHeap/MM_PAGE/cbMaxAllocated    27552 bytes
+/MM/HyperHeap/PDM_DEVICE            62400 bytes
+/MM/HyperHeap/PDM_DEVICE/cAllocations       25 count
+/MM/HyperHeap/PDM_DEVICE/cFailures        0 count
+/MM/HyperHeap/PDM_DEVICE/cFrees        10 count
+/MM/HyperHeap/PDM_DEVICE/cbAllocated    64480 bytes
+/MM/HyperHeap/PDM_DEVICE/cbFreed     2080 bytes
+/MM/HyperHeap/PDM_DEVICE/cbMaxAllocated    62608 bytes
+/MM/HyperHeap/PDM_DEVICE_USER        1360 bytes
+/MM/HyperHeap/PDM_DEVICE_USER/cAllocations        1 count
+/MM/HyperHeap/PDM_DEVICE_USER/cFailures        0 count
+/MM/HyperHeap/PDM_DEVICE_USER/cFrees        0 count
+/MM/HyperHeap/PDM_DEVICE_USER/cbAllocated     1360 bytes
+/MM/HyperHeap/PDM_DEVICE_USER/cbFreed        0 bytes
+/MM/HyperHeap/PDM_DEVICE_USER/cbMaxAllocated     1360 bytes
+/MM/HyperHeap/PDM_QUEUE              2496 bytes
+/MM/HyperHeap/PDM_QUEUE/cAllocations        3 count
+/MM/HyperHeap/PDM_QUEUE/cFailures        0 count
+/MM/HyperHeap/PDM_QUEUE/cFrees          0 count
+/MM/HyperHeap/PDM_QUEUE/cbAllocated     2496 bytes
+/MM/HyperHeap/PDM_QUEUE/cbFreed         0 bytes
+/MM/HyperHeap/PDM_QUEUE/cbMaxAllocated     2496 bytes
+/MM/HyperHeap/PGM                   36896 bytes
+/MM/HyperHeap/PGM/cAllocations          4 count
+/MM/HyperHeap/PGM/cFailures             0 count
+/MM/HyperHeap/PGM/cFrees                0 count
+/MM/HyperHeap/PGM/cbAllocated       36896 bytes
+/MM/HyperHeap/PGM/cbFreed               0 bytes
+/MM/HyperHeap/PGM/cbMaxAllocated    36896 bytes
+/MM/HyperHeap/PGM_HANDLERS           1728 bytes
+/MM/HyperHeap/PGM_HANDLERS/cAllocations       31 count
+/MM/HyperHeap/PGM_HANDLERS/cFailures        0 count
+/MM/HyperHeap/PGM_HANDLERS/cFrees       19 count
+/MM/HyperHeap/PGM_HANDLERS/cbAllocated     4464 bytes
+/MM/HyperHeap/PGM_HANDLERS/cbFreed     2736 bytes
+/MM/HyperHeap/PGM_HANDLERS/cbMaxAllocated     1728 bytes
+/MM/HyperHeap/PGM_MAPPINGS          24864 bytes
+/MM/HyperHeap/PGM_MAPPINGS/cAllocations        2 count
+/MM/HyperHeap/PGM_MAPPINGS/cFailures        0 count
+/MM/HyperHeap/PGM_MAPPINGS/cFrees        0 count
+/MM/HyperHeap/PGM_MAPPINGS/cbAllocated    24864 bytes
+/MM/HyperHeap/PGM_MAPPINGS/cbFreed        0 bytes
+/MM/HyperHeap/PGM_MAPPINGS/cbMaxAllocated    24864 bytes
+/MM/HyperHeap/PGM_PHYS              21248 bytes
+/MM/HyperHeap/PGM_PHYS/cAllocations       26 count
+/MM/HyperHeap/PGM_PHYS/cFailures        0 count
+/MM/HyperHeap/PGM_PHYS/cFrees          13 count
+/MM/HyperHeap/PGM_PHYS/cbAllocated    26304 bytes
+/MM/HyperHeap/PGM_PHYS/cbFreed       5056 bytes
+/MM/HyperHeap/PGM_PHYS/cbMaxAllocated    21248 bytes
+/MM/HyperHeap/TM                     2320 bytes
+/MM/HyperHeap/TM/cAllocations          18 count
+/MM/HyperHeap/TM/cFailures              0 count
+/MM/HyperHeap/TM/cFrees                 0 count
+/MM/HyperHeap/TM/cbAllocated         2320 bytes
+/MM/HyperHeap/TM/cbFreed                0 bytes
+/MM/HyperHeap/TM/cbMaxAllocated      2320 bytes
+/MM/HyperHeap/TRPM                   2064 bytes
+/MM/HyperHeap/TRPM/cAllocations         1 count
+/MM/HyperHeap/TRPM/cFailures            0 count
+/MM/HyperHeap/TRPM/cFrees               0 count
+/MM/HyperHeap/TRPM/cbAllocated       2064 bytes
+/MM/HyperHeap/TRPM/cbFreed              0 bytes
+/MM/HyperHeap/TRPM/cbMaxAllocated     2064 bytes
+/MM/HyperHeap/VMM                   16384 bytes
+/MM/HyperHeap/VMM/cAllocations          1 count
+/MM/HyperHeap/VMM/cFailures             0 count
+/MM/HyperHeap/VMM/cFrees                0 count
+/MM/HyperHeap/VMM/cbAllocated       16384 bytes
+/MM/HyperHeap/VMM/cbFreed               0 bytes
+/MM/HyperHeap/VMM/cbMaxAllocated    16384 bytes
+/MM/HyperHeap/cbFree               684784 bytes
+/MM/HyperHeap/cbHeap              1048256 bytes
+/MM/Page/Def/cAllocCalls              327 calls
+/MM/Page/Def/cErrors                    0 errors
+/MM/Page/Def/cFreeCalls                 0 calls
+/MM/Page/Def/cFreePages                57 pages
+/MM/Page/Def/cPages                   384 pages
+/MM/Page/Def/cSubPools                  3 count
+/MM/Page/Def/cToPhysCalls            1171 calls
+/MM/Page/Def/cToVirtCalls               0 calls
+/MM/Page/Low/cAllocCalls               70 calls
+/MM/Page/Low/cErrors                    0 errors
+/MM/Page/Low/cFreeCalls                 0 calls
+/MM/Page/Low/cFreePages                26 pages
+/MM/Page/Low/cPages                    96 pages
+/MM/Page/Low/cSubPools                  3 count
+/MM/Page/Low/cToPhysCalls             140 calls
+/MM/Page/Low/cToVirtCalls               0 calls
+/MM/R3Heap/CFGM                     34064 bytes
+/MM/R3Heap/CFGM/cAllocations          318 calls
+/MM/R3Heap/CFGM/cFailures               0 count
+/MM/R3Heap/CFGM/cFrees                  0 calls
+/MM/R3Heap/CFGM/cReallocations          0 calls
+/MM/R3Heap/CFGM/cbAllocated         34064 bytes
+/MM/R3Heap/CFGM/cbFreed                 0 bytes
+/MM/R3Heap/CFGM_STRING               2736 bytes
+/MM/R3Heap/CFGM_STRING/cAllocations       51 calls
+/MM/R3Heap/CFGM_STRING/cFailures        0 count
+/MM/R3Heap/CFGM_STRING/cFrees           0 calls
+/MM/R3Heap/CFGM_STRING/cReallocations        0 calls
+/MM/R3Heap/CFGM_STRING/cbAllocated     2736 bytes
+/MM/R3Heap/CFGM_STRING/cbFreed          0 bytes
+/MM/R3Heap/CFGM_USER                  464 bytes
+/MM/R3Heap/CFGM_USER/cAllocations       48 calls
+/MM/R3Heap/CFGM_USER/cFailures          0 count
+/MM/R3Heap/CFGM_USER/cFrees            40 calls
+/MM/R3Heap/CFGM_USER/cReallocations        0 calls
+/MM/R3Heap/CFGM_USER/cbAllocated     2528 bytes
+/MM/R3Heap/CFGM_USER/cbFreed         2064 bytes
+/MM/R3Heap/DBGF_AS                    640 bytes
+/MM/R3Heap/DBGF_AS/cAllocations         4 calls
+/MM/R3Heap/DBGF_AS/cFailures            0 count
+/MM/R3Heap/DBGF_AS/cFrees               0 calls
+/MM/R3Heap/DBGF_AS/cReallocations        0 calls
+/MM/R3Heap/DBGF_AS/cbAllocated        640 bytes
+/MM/R3Heap/DBGF_AS/cbFreed              0 bytes
+/MM/R3Heap/DBGF_INFO                 4512 bytes
+/MM/R3Heap/DBGF_INFO/cAllocations       47 calls
+/MM/R3Heap/DBGF_INFO/cFailures          0 count
+/MM/R3Heap/DBGF_INFO/cFrees             0 calls
+/MM/R3Heap/DBGF_INFO/cReallocations        0 calls
+/MM/R3Heap/DBGF_INFO/cbAllocated     4512 bytes
+/MM/R3Heap/DBGF_INFO/cbFreed            0 bytes
+/MM/R3Heap/DBGF_REG                275184 bytes
+/MM/R3Heap/DBGF_REG/cAllocations     1885 calls
+/MM/R3Heap/DBGF_REG/cFailures           0 count
+/MM/R3Heap/DBGF_REG/cFrees              0 calls
+/MM/R3Heap/DBGF_REG/cReallocations        0 calls
+/MM/R3Heap/DBGF_REG/cbAllocated    275184 bytes
+/MM/R3Heap/DBGF_REG/cbFreed             0 bytes
+/MM/R3Heap/MM                       12576 bytes
+/MM/R3Heap/MM/cAllocations             18 calls
+/MM/R3Heap/MM/cFailures                 0 count
+/MM/R3Heap/MM/cFrees                    1 calls
+/MM/R3Heap/MM/cReallocations            0 calls
+/MM/R3Heap/MM/cbAllocated           16704 bytes
+/MM/R3Heap/MM/cbFreed                4128 bytes
+/MM/R3Heap/PDM_ASYNC_COMPLETION       240 bytes
+/MM/R3Heap/PDM_ASYNC_COMPLETION/cAllocations        1 calls
+/MM/R3Heap/PDM_ASYNC_COMPLETION/cFailures        0 count
+/MM/R3Heap/PDM_ASYNC_COMPLETION/cFrees        0 calls
+/MM/R3Heap/PDM_ASYNC_COMPLETION/cReallocations        0 calls
+/MM/R3Heap/PDM_ASYNC_COMPLETION/cbAllocated      240 bytes
+/MM/R3Heap/PDM_ASYNC_COMPLETION/cbFreed        0 bytes
+/MM/R3Heap/PDM_DEVICE               12752 bytes
+/MM/R3Heap/PDM_DEVICE/cAllocations       53 calls
+/MM/R3Heap/PDM_DEVICE/cFailures         0 count
+/MM/R3Heap/PDM_DEVICE/cFrees            0 calls
+/MM/R3Heap/PDM_DEVICE/cReallocations        0 calls
+/MM/R3Heap/PDM_DEVICE/cbAllocated    12752 bytes
+/MM/R3Heap/PDM_DEVICE/cbFreed           0 bytes
+/MM/R3Heap/PDM_DEVICE_USER          70944 bytes
+/MM/R3Heap/PDM_DEVICE_USER/cAllocations        5 calls
+/MM/R3Heap/PDM_DEVICE_USER/cFailures        0 count
+/MM/R3Heap/PDM_DEVICE_USER/cFrees        0 calls
+/MM/R3Heap/PDM_DEVICE_USER/cReallocations        0 calls
+/MM/R3Heap/PDM_DEVICE_USER/cbAllocated    70944 bytes
+/MM/R3Heap/PDM_DEVICE_USER/cbFreed        0 bytes
+/MM/R3Heap/PDM_DRIVER               14848 bytes
+/MM/R3Heap/PDM_DRIVER/cAllocations       59 calls
+/MM/R3Heap/PDM_DRIVER/cFailures         0 count
+/MM/R3Heap/PDM_DRIVER/cFrees            0 calls
+/MM/R3Heap/PDM_DRIVER/cReallocations        0 calls
+/MM/R3Heap/PDM_DRIVER/cbAllocated    14848 bytes
+/MM/R3Heap/PDM_DRIVER/cbFreed           0 bytes
+/MM/R3Heap/PDM_DRIVER_DESC             48 bytes
+/MM/R3Heap/PDM_DRIVER_DESC/cAllocations        1 calls
+/MM/R3Heap/PDM_DRIVER_DESC/cFailures        0 count
+/MM/R3Heap/PDM_DRIVER_DESC/cFrees        0 calls
+/MM/R3Heap/PDM_DRIVER_DESC/cReallocations        0 calls
+/MM/R3Heap/PDM_DRIVER_DESC/cbAllocated       48 bytes
+/MM/R3Heap/PDM_DRIVER_DESC/cbFreed        0 bytes
+/MM/R3Heap/PDM_LUN                   1728 bytes
+/MM/R3Heap/PDM_LUN/cAllocations        18 calls
+/MM/R3Heap/PDM_LUN/cFailures            0 count
+/MM/R3Heap/PDM_LUN/cFrees               0 calls
+/MM/R3Heap/PDM_LUN/cReallocations        0 calls
+/MM/R3Heap/PDM_LUN/cbAllocated       1728 bytes
+/MM/R3Heap/PDM_LUN/cbFreed              0 bytes
+/MM/R3Heap/PDM_NET_SHAPER             112 bytes
+/MM/R3Heap/PDM_NET_SHAPER/cAllocations        1 calls
+/MM/R3Heap/PDM_NET_SHAPER/cFailures        0 count
+/MM/R3Heap/PDM_NET_SHAPER/cFrees        0 calls
+/MM/R3Heap/PDM_NET_SHAPER/cReallocations        0 calls
+/MM/R3Heap/PDM_NET_SHAPER/cbAllocated      112 bytes
+/MM/R3Heap/PDM_NET_SHAPER/cbFreed        0 bytes
+/MM/R3Heap/PDM_QUEUE                23792 bytes
+/MM/R3Heap/PDM_QUEUE/cAllocations        3 calls
+/MM/R3Heap/PDM_QUEUE/cFailures          0 count
+/MM/R3Heap/PDM_QUEUE/cFrees             0 calls
+/MM/R3Heap/PDM_QUEUE/cReallocations        0 calls
+/MM/R3Heap/PDM_QUEUE/cbAllocated    23792 bytes
+/MM/R3Heap/PDM_QUEUE/cbFreed            0 bytes
+/MM/R3Heap/PDM_THREAD                 864 bytes
+/MM/R3Heap/PDM_THREAD/cAllocations        6 calls
+/MM/R3Heap/PDM_THREAD/cFailures         0 count
+/MM/R3Heap/PDM_THREAD/cFrees            0 calls
+/MM/R3Heap/PDM_THREAD/cReallocations        0 calls
+/MM/R3Heap/PDM_THREAD/cbAllocated      864 bytes
+/MM/R3Heap/PDM_THREAD/cbFreed           0 bytes
+/MM/R3Heap/PDM_USB                    624 bytes
+/MM/R3Heap/PDM_USB/cAllocations         1 calls
+/MM/R3Heap/PDM_USB/cFailures            0 count
+/MM/R3Heap/PDM_USB/cFrees               0 calls
+/MM/R3Heap/PDM_USB/cReallocations        0 calls
+/MM/R3Heap/PDM_USB/cbAllocated        624 bytes
+/MM/R3Heap/PDM_USB/cbFreed              0 bytes
+/MM/R3Heap/PGM                       7632 bytes
+/MM/R3Heap/PGM/cAllocations             1 calls
+/MM/R3Heap/PGM/cFailures                0 count
+/MM/R3Heap/PGM/cFrees                   0 calls
+/MM/R3Heap/PGM/cReallocations           0 calls
+/MM/R3Heap/PGM/cbAllocated           7632 bytes
+/MM/R3Heap/PGM/cbFreed                  0 bytes
+/MM/R3Heap/SSM                       7200 bytes
+/MM/R3Heap/SSM/cAllocations            40 calls
+/MM/R3Heap/SSM/cFailures                0 count
+/MM/R3Heap/SSM/cFrees                   0 calls
+/MM/R3Heap/SSM/cReallocations           0 calls
+/MM/R3Heap/SSM/cbAllocated           7200 bytes
+/MM/R3Heap/SSM/cbFreed                  0 bytes
+/MM/R3Heap/VM                         192 bytes
+/MM/R3Heap/VM/cAllocations              4 calls
+/MM/R3Heap/VM/cFailures                 0 count
+/MM/R3Heap/VM/cFrees                    1 calls
+/MM/R3Heap/VM/cReallocations            0 calls
+/MM/R3Heap/VM/cbAllocated             256 bytes
+/MM/R3Heap/VM/cbFreed                  64 bytes
+/MM/R3Heap/VMM                         48 bytes
+/MM/R3Heap/VMM/cAllocations             1 calls
+/MM/R3Heap/VMM/cFailures                0 count
+/MM/R3Heap/VMM/cFrees                   0 calls
+/MM/R3Heap/VMM/cReallocations           0 calls
+/MM/R3Heap/VMM/cbAllocated             48 bytes
+/MM/R3Heap/VMM/cbFreed                  0 bytes
+/MM/R3Heap/VM_REQ                    1216 bytes
+/MM/R3Heap/VM_REQ/cAllocations          2 calls
+/MM/R3Heap/VM_REQ/cFailures             0 count
+/MM/R3Heap/VM_REQ/cFrees                0 calls
+/MM/R3Heap/VM_REQ/cReallocations        0 calls
+/MM/R3Heap/VM_REQ/cbAllocated        1216 bytes
+/MM/R3Heap/VM_REQ/cbFreed               0 bytes
+/MM/R3Heap/cAllocations              2567 calls
+/MM/R3Heap/cFailures                    0 count
+/MM/R3Heap/cFrees                      42 calls
+/MM/R3Heap/cReallocations               0 calls
+/MM/R3Heap/cbAllocated             478672 bytes
+/MM/R3Heap/cbCurAllocated          472416 bytes
+/MM/R3Heap/cbFreed                   6256 bytes
+/MM/Reserved/cBasePages            262174 pages
+/MM/Reserved/cFixedPages             5636 pages
+/MM/Reserved/cHandyPages              128 pages
+/MM/Reserved/cShadowPages               0 pages
+/MM/UkHeap/PGM_CHUNK_MAPPING        19840 bytes
+/MM/UkHeap/PGM_CHUNK_MAPPING/cAllocations      310 calls
+/MM/UkHeap/PGM_CHUNK_MAPPING/cFailures        0 count
+/MM/UkHeap/PGM_CHUNK_MAPPING/cFrees        0 calls
+/MM/UkHeap/PGM_CHUNK_MAPPING/cReallocations        0 calls
+/MM/UkHeap/PGM_CHUNK_MAPPING/cbAllocated    19840 bytes
+/MM/UkHeap/PGM_CHUNK_MAPPING/cbFreed        0 bytes
+/MM/UkHeap/cAllocations               310 calls
+/MM/UkHeap/cFailures                    0 count
+/MM/UkHeap/cFrees                       0 calls
+/MM/UkHeap/cReallocations               0 calls
+/MM/UkHeap/cbAllocated              19840 bytes
+/MM/UkHeap/cbCurAllocated           19840 bytes
+/MM/UkHeap/cbFreed                      0 bytes
+/MM/cbRamBase                    1073741824 bytes
+/PDM/BlkCache/CacheBuffersReused        0 count
+/PDM/BlkCache/CacheHits                 0 count
+/PDM/BlkCache/CacheMisses               0 count
+/PDM/BlkCache/CachePartialHits          0 count
+/PDM/BlkCache/CacheRead                 0 bytes
+/PDM/BlkCache/CacheTreeGet              0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PDM/BlkCache/CacheTreeInsert           0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PDM/BlkCache/CacheTreeRemove           0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PDM/BlkCache/CacheWritten              0 bytes
+/PDM/BlkCache/cbCached                  0 bytes
+/PDM/BlkCache/cbCachedFru               0 bytes
+/PDM/BlkCache/cbCachedMruIn             0 bytes
+/PDM/BlkCache/cbCachedMruOut            0 bytes
+/PDM/BlkCache/cbMax               5242880 bytes
+/PDM/CritSects/8237A#0Auto/ContentionR3        0 times
+/PDM/CritSects/8237A#0Auto/ContentionRZLock        0 times
+/PDM/CritSects/8237A#0Auto/ContentionRZUnlock        0 times
+/PDM/CritSects/8237A#0Auto/Locked     1027 ticks/time (     2555071 ticks,    2487 times, max     19111, min     847)
+/PDM/CritSects/ATA#0/ContentionR3     8377 times
+/PDM/CritSects/ATA#0/ContentionRZLock    23569 times
+/PDM/CritSects/ATA#0/ContentionRZUnlock        0 times
+/PDM/CritSects/ATA#0/Locked           586 ticks/time (  7478054991 ticks, 12757913 times, max    383111, min     117)
+/PDM/CritSects/ATA#1/ContentionR3        0 times
+/PDM/CritSects/ATA#1/ContentionRZLock        0 times
+/PDM/CritSects/ATA#1/ContentionRZUnlock        0 times
+/PDM/CritSects/ATA#1/Locked         14218 ticks/time (      838886 ticks,      59 times, max    579174, min     150)
+/PDM/CritSects/AudioSniffer#0Auto/ContentionR3        0 times
+/PDM/CritSects/AudioSniffer#0Auto/ContentionRZLock        0 times
+/PDM/CritSects/AudioSniffer#0Auto/ContentionRZUnlock        0 times
+/PDM/CritSects/AudioSniffer#0Auto/Locked        0 ticks/time (           0 ticks,       0 times, max         0, min      -1)
+/PDM/CritSects/E1000#0/ContentionR3        0 times
+/PDM/CritSects/E1000#0/ContentionRZLock        0 times
+/PDM/CritSects/E1000#0/ContentionRZUnlock        0 times
+/PDM/CritSects/E1000#0/Locked         675 ticks/time (        5401 ticks,       8 times, max      3413, min     122)
+/PDM/CritSects/E1000#0RX/ContentionR3        0 times
+/PDM/CritSects/E1000#0RX/ContentionRZLock        0 times
+/PDM/CritSects/E1000#0RX/ContentionRZUnlock        0 times
+/PDM/CritSects/E1000#0RX/Locked       914 ticks/time (        3657 ticks,       4 times, max      1488, min     388)
+/PDM/CritSects/E1000#0TX/ContentionR3        0 times
+/PDM/CritSects/E1000#0TX/ContentionRZLock        0 times
+/PDM/CritSects/E1000#0TX/ContentionRZUnlock        0 times
+/PDM/CritSects/E1000#0TX/Locked      2596 ticks/time (       10386 ticks,       4 times, max      5042, min     672)
+/PDM/CritSects/EM-REM/ContentionR3        0 times
+/PDM/CritSects/EM-REM/ContentionRZLock        0 times
+/PDM/CritSects/EM-REM/ContentionRZUnlock        0 times
+/PDM/CritSects/EM-REM/Locked        42855 ticks/time (       42855 ticks,       1 times, max     42855, min   42855)
+/PDM/CritSects/FTM/ContentionR3         0 times
+/PDM/CritSects/FTM/ContentionRZLock        0 times
+/PDM/CritSects/FTM/ContentionRZUnlock        0 times
+/PDM/CritSects/FTM/Locked               0 ticks/time (           0 ticks,       0 times, max         0, min      -1)
+/PDM/CritSects/MM-HYPER/ContentionR3        0 times
+/PDM/CritSects/MM-HYPER/ContentionRZLock        0 times
+/PDM/CritSects/MM-HYPER/ContentionRZUnlock        0 times
+/PDM/CritSects/MM-HYPER/Locked      97182 ticks/time (    17201232 ticks,     177 times, max    399718, min   44594)
+/PDM/CritSects/NOP/ContentionR3         0 times
+/PDM/CritSects/NOP/ContentionRZLock        0 times
+/PDM/CritSects/NOP/ContentionRZUnlock        0 times
+/PDM/CritSects/NOP/Locked               0 ticks/time (           0 ticks,       0 times, max         0, min      -1)
+/PDM/CritSects/OHCI#0Irq/ContentionR3        0 times
+/PDM/CritSects/OHCI#0Irq/ContentionRZLock        0 times
+/PDM/CritSects/OHCI#0Irq/ContentionRZUnlock        0 times
+/PDM/CritSects/OHCI#0Irq/Locked      2692 ticks/time (     4521319 ticks,    1679 times, max    148525, min     426)
+/PDM/CritSects/PDM/ContentionR3        21 times
+/PDM/CritSects/PDM/ContentionRZLock       12 times
+/PDM/CritSects/PDM/ContentionRZUnlock        0 times
+/PDM/CritSects/PDM/Locked            2596 ticks/time (   387448484 ticks,  149236 times, max 125160162, min     103)
+/PDM/CritSects/PGM/ContentionR3       130 times
+/PDM/CritSects/PGM/ContentionRZLock       50 times
+/PDM/CritSects/PGM/ContentionRZUnlock        0 times
+/PDM/CritSects/PGM/Locked            1333 ticks/time (  1988486295 ticks, 1491045 times, max 153253751, min     118)
+/PDM/CritSects/REM-Register/ContentionR3        0 times
+/PDM/CritSects/REM-Register/ContentionRZLock        0 times
+/PDM/CritSects/REM-Register/ContentionRZUnlock        0 times
+/PDM/CritSects/REM-Register/Locked   631039 ticks/time (    60579834 ticks,      96 times, max  47065410, min     894)
+/PDM/CritSects/TM Timer Lock/ContentionR3        0 times
+/PDM/CritSects/TM Timer Lock/ContentionRZLock        0 times
+/PDM/CritSects/TM Timer Lock/ContentionRZUnlock        0 times
+/PDM/CritSects/TM Timer Lock/Locked    60748 ticks/time (  1354018272 ticks,   22289 times, max   3674025, min    1340)
+/PDM/CritSects/TM VirtualSync Lock/ContentionR3        0 times
+/PDM/CritSects/TM VirtualSync Lock/ContentionRZLock        0 times
+/PDM/CritSects/TM VirtualSync Lock/ContentionRZUnlock        0 times
+/PDM/CritSects/TM VirtualSync Lock/Locked     1294 ticks/time (  4689506280 ticks, 3623244 times, max    472863, min     116)
+/PDM/CritSects/VGA#0/ContentionR3        0 times
+/PDM/CritSects/VGA#0/ContentionRZLock        0 times
+/PDM/CritSects/VGA#0/ContentionRZUnlock        0 times
+/PDM/CritSects/VGA#0/Locked          3626 ticks/time (  1649483878 ticks,  454897 times, max  10954244, min     163)
+/PDM/CritSects/VMMDev#0/ContentionR3        0 times
+/PDM/CritSects/VMMDev#0/ContentionRZLock        0 times
+/PDM/CritSects/VMMDev#0/ContentionRZUnlock        0 times
+/PDM/CritSects/VMMDev#0/Locked      92978 ticks/time (     2510419 ticks,      27 times, max   2313733, min    1962)
+/PDM/CritSects/acpi#0/ContentionR3        0 times
+/PDM/CritSects/acpi#0/ContentionRZLock        0 times
+/PDM/CritSects/acpi#0/ContentionRZUnlock        0 times
+/PDM/CritSects/acpi#0/Locked          525 ticks/time (   733469596 ticks, 1394989 times, max    127800, min     341)
+/PDM/CritSects/ichac97#0Auto/ContentionR3        0 times
+/PDM/CritSects/ichac97#0Auto/ContentionRZLock        0 times
+/PDM/CritSects/ichac97#0Auto/ContentionRZUnlock        0 times
+/PDM/CritSects/ichac97#0Auto/Locked   148459 ticks/time (   414646936 ticks,    2793 times, max 408233046, min    1000)
+/PDM/CritSects/mc146818#0Auto/ContentionR3        0 times
+/PDM/CritSects/mc146818#0Auto/ContentionRZLock        0 times
+/PDM/CritSects/mc146818#0Auto/ContentionRZUnlock        0 times
+/PDM/CritSects/mc146818#0Auto/Locked      377 ticks/time (     7475282 ticks,   19825 times, max    109546, min     144)
+/PDM/CritSects/pcarch#0Auto/ContentionR3        0 times
+/PDM/CritSects/pcarch#0Auto/ContentionRZLock        0 times
+/PDM/CritSects/pcarch#0Auto/ContentionRZUnlock        0 times
+/PDM/CritSects/pcarch#0Auto/Locked    22940 ticks/time (       91762 ticks,       4 times, max     53669, min    3600)
+/PDM/CritSects/pcbios#0Auto/ContentionR3        0 times
+/PDM/CritSects/pcbios#0Auto/ContentionRZLock        0 times
+/PDM/CritSects/pcbios#0Auto/ContentionRZUnlock        0 times
+/PDM/CritSects/pcbios#0Auto/Locked   397828 ticks/time (     1193484 ticks,       3 times, max    609375, min  186300)
+/PDM/CritSects/pckbd#0Auto/ContentionR3        0 times
+/PDM/CritSects/pckbd#0Auto/ContentionRZLock        0 times
+/PDM/CritSects/pckbd#0Auto/ContentionRZUnlock        0 times
+/PDM/CritSects/pckbd#0Auto/Locked     8607 ticks/time (    13419051 ticks,    1559 times, max    249711, min     965)
+/PDM/CritSects/pit#0/ContentionR3        0 times
+/PDM/CritSects/pit#0/ContentionRZLock        0 times
+/PDM/CritSects/pit#0/ContentionRZUnlock        0 times
+/PDM/CritSects/pit#0/Locked          1466 ticks/time (  2203979083 ticks, 1502689 times, max    296287, min     103)
+/PDM/CritSects/usb-ohci#0Auto/ContentionR3        0 times
+/PDM/CritSects/usb-ohci#0Auto/ContentionRZLock        0 times
+/PDM/CritSects/usb-ohci#0Auto/ContentionRZUnlock        0 times
+/PDM/CritSects/usb-ohci#0Auto/Locked    31217 ticks/time (    11893958 ticks,     381 times, max   1269925, min    2141)
+/PDM/CritSectsRw/IOM Lock/ContentionR3EnterExcl        0 times
+/PDM/CritSectsRw/IOM Lock/ContentionR3EnterShared        0 times
+/PDM/CritSectsRw/IOM Lock/ContentionRZEnterExcl        0 times
+/PDM/CritSectsRw/IOM Lock/ContentionRZEnterShared        0 times
+/PDM/CritSectsRw/IOM Lock/ContentionRZLeaveExcl        0 times
+/PDM/CritSectsRw/IOM Lock/ContentionRZLeaveShared        0 times
+/PDM/CritSectsRw/IOM Lock/R3EnterExcl     1896 times
+/PDM/CritSectsRw/IOM Lock/R3EnterShared 13278976 times
+/PDM/CritSectsRw/IOM Lock/RZEnterExcl        0 times
+/PDM/CritSectsRw/IOM Lock/RZEnterShared  4180565 times
+/PDM/CritSectsRw/IOM Lock/WriteLocked   694128 ticks/time (   201991534 ticks,     291 times, max  84065765, min     436)
+/PDM/Queue/DevHlp/AllocFailures         0 times
+/PDM/Queue/DevHlp/Flush                 0 calls
+/PDM/Queue/DevHlp/FlushLeftovers        0 times
+/PDM/Queue/DevHlp/FlushPrf              0 calls (           0 ticks,       0 times, max         0, min      -1)
+/PDM/Queue/DevHlp/Insert                0 calls
+/PDM/Queue/DevHlp/Pending               0 count
+/PDM/Queue/DevHlp/cItems                8 count
+/PDM/Queue/DevHlp/cbItem               56 bytes
+/PDM/Queue/E1000-Rcv/AllocFailures        0 times
+/PDM/Queue/E1000-Rcv/Flush              0 calls
+/PDM/Queue/E1000-Rcv/FlushLeftovers        0 times
+/PDM/Queue/E1000-Rcv/FlushPrf           0 calls (           0 ticks,       0 times, max         0, min      -1)
+/PDM/Queue/E1000-Rcv/Insert             0 calls
+/PDM/Queue/E1000-Rcv/Pending            0 count
+/PDM/Queue/E1000-Rcv/cItems             1 count
+/PDM/Queue/E1000-Rcv/cbItem            24 bytes
+/PDM/Queue/E1000-Xmit/AllocFailures        0 times
+/PDM/Queue/E1000-Xmit/Flush             0 calls
+/PDM/Queue/E1000-Xmit/FlushLeftovers        0 times
+/PDM/Queue/E1000-Xmit/FlushPrf          0 calls (           0 ticks,       0 times, max         0, min      -1)
+/PDM/Queue/E1000-Xmit/Insert            0 calls
+/PDM/Queue/E1000-Xmit/Pending           0 count
+/PDM/Queue/E1000-Xmit/cItems            1 count
+/PDM/Queue/E1000-Xmit/cbItem           24 bytes
+/PDM/Queue/Keyboard/AllocFailures        0 times
+/PDM/Queue/Keyboard/Flush               0 calls
+/PDM/Queue/Keyboard/FlushLeftovers        0 times
+/PDM/Queue/Keyboard/FlushPrf       106747 calls (     3842897 ticks,      36 times, max    167655, min   53315)
+/PDM/Queue/Keyboard/Insert             38 calls
+/PDM/Queue/Keyboard/Pending             0 count
+/PDM/Queue/Keyboard/cItems             64 count
+/PDM/Queue/Keyboard/cbItem             32 bytes
+/PDM/Queue/Mouse/AllocFailures          0 times
+/PDM/Queue/Mouse/Flush                  0 calls
+/PDM/Queue/Mouse/FlushLeftovers         0 times
+/PDM/Queue/Mouse/FlushPrf               0 calls (           0 ticks,       0 times, max         0, min      -1)
+/PDM/Queue/Mouse/Insert                 0 calls
+/PDM/Queue/Mouse/Pending                0 count
+/PDM/Queue/Mouse/cItems               128 count
+/PDM/Queue/Mouse/cbItem                48 bytes
+/PDM/Queue/Mouse_1/AllocFailures        0 times
+/PDM/Queue/Mouse_1/Flush                0 calls
+/PDM/Queue/Mouse_1/FlushLeftovers        0 times
+/PDM/Queue/Mouse_1/FlushPrf         37737 calls (      830232 ticks,      22 times, max    272760, min   17200)
+/PDM/Queue/Mouse_1/Insert              22 calls
+/PDM/Queue/Mouse_1/Pending              0 count
+/PDM/Queue/Mouse_1/cItems             128 count
+/PDM/Queue/Mouse_1/cbItem              48 bytes
+/PDM/QueuedCritSectLeaves               0 times
+/PGM/CPU0/R0/NpMiscfg                4308 ticks/call (  1314188477 ticks,  305042 times, max    477297, min    1162)
+/PGM/CPU0/R0/NpMiscfgSyncPage           0 times
+/PGM/CPU0/R3/AccessedPage               0 times
+/PGM/CPU0/R3/DirtyPage                  0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/R3/DirtyPage/AlreadySet        0 times
+/PGM/CPU0/R3/DirtyPage/Mark             0 times
+/PGM/CPU0/R3/DirtyPage/MarkBig          0 times
+/PGM/CPU0/R3/DirtyPage/RealPF           0 times
+/PGM/CPU0/R3/DirtyPage/SetDirty         0 times
+/PGM/CPU0/R3/DirtyPage/Skipped          0 times
+/PGM/CPU0/R3/DirtyPage/Trap             0 times
+/PGM/CPU0/R3/FlushTLB                   0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/R3/FlushTLB/NewCR3            0 times
+/PGM/CPU0/R3/FlushTLB/NewCR3Global        0 times
+/PGM/CPU0/R3/FlushTLB/SameCR3           0 times
+/PGM/CPU0/R3/FlushTLB/SameCR3Global        0 times
+/PGM/CPU0/R3/GstModifyPage            188 ticks/call (    18247092 ticks,   96564 times, max     27718, min      90)
+/PGM/CPU0/R3/InvalidatePage             0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/R3/InvalidatePage/4KBPages        0 times
+/PGM/CPU0/R3/InvalidatePage/4MBPages        0 times
+/PGM/CPU0/R3/InvalidatePage/4MBPagesSkip        0 times
+/PGM/CPU0/R3/InvalidatePage/PDMappings        0 times
+/PGM/CPU0/R3/InvalidatePage/PDNAs        0 times
+/PGM/CPU0/R3/InvalidatePage/PDNPs        0 times
+/PGM/CPU0/R3/InvalidatePage/PDOutOfSync        0 times
+/PGM/CPU0/R3/InvalidatePage/Skipped        0 times
+/PGM/CPU0/R3/OutOfSync/Balloon          0 times
+/PGM/CPU0/R3/OutOfSync/SuperVisor        0 times
+/PGM/CPU0/R3/OutOfSync/User             0 times
+/PGM/CPU0/R3/Prefetch                  35 ticks/call (    10881216 ticks,  304966 times, max     18622, min      18)
+/PGM/CPU0/R3/SyncCR3                 1581 ticks/call (       37948 ticks,      24 times, max      2459, min     541)
+/PGM/CPU0/R3/SyncCR3/DstChacheHit        0 times
+/PGM/CPU0/R3/SyncCR3/DstFreed           0 times
+/PGM/CPU0/R3/SyncCR3/DstFreedSrcNP        0 times
+/PGM/CPU0/R3/SyncCR3/DstNotPresent        0 times
+/PGM/CPU0/R3/SyncCR3/DstSkippedGlobalPD        0 times
+/PGM/CPU0/R3/SyncCR3/DstSkippedGlobalPT        0 times
+/PGM/CPU0/R3/SyncCR3/Global             0 times
+/PGM/CPU0/R3/SyncCR3/Handlers           0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/R3/SyncCR3/NotGlobal          0 times
+/PGM/CPU0/R3/SyncPT                     0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/R3/SyncPT/4K                  0 times
+/PGM/CPU0/R3/SyncPT/4M                  0 times
+/PGM/CPU0/R3/SyncPT/Failed              0 times
+/PGM/CPU0/R3/SyncPagePDNAs              0 times
+/PGM/CPU0/R3/SyncPagePDOutOfSync        0 times
+/PGM/CPU0/RZ/AccessedPage               0 times
+/PGM/CPU0/RZ/CR3WriteConflict           0 times
+/PGM/CPU0/RZ/CR3WriteHandled            0 times
+/PGM/CPU0/RZ/CR3WriteUnhandled          0 times
+/PGM/CPU0/RZ/DirtyPage                  0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/RZ/DirtyPage/AlreadySet        0 times
+/PGM/CPU0/RZ/DirtyPage/Mark             0 times
+/PGM/CPU0/RZ/DirtyPage/MarkBig          0 times
+/PGM/CPU0/RZ/DirtyPage/RealPF           0 times
+/PGM/CPU0/RZ/DirtyPage/SetDirty         0 times
+/PGM/CPU0/RZ/DirtyPage/Skipped     193561 times
+/PGM/CPU0/RZ/DirtyPage/Stale            0 times
+/PGM/CPU0/RZ/DirtyPage/Trap             0 times
+/PGM/CPU0/RZ/DynMap/MigrateInvlPg        0 times
+/PGM/CPU0/RZ/DynMap/Page                0 times
+/PGM/CPU0/RZ/DynMap/Page/HCPage         0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/RZ/DynMap/Page/Hits0          0 times
+/PGM/CPU0/RZ/DynMap/Page/Hits1          0 times
+/PGM/CPU0/RZ/DynMap/Page/Hits2          0 times
+/PGM/CPU0/RZ/DynMap/Page/InvlPg         0 times
+/PGM/CPU0/RZ/DynMap/Page/SetOptimize        0 times
+/PGM/CPU0/RZ/DynMap/Page/SetSearchFlushes        0 times
+/PGM/CPU0/RZ/DynMap/Page/SetSearchHits        0 times
+/PGM/CPU0/RZ/DynMap/Page/SetSearchMisses        0 times
+/PGM/CPU0/RZ/DynMap/Page/Slow           0 times
+/PGM/CPU0/RZ/DynMap/Page/SlowLoopHits        0 times
+/PGM/CPU0/RZ/DynMap/Page/SlowLoopMisses        0 times
+/PGM/CPU0/RZ/DynMap/PageGCPageInl        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/RZ/DynMap/PageGCPageInl/Hits        0 times
+/PGM/CPU0/RZ/DynMap/PageGCPageInl/Misses        0 times
+/PGM/CPU0/RZ/DynMap/PageGCPageInl/RamHits        0 times
+/PGM/CPU0/RZ/DynMap/PageGCPageInl/RamMisses        0 times
+/PGM/CPU0/RZ/DynMap/PageHCPageInl        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/RZ/DynMap/PageHCPageInl/Hits        0 times
+/PGM/CPU0/RZ/DynMap/PageHCPageInl/Misses        0 times
+/PGM/CPU0/RZ/DynMap/SetFilledPct000..09        0 times
+/PGM/CPU0/RZ/DynMap/SetFilledPct010..19        0 times
+/PGM/CPU0/RZ/DynMap/SetFilledPct020..29        0 times
+/PGM/CPU0/RZ/DynMap/SetFilledPct030..39        0 times
+/PGM/CPU0/RZ/DynMap/SetFilledPct040..49        0 times
+/PGM/CPU0/RZ/DynMap/SetFilledPct050..59        0 times
+/PGM/CPU0/RZ/DynMap/SetFilledPct060..69        0 times
+/PGM/CPU0/RZ/DynMap/SetFilledPct070..79        0 times
+/PGM/CPU0/RZ/DynMap/SetFilledPct080..89        0 times
+/PGM/CPU0/RZ/DynMap/SetFilledPct090..99        0 times
+/PGM/CPU0/RZ/DynMap/SetFilledPct100        0 times
+/PGM/CPU0/RZ/DynMap/SubsetPopFlushes        0 times
+/PGM/CPU0/RZ/DynMap/Subsets             0 times
+/PGM/CPU0/RZ/FlushTLB                 120 ticks/call (    19314348 ticks,  160095 times, max     37185, min      65)
+/PGM/CPU0/RZ/FlushTLB/NewCR3            0 times
+/PGM/CPU0/RZ/FlushTLB/NewCR3Global        3 times
+/PGM/CPU0/RZ/FlushTLB/SameCR3           0 times
+/PGM/CPU0/RZ/FlushTLB/SameCR3Global   160092 times
+/PGM/CPU0/RZ/GstModifyPage              0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/RZ/InvalidatePage             0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/RZ/InvalidatePage/4KBPages        0 times
+/PGM/CPU0/RZ/InvalidatePage/4MBPages        0 times
+/PGM/CPU0/RZ/InvalidatePage/4MBPagesSkip        0 times
+/PGM/CPU0/RZ/InvalidatePage/PDMappings        0 times
+/PGM/CPU0/RZ/InvalidatePage/PDNAs        0 times
+/PGM/CPU0/RZ/InvalidatePage/PDNPs        0 times
+/PGM/CPU0/RZ/InvalidatePage/PDOutOfSync        0 times
+/PGM/CPU0/RZ/InvalidatePage/Skipped        0 times
+/PGM/CPU0/RZ/OutOfSync/Balloon          0 times
+/PGM/CPU0/RZ/OutOfSync/SuperVisor     1242 times
+/PGM/CPU0/RZ/OutOfSync/SuperVisorWrite        0 times
+/PGM/CPU0/RZ/OutOfSync/User             0 times
+/PGM/CPU0/RZ/OutOfSync/UserWrite        0 times
+/PGM/CPU0/RZ/Prefetch                 542 ticks/call (        1085 ticks,       2 times, max       728, min     357)
+/PGM/CPU0/RZ/ROMWriteHandled            0 times
+/PGM/CPU0/RZ/ROMWriteUnhandled          0 times
+/PGM/CPU0/RZ/SyncCR3                  123 ticks/call (      945443 ticks,    7639 times, max     18172, min      42)
+/PGM/CPU0/RZ/SyncCR3/DstChacheHit        0 times
+/PGM/CPU0/RZ/SyncCR3/DstFreed           0 times
+/PGM/CPU0/RZ/SyncCR3/DstFreedSrcNP        0 times
+/PGM/CPU0/RZ/SyncCR3/DstNotPresent        0 times
+/PGM/CPU0/RZ/SyncCR3/DstSkippedGlobalPD        0 times
+/PGM/CPU0/RZ/SyncCR3/DstSkippedGlobalPT        0 times
+/PGM/CPU0/RZ/SyncCR3/Global             0 times
+/PGM/CPU0/RZ/SyncCR3/Handlers           0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/RZ/SyncCR3/NotGlobal          0 times
+/PGM/CPU0/RZ/SyncPT               1546316 ticks/call (   496367578 ticks,     321 times, max   4458400, min   52663)
+/PGM/CPU0/RZ/SyncPT/4K                  0 times
+/PGM/CPU0/RZ/SyncPT/4M                  0 times
+/PGM/CPU0/RZ/SyncPT/Failed              0 times
+/PGM/CPU0/RZ/SyncPagePDNAs              0 times
+/PGM/CPU0/RZ/SyncPagePDOutOfSync        0 times
+/PGM/CPU0/RZ/Trap0e                323347 ticks/call (   506685306 ticks,    1567 times, max   4477930, min    2297)
+/PGM/CPU0/RZ/Trap0e/Conflicts           0 times
+/PGM/CPU0/RZ/Trap0e/Err/Supervisor/NPRead     1022 times
+/PGM/CPU0/RZ/Trap0e/Err/Supervisor/NPWrite      545 times
+/PGM/CPU0/RZ/Trap0e/Err/Supervisor/NXE        0 times
+/PGM/CPU0/RZ/Trap0e/Err/Supervisor/Reserved        0 times
+/PGM/CPU0/RZ/Trap0e/Err/Supervisor/Write        0 times
+/PGM/CPU0/RZ/Trap0e/Err/User/NPRead        0 times
+/PGM/CPU0/RZ/Trap0e/Err/User/NPWrite        0 times
+/PGM/CPU0/RZ/Trap0e/Err/User/NXE        0 times
+/PGM/CPU0/RZ/Trap0e/Err/User/Read        0 times
+/PGM/CPU0/RZ/Trap0e/Err/User/Reserved        0 times
+/PGM/CPU0/RZ/Trap0e/Err/User/Write        0 times
+/PGM/CPU0/RZ/Trap0e/GuestPF             0 times
+/PGM/CPU0/RZ/Trap0e/GuestPF/InMapping        0 times
+/PGM/CPU0/RZ/Trap0e/Handlers/Invalid        0 times
+/PGM/CPU0/RZ/Trap0e/Handlers/Mapping        0 times
+/PGM/CPU0/RZ/Trap0e/Handlers/OutOfSync        2 times
+/PGM/CPU0/RZ/Trap0e/Handlers/PhysAll        2 times
+/PGM/CPU0/RZ/Trap0e/Handlers/PhysAllOpt        0 times
+/PGM/CPU0/RZ/Trap0e/Handlers/PhysWrite        0 times
+/PGM/CPU0/RZ/Trap0e/Handlers/Unhandled        0 times
+/PGM/CPU0/RZ/Trap0e/Handlers/Virtual        0 times
+/PGM/CPU0/RZ/Trap0e/Handlers/VirtualByPhys        0 times
+/PGM/CPU0/RZ/Trap0e/Handlers/VirtualUnmarked        0 times
+/PGM/CPU0/RZ/Trap0e/Time2/Ballooned        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/RZ/Trap0e/Time2/CSAM          0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/RZ/Trap0e/Time2/DirtyAndAccessedBits        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/RZ/Trap0e/Time2/GuestTrap        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/RZ/Trap0e/Time2/HandlerPhysical    34874 ticks/call (       69748 ticks,       2 times, max     40026, min   29722)
+/PGM/CPU0/RZ/Trap0e/Time2/HandlerUnhandled        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/RZ/Trap0e/Time2/HandlerVirtual        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/RZ/Trap0e/Time2/InvalidPhys        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/RZ/Trap0e/Time2/MakeWritable        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/RZ/Trap0e/Time2/Mapping        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/RZ/Trap0e/Time2/Misc          0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/RZ/Trap0e/Time2/OutOfSync     6762 ticks/call (     8398456 ticks,    1242 times, max     48137, min    2297)
+/PGM/CPU0/RZ/Trap0e/Time2/OutOfSyncHndPhys     8165 ticks/call (       16331 ticks,       2 times, max      9006, min    7325)
+/PGM/CPU0/RZ/Trap0e/Time2/OutOfSyncHndVirt        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/RZ/Trap0e/Time2/OutOfSyncObsHnd        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/RZ/Trap0e/Time2/SyncPT  1552027 ticks/call (   498200771 ticks,     321 times, max   4477930, min   55854)
+/PGM/CPU0/RZ/Trap0e/Time2/WP0R0USHack        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/RZ/Trap0e/Time2/WP0R0USUnhack        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/RZ/Trap0e/Time2/WPEmulation        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/CPU0/RZ/Trap0e/WP/InRZ             0 times
+/PGM/CPU0/RZ/Trap0e/WP/ToR3             0 times
+/PGM/CPU0/cA20Changes                   2 times
+/PGM/CPU0/cGuestModeChanges         13100 times
+/PGM/ChunkR3Map/Map/Aging               0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/ChunkR3Map/Map/Find                0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/ChunkR3Map/Map/Map            129660 ticks/call (    40194890 ticks,     310 times, max    530384, min   92144)
+/PGM/ChunkR3Map/Map/Unmap               0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/ChunkR3Map/Mapped                310 count
+/PGM/ChunkR3Map/TlbHitsR3          201311 times
+/PGM/ChunkR3Map/TlbHitsRZ           63677 times
+/PGM/ChunkR3Map/TlbMissesR3           354 times
+/PGM/ChunkR3Map/TlbMissesRZ            30 times
+/PGM/ChunkR3Map/Unmapped                0 count
+/PGM/ChunkR3Map/c                     310 count
+/PGM/ChunkR3Map/cMax             4294967295 count
+/PGM/LargePage/Overflow                 0 times
+/PGM/LargePage/Prof/Alloc               0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/LargePage/Prof/Clear               0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/LargePage/Prof/R3/IsValid          0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/LargePage/Prof/RZ/IsValid          0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/LargePage/Recheck                  0 times
+/PGM/LargePage/Refused                  0 times
+/PGM/LargePage/Reused                   0 times
+/PGM/Page/cAllPages                267845 count
+/PGM/Page/cBalloonedPages               0 count
+/PGM/Page/cHandyPages                  96 count
+/PGM/Page/cLargePages                   0 count
+/PGM/Page/cLargePagesDisabled           0 count
+/PGM/Page/cMonitoredPages               0 count
+/PGM/Page/cPrivatePages              7173 count
+/PGM/Page/cPureMmioPages               35 count
+/PGM/Page/cReadLockedPages              0 count
+/PGM/Page/cReusedSharedPages            0 count
+/PGM/Page/cSharedPages                  0 count
+/PGM/Page/cWriteLockedPages             0 count
+/PGM/Page/cWrittenToPages               0 count
+/PGM/Page/cZeroPages               260637 count
+/PGM/Pool/Alloc                    101807 ticks/call (    34410860 ticks,     338 times, max  29760777, min    1918)
+/PGM/Pool/Cache/Cacheable             336 times
+/PGM/Pool/Cache/FreeUpOne               0 times
+/PGM/Pool/Cache/Hits                    2 times
+/PGM/Pool/Cache/KindMismatches          0 times
+/PGM/Pool/Cache/Misses                336 times
+/PGM/Pool/Cache/Uncacheable             0 times
+/PGM/Pool/ClearAll                2046095 ticks/call (    49106299 ticks,      24 times, max   4997407, min 1795242)
+/PGM/Pool/FlushForce                    0 times
+/PGM/Pool/FlushForceDirty               0 times
+/PGM/Pool/FlushPage                     0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/Pool/FlushReused                   0 times
+/PGM/Pool/Free                       2588 ticks/call (       15530 ticks,       6 times, max      5058, min    1735)
+/PGM/Pool/Monitor/Dirty/FlushDup        0 times
+/PGM/Pool/Monitor/Dirty/FlushOverflow        0 times
+/PGM/Pool/Monitor/Dirty/Pages           0 times
+/PGM/Pool/Monitor/Dirty/Resets          0 times
+/PGM/Pool/Monitor/R3                    0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/Pool/Monitor/R3/Async              0 times
+/PGM/Pool/Monitor/R3/EmulateInstr        0 times
+/PGM/Pool/Monitor/R3/Fault/PD           0 times
+/PGM/Pool/Monitor/R3/Fault/PDPT         0 times
+/PGM/Pool/Monitor/R3/Fault/PML4         0 times
+/PGM/Pool/Monitor/R3/Fault/PT           0 times
+/PGM/Pool/Monitor/R3/FlushOverflow        0 times
+/PGM/Pool/Monitor/R3/FlushPage          0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/Pool/Monitor/R3/FlushReinit        0 times
+/PGM/Pool/Monitor/R3/Fork               0 times
+/PGM/Pool/Monitor/R3/Handled            0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/Pool/Monitor/R3/RepPrefix          0 times
+/PGM/Pool/Monitor/R3/RepStosd           0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/Pool/Monitor/RZ                    0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/Pool/Monitor/RZ/EmulateInstr        0 times
+/PGM/Pool/Monitor/RZ/Fault/PD           0 times
+/PGM/Pool/Monitor/RZ/Fault/PDPT         0 times
+/PGM/Pool/Monitor/RZ/Fault/PML4         0 times
+/PGM/Pool/Monitor/RZ/Fault/PT           0 times
+/PGM/Pool/Monitor/RZ/FlushOverflow        0 times
+/PGM/Pool/Monitor/RZ/FlushPage          0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/Pool/Monitor/RZ/FlushReinit        0 times
+/PGM/Pool/Monitor/RZ/Fork               0 times
+/PGM/Pool/Monitor/RZ/Handled            0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/Pool/Monitor/RZ/IntrFailPatch1        0 times
+/PGM/Pool/Monitor/RZ/IntrFailPatch2        0 times
+/PGM/Pool/Monitor/RZ/RepPrefix          0 times
+/PGM/Pool/Monitor/RZ/RepStosd           0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/Pool/Monitor/cModifiedPages        0 pages
+/PGM/Pool/Monitor/cModifiedPagesHigh        0 pages
+/PGM/Pool/R3Reset                 3257095 ticks/call (     3257095 ticks,       1 times, max   3257095, min 3257095)
+/PGM/Pool/Track/Deref                   0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/Pool/Track/DrefGCPhys              0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/Pool/Track/Entry/Flush             0 count
+/PGM/Pool/Track/Entry/Update            0 count
+/PGM/Pool/Track/FlushGCPhysPT           0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/Pool/Track/FlushGCPhysPTs          0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/Pool/Track/FlushGCPhysPTsSlow        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/Pool/Track/FreeUpOneUser           0 ticks/call
+/PGM/Pool/Track/LinearRamSearches        0 times
+/PGM/Pool/Track/PhysExtAllocFailures        0 times
+/PGM/Pool/Track/cMaxUsers            1120 count
+/PGM/Pool/Track/cPresent             1969 count
+/PGM/Pool/ZeroPage                   1400 ticks/call (      917220 ticks,     655 times, max     15715, min     511)
+/PGM/Pool/cCurPages                   385 pages
+/PGM/Pool/cMaxPages                   560 pages
+/PGM/Pool/cUsedPages                   13 pages
+/PGM/Pool/cUsedPagesHigh              323 pages
+/PGM/R3/DetectedConflicts               0 times
+/PGM/R3/Page/MapTlbFlushEntry      317781 times
+/PGM/R3/Page/MapTlbFlushes             86 times
+/PGM/R3/Page/MapTlbHits            114203 times
+/PGM/R3/Page/MapTlbMisses           41843 times
+/PGM/R3/Page/ReplacedShared             0 times
+/PGM/R3/Page/ReplacedZero               0 times
+/PGM/R3/Phys/Read                   40778 times
+/PGM/R3/Phys/Read/Bytes            629205 bytes
+/PGM/R3/Phys/Simple/Read                0 times
+/PGM/R3/Phys/Simple/Read/Bytes          0 bytes
+/PGM/R3/Phys/Simple/Write               0 times
+/PGM/R3/Phys/Simple/Write/Bytes         0 bytes
+/PGM/R3/Phys/Write                  43594 times
+/PGM/R3/Phys/Write/Bytes           230867 bytes
+/PGM/R3/PhysHandlerLookupHits      102491 times
+/PGM/R3/PhysHandlerLookupMisses        16 times
+/PGM/R3/PhysHandlerReset             1204 times
+/PGM/R3/RamRange/TlbHits           252050 times
+/PGM/R3/RamRange/TlbMisses           2238 times
+/PGM/R3/ResolveConflict                 0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/R3/SyncCR3/Handlers/VirtualReset        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/R3/SyncCR3/Handlers/VirtualUpdate        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/R3/VirtHandlerSearchByPhys         0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/RC/InvlPgConflict                  0 times
+/PGM/RC/InvlPgSyncMonitorCR3            0 times
+/PGM/RC/Phys/Read                       0 times
+/PGM/RC/Phys/Read/Bytes                 0 bytes
+/PGM/RC/Phys/Simple/Read                0 times
+/PGM/RC/Phys/Simple/Read/Bytes          0 bytes
+/PGM/RC/Phys/Simple/Write               0 times
+/PGM/RC/Phys/Simple/Write/Bytes         0 bytes
+/PGM/RC/Phys/Write                      0 times
+/PGM/RC/Phys/Write/Bytes                0 bytes
+/PGM/RZ/Page/MapTlbHits            861932 times
+/PGM/RZ/Page/MapTlbMisses           63707 times
+/PGM/RZ/Page/ReplacedShared             0 times
+/PGM/RZ/Page/ReplacedZero          159629 times
+/PGM/RZ/Phys/Read                       0 times
+/PGM/RZ/Phys/Read/Bytes                 0 bytes
+/PGM/RZ/Phys/Simple/Read           344582 times
+/PGM/RZ/Phys/Simple/Read/Bytes    5513164 bytes
+/PGM/RZ/Phys/Simple/Write               0 times
+/PGM/RZ/Phys/Simple/Write/Bytes         0 bytes
+/PGM/RZ/Phys/Write                      0 times
+/PGM/RZ/Phys/Write/Bytes                0 bytes
+/PGM/RZ/PhysHandlerLookupHits      609955 times
+/PGM/RZ/PhysHandlerLookupMisses       135 times
+/PGM/RZ/PhysHandlerReset                2 times
+/PGM/RZ/RamRange/TlbHits           839062 times
+/PGM/RZ/RamRange/TlbMisses           3720 times
+/PGM/RZ/SyncCR3/Handlers/VirtualReset        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/RZ/SyncCR3/Handlers/VirtualUpdate        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/RZ/VirtHandlerSearchByPhys         0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/ShMod/Check                        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/Track/Aliased                    448 times
+/PGM/Track/AliasedLots                  0 times
+/PGM/Track/AliasedMany                448 times
+/PGM/Track/Deref                        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PGM/Track/NoExtentLeft                 0 times
+/PGM/Track/Overflows                    0 times
+/PGM/Track/Virgin                  192886 times
+/PGM/cRelocations                       0 times
+/PROF/CPU0/EM/Capped                    0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PROF/CPU0/EM/Emulation/IO         902996 times
+/PROF/CPU0/EM/Emulation/Priv            0 times
+/PROF/CPU0/EM/ForcedActions        927027 times
+/PROF/CPU0/EM/Halted                 1365 times
+/PROF/CPU0/EM/HmEnter                 971 ticks/call (  1048632860 ticks, 1079062 times, max   5229735, min     229)
+/PROF/CPU0/EM/HmExec                47160 ticks/call ( 50888603599 ticks, 1079062 times, max  33694001, min    5711)
+/PROF/CPU0/EM/IEMEmuSingle          89472 ticks/call (  1680375875 ticks,   18781 times, max 204571272, min   25544)
+/PROF/CPU0/EM/IEMThenRem                0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PROF/CPU0/EM/RAWEnter                  0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PROF/CPU0/EM/RAWExec                   0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PROF/CPU0/EM/RAWTail                   0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PROF/CPU0/EM/RAWTotal                  0 times
+/PROF/CPU0/EM/REMEmuSingle              0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PROF/CPU0/EM/REMExec                   0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PROF/CPU0/EM/REMSync                   0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PROF/CPU0/EM/REMTotal                  0 times
+/PROF/CPU0/EM/Total               1114472 ticks/call (172671834137 ticks,  154936 times, max 16432796947, min    5659)
+/PROF/CPU0/HM/InGC                   5075 ticks/call ( 20551870948 ticks, 4048900 times, max   9980394, min    3350)
+/PROF/CPU0/HM/StatEntry              1944 ticks/call (  7880464494 ticks, 4052474 times, max    180870, min     332)
+/PROF/CPU0/HM/StatLoadGuestState     2096 ticks/call (  2991402606 ticks, 1426629 times, max    152322, min     103)
+/PROF/CPU0/HM/SwitchFromGC_1          424 ticks/call (  1718834157 ticks, 4048900 times, max    474809, min     334)
+/PROF/CPU0/HM/SwitchFromGC_2         2712 ticks/call ( 10916204960 ticks, 4024985 times, max    480826, min     168)
+/PROF/CPU0/HM/SwitchFromGC_2/IO      2193 ticks/call (  7742494212 ticks, 3529464 times, max    192981, min    1184)
+/PROF/CPU0/HM/SwitchFromGC_2/MovCRx     2270 ticks/call (   366690569 ticks,  161481 times, max    121344, min     512)
+/PROF/CPU0/HM/SwitchFromGC_2/XcptNmi     1581 ticks/call (     6099417 ticks,    3856 times, max     20403, min     747)
+/PROF/CPU0/VM/Halt/Block          3085071 ns/call ( 23585373331 ticks,    7645 times, max   7996899, min       1)
+/PROF/CPU0/VM/Halt/BlockInsomnia  1636088 ns/call (  2974409059 ticks,    1818 times, max   4940836, min       1)
+/PROF/CPU0/VM/Halt/BlockOnTime    3206806 ns/call ( 11708050573 ticks,    3651 times, max   5028049, min    3260)
+/PROF/CPU0/VM/Halt/BlockOverslept   166892 ns/call (   363158237 ticks,    2176 times, max   3790775, min   50003)
+/PROF/CPU0/VM/Halt/Timers           49177 ns/call (   438368048 ticks,    8914 times, max    866725, min       2)
+/PROF/CPU0/VM/Halt/Yield                0 ns/call (           0 ticks,       0 times, max         0, min      -1)
+/PROF/REM/Compile                       0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PROF/REM/Emulate                       0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PROF/REM/GCPhys2HCVirt                 0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PROF/REM/IRQ                           0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PROF/REM/MemRead                       0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PROF/REM/MemWrite                      0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PROF/REM/RawCheck                      0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PROF/REM/Runcode                       0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PROF/REM/SingleInstr                   0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PROF/REM/TBLookup                      0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PROF/REM/Timers                        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PROF/VM/InGC                           0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PROF/VM/SwitchToGC                     0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/PROF/VM/SwitchToHC                     0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/Public/Net/E1k0/BytesReceived          0 bytes
+/Public/Net/E1k0/BytesTransmitted        0 bytes
+/REM/Change/GDTBase                     0 times
+/REM/Change/IDTBase                     0 times
+/REM/Change/LDTR                        0 times
+/REM/Change/TR                          0 times
+/REM/CpuGetTSC                          0 times
+/REM/FlushTB                            0 times
+/REM/Refuse/CanExecuteRaw               0 times
+/REM/Refuse/Code16                      0 times
+/REM/Refuse/IF0                         0 times
+/REM/Refuse/IOPLNot0                    0 times
+/REM/Refuse/PAE                         0 times
+/REM/Refuse/Paging                      0 times
+/REM/Refuse/Ring1or2                    0 times
+/REM/Refuse/StaleCS                     0 times
+/REM/Refuse/StaleDS                     0 times
+/REM/Refuse/StaleES                     0 times
+/REM/Refuse/StaleFS                     0 times
+/REM/Refuse/StaleGS                     0 times
+/REM/Refuse/StaleSS                     0 times
+/REM/Refuse/TFInibit                    0 times
+/REM/Refuse/VM86                        0 times
+/REM/Refuse/WP0                         0 times
+/REM/State/SelOutOfSync/CS              0 times
+/REM/State/SelOutOfSync/DS              0 times
+/REM/State/SelOutOfSync/ES              0 times
+/REM/State/SelOutOfSync/FS              0 times
+/REM/State/SelOutOfSync/GS              0 times
+/REM/State/SelOutOfSync/SS              0 times
+/REM/StateBack/SelOutOfSync/CS          0 times
+/REM/StateBack/SelOutOfSync/DS          0 times
+/REM/StateBack/SelOutOfSync/ES          0 times
+/REM/StateBack/SelOutOfSync/FS          0 times
+/REM/StateBack/SelOutOfSync/GS          0 times
+/REM/StateBack/SelOutOfSync/SS          0 times
+/REM/TbFlush                            0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/REM/TbFlushCount                       0 times
+/REM/TbPhysInvldCount                   0 times
+/REM/TlbFlushCount                      2 times
+/SELM/LoadHidSel/GstReadErrors          0 times
+/SELM/LoadHidSel/LoadedGuest            0 times
+/SELM/LoadHidSel/LoadedShadow           0 times
+/SELM/LoadHidSel/NoGoodGuest            0 times
+/TM/CPU/00                       69056349352 ns
+/TM/CPU/00/PrfExecLong             404081 ns/time (  1334679574 ticks,    3303 times, max   4119133, min   50010)
+/TM/CPU/00/PrfExecShort             10364 ns/time (   426558827 ticks,   41156 times, max     49977, min    5000)
+/TM/CPU/00/PrfExecTiny               1587 ns/time (  6357948637 ticks, 4004441 times, max      4999, min       1)
+/TM/CPU/00/PrfExecuting              2005 ns/time (  8119187038 ticks, 4048900 times, max   4119133, min       1)
+/TM/CPU/00/PrfHalted             19130531 ns/time ( 24066208181 ticks,    1258 times, max  50432801, min    3720)
+/TM/CPU/00/PrfOther                  9103 ns/time ( 36870954151 ticks, 4050157 times, max 164615867, min       1)
+/TM/CPU/00/cNsExecuting          8119187038 ns
+/TM/CPU/00/cNsHalted             24066208181 ns
+/TM/CPU/00/cNsOther              36975760684 ns
+/TM/CPU/00/cNsTotal              69161155903 ns
+/TM/CPU/00/cPeriodsExecuting      4048900 count
+/TM/CPU/00/cPeriodsHalted            1258 count
+/TM/CPU/00/pctExecuting                13 %
+/TM/CPU/00/pctHalted                    0 %
+/TM/CPU/00/pctOther                    86 %
+/TM/CPU/pctExecuting                   13 %
+/TM/CPU/pctHalted                       0 %
+/TM/CPU/pctOther                       86 %
+/TM/CallbackSetFF                    3043 times
+/TM/DoQueues                        76261 ticks/call (  1503947483 ticks,   19721 times, max   3680162, min    5996)
+/TM/DoQueues/Real                   27838 ticks/call (   549008316 ticks,   19721 times, max   3615500, min     293)
+/TM/DoQueues/Virtual                10674 ticks/call (   210519398 ticks,   19721 times, max    846925, min     332)
+/TM/DoQueues/VirtualSync            15405 ticks/call (   303806434 ticks,   19721 times, max    477028, min    1497)
+/TM/MaxHzHint                           0 Hz
+/TM/PIT/Handler                     39913 ticks/call (    50211620 ticks,    1258 times, max    208620, min    8813)
+/TM/PIT/Irq                          1258 times
+/TM/Poll                           933518 times
+/TM/Poll/AlreadySet                  6177 times
+/TM/Poll/ELoop                          0 times
+/TM/Poll/HitsVirtual                 4187 times
+/TM/Poll/HitsVirtualSync              523 times
+/TM/Poll/Miss                      922661 times
+/TM/Poll/Running                        0 times
+/TM/Poll/Simple                    922818 times
+/TM/PostponedR3                         0 times
+/TM/PostponedRZ                         0 times
+/TM/R0/1nsSteps                      1811 times
+/TM/R0/cExpired                      1813 times
+/TM/R3/1nsSteps                      3475 times
+/TM/R3/cExpired                      3470 times
+/TM/R3/cUpdateRaces                    52 times
+/TM/ScheduleOneR3                   12075 ticks/call (    92665465 ticks,    7674 times, max    157536, min    2865)
+/TM/ScheduleOneRZ                    2394 ticks/call (        2394 ticks,       1 times, max      2394, min    2394)
+/TM/ScheduleSetFF                       1 times
+/TM/TSC/Intercept/CatchupLE010       1803 times
+/TM/TSC/Intercept/CatchupLE025        106 times
+/TM/TSC/Intercept/CatchupLE100         21 times
+/TM/TSC/Intercept/CatchupOther          0 times
+/TM/TSC/Intercept/NotFixed              0 times
+/TM/TSC/Intercept/NotTicking            0 times
+/TM/TSC/Intercept/SyncNotTicking        0 times
+/TM/TSC/Intercept/Warp                  0 times
+/TM/TSC/Pause                           1 times
+/TM/TSC/Resume                          1 times
+/TM/TSC/Sets                            0 times
+/TM/TSC/Underflow                     192 times
+/TM/TSC/offCPU0                         0 ticks
+/TM/TimerSet                        12710 times
+/TM/TimerSet/Opt                    12707 times
+/TM/TimerSet/R3                      5968 ticks/call (    75862252 ticks,   12710 times, max    500944, min     803)
+/TM/TimerSet/RZ                         0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/TM/TimerSet/StActive                   0 times
+/TM/TimerSet/StExpDeliver           12707 times
+/TM/TimerSet/StOther                    0 times
+/TM/TimerSet/StPendResched              0 times
+/TM/TimerSet/StPendSched                0 times
+/TM/TimerSet/StPendStop                 0 times
+/TM/TimerSet/StPendStopSched            0 times
+/TM/TimerSet/StStopped                  3 times
+/TM/TimerSetRelative                 6421 times
+/TM/TimerSetRelative/Opt                5 times
+/TM/TimerSetRelative/R3             18663 ticks/call (   119817479 ticks,    6420 times, max    245840, min    4003)
+/TM/TimerSetRelative/RZ              4875 ticks/call (        4875 ticks,       1 times, max      4875, min    4875)
+/TM/TimerSetRelative/StActive          16 times
+/TM/TimerSetRelative/StExpDeliver     5138 times
+/TM/TimerSetRelative/StOther            0 times
+/TM/TimerSetRelative/StPendResched        0 times
+/TM/TimerSetRelative/StPendSched        0 times
+/TM/TimerSetRelative/StPendStop         0 times
+/TM/TimerSetRelative/StPendStopSched        0 times
+/TM/TimerSetRelative/StStopped       1267 times
+/TM/TimerSetRelativeVs                  0 times
+/TM/TimerSetRelativeVs/R3               0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/TM/TimerSetRelativeVs/RZ            3137 ticks/call (     9217590 ticks,    2938 times, max     99175, min     659)
+/TM/TimerSetRelativeVs/StActive      1393 times
+/TM/TimerSetRelativeVs/StExpDeliver        0 times
+/TM/TimerSetRelativeVs/StStopped     1545 times
+/TM/TimerSetVs                          0 times
+/TM/TimerSetVs/R3                    2915 ticks/call (     4101864 ticks,    1407 times, max     31675, min     666)
+/TM/TimerSetVs/RZ                    1100 ticks/call (        1100 ticks,       1 times, max      1100, min    1100)
+/TM/TimerSetVs/StActive                 9 times
+/TM/TimerSetVs/StExpDeliver          1258 times
+/TM/TimerSetVs/StStopped              141 times
+/TM/TimerStopR3                     23053 ticks/call (    29047036 ticks,    1260 times, max    162377, min     433)
+/TM/TimerStopRZ                         0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/TM/VirtualGet                     995451 times
+/TM/VirtualGetSetFF                     0 times
+/TM/VirtualPause                        1 times
+/TM/VirtualResume                       1 times
+/TM/VirtualSync/CatchUp           2767341 ticks/time (  1333858560 ticks,     482 times, max  74834515, min   19438)
+/TM/VirtualSync/CatchUpActive           0 
+/TM/VirtualSync/CatchUpPercentage        5 %
+/TM/VirtualSync/CurrentOffset      291862 ns
+/TM/VirtualSync/FF                      0 ticks/time (           0 ticks,       0 times, max         0, min      -1)
+/TM/VirtualSync/GiveUp                  0 times
+/TM/VirtualSync/GiveUpBeforeStarting        0 times
+/TM/VirtualSync/Periods/0               5 %
+/TM/VirtualSync/Periods/0/Adjust        0 times
+/TM/VirtualSync/Periods/0/Initial      336 times
+/TM/VirtualSync/Periods/0/Start    750000 ns
+/TM/VirtualSync/Periods/1              10 %
+/TM/VirtualSync/Periods/1/Adjust        2 times
+/TM/VirtualSync/Periods/1/Initial      130 times
+/TM/VirtualSync/Periods/1/Start   1500000 ns
+/TM/VirtualSync/Periods/2              25 %
+/TM/VirtualSync/Periods/2/Adjust        5 times
+/TM/VirtualSync/Periods/2/Initial       11 times
+/TM/VirtualSync/Periods/2/Start   8000000 ns
+/TM/VirtualSync/Periods/3              50 %
+/TM/VirtualSync/Periods/3/Adjust        0 times
+/TM/VirtualSync/Periods/3/Initial        4 times
+/TM/VirtualSync/Periods/3/Start  30000000 ns
+/TM/VirtualSync/Periods/4              75 %
+/TM/VirtualSync/Periods/4/Adjust        0 times
+/TM/VirtualSync/Periods/4/Initial        1 times
+/TM/VirtualSync/Periods/4/Start  75000000 ns
+/TM/VirtualSync/Periods/5             100 %
+/TM/VirtualSync/Periods/5/Adjust        0 times
+/TM/VirtualSync/Periods/5/Initial        0 times
+/TM/VirtualSync/Periods/5/Start  175000000 ns
+/TM/VirtualSync/Periods/6             200 %
+/TM/VirtualSync/Periods/6/Adjust        0 times
+/TM/VirtualSync/Periods/6/Initial        0 times
+/TM/VirtualSync/Periods/6/Start  500000000 ns
+/TM/VirtualSync/Periods/7             300 %
+/TM/VirtualSync/Periods/7/Adjust        0 times
+/TM/VirtualSync/Periods/7/Initial        0 times
+/TM/VirtualSync/Periods/7/Start  3000000000 ns
+/TM/VirtualSync/Periods/8             400 %
+/TM/VirtualSync/Periods/8/Adjust        0 times
+/TM/VirtualSync/Periods/8/Initial        0 times
+/TM/VirtualSync/Periods/8/Start  30000000000 ns
+/TM/VirtualSync/Periods/9             500 %
+/TM/VirtualSync/Periods/9/Adjust        0 times
+/TM/VirtualSync/Periods/9/Initial        0 times
+/TM/VirtualSync/Periods/9/Start  55000000000 ns
+/TM/VirtualSync/Run                 19721 times
+/TM/VirtualSync/Run/Restarts         2941 times
+/TM/VirtualSync/Run/Slack           31885 ns/time (     3507413 ticks,     110 times, max     99769, min       4)
+/TM/VirtualSync/Run/Stop             2016 times
+/TM/VirtualSync/Run/StoppedAlready      818 times
+/TM/VirtualSyncGet                3574425 times
+/TM/VirtualSyncGet/AdjLast              0 times
+/TM/VirtualSyncGet/ELoop                0 times
+/TM/VirtualSyncGet/Expired            818 times
+/TM/VirtualSyncGet/Locked         3576773 times
+/TM/VirtualSyncGet/Lockless             0 times
+/TM/VirtualSyncGet/SetFF             4167 times
+/TRPM/ForwardRaw/IRQ/20               565 times
+/TRPM/ForwardRaw/IRQ/32               240 times
+/TRPM/ForwardRaw/IRQ/36                17 times
+/TRPM/ForwardRaw/IRQ/37                43 times
+/TRPM/ForwardRaw/IRQ/EF              1411 times
+/TRPM/ForwardRaw/TRAP/08                7 times
+/VM/Req/AllocNew                        1 times
+/VM/Req/AllocRaces                      0 times
+/VM/Req/AllocRecycled                  78 times
+/VM/Req/Free                           79 times
+/VM/Req/FreeOverflow                    0 times
+/VM/Req/MoreThan1                       0 times
+/VM/Req/Processed                      78 times
+/VM/Req/PushBackRaces                   0 times
+/VM/Switcher/ToGC/CR0                   0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/VM/Switcher/ToGC/CR4                   0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/VM/Switcher/ToGC/Debug                 0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/VM/Switcher/ToGC/JmpCR3                0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/VM/Switcher/ToGC/Lgdt                  0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/VM/Switcher/ToGC/Lidt                  0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/VM/Switcher/ToGC/Lldt                  0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/VM/Switcher/ToGC/RstrRegs              0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/VM/Switcher/ToGC/SaveRegs              0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/VM/Switcher/ToGC/SysEnter              0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/VM/Switcher/ToGC/TSS                   0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+/VMM/RZCallR3/Misc                      0 times
+/VMM/RZCallR3/PDMCritSectEnter          0 times
+/VMM/RZCallR3/PDMLock                   0 times
+/VMM/RZCallR3/PGMAllocHandy          1290 times
+/VMM/RZCallR3/PGMLock                   0 times
+/VMM/RZCallR3/PGMMapChunk               0 times
+/VMM/RZCallR3/PGMPoolGrow               5 times
+/VMM/RZCallR3/REMReplay                 0 times
+/VMM/RZCallR3/VMMLogFlush               0 times
+/VMM/RZCallR3/VMRuntimeError            0 times
+/VMM/RZCallR3/VMSetError                0 times
+/VMM/RZRet/CSAMTask                     0 times
+/VMM/RZRet/Emulate                  10875 times
+/VMM/RZRet/EmulateIOBlock               0 times
+/VMM/RZRet/GDTFault                     0 times
+/VMM/RZRet/GuestTrap                    0 times
+/VMM/RZRet/IDTFault                     0 times
+/VMM/RZRet/IORead                  876170 times
+/VMM/RZRet/IOWrite                  26826 times
+/VMM/RZRet/IRETTrap                     0 times
+/VMM/RZRet/Interrupt                  597 times
+/VMM/RZRet/InterruptHyper               0 times
+/VMM/RZRet/InterruptPending             0 times
+/VMM/RZRet/LDTFault                     0 times
+/VMM/RZRet/MMIOPatchRead                0 times
+/VMM/RZRet/MMIOPatchWrite               0 times
+/VMM/RZRet/MMIORead                  1725 times
+/VMM/RZRet/MMIOReadWrite             1199 times
+/VMM/RZRet/MMIOWrite                 4982 times
+/VMM/RZRet/Misc                      1112 times
+/VMM/RZRet/Normal                       0 times
+/VMM/RZRet/PATMDuplicateFn              0 times
+/VMM/RZRet/PDFault                      0 times
+/VMM/RZRet/PGMChangeMode           152455 times
+/VMM/RZRet/PGMFlushPending              0 times
+/VMM/RZRet/PatchEmulate                 0 times
+/VMM/RZRet/PatchGP                      0 times
+/VMM/RZRet/PatchInt3                    0 times
+/VMM/RZRet/PatchIret                    0 times
+/VMM/RZRet/PatchPF                      0 times
+/VMM/RZRet/PatchTPR                     0 times
+/VMM/RZRet/PendingRequest              13 times
+/VMM/RZRet/RingSwitch                   0 times
+/VMM/RZRet/RingSwitchInt                0 times
+/VMM/RZRet/ScheduleREM                  0 times
+/VMM/RZRet/StaleSelector                0 times
+/VMM/RZRet/SyncCR                       0 times
+/VMM/RZRet/TSSFault                     0 times
+/VMM/RZRet/TimerPending               138 times
+/VMM/RZRet/ToR3                         0 times
+/VMM/RZRet/ToR3/CritSect                0 times
+/VMM/RZRet/ToR3/DMA                     0 times
+/VMM/RZRet/ToR3/Handy                  45 times
+/VMM/RZRet/ToR3/PDMQueue                2 times
+/VMM/RZRet/ToR3/Rendezvous              0 times
+/VMM/RZRet/ToR3/TMVirt                566 times
+/VMM/RZRet/ToR3/Timer                2018 times
+/VMM/RZRet/ToR3/Unknown               339 times
+/VMM/RunRC                        1080357 times
+/VMM/Stack/CPU0/Avg                     0 bytes
+/VMM/Stack/CPU0/Max                     0 bytes
+/VMM/Stack/CPU0/Uses                    0 times
+/VUSB/0/ActBytes                      506 bytes
+/VUSB/0/ActBytes/Bulk                   0 bytes
+/VUSB/0/ActBytes/Ctrl                 506 bytes
+/VUSB/0/ActBytes/Intr                   0 bytes
+/VUSB/0/ActBytes/Isoc                   0 bytes
+/VUSB/0/ActReadBytes                  378 bytes
+/VUSB/0/ActReadBytes/Bulk               0 bytes
+/VUSB/0/ActReadBytes/Ctrl             378 bytes
+/VUSB/0/ActReadBytes/Intr               0 bytes
+/VUSB/0/ActReadBytes/Isoc               0 bytes
+/VUSB/0/ActWriteBytes                 128 bytes
+/VUSB/0/ActWriteBytes/Bulk              0 bytes
+/VUSB/0/ActWriteBytes/Ctrl            128 bytes
+/VUSB/0/ActWriteBytes/Intr              0 bytes
+/VUSB/0/ActWriteBytes/Isoc              0 bytes
+/VUSB/0/Bulk/ActBytes                   0 bytes
+/VUSB/0/Bulk/ActBytes/Read              0 bytes
+/VUSB/0/Bulk/ActBytes/Write             0 bytes
+/VUSB/0/Bulk/ReqBytes                   0 bytes
+/VUSB/0/Bulk/ReqBytes/Read              0 bytes
+/VUSB/0/Bulk/ReqBytes/Write             0 bytes
+/VUSB/0/Bulk/Urbs                       0 count
+/VUSB/0/Bulk/UrbsFailed                 0 count
+/VUSB/0/Bulk/UrbsFailed/Cancelled        0 count
+/VUSB/0/Ctrl/ActBytes                 506 bytes
+/VUSB/0/Ctrl/ActBytes/Read            378 bytes
+/VUSB/0/Ctrl/ActBytes/Write           128 bytes
+/VUSB/0/Ctrl/ReqBytes                 506 bytes
+/VUSB/0/Ctrl/ReqBytes/Read            378 bytes
+/VUSB/0/Ctrl/ReqBytes/Write           128 bytes
+/VUSB/0/Ctrl/Urbs                      45 count
+/VUSB/0/Ctrl/UrbsFailed                 1 count
+/VUSB/0/Ctrl/UrbsFailed/Cancelled        0 count
+/VUSB/0/Intr/ActBytes                   0 bytes
+/VUSB/0/Intr/ActBytes/Read              0 bytes
+/VUSB/0/Intr/ActBytes/Write             0 bytes
+/VUSB/0/Intr/ReqBytes                   0 bytes
+/VUSB/0/Intr/ReqBytes/Read              0 bytes
+/VUSB/0/Intr/ReqBytes/Write             0 bytes
+/VUSB/0/Intr/Urbs                       0 count
+/VUSB/0/Intr/UrbsFailed                 0 count
+/VUSB/0/Intr/UrbsFailed/Cancelled        0 count
+/VUSB/0/Isoc/ActBytes                   0 bytes
+/VUSB/0/Isoc/ActBytes/Read              0 bytes
+/VUSB/0/Isoc/ActBytes/Write             0 bytes
+/VUSB/0/Isoc/ActPkts                    0 count
+/VUSB/0/Isoc/ActPkts/Read               0 count
+/VUSB/0/Isoc/ActPkts/Write              0 count
+/VUSB/0/Isoc/ReqBytes                   0 bytes
+/VUSB/0/Isoc/ReqBytes/Read              0 bytes
+/VUSB/0/Isoc/ReqBytes/Write             0 bytes
+/VUSB/0/Isoc/ReqPkts                    0 count
+/VUSB/0/Isoc/ReqPkts/Read               0 count
+/VUSB/0/Isoc/ReqPkts/Write              0 count
+/VUSB/0/Isoc/Urbs                       0 count
+/VUSB/0/Isoc/UrbsFailed                 0 count
+/VUSB/0/Isoc/UrbsFailed/Cancelled        0 count
+/VUSB/0/ReapAsyncUrbs                   0 times (           0 ticks,       0 times, max         0, min      -1)
+/VUSB/0/ReqBytes                      506 bytes
+/VUSB/0/ReqBytes/Bulk                   0 bytes
+/VUSB/0/ReqBytes/Ctrl                 506 bytes
+/VUSB/0/ReqBytes/Intr                   0 bytes
+/VUSB/0/ReqBytes/Isoc                   0 bytes
+/VUSB/0/ReqReadBytes                  378 bytes
+/VUSB/0/ReqReadBytes/Bulk               0 bytes
+/VUSB/0/ReqReadBytes/Ctrl             378 bytes
+/VUSB/0/ReqReadBytes/Intr               0 bytes
+/VUSB/0/ReqReadBytes/Isoc               0 bytes
+/VUSB/0/ReqWriteBytes                 128 bytes
+/VUSB/0/ReqWriteBytes/Bulk              0 bytes
+/VUSB/0/ReqWriteBytes/Ctrl            128 bytes
+/VUSB/0/ReqWriteBytes/Intr              0 bytes
+/VUSB/0/ReqWriteBytes/Isoc              0 bytes
+/VUSB/0/SubmitUrb                   72541 times (     3264372 ticks,      45 times, max    865075, min   15765)
+/VUSB/0/UrbsCancelled                   0 count
+/VUSB/0/UrbsCancelled/Bulk              0 count
+/VUSB/0/UrbsCancelled/Ctrl              0 count
+/VUSB/0/UrbsCancelled/Intr              0 count
+/VUSB/0/UrbsCancelled/Isoc              0 count
+/VUSB/0/UrbsFailed                      1 count
+/VUSB/0/UrbsFailed/Bulk                 0 count
+/VUSB/0/UrbsFailed/Ctrl                 1 count
+/VUSB/0/UrbsFailed/Intr                 0 count
+/VUSB/0/UrbsFailed/Isoc                 0 count
+/VUSB/0/UrbsSubmitted                  45 count
+/VUSB/0/UrbsSubmitted/Bulk              0 count
+/VUSB/0/UrbsSubmitted/Ctrl             45 count
+/VUSB/0/UrbsSubmitted/Intr              0 count
+/VUSB/0/UrbsSubmitted/Isoc              0 count
+/VUSB/0/cUrbsInPool                     1 count
+
+IP stats:
+       0 total packets received (0 were unaligned)
+       0 with incorrect version
+       0 with bad header checksum
+       0 with length too short (len < sizeof(iphdr))
+       0 with length too small (len < ip->len)
+       0 with bad header length
+       0 with bad packet length
+       0 fragments received
+       0 fragments dropped
+       0 fragments timed out
+       0 packets reassembled ok
+       0 outgoing packets fragmented
+       0 total outgoing fragments
+       0 with bad protocol field
+       0 total packets delivered
+
+TCP stats:
+       0 packets sent
+               0 data packets (0 bytes)
+               0 data packets retransmitted (0 bytes)
+               0 ack-only packets (0 delayed)
+               0 URG only packets
+               0 window probe packets
+               0 window update packets
+               0 control (SYN/FIN/RST) packets
+               0 times tcp_output did nothing
+       0 packets received
+               0 acks (for 0 bytes)
+               0 duplicate acks
+               0 acks for unsent data
+               0 packets received in sequence (0 bytes)
+               0 completely duplicate packets (0 bytes)
+               0 packets with some duplicate data (0 bytes duped)
+               0 out-of-order packets (0 bytes)
+               0 packets of data after window (0 bytes)
+               0 window probes
+               0 window update packets
+               0 packets received after close
+               0 discarded for bad checksums
+               0 discarded for bad header offset fields
+       0 connection requests
+       0 connection accepts
+       0 connections established (including accepts)
+       0 connections closed (including 0 drop)
+       0 embryonic connections dropped
+       0 segments we tried to get rtt (0 succeeded)
+       0 retransmit timeouts
+               0 connections dropped by rxmt timeout
+       0 persist timeouts
+       0 keepalive timeouts
+               0 keepalive probes sent
+               0 connections dropped by keepalive
+       0 correct ACK header predictions
+       0 correct data packet header predictions
+       0 TCP cache misses
+
+UDP stats:
+       0 datagrams received
+       0 with packets shorter than header
+       0 with bad checksums
+       0 with data length larger than packet
+       0 UDP socket cache misses
+       0 datagrams sent
+
+ICMP stats:
+       0 ICMP packets received
+       0 were too short
+       0 with bad checksums
+       0 with type not supported
+       0 with bad type feilds
+       0 ICMP packets sent in reply
+
+Proto[state]     Sock     Local Address, Port  Remote Address, Port RecvQ SendQ
+
+!!Assertion Failed!!
+Expression: SUCCEEDED (rc)
+Location  : /home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/globals/COMDefs.cpp(422) void COMErrorInfo::fetchFromCurrentThread(nsISupports*, const nsID*)
+COM RC = NS_ERROR_UNEXPECTED (0x8000FFFF)

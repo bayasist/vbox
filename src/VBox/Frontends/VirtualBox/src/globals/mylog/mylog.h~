@@ -1,0 +1,4 @@
+#include <string>
+#define LOG_FILENAME "~/VBoxDebugLog/a"
+
+int writeMyLog(std::string);

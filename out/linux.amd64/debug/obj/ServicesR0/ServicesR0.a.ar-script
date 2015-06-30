@@ -1,0 +1,5 @@
+CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/ServicesR0/ServicesR0.a
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/ServicesR0/Network/SrvIntNetR0.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/ServicesR0/Bus/SrvPciRawR0.o
+SAVE
+END

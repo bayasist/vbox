@@ -1,0 +1,9 @@
+define DisasmR3_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/DisasmR3.a.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/DisasmR3.a /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/DisasmR3.a.ar-script /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/DisasmR3.imp.a 
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/DisasmR3.a.ar-script 'CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/DisasmR3.a'
+@kmk_builtin_append -n /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/DisasmR3.a.ar-script  'ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/Disasm.o'  'ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/DisasmCore.o'  'ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/DisasmReg.o'  'ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/DisasmTables.o'  'ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/DisasmTablesX64.o'  'ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/DisasmFormatBytes.o'  'ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/DisasmFormatYasm.o' 
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/DisasmR3.a.ar-script 'SAVE'
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/DisasmR3.a.ar-script 'END'
+@/home/se170/VirtualBox-4.3.28/kBuild/bin/linux.amd64/kmk_redirect -rti /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/DisasmR3.a.ar-script -- ar -M
+endef

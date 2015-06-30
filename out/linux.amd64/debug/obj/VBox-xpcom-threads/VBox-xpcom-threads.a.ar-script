@@ -1,0 +1,12 @@
+CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-threads/VBox-xpcom-threads.a
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-threads/xpcom/threads/plevent.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-threads/xpcom/threads/nsAutoLock.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-threads/xpcom/threads/nsEnvironment.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-threads/xpcom/threads/nsEventQueue.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-threads/xpcom/threads/nsEventQueueService.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-threads/xpcom/threads/nsThread.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-threads/xpcom/threads/nsTimerImpl.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-threads/xpcom/threads/nsProcessCommon.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-threads/xpcom/threads/TimerThread.o
+SAVE
+END

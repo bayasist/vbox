@@ -1,0 +1,10 @@
+CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-components/VBox-xpcom-components.a
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-components/xpcom/components/nsCategoryManager.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-components/xpcom/components/nsComponentManager.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-components/xpcom/components/nsComponentManagerObsolete.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-components/xpcom/components/nsNativeComponentLoader.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-components/xpcom/components/nsServiceManagerObsolete.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-components/xpcom/components/xcDll.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-components/xpcom/components/nsStaticComponentLoader.o
+SAVE
+END

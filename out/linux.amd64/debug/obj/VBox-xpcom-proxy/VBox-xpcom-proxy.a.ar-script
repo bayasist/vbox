@@ -1,0 +1,8 @@
+CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-proxy/VBox-xpcom-proxy.a
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-proxy/xpcom/proxy/src/nsProxyEvent.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-proxy/xpcom/proxy/src/nsProxyEventClass.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-proxy/xpcom/proxy/src/nsProxyEventObject.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-proxy/xpcom/proxy/src/nsProxyObjectManager.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-proxy/xpcom/proxy/src/nsProxyRelease.o
+SAVE
+END

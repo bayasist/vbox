@@ -1,0 +1,526 @@
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsLocalFileUnix.o: \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/io/nsLocalFileUnix.cpp \
+ /usr/include/stdc-predef.h /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/time.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/sys/stat.h \
+ /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+ /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/x86_64-linux-gnu/bits/uio.h /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/utime.h /usr/include/dirent.h \
+ /usr/include/x86_64-linux-gnu/bits/dirent.h \
+ /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h /usr/include/ctype.h /usr/include/xlocale.h \
+ /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/io/nsDirectoryServiceDefs.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/ds/nsCRT.h \
+ /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/plstr.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtypes.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prcpucfg.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/md/_linux.cfg \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/obsolete/protypes.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/base/nscore.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/xpcom-config.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtypes.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/base/nsError.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/ds/nsCppSharedAllocator.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsMemory.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIMemory.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsISupports.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsrootidl.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtime.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prlong.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/base/nsISupportsBase.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/base/nsID.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsISupportsUtils.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsDebug.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsISupportsImpl.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prthread.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prinrval.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/pratom.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prlock.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsTraceRefcnt.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nscore.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIClassInfo.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIProgrammingLanguage.h \
+ /usr/include/c++/4.9/new \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/os_defines.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/cpu_defines.h \
+ /usr/include/c++/4.9/exception \
+ /usr/include/c++/4.9/bits/atomic_lockfree_defines.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsCOMPtr.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIFile.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/io/nsDirectoryServiceUtils.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIServiceManager.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/build/nsXPCOM.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/build/nsXPCOMCID.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/components/nsIServiceManagerUtils.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/components/nsIServiceManagerObsolete.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIComponentManager.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/components/nsComponentManagerUtils.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/components/nsComponentManagerObsolete.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIComponentManagerObsolete.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIFactory.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/components/nsComponentManagerObsolete.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/base/nsID.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/components/nsIServiceManagerObsolete.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIProperties.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsString.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsSubstring.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsAString.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsStringFwd.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsStringIterator.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsCharTraits.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsDebug.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsAlgorithm.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsObsoleteAString.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/string-template-def-unichar.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsTObsoleteAString.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/string-template-undef.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/string-template-def-char.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsTAString.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsSubstringTuple.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsTSubstringTuple.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsTSubstring.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsDependentSubstring.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsTDependentSubstring.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsReadableUtils.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsTString.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsDependentString.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsTDependentString.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsLiteralString.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsPromiseFlatString.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsTPromiseFlatString.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/plhash.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsReadableUtils.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/io/nsLocalFile.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsILocalFile.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prio.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtime.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prinet.h \
+ /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/sys/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h /usr/include/netinet/in.h \
+ /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/arpa/inet.h \
+ /usr/include/netdb.h /usr/include/rpc/netdb.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo.h \
+ /usr/include/x86_64-linux-gnu/bits/netdb.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prlink.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/io/nsLocalFileUnix.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsXPIDLString.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prproces.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prio.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsISimpleEnumerator.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsITimelineService.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/io/nsNativeCharsetUtils.h
+
+/usr/include/stdc-predef.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/x86_64-linux-gnu/sys/stat.h:
+
+/usr/include/x86_64-linux-gnu/bits/stat.h:
+
+/usr/include/unistd.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/x86_64-linux-gnu/bits/fcntl.h:
+
+/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
+
+/usr/include/x86_64-linux-gnu/bits/uio.h:
+
+/usr/include/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/utime.h:
+
+/usr/include/dirent.h:
+
+/usr/include/x86_64-linux-gnu/bits/dirent.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/ctype.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/io/nsDirectoryServiceDefs.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/ds/nsCRT.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/string.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/plstr.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtypes.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prcpucfg.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/md/_linux.cfg:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/obsolete/protypes.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/base/nscore.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/xpcom-config.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtypes.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/base/nsError.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/ds/nsCppSharedAllocator.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsMemory.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIMemory.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsISupports.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsrootidl.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtime.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prlong.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/base/nsISupportsBase.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/base/nsID.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsISupportsUtils.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsDebug.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsISupportsImpl.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prthread.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prinrval.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/pratom.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prlock.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsTraceRefcnt.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nscore.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIClassInfo.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIProgrammingLanguage.h:
+
+/usr/include/c++/4.9/new:
+
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/c++config.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/os_defines.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/cpu_defines.h:
+
+/usr/include/c++/4.9/exception:
+
+/usr/include/c++/4.9/bits/atomic_lockfree_defines.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsCOMPtr.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIFile.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/io/nsDirectoryServiceUtils.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIServiceManager.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/build/nsXPCOM.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/build/nsXPCOMCID.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/components/nsIServiceManagerUtils.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/components/nsIServiceManagerObsolete.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIComponentManager.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/components/nsComponentManagerUtils.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/components/nsComponentManagerObsolete.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIComponentManagerObsolete.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIFactory.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/components/nsComponentManagerObsolete.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/base/nsID.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/components/nsIServiceManagerObsolete.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIProperties.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsString.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsSubstring.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsAString.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsStringFwd.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsStringIterator.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsCharTraits.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsDebug.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsAlgorithm.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsObsoleteAString.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/string-template-def-unichar.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsTObsoleteAString.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/string-template-undef.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/string-template-def-char.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsTAString.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsSubstringTuple.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsTSubstringTuple.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsTSubstring.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsDependentSubstring.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsTDependentSubstring.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsReadableUtils.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsTString.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsDependentString.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsTDependentString.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsLiteralString.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsPromiseFlatString.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsTPromiseFlatString.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/plhash.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsReadableUtils.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/io/nsLocalFile.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsILocalFile.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prio.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtime.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prinet.h:
+
+/usr/include/x86_64-linux-gnu/sys/socket.h:
+
+/usr/include/x86_64-linux-gnu/sys/uio.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket_type.h:
+
+/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
+
+/usr/include/x86_64-linux-gnu/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/x86_64-linux-gnu/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/x86_64-linux-gnu/bits/in.h:
+
+/usr/include/arpa/inet.h:
+
+/usr/include/netdb.h:
+
+/usr/include/rpc/netdb.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo.h:
+
+/usr/include/x86_64-linux-gnu/bits/netdb.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prlink.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/io/nsLocalFileUnix.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string/nsXPIDLString.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prproces.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prio.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsISimpleEnumerator.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsITimelineService.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/io/nsNativeCharsetUtils.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/io/nsLocalFileUnix.cpp:
+
+
+define VBox-xpcom-io_/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/io/nsLocalFileUnix.cpp_CMDS_PREV_
+
+@g++ -c -g -g -pipe -ansi -Wall -Wno-unused -Wno-non-virtual-dtor -Wno-invalid-offsetof -Wno-sign-compare -Wno-unused -Wno-ctor-dtor-privacy -fvisibility-inlines-hidden -fvisibility=hidden -DVBOX_HAVE_VISIBILITY_HIDDEN -DRT_USE_VISIBILITY_DEFAULT -fdiagnostics-show-option -Wno-delete-non-virtual-dtor -fPIC -pthread -m64 -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/build -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/ds -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/io -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/base -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/components -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/threads -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/proxy/src -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/reflect/xptcall/src -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/ipc/ipcd/client/src -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/ipc/ipcd/shared/src -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/ipc/ipcd/extensions/lock/src -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/ipc/ipcd/extensions/transmngr/src -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/ipc/ipcd/extensions/dconnect/src -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/ipc/ipcd/extensions/transmngr/common -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/ipcd -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4 -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/dtrace -I/home/se170/VirtualBox-4.3.28/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DRT_LOCK_STRICT -DRT_LOCK_STRICT_ORDER -DMOZILLA_CLIENT=1 -DNDEBUG=1 -D_IMPL_NS_COM -DXPCOM_DLL_BASE=\"VBoxXPCOM\" -DMOZ_DLL_SUFFIX=\".so\" -DIN_RING3 -DVBOX_USE_IPRT_IN_XPCOM -DVBOX_WITH_XPCOM_NAMESPACE_CLEANUP -DMOZ_PRESERVE_PIC -D_IMPL_NS_COM -DMOZ_USER_DIR=\".mozilla\" -DOSTYPE=\"Linux2.6\" -DOSARCH=\"Linux\" -DXP_UNIX=1 -D_GNU_SOURCE -DHAVE_VISIBILITY_ATTRIBUTE=1 -DHAVE_VA_LIST_AS_ARRAY -DHAVE_VA_COPY -DVA_COPY\(a\,b\)=__builtin_va_copy\(a\,b\) -Wp,-MD,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsLocalFileUnix.o.dep -Wp,-MT,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsLocalFileUnix.o -Wp,-MP -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsLocalFileUnix.o /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/io/nsLocalFileUnix.cpp
+@kmk_builtin_append -n "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-io/xpcom/io/nsLocalFileUnix.o.dep" "" "/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/io/nsLocalFileUnix.cpp:" ""
+endef

@@ -1,0 +1,287 @@
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxDDR0/Graphics/DevVGA.o: \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/Graphics/DevVGA.cpp \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmdev.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmqueue.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/types.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/cdefs.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/types.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdint.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/nocrt/compiler/compiler.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/nocrt/compiler/gcc.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmcritsect.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/critsect.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/assert.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/thread.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/lockvalidator.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmthread.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmifs.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/sg.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/hgcmsvc.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/string.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/err.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/nocrt/string.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/err.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmins.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmcommon.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/iom.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/dis.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/disopcode.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/tm.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/ssm.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/vmapi.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/stam.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/cfgm.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/dbgf.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/log.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/log.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/vmm.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/sup.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/cpuset.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/mp.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/asm.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/dbgfsel.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/x86.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/dbg.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/ldr.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/pci.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pgm.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/gmm.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/gvmm.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/param.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/param.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/ostypes.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/VMMDev.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/VMMDev2.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/avl.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/file.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/fs.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/time.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/uuid.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/VBoxVideo.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/Hardware/VBoxVideoVBE.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/bioslogo.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/Graphics/DevVGA.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/Graphics/HGSMI/HGSMIHost.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/vm.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/cpum.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/cpumctx.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/HGSMI/HGSMI.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/HGSMI/HGSMIChannels.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/HGSMI/HGSMIChSetup.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/Graphics/DevVGASavedState.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/Graphics/DevVGA-SVGA.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/list.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/build/vl_vbox.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdm.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmapi.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmcritsectrw.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmdrv.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmasynccompletion.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmnetshaper.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmnetifs.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmblkcache.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/mm.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/ftm.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmusb.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vusb.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/queueatomic.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmsrv.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/build/VBoxDD.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/build/VBoxDD.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/build/VBoxDD2.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/Graphics/vmsvga/svga_reg.h
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmdev.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmqueue.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/types.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/cdefs.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/types.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdint.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/nocrt/compiler/compiler.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/nocrt/compiler/gcc.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmcritsect.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/critsect.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/assert.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/thread.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/lockvalidator.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmthread.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmifs.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/sg.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/hgcmsvc.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/string.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/err.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/nocrt/string.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/err.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmins.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmcommon.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/iom.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/dis.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/disopcode.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/tm.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/ssm.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/vmapi.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/stam.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/cfgm.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/dbgf.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/log.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/log.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/vmm.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/sup.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/cpuset.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/mp.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/asm.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/dbgfsel.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/x86.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/dbg.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/ldr.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/pci.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pgm.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/gmm.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/gvmm.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/param.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/param.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/ostypes.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/VMMDev.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/VMMDev2.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/avl.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/file.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/fs.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/time.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/uuid.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/VBoxVideo.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/Hardware/VBoxVideoVBE.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/bioslogo.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/Graphics/DevVGA.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/Graphics/HGSMI/HGSMIHost.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/vm.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/cpum.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/cpumctx.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/HGSMI/HGSMI.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/HGSMI/HGSMIChannels.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/HGSMI/HGSMIChSetup.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/Graphics/DevVGASavedState.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/Graphics/DevVGA-SVGA.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/list.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/build/vl_vbox.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdm.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmapi.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmcritsectrw.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmdrv.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmasynccompletion.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmnetshaper.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmnetifs.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmblkcache.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/mm.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/ftm.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmusb.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vusb.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/queueatomic.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmsrv.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/build/VBoxDD.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/build/VBoxDD.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/build/VBoxDD2.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/Graphics/vmsvga/svga_reg.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/Graphics/DevVGA.cpp:
+
+
+define VBoxDDR0_/home/se170/VirtualBox-4.3.28/src/VBox/Devices/Graphics/DevVGA.cpp_CMDS_PREV_
+
+@g++ -c -g -nostdinc -g -pipe -Werror -pedantic -Wshadow -Wshadow -Wall -Wextra -Wno-missing-field-initializers -Wno-unused -Wno-trigraphs -fdiagnostics-show-option -Wno-unused-parameter -Wno-long-long -Wno-long-long -Wno-delete-non-virtual-dtor -Wno-variadic-macros -O2 -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-strict-aliasing -fno-exceptions -fno-stack-protector -fno-common -fvisibility-inlines-hidden -fvisibility=hidden -DVBOX_HAVE_VISIBILITY_HIDDEN -DRT_USE_VISIBILITY_DEFAULT -fno-rtti -m64 -mno-red-zone -mcmodel=kernel -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -fno-asynchronous-unwind-tables -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VgaBiosBin -I/home/se170/VirtualBox-4.3.28/src/VBox/Devices/build -I/home/se170/VirtualBox-4.3.28/include/iprt/nocrt -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxDDR0/dtrace -I/home/se170/VirtualBox-4.3.28/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DRT_LOCK_STRICT -DRT_LOCK_STRICT_ORDER -DIN_RING0 -DIN_RING0_AGNOSTIC -DIPRT_NO_CRT -DRT_WITH_NOCRT_ALIASES -DHC_ARCH_BITS=64 -DGC_ARCH_BITS=64 -DVBOX_WITH_DTRACE -DVBOX_WITH_DTRACE_R0 -DIN_RT_R0 -DVBOX_WITH_HGCM -DVBOX_WITH_E1000 -DVBOX_WITH_VIRTIO -DVBOX_WITH_NETSHAPER -DVBOX_WITH_VMSVGA -DVBOX_WITH_HGSMI -DVBOX_WITH_WDDM -DVBOX_WITH_VDMA -DVBOX_WITH_CRHGSMI -DVBOXWDDM_WITH_VBVA -DVBOX_WITH_VUSB -DVBOX_WITH_USB -DVBOX_WITH_AHCI -DIN_AHCI_R0 -DVBOX_WITH_BUSLOGIC -DVBOX_WITH_LSILOGIC -DVBOX_WITH_HGSMI -DVBOX_WITH_VIDEOHWACCEL -Wp,-MD,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxDDR0/Graphics/DevVGA.o.dep -Wp,-MT,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxDDR0/Graphics/DevVGA.o -Wp,-MP -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxDDR0/Graphics/DevVGA.o /home/se170/VirtualBox-4.3.28/src/VBox/Devices/Graphics/DevVGA.cpp
+@kmk_builtin_append -n "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxDDR0/Graphics/DevVGA.o.dep" "" "/home/se170/VirtualBox-4.3.28/src/VBox/Devices/Graphics/DevVGA.cpp:" ""
+endef

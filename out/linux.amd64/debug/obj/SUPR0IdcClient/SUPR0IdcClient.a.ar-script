@@ -1,0 +1,7 @@
+CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR0IdcClient/SUPR0IdcClient.a
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR0IdcClient/SUPR0IdcClient.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR0IdcClient/SUPR0IdcClientComponent.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR0IdcClient/SUPR0IdcClientStubs.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR0IdcClient/linux/SUPR0IdcClient-linux.o
+SAVE
+END

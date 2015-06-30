@@ -1,0 +1,1080 @@
+     1                                 %line 1+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+     2                                 
+     3                                 
+     4                                 
+     5                                 
+     6                                 
+     7                                 
+     8                                 
+     9                                 
+    10                                 
+    11                                 
+    12                                 
+    13                                 
+    14                                 
+    15                                 
+    16                                 
+    17                                 
+    18                                 
+    19                                 
+    20                                 
+    21                                 
+    22                                 
+    23                                 
+    24                                 
+    25                                 
+    26                                 
+    27                                 
+    28                                 
+    29                                 %line 1+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    30                                 
+    31                                 
+    32                                 
+    33                                 
+    34                                 
+    35                                 
+    36                                 
+    37                                 
+    38                                 
+    39                                 
+    40                                 
+    41                                 
+    42                                 
+    43                                 
+    44                                 
+    45                                 
+    46                                 
+    47                                 
+    48                                 
+    49                                 
+    50                                 
+    51                                 
+    52                                 
+    53                                 
+    54                                 
+    55                                 %line 28+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    56                                 
+    57                                 
+    58                                 
+    59                                 
+    60                                 
+    61                                 
+    62                                 %line 35+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    63                                 
+    64                                 %line 37+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    65                                 
+    66                                 %line 39+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    67                                 
+    68                                 %line 41+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    69                                 
+    70                                 %line 43+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    71                                 
+    72                                 %line 45+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    73                                 
+    74                                 %line 47+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    75                                 
+    76                                 %line 49+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    77                                 
+    78                                 %line 51+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    79                                 
+    80                                 %line 53+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    81                                 
+    82                                 %line 55+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    83                                 
+    84                                 %line 57+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    85                                 
+    86                                 %line 59+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    87                                 
+    88                                 %line 61+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    89                                 
+    90                                 %line 63+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    91                                 
+    92                                 %line 65+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    93                                 
+    94                                 %line 67+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    95                                 
+    96                                 
+    97                                 
+    98                                 
+    99                                 
+   100                                 %line 73+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   101                                 
+   102                                 
+   103                                 
+   104                                 %line 77+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   105                                 
+   106                                 
+   107                                 %line 84+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   108                                 
+   109                                 
+   110                                 
+   111                                 %line 92+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   112                                 
+   113                                 
+   114                                 
+   115                                 %line 100+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   116                                 
+   117                                 
+   118                                 
+   119                                 %line 108+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   120                                 
+   121                                 
+   122                                 
+   123                                 %line 116+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   124                                 
+   125                                 
+   126                                 
+   127                                 
+   128                                 %line 121+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   129                                 
+   130                                 
+   131                                 
+   132                                 %line 125+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   133                                 
+   134                                 
+   135                                 
+   136                                 %line 129+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   137                                 
+   138                                 
+   139                                 
+   140                                 
+   141                                 
+   142                                 %line 137+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   143                                 
+   144                                 
+   145                                 
+   146                                 
+   147                                 %line 157+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   148                                 
+   149                                 
+   150                                 
+   151                                 %line 165+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   152                                 
+   153                                 
+   154                                 
+   155                                 %line 177+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   156                                 
+   157                                 
+   158                                 
+   159                                 
+   160                                 %line 188+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   161                                 
+   162                                 
+   163                                 
+   164                                 %line 211+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   165                                 
+   166                                 
+   167                                 
+   168                                 
+   169                                 
+   170                                 %line 222+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   171                                 
+   172                                 
+   173                                 
+   174                                 %line 236+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   175                                 
+   176                                 
+   177                                 
+   178                                 %line 249+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   179                                 
+   180                                 
+   181                                 
+   182                                 %line 263+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   183                                 
+   184                                 
+   185                                 
+   186                                 %line 274+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   187                                 
+   188                                 
+   189                                 
+   190                                 %line 288+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   191                                 
+   192                                 
+   193                                 
+   194                                 %line 302+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   195                                 
+   196                                 
+   197                                 
+   198                                 
+   199                                 
+   200                                 
+   201                                 
+   202                                 
+   203                                 %line 356+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   204                                 
+   205                                 %line 363+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   206                                 
+   207                                 
+   208                                 
+   209                                 
+   210                                 %line 376+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   211                                 
+   212                                 
+   213                                 
+   214                                 
+   215                                 
+   216                                 
+   217                                 
+   218                                 %line 396+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   219                                 
+   220                                 
+   221                                 
+   222                                 %line 408+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   223                                 
+   224                                 
+   225                                 
+   226                                 %line 420+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   227                                 
+   228                                 
+   229                                 
+   230                                 
+   231                                 
+   232                                 %line 432+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   233                                 
+   234                                 
+   235                                 
+   236                                 %line 442+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   237                                 
+   238                                 
+   239                                 
+   240                                 %line 452+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   241                                 
+   242                                 
+   243                                 
+   244                                 %line 462+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   245                                 
+   246                                 
+   247                                 
+   248                                 %line 472+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   249                                 
+   250                                 
+   251                                 
+   252                                 
+   253                                 
+   254                                 %line 482+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   255                                 
+   256                                 
+   257                                 
+   258                                 
+   259                                 %line 491+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   260                                 
+   261                                 
+   262                                 
+   263                                 %line 499+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   264                                 
+   265                                 
+   266                                 
+   267                                 %line 507+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   268                                 
+   269                                 
+   270                                 
+   271                                 
+   272                                 
+   273                                 %line 517+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   274                                 
+   275                                 
+   276                                 
+   277                                 
+   278                                 %line 526+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   279                                 
+   280                                 
+   281                                 
+   282                                 %line 534+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   283                                 
+   284                                 
+   285                                 
+   286                                 %line 542+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   287                                 
+   288                                 
+   289                                 
+   290                                 
+   291                                 
+   292                                 %line 552+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   293                                 
+   294                                 
+   295                                 
+   296                                 
+   297                                 %line 561+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   298                                 
+   299                                 
+   300                                 
+   301                                 %line 569+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   302                                 
+   303                                 
+   304                                 
+   305                                 %line 577+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   306                                 
+   307                                 
+   308                                 
+   309                                 
+   310                                 
+   311                                 %line 587+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   312                                 
+   313                                 
+   314                                 
+   315                                 
+   316                                 %line 596+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   317                                 
+   318                                 %line 599+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   319                                 
+   320                                 
+   321                                 
+   322                                 %line 607+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   323                                 
+   324                                 
+   325                                 
+   326                                 %line 615+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   327                                 
+   328                                 
+   329                                 
+   330                                 
+   331                                 %line 620+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   332                                 
+   333                                 
+   334                                 
+   335                                 
+   336                                 %line 625+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   337                                 
+   338                                 
+   339                                 
+   340                                 %line 629+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   341                                 
+   342                                 
+   343                                 
+   344                                 %line 633+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   345                                 
+   346                                 
+   347                                 
+   348                                 
+   349                                 
+   350                                 
+   351                                 
+   352                                 
+   353                                 
+   354                                 
+   355                                 
+   356                                 
+   357                                 
+   358                                 
+   359                                 
+   360                                 %line 666+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   361                                 
+   362                                 
+   363                                 
+   364                                 
+   365                                 
+   366                                 %line 672+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   367                                 
+   368                                 
+   369                                 
+   370                                 
+   371                                 %line 677+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   372                                 
+   373                                 
+   374                                 
+   375                                 %line 681+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   376                                 
+   377                                 
+   378                                 
+   379                                 %line 685+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   380                                 
+   381                                 
+   382                                 
+   383                                 
+   384                                 
+   385                                 %line 691+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   386                                 
+   387                                 
+   388                                 
+   389                                 
+   390                                 %line 696+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   391                                 
+   392                                 
+   393                                 
+   394                                 %line 700+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   395                                 
+   396                                 
+   397                                 
+   398                                 %line 704+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   399                                 
+   400                                 
+   401                                 
+   402                                 
+   403                                 
+   404                                 
+   405                                 
+   406                                 
+   407                                 %line 721+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   408                                 
+   409                                 
+   410                                 
+   411                                 
+   412                                 
+   413                                 
+   414                                 
+   415                                 
+   416                                 
+   417                                 
+   418                                 
+   419                                 
+   420                                 
+   421                                 
+   422                                 %line 738+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   423                                 
+   424                                 %line 752+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   425                                 
+   426                                 
+   427                                 
+   428                                 
+   429                                 
+   430                                 
+   431                                 
+   432                                 
+   433                                 
+   434                                 
+   435                                 
+   436                                 
+   437                                 
+   438                                 %line 770+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   439                                 
+   440                                 
+   441                                 
+   442                                 
+   443                                 
+   444                                 
+   445                                 
+   446                                 %line 791+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   447                                 
+   448                                 %line 797+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   449                                 
+   450                                 
+   451                                 
+   452                                 
+   453                                 
+   454                                 
+   455                                 
+   456                                 
+   457                                 
+   458                                 
+   459                                 
+   460                                 
+   461                                 
+   462                                 
+   463                                 
+   464                                 
+   465                                 
+   466                                 
+   467                                 
+   468                                 
+   469                                 
+   470                                 
+   471                                 
+   472                                 
+   473                                 
+   474                                 
+   475                                 
+   476                                 
+   477                                 
+   478                                 
+   479                                 
+   480                                 
+   481                                 
+   482                                 %line 853+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   483                                 
+   484                                 
+   485                                 
+   486                                 
+   487                                 
+   488                                 
+   489                                 
+   490                                 
+   491                                 
+   492                                 
+   493                                 %line 873+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   494                                 
+   495                                 
+   496                                 
+   497                                 %line 886+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   498                                 
+   499                                 %line 1+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/include/internal/bignum.mac
+   500                                 
+   501                                 
+   502                                 
+   503                                 
+   504                                 
+   505                                 
+   506                                 
+   507                                 
+   508                                 
+   509                                 
+   510                                 
+   511                                 
+   512                                 
+   513                                 
+   514                                 
+   515                                 
+   516                                 
+   517                                 
+   518                                 
+   519                                 
+   520                                 
+   521                                 
+   522                                 
+   523                                 
+   524                                 
+   525                                 
+   526                                 %line 29+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/include/internal/bignum.mac
+   527                                 
+   528                                 %line 1+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   529                                 
+   530                                 
+   531                                 
+   532                                 
+   533                                 
+   534                                 
+   535                                 
+   536                                 
+   537                                 
+   538                                 
+   539                                 
+   540                                 
+   541                                 
+   542                                 
+   543                                 
+   544                                 
+   545                                 
+   546                                 
+   547                                 
+   548                                 
+   549                                 
+   550                                 
+   551                                 
+   552                                 
+   553                                 
+   554                                 %line 31+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/include/internal/bignum.mac
+   555                                 
+   556                                 
+   557                                 %line 44+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/include/internal/bignum.mac
+   558                                 
+   559                                 [absolute 0]
+   560                                 %line 45+0 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/include/internal/bignum.mac
+   561                                 RTBIGNUM:
+   562                                 %line 46+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/include/internal/bignum.mac
+   563                                  .pauElements resq 1
+   564                                  .cUsed resd 1
+   565                                  .cAllocated resd 1
+   566                                  .uReserved resd 1
+   567                                  .fFlags resd 1
+   568                                 RTBIGNUM_size:
+   569                                 %line 51+0 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/include/internal/bignum.mac
+   570                                 [section .text]
+   571                                 %line 52+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/include/internal/bignum.mac
+   572                                 
+   573                                 %line 54+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/include/internal/bignum.mac
+   574                                 
+   575                                 %line 31+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   576                                 
+   577                                 
+   578                                 [section .text]
+   579                                 
+   580                                 
+   581                                 
+   582                                 
+   583                                 
+   584                                 
+   585                                 
+   586                                 
+   587                                 
+   588                                 
+   589                                 
+   590                                 
+   591                                 
+   592                                 
+   593                                 [global rtBigNumMagnitudeSubAssemblyWorker:function hidden]
+   594                                 %line 48+0 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   595                                 rtBigNumMagnitudeSubAssemblyWorker:
+   596                                 %line 49+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   597 00000000 55                      push rbp
+   598                                 %line 51+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   599 00000001 4889E5                  mov rbp, rsp
+   600                                 %line 54+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   601                                 
+   602                                 %line 67+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   603 00000004 4531DB                  xor r11d, r11d
+   604                                 
+   605                                 %line 73+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   606 00000007 83F908                  cmp ecx, 8
+   607 0000000A 0F8289000000            jb .small_job
+   608                                 
+   609 00000010 4189CA                  mov r10d, ecx
+   610 00000013 41C1EA03                shr r10d, 3
+   611 00000017 F8                      clc
+   612                                 .big_loop:
+   613 00000018 4A8B041E                mov rax, [rsi + r11]
+   614 0000001C 4A1B041A                sbb rax, [rdx + r11]
+   615 00000020 4A89041F                mov [rdi + r11], rax
+   616 00000024 4A8B441E08              mov rax, [rsi + r11 + 8]
+   617 00000029 4A1B441A08              sbb rax, [rdx + r11 + 8]
+   618 0000002E 4A89441F08              mov [rdi + r11 + 8], rax
+   619 00000033 4A8B441E10              mov rax, [rsi + r11 + 16]
+   620 00000038 4A1B441A10              sbb rax, [rdx + r11 + 16]
+   621 0000003D 4A89441F10              mov [rdi + r11 + 16], rax
+   622 00000042 4A8B441E18              mov rax, [rsi + r11 + 24]
+   623 00000047 4A1B441A18              sbb rax, [rdx + r11 + 24]
+   624 0000004C 4A89441F18              mov [rdi + r11 + 24], rax
+   625 00000051 4A8B441E20              mov rax, [rsi + r11 + 32]
+   626 00000056 4A1B441A20              sbb rax, [rdx + r11 + 32]
+   627 0000005B 4A89441F20              mov [rdi + r11 + 32], rax
+   628 00000060 4A8B441E28              mov rax, [rsi + r11 + 40]
+   629 00000065 4A1B441A28              sbb rax, [rdx + r11 + 40]
+   630 0000006A 4A89441F28              mov [rdi + r11 + 40], rax
+   631 0000006F 4A8B441E30              mov rax, [rsi + r11 + 48]
+   632 00000074 4A1B441A30              sbb rax, [rdx + r11 + 48]
+   633 00000079 4A89441F30              mov [rdi + r11 + 48], rax
+   634 0000007E 4A8B441E38              mov rax, [rsi + r11 + 56]
+   635 00000083 4A1B441A38              sbb rax, [rdx + r11 + 56]
+   636 00000088 4A89441F38              mov [rdi + r11 + 56], rax
+   637 0000008D 4D8D5B40                lea r11, [r11 + 64]
+   638 00000091 41FFCA                  dec r10d
+   639 00000094 7580                    jnz .big_loop
+   640                                 
+   641 00000096 9F                      lahf
+   642 00000097 83E107                  and ecx, 7
+   643 0000009A 7416                    jz .done
+   644 0000009C 9E                      sahf
+   645 0000009D EBFF                    jmp .small_loop
+   646                                 
+   647                                 .small_job:
+   648 0000009F F8                      clc
+   649                                 .small_loop:
+   650 000000A0 4A8B041E                mov rax, [rsi + r11]
+   651 000000A4 4A1B041A                sbb rax, [rdx + r11]
+   652 000000A8 4A89041F                mov [rdi + r11], rax
+   653 000000AC 4D8D5B08                lea r11, [r11 + 8]
+   654 000000B0 FFC9                    dec ecx
+   655 000000B2 75EA                    jnz .small_loop
+   656                                 %line 127+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   657                                 .done:
+   658                                 
+   659                                 %line 207+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   660                                 
+   661 000000B4 C9                      leave
+   662 000000B5 C3                      ret
+   663                                 %line 214+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   664                                 [global rtBigNumMagnitudeSubAssemblyWorker_EndProc:function hidden]
+   665                                 %line 214+0 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   666                                 rtBigNumMagnitudeSubAssemblyWorker_EndProc:
+   667                                 [size rtBigNumMagnitudeSubAssemblyWorker rtBigNumMagnitudeSubAssemblyWorker_EndProc - rtBigNumMagnitudeSubAssemblyWorker]
+   668                                 [size rtBigNumMagnitudeSubAssemblyWorker_EndProc 0]
+   669 000000B6 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+   670                                 %line 215+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   671                                 
+   672                                 
+   673                                 
+   674                                 
+   675                                 
+   676                                 
+   677                                 
+   678                                 
+   679                                 
+   680                                 
+   681                                 
+   682                                 
+   683                                 
+   684                                 
+   685                                 
+   686                                 [global rtBigNumMagnitudeSubThisAssemblyWorker:function hidden]
+   687                                 %line 230+0 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   688                                 rtBigNumMagnitudeSubThisAssemblyWorker:
+   689                                 %line 231+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   690 000000BA 55                      push rbp
+   691                                 %line 233+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   692 000000BB 4889E5                  mov rbp, rsp
+   693                                 %line 236+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   694                                 
+   695                                 %line 247+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   696 000000BE 4531DB                  xor r11d, r11d
+   697                                 
+   698                                 %line 253+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   699 000000C1 83FA08                  cmp edx, 8
+   700 000000C4 7266                    jb .small_job
+   701                                 
+   702 000000C6 4189D2                  mov r10d, edx
+   703 000000C9 41C1EA03                shr r10d, 3
+   704 000000CD F8                      clc
+   705                                 .big_loop:
+   706 000000CE 4A8B041E                mov rax, [rsi + r11]
+   707 000000D2 4A19041F                sbb [rdi + r11], rax
+   708 000000D6 4A8B441E08              mov rax, [rsi + r11 + 8]
+   709 000000DB 4A19441F08              sbb [rdi + r11 + 8], rax
+   710 000000E0 4A8B441E10              mov rax, [rsi + r11 + 16]
+   711 000000E5 4A19441F10              sbb [rdi + r11 + 16], rax
+   712 000000EA 4A8B441E18              mov rax, [rsi + r11 + 24]
+   713 000000EF 4A19441F18              sbb [rdi + r11 + 24], rax
+   714 000000F4 4A8B441E20              mov rax, [rsi + r11 + 32]
+   715 000000F9 4A19441F20              sbb [rdi + r11 + 32], rax
+   716 000000FE 4A8B441E28              mov rax, [rsi + r11 + 40]
+   717 00000103 4A19441F28              sbb [rdi + r11 + 40], rax
+   718 00000108 4A8B441E30              mov rax, [rsi + r11 + 48]
+   719 0000010D 4A19441F30              sbb [rdi + r11 + 48], rax
+   720 00000112 4A8B441E38              mov rax, [rsi + r11 + 56]
+   721 00000117 4A19441F38              sbb [rdi + r11 + 56], rax
+   722 0000011C 4D8D5B40                lea r11, [r11 + 64]
+   723 00000120 41FFCA                  dec r10d
+   724 00000123 75A7                    jnz .big_loop
+   725                                 
+   726 00000125 9F                      lahf
+   727 00000126 83E207                  and edx, 7
+   728 00000129 7412                    jz .done
+   729 0000012B 9E                      sahf
+   730 0000012C EBFF                    jmp .small_loop
+   731                                 
+   732                                 .small_job:
+   733 0000012E F8                      clc
+   734                                 .small_loop:
+   735 0000012F 4A8B041E                mov rax, [rsi + r11]
+   736 00000133 4A19041F                sbb [rdi + r11], rax
+   737 00000137 4D8D5B08                lea r11, [r11 + 8]
+   738 0000013B FFCA                    dec edx
+   739 0000013D 75EE                    jnz .small_loop
+   740                                 %line 298+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   741                                 .done:
+   742                                 
+   743                                 %line 365+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   744                                 
+   745 0000013F C9                      leave
+   746 00000140 C3                      ret
+   747                                 [global rtBigNumMagnitudeSubThisAssemblyWorker_EndProc:function hidden]
+   748                                 %line 368+0 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   749                                 rtBigNumMagnitudeSubThisAssemblyWorker_EndProc:
+   750                                 [size rtBigNumMagnitudeSubThisAssemblyWorker rtBigNumMagnitudeSubThisAssemblyWorker_EndProc - rtBigNumMagnitudeSubThisAssemblyWorker]
+   751                                 [size rtBigNumMagnitudeSubThisAssemblyWorker_EndProc 0]
+   752 00000141 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+   753                                 %line 369+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   754                                 
+   755                                 
+   756                                 
+   757                                 
+   758                                 
+   759                                 
+   760                                 
+   761                                 
+   762                                 
+   763                                 
+   764                                 
+   765                                 
+   766                                 
+   767                                 [global rtBigNumMagnitudeShiftLeftOneAssemblyWorker:function hidden]
+   768                                 %line 382+0 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   769                                 rtBigNumMagnitudeShiftLeftOneAssemblyWorker:
+   770                                 %line 383+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   771 00000145 55                      push rbp
+   772                                 %line 385+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   773 00000146 4889E5                  mov rbp, rsp
+   774                                 %line 388+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   775                                 
+   776                                 %line 409+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   777                                 
+   778 00000149 83FE08                  cmp esi, 8
+   779 0000014C 7304                    jae .big_loop_init
+   780                                 
+   781                                 
+   782 0000014E 85F6                    test esi, esi
+   783 00000150 745C                    jz .no_elements
+   784 00000152 EB3F                    jmp .small_loop_init
+   785                                 
+   786                                 
+   787                                 .big_loop_init:
+   788                                 %line 421+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   789 00000154 4189F3                  mov r11d, esi
+   790                                 %line 423+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   791 00000157 C1EE03                  shr esi, 3
+   792 0000015A 85D2                    test edx, edx
+   793 0000015C 74FF                    jz .big_loop
+   794 0000015E F9                      stc
+   795                                 .big_loop:
+   796                                 %line 429+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   797 0000015F 48D117                  rcl qword [rdi], 1
+   798 00000162 48D15708                rcl qword [rdi + 8], 1
+   799 00000166 48D15710                rcl qword [rdi + 16], 1
+   800 0000016A 48D15718                rcl qword [rdi + 24], 1
+   801 0000016E 48D15720                rcl qword [rdi + 32], 1
+   802 00000172 48D15728                rcl qword [rdi + 40], 1
+   803 00000176 48D15730                rcl qword [rdi + 48], 1
+   804 0000017A 48D15738                rcl qword [rdi + 56], 1
+   805 0000017E 488D7F40                lea rdi, [rdi + 64]
+   806                                 %line 449+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   807 00000182 FFCE                    dec esi
+   808 00000184 75D7                    jnz .big_loop
+   809                                 
+   810                                 
+   811 00000186 9F                      lahf
+   812                                 %line 455+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   813 00000187 4489DE                  mov esi, r11d
+   814                                 %line 459+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   815 0000018A 83E607                  and esi, 7
+   816 0000018D 7401                    jz .restore_cf_and_return
+   817 0000018F 9E                      sahf
+   818 00000190 EB06                    jmp .small_loop
+   819                                 .restore_cf_and_return:
+   820 00000192 9E                      sahf
+   821 00000193 EB0E                    jmp .carry_to_eax
+   822                                 
+   823                                 
+   824                                 .small_loop_init:
+   825 00000195 85D2                    test edx, edx
+   826 00000197 74FF                    jz .small_loop
+   827 00000199 F9                      stc
+   828                                 .small_loop:
+   829                                 %line 474+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   830 0000019A 48D117                  rcl qword [rdi], 1
+   831 0000019D 488D7F08                lea rdi, [rdi + 8]
+   832                                 %line 480+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   833 000001A1 FFCE                    dec esi
+   834 000001A3 75F3                    jnz .small_loop
+   835                                 
+   836                                 
+   837                                 .carry_to_eax:
+   838 000001A5 B800000000              mov eax, 0
+   839 000001AA 7300                    jnc .return
+   840 000001AC FFC0                    inc eax
+   841                                 .return:
+   842 000001AE C9                      leave
+   843 000001AF C3                      ret
+   844                                 
+   845                                 .no_elements:
+   846 000001B0 89D0                    mov eax, edx
+   847 000001B2 EBF8                    jmp .return
+   848                                 [global rtBigNumMagnitudeShiftLeftOneAssemblyWorker_EndProc:function hidden]
+   849                                 %line 495+0 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   850                                 rtBigNumMagnitudeShiftLeftOneAssemblyWorker_EndProc:
+   851                                 [size rtBigNumMagnitudeShiftLeftOneAssemblyWorker rtBigNumMagnitudeShiftLeftOneAssemblyWorker_EndProc - rtBigNumMagnitudeShiftLeftOneAssemblyWorker]
+   852                                 [size rtBigNumMagnitudeShiftLeftOneAssemblyWorker_EndProc 0]
+   853 000001B4 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+   854                                 %line 496+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   855                                 
+   856                                 
+   857                                 
+   858                                 
+   859                                 
+   860                                 
+   861                                 
+   862                                 
+   863                                 
+   864                                 
+   865                                 
+   866                                 
+   867                                 
+   868                                 [global rtBigNumElement2xDiv2xBy1x:function hidden]
+   869                                 %line 509+0 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   870                                 rtBigNumElement2xDiv2xBy1x:
+   871                                 %line 510+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   872 000001B8 55                      push rbp
+   873                                 %line 512+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   874 000001B9 4889E5                  mov rbp, rsp
+   875                                 %line 515+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   876                                 
+   877                                 %line 521+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   878                                 
+   879                                 %line 528+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   880 000001BC 4889C8                  mov rax, rcx
+   881                                 %line 538+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   882                                 
+   883                                 %line 556+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   884                                 
+   885                                 %line 566+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   886                                 
+   887                                 
+   888                                 
+   889                                 
+   890 000001BF 48C7470800000000        mov qword [rdi + 8], 0
+   891 000001C7 4C39C2                  cmp rdx, r8
+   892 000001CA 720C                    jb .do_divide
+   893 000001CC 50                      push rax
+   894 000001CD 4889D0                  mov rax, rdx
+   895 000001D0 31D2                    xor edx, edx
+   896 000001D2 49F7F0                  div r8
+   897 000001D5 48894708                mov qword [rdi + 8], rax
+   898 000001D9 58                      pop rax
+   899                                 
+   900                                 
+   901                                 
+   902                                 
+   903                                 .do_divide:
+   904 000001DA 49F7F0                  div r8
+   905 000001DD 488907                  mov qword [rdi], rax
+   906 000001E0 488916                  mov qword [rsi], rdx
+   907                                 
+   908                                 
+   909                                 %line 593+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   910 000001E3 C9                      leave
+   911 000001E4 C3                      ret
+   912                                 [global rtBigNumElement2xDiv2xBy1x_EndProc:function hidden]
+   913                                 %line 595+0 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   914                                 rtBigNumElement2xDiv2xBy1x_EndProc:
+   915                                 [size rtBigNumElement2xDiv2xBy1x rtBigNumElement2xDiv2xBy1x_EndProc - rtBigNumElement2xDiv2xBy1x]
+   916                                 [size rtBigNumElement2xDiv2xBy1x_EndProc 0]
+   917 000001E5 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+   918                                 %line 596+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   919                                 
+   920                                 
+   921                                 
+   922                                 
+   923                                 
+   924                                 
+   925                                 
+   926                                 
+   927                                 
+   928                                 
+   929                                 
+   930                                 
+   931                                 [global rtBigNumMagnitudeMultiplyAssemblyWorker:function hidden]
+   932                                 %line 608+0 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   933                                 rtBigNumMagnitudeMultiplyAssemblyWorker:
+   934                                 %line 609+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   935 000001E9 55                      push rbp
+   936                                 %line 611+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   937 000001EA 4889E5                  mov rbp, rsp
+   938                                 %line 614+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   939                                 
+   940                                 %line 620+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   941                                 
+   942                                 %line 627+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   943 000001ED 4189D1                  mov r9d, edx
+   944 000001F0 4589C0                  mov r8d, r8d
+   945                                 %line 645+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   946                                 
+   947                                 %line 664+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   948                                 
+   949                                 
+   950                                 
+   951                                 
+   952 000001F3 4983F800                cmp r8, 0
+   953 000001F7 743F                    je .done
+   954                                 
+   955                                 
+   956                                 
+   957                                 
+   958                                 
+   959                                 .multiplier_loop:
+   960 000001F9 4983F900                cmp r9, 0
+   961 000001FD 7439                    jz .done
+   962 000001FF 49FFC9                  dec r9
+   963                                 
+   964                                 
+   965                                 %line 686+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   966 00000202 4C8B16                  mov r10, [rsi]
+   967                                 %line 688+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   968                                 
+   969 00000205 4D31DB                  xor r11, r11
+   970                                 .multiplicand_loop:
+   971 00000208 4A8B04D9                mov rax, [rcx + r11 * 8]
+   972 0000020C 49F7E2                  mul r10
+   973 0000020F 4A0104DF                add [rdi + r11 * 8], rax
+   974 00000213 4A1154DF08              adc [rdi + r11 * 8 + 8], rdx
+   975 00000218 730C                    jnc .next_multiplicand
+   976 0000021A 498D5302                lea rdx, [r11 + 2]
+   977                                 .next_adc:
+   978 0000021E 488314D700              adc qword [rdi + rdx * 8], 0
+   979 00000223 48FFC2                  inc rdx
+   980 00000226 72F4                    jc .next_adc
+   981                                 
+   982                                 .next_multiplicand:
+   983 00000228 49FFC3                  inc r11
+   984 0000022B 4D39C3                  cmp r11, r8
+   985 0000022E 72D6                    jb .multiplicand_loop
+   986                                 
+   987                                 
+   988 00000230 4883C608                add rsi, 8
+   989 00000234 4883C708                add rdi, 8
+   990 00000238 EBBD                    jmp .multiplier_loop
+   991                                 
+   992                                 .done:
+   993                                 
+   994                                 %line 726+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   995 0000023A C9                      leave
+   996 0000023B C3                      ret
+   997                                 [global rtBigNumMagnitudeMultiplyAssemblyWorker_EndProc:function hidden]
+   998                                 %line 728+0 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+   999                                 rtBigNumMagnitudeMultiplyAssemblyWorker_EndProc:
+  1000                                 [size rtBigNumMagnitudeMultiplyAssemblyWorker rtBigNumMagnitudeMultiplyAssemblyWorker_EndProc - rtBigNumMagnitudeMultiplyAssemblyWorker]
+  1001                                 [size rtBigNumMagnitudeMultiplyAssemblyWorker_EndProc 0]
+  1002 0000023C CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1003                                 %line 729+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+  1004                                 
+  1005                                 
+  1006                                 
+  1007                                 
+  1008                                 
+  1009                                 
+  1010                                 
+  1011                                 
+  1012                                 
+  1013                                 
+  1014                                 
+  1015                                 
+  1016                                 [global rtBigNumKnuthD4_MulSub:function hidden]
+  1017                                 %line 741+0 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+  1018                                 rtBigNumKnuthD4_MulSub:
+  1019                                 %line 742+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+  1020 00000240 55                      push rbp
+  1021                                 %line 744+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+  1022 00000241 4889E5                  mov rbp, rsp
+  1023                                 %line 747+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+  1024                                 
+  1025                                 %line 753+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+  1026                                 
+  1027                                 %line 759+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+  1028 00000244 4189D0                  mov r8d, edx
+  1029                                 %line 770+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+  1030                                 
+  1031                                 %line 786+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+  1032                                 
+  1033                                 %line 796+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+  1034                                 
+  1035                                 
+  1036                                 
+  1037                                 
+  1038 00000247 4D31DB                  xor r11, r11
+  1039                                 
+  1040                                 
+  1041                                 
+  1042                                 
+  1043                                 .the_loop:
+  1044                                 
+  1045 0000024A 4889C8                  mov rax, rcx
+  1046 0000024D 48F726                  mul qword [rsi]
+  1047                                 
+  1048 00000250 4C01D8                  add rax, r11
+  1049 00000253 4883D200                adc rdx, 0
+  1050 00000257 4989D3                  mov r11, rdx
+  1051                                 
+  1052 0000025A 482907                  sub [rdi], rax
+  1053 0000025D 4983D300                adc r11, 0
+  1054                                 %line 821+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+  1055                                 
+  1056                                 
+  1057 00000261 4883C708                add rdi, 8
+  1058 00000265 4883C608                add rsi, 8
+  1059 00000269 49FFC8                  dec r8
+  1060 0000026C 75DA                    jnz .the_loop
+  1061                                 
+  1062                                 
+  1063                                 
+  1064                                 
+  1065 0000026E 4C291F                  sub [rdi], r11
+  1066 00000271 19C0                    sbb eax, eax
+  1067 00000273 83E001                  and eax, 1
+  1068                                 
+  1069                                 .done:
+  1070                                 %line 842+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+  1071 00000276 C9                      leave
+  1072 00000277 C3                      ret
+  1073                                 [global rtBigNumKnuthD4_MulSub_EndProc:function hidden]
+  1074                                 %line 844+0 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+  1075                                 rtBigNumKnuthD4_MulSub_EndProc:
+  1076                                 [size rtBigNumKnuthD4_MulSub rtBigNumKnuthD4_MulSub_EndProc - rtBigNumKnuthD4_MulSub]
+  1077                                 [size rtBigNumKnuthD4_MulSub_EndProc 0]
+  1078 00000278 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1079                                 %line 845+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+  1080                                 

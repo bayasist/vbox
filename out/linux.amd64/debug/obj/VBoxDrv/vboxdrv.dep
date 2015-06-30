@@ -1,0 +1,5 @@
+define VBoxDrv_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxDrv/vboxdrv.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxDrv/vboxdrv.ko  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxDrv/vboxdrv.map 
+@ld -r  -g                -m elf_x86_64 -r   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxDrv/vboxdrv.ko /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxDrv/SUPDrv.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxDrv/SUPDrvSem.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxDrv/SUPDrvTracer.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxDrv/linux/SUPDrv-linux.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxDrv/linux/SUPDrv-linux.mod.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/lib/RuntimeR0Drv.a 
+endef

@@ -1,0 +1,40 @@
+\
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxOther.tmp.gen.cpp: \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/VirtualBoxOther.qrc \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vmw_new_welcome.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vmw_new_harddisk.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vmw_new_user.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vmw_first_run.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vmw_ovf_export.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vmw_ovf_import.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vmw_clone.png \
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vmw_new_welcome.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vmw_new_harddisk.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vmw_new_user.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vmw_first_run.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vmw_ovf_export.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vmw_ovf_import.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vmw_clone.png:
+
+
+
+define VirtualBox_/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/VirtualBoxOther.qrc_QT4_RCC_CMDS_PREV_
+
+@kmk_builtin_rm -f /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxOther.tmp.gen.cpp   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxOther.gen.cpp.dep
+@/usr/share/qt4/bin/rcc -name OTHER -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxOther.tmp.gen.cpp /home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/VirtualBoxOther.qrc
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxOther.gen.cpp.dep '\'
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxOther.gen.cpp.dep '/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxOther.tmp.gen.cpp: \'
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxOther.gen.cpp.dep '/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/VirtualBoxOther.qrc \'
+@/home/se170/VirtualBox-4.3.28/kBuild/bin/linux.amd64/kmk_sed -e '/^[[:blank:]]*<file[[:blank:]][^>]*>/!d' -e 's/^.*<file[[:blank:]][^>]*>\([^<]*\)<\/file>.*$/\1/' -e 's|^[^/][^:]|/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/&|' -e 's|$| \\|' --append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxOther.gen.cpp.dep /home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/VirtualBoxOther.qrc
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxOther.gen.cpp.dep
+@/home/se170/VirtualBox-4.3.28/kBuild/bin/linux.amd64/kmk_sed -e '/^[[:blank:]]*<file[[:blank:]][^>]*>/!d' -e 's/^.*<file[[:blank:]][^>]*>\([^<]*\)<\/file>.*$/\1/' -e 's|^[^/][^:]|/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/&|' -e 's|$|:\n|' --append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxOther.gen.cpp.dep /home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/VirtualBoxOther.qrc
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxOther.gen.cpp.dep
+@kmk_builtin_cp --changed -f /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxOther.tmp.gen.cpp /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxOther.gen.cpp
+endef

@@ -1,0 +1,194 @@
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/iPxeBaseBin/src/drivers/block/ibft.o: \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/drivers/block/ibft.c \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/compiler.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include/bits/compiler.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/stdint.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include/bits/stdint.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/stdio.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/stdarg.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/string.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/stddef.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/x86/include/bits/string.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/errno.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/errfile.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include/bits/errfile.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/byteswap.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/endian.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include/bits/endian.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include/bits/byteswap.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/little_bswap.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/pci.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/device.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/list.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/assert.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/tables.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/io.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/api.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/config/ioapi.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/config/defaults.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/config/defaults/pcbios.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/config/local/ioapi.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/uaccess.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/efi/efi_uaccess.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/linux/linux_uaccess.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include/bits/uaccess.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include/librm.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/efi/efi_io.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include/bits/io.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include/ipxe/x86_io.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/pci_io.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/efi/efi_pci_api.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/x86/include/bits/pci_io.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/x86/include/ipxe/pcibios.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/x86/include/ipxe/pcidirect.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/pci_ids.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/acpi.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/interface.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/refcnt.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/in.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/socket.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/netdevice.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/settings.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/ethernet.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/iobuf.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/dhcp.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/uuid.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/iscsi.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/scsi.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/chap.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/md5.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/crypto.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/xfer.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/process.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/ibft.h
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/compiler.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include/bits/compiler.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/stdint.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include/bits/stdint.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/stdio.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/stdarg.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/string.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/stddef.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/x86/include/bits/string.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/errno.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/errfile.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include/bits/errfile.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/byteswap.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/endian.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include/bits/endian.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include/bits/byteswap.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/little_bswap.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/pci.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/device.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/list.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/assert.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/tables.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/io.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/api.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/config/ioapi.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/config/defaults.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/config/defaults/pcbios.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/config/local/ioapi.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/uaccess.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/efi/efi_uaccess.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/linux/linux_uaccess.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include/bits/uaccess.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include/librm.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/efi/efi_io.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include/bits/io.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include/ipxe/x86_io.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/pci_io.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/efi/efi_pci_api.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/x86/include/bits/pci_io.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/x86/include/ipxe/pcibios.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/x86/include/ipxe/pcidirect.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/pci_ids.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/acpi.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/interface.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/refcnt.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/in.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/socket.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/netdevice.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/settings.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/ethernet.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/iobuf.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/dhcp.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/uuid.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/iscsi.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/scsi.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/chap.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/md5.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/crypto.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/xfer.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/process.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/ipxe/ibft.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/drivers/block/ibft.c:
+
+
+define iPxeBaseBin_/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/drivers/block/ibft.c_CMDS_PREV_
+
+@gcc -m32 -c -g -ffreestanding -ffunction-sections -march=i386 -fomit-frame-pointer -fstrength-reduce -falign-jumps=1 -falign-loops=1 -Os -falign-functions=1 -mpreferred-stack-boundary=2 -mregparm=3 -mrtd -freg-struct-return -fshort-wchar -Ui386 -Ulinux -include compiler.h -Wall -W -Wformat-nonliteral -fno-stack-protector -fno-dwarf2-cfi-asm -Wno-address -I/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src -I/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include -I/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/x86/include -I/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include -I/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include/pcbios -I/home/se170/VirtualBox-4.3.28/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DRT_LOCK_STRICT -DRT_LOCK_STRICT_ORDER -DARCH=i386 -DPLATFORM=pcbios -DVERSION_MAJOR=1 -DVERSION_MINOR=0 -DVERSION_PATCH=0 -DVERSION=\"1.0.0+\" -D_build_id=0xaffeaffe -DOBJECT=ibft -Wp,-MD,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/iPxeBaseBin/src/drivers/block/ibft.o.dep -Wp,-MT,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/iPxeBaseBin/src/drivers/block/ibft.o -Wp,-MP -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/iPxeBaseBin/src/drivers/block/ibft.o /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/drivers/block/ibft.c
+@kmk_builtin_append -n "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/iPxeBaseBin/src/drivers/block/ibft.o.dep" "" "/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/drivers/block/ibft.c:" ""
+endef

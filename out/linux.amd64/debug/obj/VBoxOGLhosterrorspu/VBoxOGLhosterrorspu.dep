@@ -1,0 +1,5 @@
+define VBoxOGLhosterrorspu_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLhosterrorspu/VBoxOGLhosterrorspu.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLhosterrorspu/VBoxOGLhosterrorspu.so  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLhosterrorspu/VBoxOGLhosterrorspu.map 
+@g++ -shared  -g             '-Wl,-rpath,$ORIGIN' -fPIC  -Wl,--no-as-needed -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLhosterrorspu/VBoxOGLhosterrorspu.so -Wl,-soname=VBoxOGLhosterrorspu.so /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLhosterrorspu/gen/VBoxOGLgen/errorspu.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLhosterrorspu/error/errorspu_init.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxOGLhostcrutil.so   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxRT.so   -lpthread   -lm   -lrt   -ldl 
+endef

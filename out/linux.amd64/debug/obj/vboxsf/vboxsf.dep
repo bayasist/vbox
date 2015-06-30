@@ -1,0 +1,5 @@
+define vboxsf_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxsf/vboxsf.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxsf/vboxsf.ko  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxsf/vboxsf.map 
+@ld -r  -g                -m elf_x86_64 -r   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxsf/vboxsf.ko /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxsf/vfsmod.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxsf/utils.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxsf/dirops.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxsf/lnkops.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxsf/regops.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/lib/additions/VBoxGuestR0Lib.a 
+endef

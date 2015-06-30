@@ -1,0 +1,32 @@
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeR3NoCRTGCC/common/string/strcmp_alias.o: \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/string/strcmp_alias.c \
+ /home/se170/VirtualBox-4.3.28/include/iprt/nocrt/string.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/types.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdint.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/nocrt/compiler/compiler.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/nocrt/compiler/gcc.h
+
+/home/se170/VirtualBox-4.3.28/include/iprt/nocrt/string.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/types.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdint.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/nocrt/compiler/compiler.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/nocrt/compiler/gcc.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/string/strcmp_alias.c:
+
+
+define RuntimeR3NoCRTGCC_/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/string/strcmp_alias.c_CMDS_PREV_
+
+@gcc -c -g -nostdinc -fno-strict-aliasing -fno-math-errno -Wall -Wextra -Wno-missing-field-initializers -Wno-unused -Wno-trigraphs -fdiagnostics-show-option -Wno-unused-parameter -Werror-implicit-function-declaration -fno-stack-protector -m64 -mcmodel=medium -fno-common -I/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/include -I/home/se170/VirtualBox-4.3.28/include/iprt/nocrt -I/home/se170/VirtualBox-4.3.28/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DRT_LOCK_STRICT -DRT_LOCK_STRICT_ORDER -DIN_RING3 -DIPRT_NO_CRT -DHC_ARCH_BITS=64 -DGC_ARCH_BITS=64 -Wp,-MD,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeR3NoCRTGCC/common/string/strcmp_alias.o.dep -Wp,-MT,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeR3NoCRTGCC/common/string/strcmp_alias.o -Wp,-MP -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeR3NoCRTGCC/common/string/strcmp_alias.o /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/string/strcmp_alias.c
+@kmk_builtin_append -n "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeR3NoCRTGCC/common/string/strcmp_alias.o.dep" "" "/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/string/strcmp_alias.c:" ""
+endef

@@ -1,0 +1,5 @@
+define tstClipboardX11_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstClipboardX11/tstClipboardX11.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstClipboardX11/tstClipboardX11  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstClipboardX11/tstClipboardX11.map 
+@g++  -g             '-Wl,-rpath,$ORIGIN/..' '-Wl,-rpath,$ORIGIN'  -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstClipboardX11/tstClipboardX11 /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstClipboardX11/x11-clipboard.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstClipboardX11/clipboard-helper.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxRT.so   -lpthread   -lm   -lrt   -ldl 
+endef

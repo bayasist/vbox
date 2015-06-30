@@ -1,0 +1,5 @@
+CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SSMStandalone/SSMStandalone.a
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SSMStandalone/VMMR3/SSM.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SSMStandalone/VMMR3/CPUMR3Db.o
+SAVE
+END

@@ -1,0 +1,5 @@
+define tstAPI_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstAPI/tstAPI.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstAPI/tstAPI  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstAPI/tstAPI.map 
+@g++  -g             '-Wl,-rpath,$ORIGIN/..' '-Wl,-rpath,$ORIGIN'  -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstAPI/tstAPI /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstAPI/tstAPI.o     -lpthread   -lm   -lrt   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxRT.so   -ldl   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/lib/VBoxCOM.a   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxXPCOM.so 
+endef

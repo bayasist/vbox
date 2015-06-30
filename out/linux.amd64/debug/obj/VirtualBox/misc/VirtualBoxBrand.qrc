@@ -1,0 +1,13 @@
+<!DOCTYPE RCC><RCC version="1.0">
+ <qresource prefix="/">
+    <file alias="about.png">/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/about.png</file>
+    <file alias="about_16px.png">/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/about_16px.png</file>
+    <file alias="VirtualBox_16px.png">/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/VirtualBox_16px.png</file>
+    <file alias="VirtualBox_20px.png">/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/VirtualBox_20px.png</file>
+    <file alias="VirtualBox_32px.png">/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/VirtualBox_32px.png</file>
+    <file alias="VirtualBox_40px.png">/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/VirtualBox_40px.png</file>
+    <file alias="VirtualBox_48px.png">/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/VirtualBox_48px.png</file>
+    <file alias="VirtualBox_64px.png">/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/OSE/VirtualBox_64px.png</file>
+    <file alias="VirtualBox.svg">/home/se170/VirtualBox-4.3.28/src/VBox/Resources/OSE/virtualbox.svg</file>
+ </qresource>
+ </RCC>

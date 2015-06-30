@@ -1,0 +1,5 @@
+define tstTestObserverService_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstTestObserverService/tstTestObserverService.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstTestObserverService/tstTestObserverService  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstTestObserverService/tstTestObserverService.map 
+@g++  -g             '-Wl,-rpath,$ORIGIN/..' '-Wl,-rpath,$ORIGIN' -fPIC  -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstTestObserverService/tstTestObserverService /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstTestObserverService/xpcom/tests/TestObserverService.o     -ldl   -lpthread   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-ipcshared/VBox-xpcom-ipcshared.a   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxXPCOM/VBoxXPCOM.so   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxRT.so 
+endef

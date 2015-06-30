@@ -1,0 +1,10 @@
+CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLhostspuload/VBoxOGLhostspuload.a
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLhostspuload/spu_loader/spuinit.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLhostspuload/spu_loader/spuload.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLhostspuload/spu_loader/choosevisual.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLhostspuload/gen/VBoxOGLgen/spuchange.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLhostspuload/gen/VBoxOGLgen/spucopy.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLhostspuload/gen/VBoxOGLgen/dispatch.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLhostspuload/gen/VBoxOGLgen/glloader.o
+SAVE
+END

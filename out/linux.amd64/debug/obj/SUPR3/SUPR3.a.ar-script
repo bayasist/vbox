@@ -1,0 +1,10 @@
+CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/SUPR3.a
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/SUPLib.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/SUPLibSem.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/SUPLibTracerA.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/SUPR3HardenedIPRT.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/SUPR3HardenedVerify.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/linux/SUPLib-linux.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/gen/TrustAnchorsAndCerts.o
+SAVE
+END

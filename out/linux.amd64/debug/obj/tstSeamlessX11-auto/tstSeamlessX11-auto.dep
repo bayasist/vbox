@@ -1,0 +1,5 @@
+define tstSeamlessX11-auto_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSeamlessX11-auto/tstSeamlessX11-auto.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSeamlessX11-auto/tstSeamlessX11-auto  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSeamlessX11-auto/tstSeamlessX11-auto.map 
+@g++  -g             '-Wl,-rpath,$ORIGIN/..' '-Wl,-rpath,$ORIGIN'  -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSeamlessX11-auto/tstSeamlessX11-auto /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSeamlessX11-auto/testcase/tstSeamlessX11-auto.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSeamlessX11-auto/seamless-x11.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxRT.so   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxRT.so   -lpthread   -lm   -lrt   -ldl 
+endef

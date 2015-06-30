@@ -1,0 +1,5 @@
+define uniread_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/uniread/uniread.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/uniread/uniread  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/uniread/uniread.map 
+@g++  -g                -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/uniread/uniread /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/uniread/common/string/uniread.o     -lpthread   -lm   -lrt   -ldl 
+endef

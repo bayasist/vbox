@@ -1,0 +1,9 @@
+define SUPR0IdcClient_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR0IdcClient/SUPR0IdcClient.a.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR0IdcClient/SUPR0IdcClient.a /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR0IdcClient/SUPR0IdcClient.a.ar-script /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR0IdcClient/SUPR0IdcClient.imp.a 
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR0IdcClient/SUPR0IdcClient.a.ar-script 'CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR0IdcClient/SUPR0IdcClient.a'
+@kmk_builtin_append -n /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR0IdcClient/SUPR0IdcClient.a.ar-script  'ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR0IdcClient/SUPR0IdcClient.o'  'ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR0IdcClient/SUPR0IdcClientComponent.o'  'ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR0IdcClient/SUPR0IdcClientStubs.o'  'ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR0IdcClient/linux/SUPR0IdcClient-linux.o' 
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR0IdcClient/SUPR0IdcClient.a.ar-script 'SAVE'
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR0IdcClient/SUPR0IdcClient.a.ar-script 'END'
+@/home/se170/VirtualBox-4.3.28/kBuild/bin/linux.amd64/kmk_redirect -rti /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR0IdcClient/SUPR0IdcClient.a.ar-script -- ar -M
+endef

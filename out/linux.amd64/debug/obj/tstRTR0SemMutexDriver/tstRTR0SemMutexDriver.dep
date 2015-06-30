@@ -1,0 +1,5 @@
+define tstRTR0SemMutexDriver_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstRTR0SemMutexDriver/tstRTR0SemMutexDriver.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstRTR0SemMutexDriver/tstRTR0SemMutexDriver  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstRTR0SemMutexDriver/tstRTR0SemMutexDriver.map 
+@g++  -g             '-Wl,-rpath,$ORIGIN/..' '-Wl,-rpath,$ORIGIN'  -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstRTR0SemMutexDriver/tstRTR0SemMutexDriver /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstRTR0SemMutexDriver/tstRTR0SemMutexDriver.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxRT.so   -lpthread   -lm   -lrt   -ldl 
+endef

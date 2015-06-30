@@ -1,0 +1,10 @@
+CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR0LibBase/VBoxGuestR0LibBase.a
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR0LibBase/GenericRequest.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR0LibBase/SysHlp.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR0LibBase/PhysHeap.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR0LibBase/Init.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR0LibBase/VMMDev.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR0LibBase/HGCMInternal.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR0LibBase/VbglR0CanUsePhysPageList.o
+SAVE
+END

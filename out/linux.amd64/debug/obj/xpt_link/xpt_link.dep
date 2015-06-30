@@ -1,0 +1,5 @@
+define xpt_link_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/xpt_link/xpt_link.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/xpt_link/xpt_link  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/xpt_link/xpt_link.map 
+@g++  -g                -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/xpt_link/xpt_link /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/xpt_link/xpcom/typelib/xpt/tools/xpt_link.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/xpt_link/xpcom/typelib/xpt/src/xpt_arena.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/xpt_link/xpcom/typelib/xpt/src/xpt_struct.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/xpt_link/xpcom/typelib/xpt/src/xpt_xdr.o     -lpthread   -lm   -lrt   -ldl 
+endef

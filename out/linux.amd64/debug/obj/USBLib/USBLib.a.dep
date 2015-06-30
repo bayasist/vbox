@@ -1,0 +1,9 @@
+define USBLib_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/USBLib/USBLib.a.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/USBLib/USBLib.a /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/USBLib/USBLib.a.ar-script /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/USBLib/USBLib.imp.a 
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/USBLib/USBLib.a.ar-script 'CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/USBLib/USBLib.a'
+@kmk_builtin_append -n /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/USBLib/USBLib.a.ar-script  'ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/USBLib/USBLib.o'  'ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/USBLib/USBFilter.o' 
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/USBLib/USBLib.a.ar-script 'SAVE'
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/USBLib/USBLib.a.ar-script 'END'
+@/home/se170/VirtualBox-4.3.28/kBuild/bin/linux.amd64/kmk_redirect -rti /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/USBLib/USBLib.a.ar-script -- ar -M
+endef

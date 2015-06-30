@@ -1,0 +1,23 @@
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMRC/VMMRC/VMMRC0.o: /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMRC/VMMRC0.asm \
+   /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMRC/VMMRC.mac /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac \
+   /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+
+
+/home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMRC/VMMRC0.asm:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMRC/VMMRC.mac:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac:
+
+
+define VMMRC_/home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMRC/VMMRC0.asm_CMDS_PREV_
+
+@yasm -f elf32 -DASM_FORMAT_ELF -D__YASM__ -Worphan-labels -g dwarf2 -I/home/se170/VirtualBox-4.3.28/src/VBox/VMM/include/ -I/home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMRC/ -I/home/se170/VirtualBox-4.3.28/src/VBox/VMM/PATM/ -I/home/se170/VirtualBox-4.3.28/include/iprt/nocrt/ -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMRC/dtrace/ -I/home/se170/VirtualBox-4.3.28/include/ -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/ -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_X86 -D__X86__ -DIN_RC -DIPRT_NO_CRT -DRT_WITH_NOCRT_ALIASES -DHC_ARCH_BITS=64 -DGC_ARCH_BITS=64 -DVBOX_WITH_DTRACE -DVBOX_WITH_DTRACE_RC -DIN_VMM_RC -DIN_RT_RC -DIN_DIS -DDIS_CORE_ONLY -DVBOX_WITH_RAW_MODE -DVBOX_WITH_RAW_MODE_NOT_R0 -DVBOX_IN_VMM -DVBOX_WITH_FIRST_IEM_STEP -DVBOX_WITH_REM -DVBOX_WITH_MULTI_CORE -DVBOX_WITH_VMMR0_DISABLE_LAPIC_NMI -DVBOX_WITH_PCI_PASSTHROUGH -DVBOX_WITH_DTRACE_RC -DVBOX_WITH_SAFE_STR -DVBOX_WITH_RAW_RING1 -DVBOX_WITH_NEW_MSR_CODE -l /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMRC/VMMRC/VMMRC0.lst -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMRC/VMMRC/VMMRC0.o /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMRC/VMMRC0.asm
+@/home/se170/VirtualBox-4.3.28/kBuild/bin/linux.amd64/kmk_redirect -wo /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMRC/VMMRC/VMMRC0.o.dep -- yasm -DKBUILD_GENERATING_MAKEFILE_DEPENDENCIES -f elf32 -DASM_FORMAT_ELF -D__YASM__ -Worphan-labels -g dwarf2 -I/home/se170/VirtualBox-4.3.28/src/VBox/VMM/include/ -I/home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMRC/ -I/home/se170/VirtualBox-4.3.28/src/VBox/VMM/PATM/ -I/home/se170/VirtualBox-4.3.28/include/iprt/nocrt/ -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMRC/dtrace/ -I/home/se170/VirtualBox-4.3.28/include/ -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/ -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_X86 -D__X86__ -DIN_RC -DIPRT_NO_CRT -DRT_WITH_NOCRT_ALIASES -DHC_ARCH_BITS=64 -DGC_ARCH_BITS=64 -DVBOX_WITH_DTRACE -DVBOX_WITH_DTRACE_RC -DIN_VMM_RC -DIN_RT_RC -DIN_DIS -DDIS_CORE_ONLY -DVBOX_WITH_RAW_MODE -DVBOX_WITH_RAW_MODE_NOT_R0 -DVBOX_IN_VMM -DVBOX_WITH_FIRST_IEM_STEP -DVBOX_WITH_REM -DVBOX_WITH_MULTI_CORE -DVBOX_WITH_VMMR0_DISABLE_LAPIC_NMI -DVBOX_WITH_PCI_PASSTHROUGH -DVBOX_WITH_DTRACE_RC -DVBOX_WITH_SAFE_STR -DVBOX_WITH_RAW_RING1 -DVBOX_WITH_NEW_MSR_CODE -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMRC/VMMRC/VMMRC0.o /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMRC/VMMRC0.asm -M
+@kmk_builtin_cp -f -- "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMRC/VMMRC/VMMRC0.o.dep" "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMRC/VMMRC/VMMRC0.o.dep.tmp"
+@kmk_builtin_append -n "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMRC/VMMRC/VMMRC0.o.dep.tmp" "" ""
+@/home/se170/VirtualBox-4.3.28/kBuild/bin/linux.amd64/kmk_sed  -e 's/^[^ ]*: / /' -e 's/ *\\$//' -e 's/^ *//' -e 's/  */\n/g' -e 's/ *\([^ \n][^ \n]*\)/\1:\n/g' --append "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMRC/VMMRC/VMMRC0.o.dep.tmp" "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMRC/VMMRC/VMMRC0.o.dep"
+@kmk_builtin_mv -f -- "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMRC/VMMRC/VMMRC0.o.dep.tmp" "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMRC/VMMRC/VMMRC0.o.dep"
+endef

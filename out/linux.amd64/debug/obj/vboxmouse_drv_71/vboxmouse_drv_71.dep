@@ -1,0 +1,5 @@
+define vboxmouse_drv_71_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxmouse_drv_71/vboxmouse_drv_71.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxmouse_drv_71/vboxmouse_drv_71.so  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxmouse_drv_71/vboxmouse_drv_71.map 
+@gcc -shared  -g              -fPIC  -Wl,-z,noexecstack -Wl,--as-needed -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxmouse_drv_71/vboxmouse_drv_71.so -Wl,-soname=vboxmouse_drv_71.so /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxmouse_drv_71/vboxmouse.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/lib/additions/VBoxGuestR3LibXOrg.a 
+endef

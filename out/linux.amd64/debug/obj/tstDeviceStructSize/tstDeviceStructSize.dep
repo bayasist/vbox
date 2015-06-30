@@ -1,0 +1,5 @@
+define tstDeviceStructSize_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstDeviceStructSize/tstDeviceStructSize.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstDeviceStructSize/tstDeviceStructSize  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstDeviceStructSize/tstDeviceStructSize.map 
+@g++  -g             '-Wl,-rpath,$ORIGIN'  -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstDeviceStructSize/tstDeviceStructSize /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstDeviceStructSize/tstDeviceStructSize.o     -lpthread   -lm   -lrt   -ldl 
+endef

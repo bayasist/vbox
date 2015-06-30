@@ -1,0 +1,6 @@
+#include "mylog.h"
+
+int main(void){
+  writeMyLog("a");
+  return 0;
+}

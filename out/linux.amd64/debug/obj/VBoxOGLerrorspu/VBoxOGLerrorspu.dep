@@ -1,0 +1,5 @@
+define VBoxOGLerrorspu_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLerrorspu/VBoxOGLerrorspu.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLerrorspu/VBoxOGLerrorspu.so  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLerrorspu/VBoxOGLerrorspu.map 
+@gcc -shared  -g              -fPIC  -Wl,-z,noexecstack -Wl,--as-needed -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLerrorspu/VBoxOGLerrorspu.so -Wl,-soname=VBoxOGLerrorspu.so /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLerrorspu/gen/VBoxOGLgen/errorspu.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLerrorspu/error/errorspu_init.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/additions/VBoxOGLcrutil.so   -lpthread   -lrt   -lm   -ldl 
+endef

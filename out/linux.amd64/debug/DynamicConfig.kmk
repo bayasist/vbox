@@ -1,0 +1,47 @@
+VBOX_GCC_PATH_CC               ?= /usr/bin/gcc
+VBOX_GCC_PATH_CXX              ?= /usr/bin/g++
+VBOX_GCC_VERSION_CC            ?= $(int-add $(int-mul 10000, 4), $(int-mul 100, 9), $(firstword 1 0))
+VBOX_GCC_VERSION_CXX           ?= $(int-add $(int-mul 10000, 4), $(int-mul 100, 9), $(firstword 1 0))
+VBOX_GCC_LIBGCC                ?= /usr/lib/gcc/x86_64-linux-gnu/4.9/libgcc.a
+VBOX_GCC_Wno-pointer-sign      ?= -Wno-pointer-sign
+VBOX_GCC_Wno-array_bounds      ?= -Wno-array-bounds
+VBOX_GCC_Wextra                ?= -Wextra
+VBOX_GCC_Wlogical-op           ?= -Wlogical-op
+VBOX_GCC_Wno-address           ?= -Wno-address
+VBOX_GCC_Wno-delete-non-virtual-dtor    ?= -Wno-delete-non-virtual-dtor
+VBOX_GCC_Wno-int-to-pointer-cast        ?= -Wno-int-to-pointer-cast
+VBOX_GCC_Wno-invalid-offsetof           ?= -Wno-invalid-offsetof
+VBOX_GCC_Wno-missing-field-initializers ?= -Wno-missing-field-initializers
+VBOX_GCC_Wno-pointer-to-int-cast        ?= -Wno-pointer-to-int-cast
+VBOX_GCC_Wno-variadic-macros   ?= -Wno-variadic-macros
+VBOX_GCC_Wno-vla               ?= -Wno-vla
+VBOX_GCC_fno-stack-protector   ?= -fno-stack-protector
+VBOX_GCC_fno-dwarf2-cfi-asm    ?= -fno-dwarf2-cfi-asm
+VBOX_GCC_fdiagnostics-show-option ?= -fdiagnostics-show-option
+VBOX_GCC_mtune-generic         ?= -mtune=generic
+VBOX_LD_as_needed              ?= -Wl,--as-needed
+VBOX_GCC_BUGGY_REGPARM         ?= $(int-lt $(VBOX_GCC_VERSION_CC),30400)
+ifneq ($(VBOX_GCC_VERSION_CC),)
+ ifneq ($(int-ge $(VBOX_GCC_VERSION_CC),40000),)
+  VBOX_GCC_fvisibility-hidden  ?= -fvisibility=hidden -DVBOX_HAVE_VISIBILITY_HIDDEN -DRT_USE_VISIBILITY_DEFAULT
+ endif
+endif
+ifneq ($(VBOX_GCC_VERSION_CXX),)
+ ifneq ($(int-ge $(VBOX_GCC_VERSION_CXX),40000),)
+  VBOX_GCC_fvisibility-inlines-hidden ?= -fvisibility-inlines-hidden
+ endif
+endif
+ifneq ($(VBOX_GCC_VERSION_CXX),)
+ ifneq ($(int-ge $(VBOX_GCC_VERSION_CXX),40800),)
+  VBOX_GCC_Wno-unused-parameter ?= -Wno-unused-parameter
+ endif
+endif
+VBOX_GCC_pipe                  ?= -pipe
+VBOX_PATH_GCC_INCS             ?= /usr/lib/gcc/x86_64-linux-gnu/4.9/include
+VBOX_GCC32_PATH_CC             ?= /usr/bin/gcc
+VBOX_GCC32_PATH_CXX            ?= /usr/bin/g++
+VBOX_GCC32_VERSION_CC          ?= $(int-add $(int-mul 10000, 4), $(int-mul 100, 9), $(firstword 1 0))
+VBOX_GCC32_VERSION_CXX         ?= $(int-add $(int-mul 10000, 4), $(int-mul 100, 9), $(firstword 1 0))
+VBOX_GCC32_LIBGCC              ?= /usr/lib/gcc/x86_64-linux-gnu/4.9/32/libgcc.a
+VBOX_GCC32_Wno-variadic-macros ?= -Wno-variadic-macros
+VBOX_YASM_Wno-segreg-in-64bit  ?= 

@@ -1,0 +1,8 @@
+define tstAsmStructsRC_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstAsmStructsRC/tstAsmStructsRC.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstAsmStructsRC/tstAsmStructsRC  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstAsmStructsRC/tstAsmStructsRC.map /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstAsmStructsRC/tstAsmStructsRC.debug
+@g++ -m32  -g             -g      -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstAsmStructsRC/tstAsmStructsRC /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstAsmStructsRC/tstAsmStructs.o    /usr/lib/gcc/x86_64-linux-gnu/4.9/32/libgcc.a 
+@objcopy --only-keep-debug /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstAsmStructsRC/tstAsmStructsRC /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstAsmStructsRC/tstAsmStructsRC.debug
+@kmk_builtin_chmod a-x /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstAsmStructsRC/tstAsmStructsRC.debug
+@objcopy --strip-debug --strip-unneeded --add-gnu-debuglink=/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstAsmStructsRC/tstAsmStructsRC.debug /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstAsmStructsRC/tstAsmStructsRC
+endef

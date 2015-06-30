@@ -1,0 +1,6 @@
+
+define VirtualBox_/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/nls/VirtualBox_eu.ts_QT4_LRC_CMDS_PREV_
+
+@kmk_builtin_rm -f /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtnls/VirtualBox_eu.qm   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtnls/VirtualBox_eu.qm.dep
+@/usr/share/qt4/bin/lrelease -silent /home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/nls/VirtualBox_eu.ts -qm /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtnls/VirtualBox_eu.qm
+endef

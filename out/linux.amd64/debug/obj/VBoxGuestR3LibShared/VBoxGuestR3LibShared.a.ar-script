@@ -1,0 +1,29 @@
+CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibShared.a
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3Lib.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibAdditions.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibAutoLogon.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibBalloon.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibClipboard.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibCoreDump.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibCpuHotPlug.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibCredentials.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibEvent.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibGuestUser.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibGR.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibHostChannel.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibLog.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibMisc.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibStat.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibTime.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibModule.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibDaemonize.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibMouse.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibSeamless.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibVideo.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibGuestProp.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibHostVersion.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibSharedFolders.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibGuestCtrl.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibShared/VBoxGuestR3LibDragAndDrop.o
+SAVE
+END

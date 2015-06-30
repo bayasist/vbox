@@ -1,0 +1,5 @@
+define VBoxOGLpassthroughspu_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLpassthroughspu/VBoxOGLpassthroughspu.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLpassthroughspu/VBoxOGLpassthroughspu.so  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLpassthroughspu/VBoxOGLpassthroughspu.map 
+@gcc -shared  -g              -fPIC  -Wl,-z,noexecstack -Wl,--as-needed -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLpassthroughspu/VBoxOGLpassthroughspu.so -Wl,-soname=VBoxOGLpassthroughspu.so /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLpassthroughspu/passthrough/passthroughspu_init.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLpassthroughspu/gen/VBoxOGLgen/passthroughspu.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/additions/VBoxOGLcrutil.so   -lpthread   -lrt   -lm   -ldl 
+endef

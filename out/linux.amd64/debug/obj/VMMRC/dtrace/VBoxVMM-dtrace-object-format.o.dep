@@ -1,0 +1,6 @@
+
+define VMMRC_/home/se170/VirtualBox-4.3.28/src/VBox/VMM/VBoxVMM.d_DTRACE_OBJ_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMRC/dtrace/VBoxVMM-dtrace-object-format.o.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMRC/dtrace/VBoxVMM-dtrace-object-format.o
+@/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxTpG/VBoxTpG -32 -G --host-64-bit  --raw-mode-context --probe-fn-name "VMMRCProbeFire" -o "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMRC/dtrace/VBoxVMM-dtrace-object-format.o" -s "/home/se170/VirtualBox-4.3.28/src/VBox/VMM/VBoxVMM.d"
+endef

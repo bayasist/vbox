@@ -1,0 +1,17 @@
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/iPxeBaseBin/src/drivers/net/ne.o: \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/drivers/net/ne.c \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/compiler.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include/bits/compiler.h
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include/compiler.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include/bits/compiler.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/drivers/net/ne.c:
+
+
+define iPxeBaseBin_/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/drivers/net/ne.c_CMDS_PREV_
+
+@gcc -m32 -c -g -ffreestanding -ffunction-sections -march=i386 -fomit-frame-pointer -fstrength-reduce -falign-jumps=1 -falign-loops=1 -Os -falign-functions=1 -mpreferred-stack-boundary=2 -mregparm=3 -mrtd -freg-struct-return -fshort-wchar -Ui386 -Ulinux -include compiler.h -Wall -W -Wformat-nonliteral -fno-stack-protector -fno-dwarf2-cfi-asm -Wno-address -I/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src -I/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/include -I/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/x86/include -I/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include -I/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/arch/i386/include/pcbios -I/home/se170/VirtualBox-4.3.28/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DRT_LOCK_STRICT -DRT_LOCK_STRICT_ORDER -DARCH=i386 -DPLATFORM=pcbios -DVERSION_MAJOR=1 -DVERSION_MINOR=0 -DVERSION_PATCH=0 -DVERSION=\"1.0.0+\" -D_build_id=0xaffeaffe -DOBJECT=ne -Wp,-MD,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/iPxeBaseBin/src/drivers/net/ne.o.dep -Wp,-MT,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/iPxeBaseBin/src/drivers/net/ne.o -Wp,-MP -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/iPxeBaseBin/src/drivers/net/ne.o /home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/drivers/net/ne.c
+@kmk_builtin_append -n "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/iPxeBaseBin/src/drivers/net/ne.o.dep" "" "/home/se170/VirtualBox-4.3.28/src/VBox/Devices/PC/ipxe/src/drivers/net/ne.c:" ""
+endef

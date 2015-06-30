@@ -1,0 +1,263 @@
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSDL/VBoxSDLTest.o: \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VBoxSDL/VBoxSDLTest.cpp \
+ /usr/include/stdc-predef.h /usr/include/SDL/SDL.h \
+ /usr/include/SDL/SDL_main.h /usr/include/SDL/SDL_stdinc.h \
+ /usr/include/SDL/SDL_config.h /usr/include/SDL/SDL_platform.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/time.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/xlocale.h \
+ /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/string.h \
+ /usr/include/x86_64-linux-gnu/bits/string3.h /usr/include/strings.h \
+ /usr/include/inttypes.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/ctype.h \
+ /usr/include/iconv.h /usr/include/SDL/begin_code.h \
+ /usr/include/SDL/close_code.h /usr/include/SDL/SDL_audio.h \
+ /usr/include/SDL/SDL_error.h /usr/include/SDL/SDL_endian.h \
+ /usr/include/SDL/SDL_mutex.h /usr/include/SDL/SDL_thread.h \
+ /usr/include/SDL/SDL_rwops.h /usr/include/SDL/SDL_cdrom.h \
+ /usr/include/SDL/SDL_cpuinfo.h /usr/include/SDL/SDL_events.h \
+ /usr/include/SDL/SDL_active.h /usr/include/SDL/SDL_keyboard.h \
+ /usr/include/SDL/SDL_keysym.h /usr/include/SDL/SDL_mouse.h \
+ /usr/include/SDL/SDL_video.h /usr/include/SDL/SDL_joystick.h \
+ /usr/include/SDL/SDL_quit.h /usr/include/SDL/SDL_loadso.h \
+ /usr/include/SDL/SDL_timer.h /usr/include/SDL/SDL_version.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/assert.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/types.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdint.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/env.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/initterm.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stream.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/string.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/err.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/time.h /usr/include/signal.h \
+ /usr/include/x86_64-linux-gnu/bits/signum.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo.h \
+ /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+ /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+ /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigthread.h
+
+/usr/include/stdc-predef.h:
+
+/usr/include/SDL/SDL.h:
+
+/usr/include/SDL/SDL_main.h:
+
+/usr/include/SDL/SDL_stdinc.h:
+
+/usr/include/SDL/SDL_config.h:
+
+/usr/include/SDL/SDL_platform.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
+/usr/include/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/string3.h:
+
+/usr/include/strings.h:
+
+/usr/include/inttypes.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/ctype.h:
+
+/usr/include/iconv.h:
+
+/usr/include/SDL/begin_code.h:
+
+/usr/include/SDL/close_code.h:
+
+/usr/include/SDL/SDL_audio.h:
+
+/usr/include/SDL/SDL_error.h:
+
+/usr/include/SDL/SDL_endian.h:
+
+/usr/include/SDL/SDL_mutex.h:
+
+/usr/include/SDL/SDL_thread.h:
+
+/usr/include/SDL/SDL_rwops.h:
+
+/usr/include/SDL/SDL_cdrom.h:
+
+/usr/include/SDL/SDL_cpuinfo.h:
+
+/usr/include/SDL/SDL_events.h:
+
+/usr/include/SDL/SDL_active.h:
+
+/usr/include/SDL/SDL_keyboard.h:
+
+/usr/include/SDL/SDL_keysym.h:
+
+/usr/include/SDL/SDL_mouse.h:
+
+/usr/include/SDL/SDL_video.h:
+
+/usr/include/SDL/SDL_joystick.h:
+
+/usr/include/SDL/SDL_quit.h:
+
+/usr/include/SDL/SDL_loadso.h:
+
+/usr/include/SDL/SDL_timer.h:
+
+/usr/include/SDL/SDL_version.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/assert.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/types.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdint.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/env.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/initterm.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stream.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/string.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/err.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/time.h:
+
+/usr/include/signal.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VBoxSDL/VBoxSDLTest.cpp:
+
+
+define tstSDL_/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VBoxSDL/VBoxSDLTest.cpp_CMDS_PREV_
+
+@g++ -c -g -g -pipe -Wall -Wextra -Wno-missing-field-initializers -Wno-unused -Wno-trigraphs -fdiagnostics-show-option -Wno-unused-parameter -Wno-long-long -Wno-long-long -Wno-delete-non-virtual-dtor -Wno-variadic-macros -O0 -fno-omit-frame-pointer -fno-strict-aliasing -fvisibility=hidden -DVBOX_HAVE_VISIBILITY_HIDDEN -DRT_USE_VISIBILITY_DEFAULT -fvisibility-inlines-hidden -Wno-sign-compare -O -Wall -Wno-non-virtual-dtor -Wno-long-long -fshort-wchar -m64 -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSDL/dtrace -I/usr/include/SDL -I/home/se170/VirtualBox-4.3.28/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DRT_LOCK_STRICT -DRT_LOCK_STRICT_ORDER -DIN_RING3 -DHC_ARCH_BITS=64 -DGC_ARCH_BITS=64 -DVBOX_WITH_DTRACE -DVBOX_WITH_DTRACE_R3 -DIN_RING3 -DIN_RT_R3 -D_GNU_SOURCE -DNDEBUG -DTRIMMED -Wp,-MD,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSDL/VBoxSDLTest.o.dep -Wp,-MT,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSDL/VBoxSDLTest.o -Wp,-MP -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSDL/VBoxSDLTest.o /home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VBoxSDL/VBoxSDLTest.cpp
+@kmk_builtin_append -n "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSDL/VBoxSDLTest.o.dep" "" "/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VBoxSDL/VBoxSDLTest.cpp:" ""
+endef

@@ -1,0 +1,222 @@
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibXFree86/VBoxGuestR3LibRuntimeXF86.o: \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/common/VBoxGuestLib/VBoxGuestR3LibRuntimeXF86.cpp \
+ /home/se170/VirtualBox-4.3.28/include/iprt/assert.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/types.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdint.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint-gcc.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/features.h \
+ /usr/include/stdc-predef.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/log.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/mem.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/programs/Xserver/hw/xfree86/os-support/xf86_ansic.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/programs/Xserver/include/misc.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/include/X11/Xosdefs.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/include/X11/Xfuncproto.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/include/X11/Xmd.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/include/X11/X.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/include/X11/Xdefs.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/programs/Xserver/include/os.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/programs/Xserver/include/misc.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/include/Xalloca.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/X11/Xfuncs.h \
+ /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/huge_val.h \
+ /usr/include/x86_64-linux-gnu/bits/huge_valf.h \
+ /usr/include/x86_64-linux-gnu/bits/huge_vall.h \
+ /usr/include/x86_64-linux-gnu/bits/inf.h \
+ /usr/include/x86_64-linux-gnu/bits/nan.h \
+ /usr/include/x86_64-linux-gnu/bits/mathdef.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h /usr/include/assert.h \
+ /usr/include/ctype.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/programs/Xserver/hw/xfree86/os-support/xf86_libc.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/include/Xfuncs.h
+
+/home/se170/VirtualBox-4.3.28/include/iprt/assert.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/types.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdint.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint-gcc.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/features.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/log.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/mem.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/programs/Xserver/hw/xfree86/os-support/xf86_ansic.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/programs/Xserver/include/misc.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/include/X11/Xosdefs.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/include/X11/Xfuncproto.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/include/X11/Xmd.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/include/X11/X.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/include/X11/Xdefs.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/programs/Xserver/include/os.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/programs/Xserver/include/misc.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/include/Xalloca.h:
+
+/usr/include/string.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/X11/Xfuncs.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/math.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_val.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_valf.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_vall.h:
+
+/usr/include/x86_64-linux-gnu/bits/inf.h:
+
+/usr/include/x86_64-linux-gnu/bits/nan.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathdef.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/assert.h:
+
+/usr/include/ctype.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/programs/Xserver/hw/xfree86/os-support/xf86_libc.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/include/Xfuncs.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Additions/common/VBoxGuestLib/VBoxGuestR3LibRuntimeXF86.cpp:
+
+
+define VBoxGuestR3LibXFree86_/home/se170/VirtualBox-4.3.28/src/VBox/Additions/common/VBoxGuestLib/VBoxGuestR3LibRuntimeXF86.cpp_CMDS_PREV_
+
+@g++ -c -g -g -pipe -pedantic -Wshadow -Wshadow -Wall -Wextra -Wno-missing-field-initializers -Wno-unused -Wno-trigraphs -fdiagnostics-show-option -Wno-unused-parameter -Wno-long-long -Wno-long-long -Wno-delete-non-virtual-dtor -Wno-variadic-macros -O0 -fno-omit-frame-pointer -fno-strict-aliasing -fvisibility=hidden -DVBOX_HAVE_VISIBILITY_HIDDEN -DRT_USE_VISIBILITY_DEFAULT -fvisibility-inlines-hidden -fno-exceptions -fno-merge-constants -ffreestanding -fno-stack-protector -m64 -Wno-shadow -I/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/programs/Xserver/hw/xfree86/common/ -I/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/programs/Xserver/hw/xfree86/os-support -I/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/programs/Xserver/include -I/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/include -I/home/se170/VirtualBox-4.3.28/src/VBox/Additions/x11/x11include/4.3/exports/include/X11 -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibXFree86/dtrace -I/home/se170/VirtualBox-4.3.28/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DRT_LOCK_STRICT -DRT_LOCK_STRICT_ORDER -DIN_RING3 -DVBOX_WITH_DTRACE -DVBOX_WITH_DTRACE_R3 -DIN_GUEST -DIN_GUEST_R3 -DIN_RT_R3 -DGC_ARCH_BITS=64 -DPIC -DVBOX_GUESTR3XF86MOD -DRTMEM_NO_WRAP_TO_EF_APIS -DVBOX_WITH_HGCM -DVBOX_VBGLR3_XFREE86 -DRTMEM_NO_WRAP_TO_EF_APIS -DVBOX_WITH_GUEST_PROPS -DVBOX_WITH_DRAG_AND_DROP -DLOG_USE_C99 -DRT_WITHOUT_EXEC_ALLOC -Wp,-MD,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibXFree86/VBoxGuestR3LibRuntimeXF86.o.dep -Wp,-MT,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibXFree86/VBoxGuestR3LibRuntimeXF86.o -Wp,-MP -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibXFree86/VBoxGuestR3LibRuntimeXF86.o /home/se170/VirtualBox-4.3.28/src/VBox/Additions/common/VBoxGuestLib/VBoxGuestR3LibRuntimeXF86.cpp
+@kmk_builtin_append -n "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibXFree86/VBoxGuestR3LibRuntimeXF86.o.dep" "" "/home/se170/VirtualBox-4.3.28/src/VBox/Additions/common/VBoxGuestLib/VBoxGuestR3LibRuntimeXF86.cpp:" ""
+endef

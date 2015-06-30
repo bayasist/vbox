@@ -1,0 +1,125 @@
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeR0Drv/common/err/RTErrConvertFromErrno.o: \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/err/RTErrConvertFromErrno.cpp \
+ /lib/modules/3.16.0-41-generic/build/include/linux/kconfig.h \
+ /lib/modules/3.16.0-41-generic/build/include/generated/autoconf.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/SUPDrvMangling.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/mangling.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/err.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/types.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdint.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h \
+ /lib/modules/3.16.0-41-generic/build/include/generated/uapi/linux/version.h \
+ /lib/modules/3.16.0-41-generic/build/include/linux/compiler.h \
+ /lib/modules/3.16.0-41-generic/build/include/linux/compiler-gcc.h \
+ /lib/modules/3.16.0-41-generic/build/include/linux/compiler-gcc4.h \
+ /lib/modules/3.16.0-41-generic/build/include/linux/types.h \
+ /lib/modules/3.16.0-41-generic/build/include/uapi/linux/types.h \
+ /lib/modules/3.16.0-41-generic/build/arch/x86/include/uapi/asm/types.h \
+ /lib/modules/3.16.0-41-generic/build/include/uapi/asm-generic/types.h \
+ /lib/modules/3.16.0-41-generic/build/include/asm-generic/int-ll64.h \
+ /lib/modules/3.16.0-41-generic/build/include/uapi/asm-generic/int-ll64.h \
+ /lib/modules/3.16.0-41-generic/build/arch/x86/include/uapi/asm/bitsperlong.h \
+ /lib/modules/3.16.0-41-generic/build/include/asm-generic/bitsperlong.h \
+ /lib/modules/3.16.0-41-generic/build/include/uapi/asm-generic/bitsperlong.h \
+ /lib/modules/3.16.0-41-generic/build/include/uapi/linux/posix_types.h \
+ /lib/modules/3.16.0-41-generic/build/include/linux/stddef.h \
+ /lib/modules/3.16.0-41-generic/build/include/uapi/linux/stddef.h \
+ /lib/modules/3.16.0-41-generic/build/arch/x86/include/asm/posix_types.h \
+ /lib/modules/3.16.0-41-generic/build/arch/x86/include/uapi/asm/posix_types_64.h \
+ /lib/modules/3.16.0-41-generic/build/include/uapi/asm-generic/posix_types.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/include/internal/iprt.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/assert.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/errno.h \
+ /lib/modules/3.16.0-41-generic/build/include/linux/errno.h \
+ /lib/modules/3.16.0-41-generic/build/include/uapi/linux/errno.h \
+ /lib/modules/3.16.0-41-generic/build/arch/x86/include/uapi/asm/errno.h \
+ /lib/modules/3.16.0-41-generic/build/include/uapi/asm-generic/errno.h \
+ /lib/modules/3.16.0-41-generic/build/include/uapi/asm-generic/errno-base.h
+
+/lib/modules/3.16.0-41-generic/build/include/linux/kconfig.h:
+
+/lib/modules/3.16.0-41-generic/build/include/generated/autoconf.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/SUPDrvMangling.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/mangling.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/err.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/types.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdint.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h:
+
+/lib/modules/3.16.0-41-generic/build/include/generated/uapi/linux/version.h:
+
+/lib/modules/3.16.0-41-generic/build/include/linux/compiler.h:
+
+/lib/modules/3.16.0-41-generic/build/include/linux/compiler-gcc.h:
+
+/lib/modules/3.16.0-41-generic/build/include/linux/compiler-gcc4.h:
+
+/lib/modules/3.16.0-41-generic/build/include/linux/types.h:
+
+/lib/modules/3.16.0-41-generic/build/include/uapi/linux/types.h:
+
+/lib/modules/3.16.0-41-generic/build/arch/x86/include/uapi/asm/types.h:
+
+/lib/modules/3.16.0-41-generic/build/include/uapi/asm-generic/types.h:
+
+/lib/modules/3.16.0-41-generic/build/include/asm-generic/int-ll64.h:
+
+/lib/modules/3.16.0-41-generic/build/include/uapi/asm-generic/int-ll64.h:
+
+/lib/modules/3.16.0-41-generic/build/arch/x86/include/uapi/asm/bitsperlong.h:
+
+/lib/modules/3.16.0-41-generic/build/include/asm-generic/bitsperlong.h:
+
+/lib/modules/3.16.0-41-generic/build/include/uapi/asm-generic/bitsperlong.h:
+
+/lib/modules/3.16.0-41-generic/build/include/uapi/linux/posix_types.h:
+
+/lib/modules/3.16.0-41-generic/build/include/linux/stddef.h:
+
+/lib/modules/3.16.0-41-generic/build/include/uapi/linux/stddef.h:
+
+/lib/modules/3.16.0-41-generic/build/arch/x86/include/asm/posix_types.h:
+
+/lib/modules/3.16.0-41-generic/build/arch/x86/include/uapi/asm/posix_types_64.h:
+
+/lib/modules/3.16.0-41-generic/build/include/uapi/asm-generic/posix_types.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/include/internal/iprt.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/assert.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/errno.h:
+
+/lib/modules/3.16.0-41-generic/build/include/linux/errno.h:
+
+/lib/modules/3.16.0-41-generic/build/include/uapi/linux/errno.h:
+
+/lib/modules/3.16.0-41-generic/build/arch/x86/include/uapi/asm/errno.h:
+
+/lib/modules/3.16.0-41-generic/build/include/uapi/asm-generic/errno.h:
+
+/lib/modules/3.16.0-41-generic/build/include/uapi/asm-generic/errno-base.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/err/RTErrConvertFromErrno.cpp:
+
+
+define RuntimeR0Drv_/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/err/RTErrConvertFromErrno.cpp_CMDS_PREV_
+
+@g++ -c -g -nostdinc -iwithprefix include -include /lib/modules/3.16.0-41-generic/build/include/linux/kconfig.h -Wall -Wextra -Wno-missing-field-initializers -Wno-unused -Wno-trigraphs -fdiagnostics-show-option -Wno-unused-parameter -Wno-sign-compare -fdiagnostics-show-option -fno-stack-protector -O2 -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-strict-aliasing -fno-common -include /home/se170/VirtualBox-4.3.28/include/VBox/SUPDrvMangling.h -m64 -mno-red-zone -mcmodel=kernel -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -fno-reorder-blocks -fno-asynchronous-unwind-tables -funit-at-a-time -Wno-sign-compare -fno-exceptions -fno-rtti -include /home/se170/VirtualBox-4.3.28/include/VBox/SUPDrvMangling.h -I/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/r0drv/linux -I/home/se170/VirtualBox-4.3.28/src/VBox/Runtime -I/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/include -I/lib/modules/3.16.0-41-generic/build/include -I/lib/modules/3.16.0-41-generic/build/include/asm-i386/mach-default -I/lib/modules/3.16.0-41-generic/build/include/asm-x86/mach-default -I/lib/modules/3.16.0-41-generic/build/include/drm -I/lib/modules/3.16.0-41-generic/build/arch/x86/include -I/lib/modules/3.16.0-41-generic/build/arch/x86/include/asm/mach-default -I/lib/modules/3.16.0-41-generic/build/arch/x86/include/uapi -I/lib/modules/3.16.0-41-generic/build/arch/x86/include/generated -I/lib/modules/3.16.0-41-generic/build/arch/x86/include/generated/uapi -I/lib/modules/3.16.0-41-generic/build/include/uapi -I/lib/modules/3.16.0-41-generic/build/include/generated/uapi -I/lib/modules/3.16.0-41-generic/build/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeR0Drv/dtrace -I/home/se170/VirtualBox-4.3.28/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DRT_LOCK_STRICT -DRT_LOCK_STRICT_ORDER -DIN_RING0 -DIN_RT_R0 -DHC_ARCH_BITS=64 -DGC_ARCH_BITS=64 -D__KERNEL__ -DMODULE -DIN_RT_R0 -DRT_WITH_VBOX -DRT_WITHOUT_NOCRT_WRAPPERS -DRT_NO_EXPORT_SYMBOL -DMODULE -DKBUILD_MODNAME=KBUILD_STR\(vboxdrv\) -DKBUILD_BASENAME=KBUILD_STR\(vboxdrv\) -DIN_SUP_R0 -Wp,-MD,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeR0Drv/common/err/RTErrConvertFromErrno.o.dep -Wp,-MT,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeR0Drv/common/err/RTErrConvertFromErrno.o -Wp,-MP -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeR0Drv/common/err/RTErrConvertFromErrno.o /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/err/RTErrConvertFromErrno.cpp
+@kmk_builtin_append -n "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeR0Drv/common/err/RTErrConvertFromErrno.o.dep" "" "/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/err/RTErrConvertFromErrno.cpp:" ""
+endef

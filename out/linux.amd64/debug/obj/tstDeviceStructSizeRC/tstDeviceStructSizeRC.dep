@@ -1,0 +1,8 @@
+define tstDeviceStructSizeRC_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstDeviceStructSizeRC/tstDeviceStructSizeRC.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstDeviceStructSizeRC/tstDeviceStructSizeRC  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstDeviceStructSizeRC/tstDeviceStructSizeRC.map /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstDeviceStructSizeRC/tstDeviceStructSizeRC.debug
+@g++ -m32  -g             -g      -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstDeviceStructSizeRC/tstDeviceStructSizeRC /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstDeviceStructSizeRC/tstDeviceStructSizeRC.o    /usr/lib/gcc/x86_64-linux-gnu/4.9/32/libgcc.a 
+@objcopy --only-keep-debug /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstDeviceStructSizeRC/tstDeviceStructSizeRC /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstDeviceStructSizeRC/tstDeviceStructSizeRC.debug
+@kmk_builtin_chmod a-x /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstDeviceStructSizeRC/tstDeviceStructSizeRC.debug
+@objcopy --strip-debug --strip-unneeded --add-gnu-debuglink=/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstDeviceStructSizeRC/tstDeviceStructSizeRC.debug /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstDeviceStructSizeRC/tstDeviceStructSizeRC
+endef

@@ -1,0 +1,5 @@
+Log created: 2015-06-26T08:06:35.239848000Z
+Executable: /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxTestOGL
+Arg[0]: /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxTestOGL
+Arg[1]: -test
+Arg[2]: 2D

@@ -1,0 +1,9 @@
+define RuntimeEFCPP_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeEFCPP/RuntimeEFCPP.a.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeEFCPP/RuntimeEFCPP.a /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeEFCPP/RuntimeEFCPP.a.ar-script /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeEFCPP/RuntimeEFCPP.imp.a 
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeEFCPP/RuntimeEFCPP.a.ar-script 'CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeEFCPP/RuntimeEFCPP.a'
+@kmk_builtin_append -n /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeEFCPP/RuntimeEFCPP.a.ar-script  'ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeEFCPP/r3/alloc-ef-cpp.o' 
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeEFCPP/RuntimeEFCPP.a.ar-script 'SAVE'
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeEFCPP/RuntimeEFCPP.a.ar-script 'END'
+@/home/se170/VirtualBox-4.3.28/kBuild/bin/linux.amd64/kmk_redirect -rti /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeEFCPP/RuntimeEFCPP.a.ar-script -- ar -M
+endef

@@ -1,0 +1,139 @@
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/xpt_link/xpcom/typelib/xpt/src/xpt_struct.o: \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/typelib/xpt/src/xpt_struct.c \
+ /usr/include/stdc-predef.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/xpt_xdr.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/xpt_struct.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/xpt_arena.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtypes.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prcpucfg.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/md/_linux.cfg \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/obsolete/protypes.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/xlocale.h \
+ /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/xpt_struct.h \
+ /usr/include/string.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+
+/usr/include/stdc-predef.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/xpt_xdr.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/xpt_struct.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/xpt_arena.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtypes.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prcpucfg.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/md/_linux.cfg:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/obsolete/protypes.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/xpt_struct.h:
+
+/usr/include/string.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/typelib/xpt/src/xpt_struct.c:
+
+
+define xpt_link_/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/typelib/xpt/src/xpt_struct.c_CMDS_PREV_
+
+@gcc -c -g  -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-format -m64 -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/ipcd -I/home/se170/VirtualBox-4.3.28/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DRT_LOCK_STRICT -DRT_LOCK_STRICT_ORDER -DIN_RING3 -DLOG_DISABLED -DMOZILLA_CLIENT=1 -DNDEBUG=1 -D_IMPL_NS_COM -DXPCOM_DLL_BASE=\"VBoxXPCOM\" -DMOZ_DLL_SUFFIX=\".so\" -DIN_RING3 -DVBOX_WITH_XPCOM_NAMESPACE_CLEANUP -DMOZ_PRESERVE_PIC -DOSTYPE=\"Linux2.6\" -DOSARCH=\"Linux\" -DXP_UNIX=1 -D_GNU_SOURCE -DHAVE_VISIBILITY_ATTRIBUTE=1 -DHAVE_VA_LIST_AS_ARRAY -DHAVE_VA_COPY -DVA_COPY\(a\,b\)=__builtin_va_copy\(a\,b\) -Wp,-MD,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/xpt_link/xpcom/typelib/xpt/src/xpt_struct.o.dep -Wp,-MT,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/xpt_link/xpcom/typelib/xpt/src/xpt_struct.o -Wp,-MP -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/xpt_link/xpcom/typelib/xpt/src/xpt_struct.o /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/typelib/xpt/src/xpt_struct.c
+@kmk_builtin_append -n "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/xpt_link/xpcom/typelib/xpt/src/xpt_struct.o.dep" "" "/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/typelib/xpt/src/xpt_struct.c:" ""
+endef

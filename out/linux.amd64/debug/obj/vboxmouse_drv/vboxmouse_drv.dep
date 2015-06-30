@@ -1,0 +1,7 @@
+define vboxmouse_drv_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxmouse_drv/vboxmouse_drv.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxmouse_drv/vboxmouse_drv.o  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxmouse_drv/vboxmouse_drv.map 
+@ld -r  -g             -r   -m elf_x86_64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxmouse_drv/vboxmouse_drv.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxmouse_drv/vboxmouse.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/lib/additions/VBoxGuestR3LibXFree86.a 
+objcopy --keep-global-symbol vboxmouseModuleData /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxmouse_drv/vboxmouse_drv.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxmouse_drv/vboxmouse_drv.o-objcopy
+	 kmk_builtin_mv -f /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxmouse_drv/vboxmouse_drv.o-objcopy /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxmouse_drv/vboxmouse_drv.o
+endef

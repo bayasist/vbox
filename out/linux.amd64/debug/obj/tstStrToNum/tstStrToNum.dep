@@ -1,0 +1,5 @@
+define tstStrToNum_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstStrToNum/tstStrToNum.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstStrToNum/tstStrToNum  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstStrToNum/tstStrToNum.map 
+@g++  -g             '-Wl,-rpath,$ORIGIN/..' '-Wl,-rpath,$ORIGIN'  -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstStrToNum/tstStrToNum /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstStrToNum/tstStrToNum.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxRT.so   -lpthread   -lm   -lrt   -ldl 
+endef

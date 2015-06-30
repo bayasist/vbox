@@ -1,0 +1,10 @@
+CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/DisasmR3.a
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/Disasm.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/DisasmCore.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/DisasmReg.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/DisasmTables.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/DisasmTablesX64.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/DisasmFormatBytes.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/DisasmR3/DisasmFormatYasm.o
+SAVE
+END

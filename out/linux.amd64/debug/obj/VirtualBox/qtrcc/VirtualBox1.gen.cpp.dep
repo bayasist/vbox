@@ -1,0 +1,841 @@
+\
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBox1.tmp.gen.cpp: \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/VirtualBox1.qrc \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/tpixel.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/transparent_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_delete_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_delete_disabled_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_discard_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_discard_disabled_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_add_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_new_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_new_disabled_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_pause_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_pause_disabled_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_settings_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_settings_disabled_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_clone_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_clone_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_clone_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_clone_disabled_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_show_logs_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_show_logs_disabled_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_start_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_start_disabled_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_open_filemanager_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_open_filemanager_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_create_shortcut_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_create_shortcut_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_group_create_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_group_create_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_group_name_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_group_name_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_group_remove_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_group_remove_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/state_aborted_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/state_discarding_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/state_paused_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/state_running_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/state_saved_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/state_saving_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/state_powered_off_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/state_restoring_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/state_stuck_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_offline_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_online_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/machine_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/machine_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/machine_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/machine_disabled_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/help_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/help_button_normal_mac_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/help_button_pressed_mac_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/site_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/site_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/site_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/site_disabled_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/register_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/register_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/register_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_reset_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_reset_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_pause_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_pause_on_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_pause_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_pause_on_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_shutdown_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_shutdown_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/adjust_win_size_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/adjust_win_size_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/auto_resize_on_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/auto_resize_on_on_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/auto_resize_on_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/auto_resize_on_on_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/auto_resize_off_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/auto_resize_off_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/exit_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_poweroff_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_poweroff_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/guesttools_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/guesttools_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/diskimage_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/diskimage_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/diskimage_disabled_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_settings_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_settings_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_delete_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_delete_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_new_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_start_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_start_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_discard_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_discard_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sound_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sound_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sound_disabled_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/nw_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/nw_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/nw_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/nw_disabled_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/nw_read_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/nw_write_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_disabled_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_new_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_new_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_read_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_write_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_add_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_add_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_filter_edit_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_filter_edit_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_movedown_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_movedown_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_moveup_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_moveup_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_remove_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_remove_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_unavailable_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_unavailable_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/parallel_port_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/parallel_port_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/parallel_port_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/parallel_port_disabled_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/parallel_port_read_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/parallel_port_write_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/serial_port_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/serial_port_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/serial_port_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/serial_port_disabled_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/serial_port_read_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/serial_port_write_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/select_file_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/select_file_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/list_moveup_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/list_moveup_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/list_moveup_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/list_moveup_disabled_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/list_movedown_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/list_movedown_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/list_movedown_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/list_movedown_disabled_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/discard_cur_state_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/discard_cur_state_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/discard_cur_state_dis_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/discard_cur_state_dis_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/discard_cur_state_snapshot_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/discard_cur_state_snapshot_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/discard_cur_state_snapshot_dis_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/discard_cur_state_snapshot_dis_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_take_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_take_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_take_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_take_disabled_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_restore_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_restore_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_restore_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_restore_disabled_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_delete_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_delete_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_delete_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_delete_disabled_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/screenshot_take_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/screenshot_take_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_show_details_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_show_details_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_show_details_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_show_details_disabled_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_add_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_add_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_edit_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_edit_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_remove_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_remove_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_disabled_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_read_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_write_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vtx_amdv_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vtx_amdv_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/add_host_iface_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/add_host_iface_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/remove_host_iface_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/remove_host_iface_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/eraser_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/eraser_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/refresh_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/refresh_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/refresh_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/refresh_disabled_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/refresh_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/refresh_disabled_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_show_logs_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_show_logs_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_show_logs_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_show_logs_disabled_22px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/description_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/description_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/description_edit_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/description_edit_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/session_info_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/session_info_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/session_info_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/session_info_disabled_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/session_info_details_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/session_info_runtime_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/global_settings_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/global_settings_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vrdp_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vrdp_on_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vrdp_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vrdp_on_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vrdp_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vrdp_disabled_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/meditation_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/welcome.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/arrow_right_10px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/arrow_left_10px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/arrow_up_10px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/arrow_down_10px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/name_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/os_type_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/cpu_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/ram_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/ide_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/ide_expand_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/ide_collapse_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/ide_add_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/ide_add_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sata_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sata_expand_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sata_collapse_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sata_add_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sata_add_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/scsi_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/scsi_expand_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/scsi_collapse_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/scsi_add_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/scsi_add_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/floppy_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/floppy_expand_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/floppy_collapse_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/floppy_add_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/floppy_add_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/import_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/export_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/connect_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/disconnect_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/chipset_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/chipset_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/chipset_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/chipset_disabled_32px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/pin_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/minimize_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/restore_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/close_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/close_popup_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/ok_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/cancel_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_save_state_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_save_state_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/video_capture_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/video_capture_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/video_capture_on_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/video_capture_on_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/video_capture_settings_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/video_capture_write_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/drag_drop_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/drag_drop_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/shared_clipboard_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/shared_clipboard_disabled_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/movie_reel_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sort_16px.png \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sort_disabled_16px.png \
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/tpixel.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/transparent_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_delete_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_delete_disabled_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_discard_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_discard_disabled_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_add_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_new_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_new_disabled_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_pause_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_pause_disabled_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_settings_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_settings_disabled_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_clone_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_clone_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_clone_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_clone_disabled_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_show_logs_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_show_logs_disabled_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_start_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_start_disabled_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_open_filemanager_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_open_filemanager_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_create_shortcut_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_create_shortcut_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_group_create_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_group_create_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_group_name_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_group_name_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_group_remove_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_group_remove_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/state_aborted_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/state_discarding_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/state_paused_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/state_running_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/state_saved_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/state_saving_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/state_powered_off_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/state_restoring_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/state_stuck_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_offline_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_online_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/machine_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/machine_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/machine_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/machine_disabled_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/help_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/help_button_normal_mac_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/help_button_pressed_mac_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/site_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/site_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/site_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/site_disabled_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/register_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/register_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/register_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_reset_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_reset_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_pause_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_pause_on_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_pause_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_pause_on_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_shutdown_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_shutdown_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/adjust_win_size_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/adjust_win_size_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/auto_resize_on_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/auto_resize_on_on_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/auto_resize_on_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/auto_resize_on_on_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/auto_resize_off_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/auto_resize_off_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/exit_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_poweroff_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_poweroff_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/guesttools_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/guesttools_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/diskimage_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/diskimage_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/diskimage_disabled_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_settings_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_settings_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_delete_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_delete_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_new_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_start_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_start_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_discard_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_discard_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sound_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sound_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sound_disabled_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/nw_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/nw_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/nw_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/nw_disabled_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/nw_read_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/nw_write_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_disabled_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_new_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_new_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_read_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_write_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_add_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_add_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_filter_edit_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_filter_edit_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_movedown_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_movedown_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_moveup_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_moveup_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_remove_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_remove_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_unavailable_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/usb_unavailable_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/parallel_port_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/parallel_port_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/parallel_port_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/parallel_port_disabled_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/parallel_port_read_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/parallel_port_write_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/serial_port_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/serial_port_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/serial_port_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/serial_port_disabled_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/serial_port_read_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/serial_port_write_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/select_file_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/select_file_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/list_moveup_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/list_moveup_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/list_moveup_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/list_moveup_disabled_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/list_movedown_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/list_movedown_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/list_movedown_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/list_movedown_disabled_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/discard_cur_state_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/discard_cur_state_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/discard_cur_state_dis_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/discard_cur_state_dis_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/discard_cur_state_snapshot_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/discard_cur_state_snapshot_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/discard_cur_state_snapshot_dis_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/discard_cur_state_snapshot_dis_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_take_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_take_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_take_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_take_disabled_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_restore_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_restore_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_restore_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_restore_disabled_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_delete_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_delete_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_delete_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_delete_disabled_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/screenshot_take_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/screenshot_take_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_show_details_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_show_details_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_show_details_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/snapshot_show_details_disabled_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_add_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_add_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_edit_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_edit_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_remove_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_remove_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_disabled_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_read_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sf_write_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vtx_amdv_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vtx_amdv_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/add_host_iface_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/add_host_iface_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/remove_host_iface_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/remove_host_iface_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/eraser_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/eraser_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/refresh_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/refresh_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/refresh_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/refresh_disabled_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/refresh_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/refresh_disabled_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_show_logs_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_show_logs_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_show_logs_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_show_logs_disabled_22px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/description_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/description_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/description_edit_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/description_edit_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/session_info_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/session_info_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/session_info_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/session_info_disabled_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/session_info_details_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/session_info_runtime_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/global_settings_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/global_settings_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vrdp_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vrdp_on_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vrdp_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vrdp_on_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vrdp_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vrdp_disabled_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/meditation_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/welcome.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/arrow_right_10px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/arrow_left_10px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/arrow_up_10px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/arrow_down_10px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/name_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/os_type_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/cpu_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/ram_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/ide_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/ide_expand_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/ide_collapse_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/ide_add_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/ide_add_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sata_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sata_expand_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sata_collapse_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sata_add_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sata_add_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/scsi_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/scsi_expand_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/scsi_collapse_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/scsi_add_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/scsi_add_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/floppy_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/floppy_expand_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/floppy_collapse_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/floppy_add_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/floppy_add_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/import_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/export_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/connect_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/disconnect_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/chipset_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/chipset_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/chipset_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/chipset_disabled_32px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/pin_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/minimize_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/restore_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/close_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/close_popup_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/ok_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/cancel_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_save_state_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/vm_save_state_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/video_capture_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/video_capture_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/video_capture_on_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/video_capture_on_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/video_capture_settings_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/video_capture_write_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/drag_drop_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/drag_drop_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/shared_clipboard_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/shared_clipboard_disabled_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/movie_reel_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sort_16px.png:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/images/sort_disabled_16px.png:
+
+
+
+define VirtualBox_/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/VirtualBox1.qrc_QT4_RCC_CMDS_PREV_
+
+@kmk_builtin_rm -f /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBox1.tmp.gen.cpp   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBox1.gen.cpp.dep
+@/usr/share/qt4/bin/rcc -name BASIC1 -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBox1.tmp.gen.cpp /home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/VirtualBox1.qrc
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBox1.gen.cpp.dep '\'
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBox1.gen.cpp.dep '/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBox1.tmp.gen.cpp: \'
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBox1.gen.cpp.dep '/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/VirtualBox1.qrc \'
+@/home/se170/VirtualBox-4.3.28/kBuild/bin/linux.amd64/kmk_sed -e '/^[[:blank:]]*<file[[:blank:]][^>]*>/!d' -e 's/^.*<file[[:blank:]][^>]*>\([^<]*\)<\/file>.*$/\1/' -e 's|^[^/][^:]|/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/&|' -e 's|$| \\|' --append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBox1.gen.cpp.dep /home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/VirtualBox1.qrc
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBox1.gen.cpp.dep
+@/home/se170/VirtualBox-4.3.28/kBuild/bin/linux.amd64/kmk_sed -e '/^[[:blank:]]*<file[[:blank:]][^>]*>/!d' -e 's/^.*<file[[:blank:]][^>]*>\([^<]*\)<\/file>.*$/\1/' -e 's|^[^/][^:]|/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/&|' -e 's|$|:\n|' --append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBox1.gen.cpp.dep /home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/VirtualBox1.qrc
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBox1.gen.cpp.dep
+@kmk_builtin_cp --changed -f /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBox1.tmp.gen.cpp /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBox1.gen.cpp
+endef

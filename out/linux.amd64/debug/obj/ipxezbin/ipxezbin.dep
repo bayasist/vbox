@@ -1,0 +1,5 @@
+define ipxezbin_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/ipxezbin/ipxezbin.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/ipxezbin/ipxezbin  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/ipxezbin/ipxezbin.map 
+@g++  -g                -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/ipxezbin/ipxezbin /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/ipxezbin/src/util/zbin.o     -lpthread   -lm   -lrt   -ldl 
+endef

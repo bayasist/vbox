@@ -1,0 +1,14 @@
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxCAPIGlue/out/linux.amd64/debug/bin/sdk/bindings/xpcom/lib/VirtualBox_i.o: \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/lib/VirtualBox_i.c \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/lib/VirtualBox_i.c:
+
+
+define VBoxCAPIGlue_/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/lib/VirtualBox_i.c_CMDS_PREV_
+
+@gcc -c -g -g -pipe -pedantic -Wshadow -Wshadow -Wall -Wextra -Wno-missing-field-initializers -Wno-unused -Wno-trigraphs -fdiagnostics-show-option -Wno-unused-parameter -Wno-long-long -Wno-long-long -Wmissing-prototypes -Wstrict-prototypes -Wmissing-declarations -Werror-implicit-function-declaration -Wno-variadic-macros -O0 -fno-omit-frame-pointer -fno-strict-aliasing -fvisibility=hidden -DVBOX_HAVE_VISIBILITY_HIDDEN -DRT_USE_VISIBILITY_DEFAULT -m64 -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/c/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/c/glue -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/ipcd -I/home/se170/VirtualBox-4.3.28/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DRT_LOCK_STRICT -DRT_LOCK_STRICT_ORDER -DIN_RING3 -DUNICODE -DNDEBUG=1 -DVBOX_WITH_XPCOM -DVBOX_WITH_XPCOM_NAMESPACE_CLEANUP -DIN_VBOXCAPI -Wp,-MD,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxCAPIGlue/out/linux.amd64/debug/bin/sdk/bindings/xpcom/lib/VirtualBox_i.o.dep -Wp,-MT,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxCAPIGlue/out/linux.amd64/debug/bin/sdk/bindings/xpcom/lib/VirtualBox_i.o -Wp,-MP -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxCAPIGlue/out/linux.amd64/debug/bin/sdk/bindings/xpcom/lib/VirtualBox_i.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/lib/VirtualBox_i.c
+@kmk_builtin_append -n "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxCAPIGlue/out/linux.amd64/debug/bin/sdk/bindings/xpcom/lib/VirtualBox_i.o.dep" "" "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/lib/VirtualBox_i.c:" ""
+endef

@@ -1,0 +1,6 @@
+CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-xptcall/VBox-xpcom-xptcall.a
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-xptcall/xpcom/reflect/xptcall/src/xptcall.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-xptcall/xpcom/reflect/xptcall/src/md/unix/xptcinvoke_x86_64_linux.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-xptcall/xpcom/reflect/xptcall/src/md/unix/xptcstubs_x86_64_linux.o
+SAVE
+END

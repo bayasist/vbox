@@ -1,0 +1,6 @@
+
+define VBoxVMM_/home/se170/VirtualBox-4.3.28/src/VBox/VMM/VBoxVMM.d_DTRACE_HDR_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxVMM/dtrace/dtrace/VBoxVMM.h.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxVMM/dtrace/dtrace/VBoxVMM.h
+@/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxTpG/VBoxTpG -64 -h --host-64-bit  --ring-3-context -o "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxVMM/dtrace/dtrace/VBoxVMM.h" -s "/home/se170/VirtualBox-4.3.28/src/VBox/VMM/VBoxVMM.d"
+endef

@@ -1,0 +1,5 @@
+define tstVMREQ_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstVMREQ/tstVMREQ.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstVMREQ/tstVMREQ  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstVMREQ/tstVMREQ.map 
+@g++  -g             '-Wl,-rpath,$ORIGIN'  -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstVMREQ/tstVMREQ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstVMREQ/tstVMREQ.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxVMM.so   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/lib/VBoxREM.so   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxRT.so   -lpthread   -lm   -lrt   -ldl 
+endef

@@ -1,0 +1,4 @@
+CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/HGSMIGuestR0Lib/HGSMIGuestR0Lib.a
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/HGSMIGuestR0Lib/HGSMICommon.o
+SAVE
+END

@@ -1,0 +1,5 @@
+define VBoxCmp_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxCmp/VBoxCmp.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxCmp/VBoxCmp  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxCmp/VBoxCmp.map 
+@g++  -g                -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxCmp/VBoxCmp /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxCmp/VBoxCmp.o     -lpthread   -lm   -lrt   -ldl 
+endef

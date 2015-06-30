@@ -1,0 +1,68 @@
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-kStuffStaticBldProg/kStuff/kLdr/kLdrModMachO.o: \
+ /home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/kLdr/kLdrModMachO.c \
+ /usr/include/stdc-predef.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kLdr.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kDefs.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kTypes.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kCpus.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/kLdr/kLdrInternal.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kHlp.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kErrors.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kHlpAlloc.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kHlpDefs.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kHlpAssert.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kHlpEnv.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kHlpPath.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kHlpProcess.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kHlpSem.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kHlpString.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kHlpThread.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kRdr.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kLdrFmts/mach-o.h
+
+/usr/include/stdc-predef.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kLdr.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kDefs.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kTypes.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kCpus.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/kLdr/kLdrInternal.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kHlp.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kErrors.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kHlpAlloc.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kHlpDefs.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kHlpAssert.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kHlpEnv.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kHlpPath.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kHlpProcess.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kHlpSem.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kHlpString.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kHlpThread.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kRdr.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/k/kLdrFmts/mach-o.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/kLdr/kLdrModMachO.c:
+
+
+define VBox-kStuffStaticBldProg_/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/kLdr/kLdrModMachO.c_CMDS_PREV_
+
+@gcc -c -g -g -pipe -pedantic -Wshadow -Wshadow -Wall -Wextra -Wno-missing-field-initializers -Wno-unused -Wno-trigraphs -fdiagnostics-show-option -Wno-unused-parameter -Wno-long-long -Wno-long-long -Wmissing-prototypes -Wstrict-prototypes -Wmissing-declarations -Werror-implicit-function-declaration -Wno-variadic-macros -m64 -I/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-kStuff -I/home/se170/VirtualBox-4.3.28/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DRT_LOCK_STRICT -DRT_LOCK_STRICT_ORDER -DIN_RING3 -DLOG_DISABLED -DIN_RT_R3 -DK_STRICT -DKLDRMODMACHO_STRICT -DKLDRMODMACHO_STRICT2 -Wp,-MD,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-kStuffStaticBldProg/kStuff/kLdr/kLdrModMachO.o.dep -Wp,-MT,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-kStuffStaticBldProg/kStuff/kLdr/kLdrModMachO.o -Wp,-MP -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-kStuffStaticBldProg/kStuff/kLdr/kLdrModMachO.o /home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/kLdr/kLdrModMachO.c
+@kmk_builtin_append -n "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-kStuffStaticBldProg/kStuff/kLdr/kLdrModMachO.o.dep" "" "/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/kLdr/kLdrModMachO.c:" ""
+endef

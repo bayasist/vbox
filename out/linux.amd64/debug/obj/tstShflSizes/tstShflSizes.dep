@@ -1,0 +1,5 @@
+define tstShflSizes_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstShflSizes/tstShflSizes.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstShflSizes/tstShflSizes  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstShflSizes/tstShflSizes.map 
+@g++  -g             '-Wl,-rpath,$ORIGIN'  -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstShflSizes/tstShflSizes /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstShflSizes/tstShflSizes.o     -lpthread   -lm   -lrt   -ldl 
+endef

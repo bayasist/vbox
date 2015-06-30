@@ -1,0 +1,1909 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'UIActionPoolSelector.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'UIActionPoolSelector.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_UIActionMenuFile[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionMenuFile[] = {
+    "UIActionMenuFile\0"
+};
+
+void UIActionMenuFile::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionMenuFile::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionMenuFile::staticMetaObject = {
+    { &UIActionMenu::staticMetaObject, qt_meta_stringdata_UIActionMenuFile,
+      qt_meta_data_UIActionMenuFile, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionMenuFile::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionMenuFile::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionMenuFile::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionMenuFile))
+        return static_cast<void*>(const_cast< UIActionMenuFile*>(this));
+    return UIActionMenu::qt_metacast(_clname);
+}
+
+int UIActionMenuFile::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionMenu::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimpleMediumManagerDialog[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimpleMediumManagerDialog[] = {
+    "UIActionSimpleMediumManagerDialog\0"
+};
+
+void UIActionSimpleMediumManagerDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimpleMediumManagerDialog::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimpleMediumManagerDialog::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimpleMediumManagerDialog,
+      qt_meta_data_UIActionSimpleMediumManagerDialog, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimpleMediumManagerDialog::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimpleMediumManagerDialog::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimpleMediumManagerDialog::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimpleMediumManagerDialog))
+        return static_cast<void*>(const_cast< UIActionSimpleMediumManagerDialog*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimpleMediumManagerDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimpleImportApplianceWizard[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimpleImportApplianceWizard[] = {
+    "UIActionSimpleImportApplianceWizard\0"
+};
+
+void UIActionSimpleImportApplianceWizard::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimpleImportApplianceWizard::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimpleImportApplianceWizard::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimpleImportApplianceWizard,
+      qt_meta_data_UIActionSimpleImportApplianceWizard, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimpleImportApplianceWizard::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimpleImportApplianceWizard::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimpleImportApplianceWizard::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimpleImportApplianceWizard))
+        return static_cast<void*>(const_cast< UIActionSimpleImportApplianceWizard*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimpleImportApplianceWizard::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimpleExportApplianceWizard[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimpleExportApplianceWizard[] = {
+    "UIActionSimpleExportApplianceWizard\0"
+};
+
+void UIActionSimpleExportApplianceWizard::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimpleExportApplianceWizard::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimpleExportApplianceWizard::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimpleExportApplianceWizard,
+      qt_meta_data_UIActionSimpleExportApplianceWizard, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimpleExportApplianceWizard::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimpleExportApplianceWizard::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimpleExportApplianceWizard::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimpleExportApplianceWizard))
+        return static_cast<void*>(const_cast< UIActionSimpleExportApplianceWizard*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimpleExportApplianceWizard::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimplePreferencesDialog[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimplePreferencesDialog[] = {
+    "UIActionSimplePreferencesDialog\0"
+};
+
+void UIActionSimplePreferencesDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimplePreferencesDialog::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimplePreferencesDialog::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimplePreferencesDialog,
+      qt_meta_data_UIActionSimplePreferencesDialog, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimplePreferencesDialog::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimplePreferencesDialog::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimplePreferencesDialog::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimplePreferencesDialog))
+        return static_cast<void*>(const_cast< UIActionSimplePreferencesDialog*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimplePreferencesDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimpleExit[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimpleExit[] = {
+    "UIActionSimpleExit\0"
+};
+
+void UIActionSimpleExit::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimpleExit::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimpleExit::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimpleExit,
+      qt_meta_data_UIActionSimpleExit, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimpleExit::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimpleExit::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimpleExit::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimpleExit))
+        return static_cast<void*>(const_cast< UIActionSimpleExit*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimpleExit::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionMenuGroup[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionMenuGroup[] = {
+    "UIActionMenuGroup\0"
+};
+
+void UIActionMenuGroup::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionMenuGroup::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionMenuGroup::staticMetaObject = {
+    { &UIActionMenu::staticMetaObject, qt_meta_stringdata_UIActionMenuGroup,
+      qt_meta_data_UIActionMenuGroup, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionMenuGroup::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionMenuGroup::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionMenuGroup::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionMenuGroup))
+        return static_cast<void*>(const_cast< UIActionMenuGroup*>(this));
+    return UIActionMenu::qt_metacast(_clname);
+}
+
+int UIActionMenuGroup::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionMenu::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimpleGroupNew[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimpleGroupNew[] = {
+    "UIActionSimpleGroupNew\0"
+};
+
+void UIActionSimpleGroupNew::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimpleGroupNew::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimpleGroupNew::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimpleGroupNew,
+      qt_meta_data_UIActionSimpleGroupNew, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimpleGroupNew::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimpleGroupNew::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimpleGroupNew::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimpleGroupNew))
+        return static_cast<void*>(const_cast< UIActionSimpleGroupNew*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimpleGroupNew::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimpleGroupAdd[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimpleGroupAdd[] = {
+    "UIActionSimpleGroupAdd\0"
+};
+
+void UIActionSimpleGroupAdd::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimpleGroupAdd::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimpleGroupAdd::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimpleGroupAdd,
+      qt_meta_data_UIActionSimpleGroupAdd, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimpleGroupAdd::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimpleGroupAdd::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimpleGroupAdd::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimpleGroupAdd))
+        return static_cast<void*>(const_cast< UIActionSimpleGroupAdd*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimpleGroupAdd::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimpleGroupRename[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimpleGroupRename[] = {
+    "UIActionSimpleGroupRename\0"
+};
+
+void UIActionSimpleGroupRename::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimpleGroupRename::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimpleGroupRename::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimpleGroupRename,
+      qt_meta_data_UIActionSimpleGroupRename, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimpleGroupRename::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimpleGroupRename::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimpleGroupRename::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimpleGroupRename))
+        return static_cast<void*>(const_cast< UIActionSimpleGroupRename*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimpleGroupRename::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimpleGroupRemove[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimpleGroupRemove[] = {
+    "UIActionSimpleGroupRemove\0"
+};
+
+void UIActionSimpleGroupRemove::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimpleGroupRemove::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimpleGroupRemove::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimpleGroupRemove,
+      qt_meta_data_UIActionSimpleGroupRemove, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimpleGroupRemove::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimpleGroupRemove::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimpleGroupRemove::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimpleGroupRemove))
+        return static_cast<void*>(const_cast< UIActionSimpleGroupRemove*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimpleGroupRemove::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimpleGroupSort[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimpleGroupSort[] = {
+    "UIActionSimpleGroupSort\0"
+};
+
+void UIActionSimpleGroupSort::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimpleGroupSort::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimpleGroupSort::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimpleGroupSort,
+      qt_meta_data_UIActionSimpleGroupSort, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimpleGroupSort::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimpleGroupSort::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimpleGroupSort::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimpleGroupSort))
+        return static_cast<void*>(const_cast< UIActionSimpleGroupSort*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimpleGroupSort::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionMenuMachineSelector[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionMenuMachineSelector[] = {
+    "UIActionMenuMachineSelector\0"
+};
+
+void UIActionMenuMachineSelector::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionMenuMachineSelector::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionMenuMachineSelector::staticMetaObject = {
+    { &UIActionMenu::staticMetaObject, qt_meta_stringdata_UIActionMenuMachineSelector,
+      qt_meta_data_UIActionMenuMachineSelector, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionMenuMachineSelector::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionMenuMachineSelector::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionMenuMachineSelector::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionMenuMachineSelector))
+        return static_cast<void*>(const_cast< UIActionMenuMachineSelector*>(this));
+    return UIActionMenu::qt_metacast(_clname);
+}
+
+int UIActionMenuMachineSelector::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionMenu::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimpleMachineNew[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimpleMachineNew[] = {
+    "UIActionSimpleMachineNew\0"
+};
+
+void UIActionSimpleMachineNew::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimpleMachineNew::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimpleMachineNew::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimpleMachineNew,
+      qt_meta_data_UIActionSimpleMachineNew, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimpleMachineNew::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimpleMachineNew::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimpleMachineNew::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimpleMachineNew))
+        return static_cast<void*>(const_cast< UIActionSimpleMachineNew*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimpleMachineNew::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimpleMachineAdd[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimpleMachineAdd[] = {
+    "UIActionSimpleMachineAdd\0"
+};
+
+void UIActionSimpleMachineAdd::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimpleMachineAdd::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimpleMachineAdd::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimpleMachineAdd,
+      qt_meta_data_UIActionSimpleMachineAdd, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimpleMachineAdd::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimpleMachineAdd::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimpleMachineAdd::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimpleMachineAdd))
+        return static_cast<void*>(const_cast< UIActionSimpleMachineAdd*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimpleMachineAdd::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimpleMachineAddGroup[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimpleMachineAddGroup[] = {
+    "UIActionSimpleMachineAddGroup\0"
+};
+
+void UIActionSimpleMachineAddGroup::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimpleMachineAddGroup::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimpleMachineAddGroup::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimpleMachineAddGroup,
+      qt_meta_data_UIActionSimpleMachineAddGroup, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimpleMachineAddGroup::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimpleMachineAddGroup::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimpleMachineAddGroup::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimpleMachineAddGroup))
+        return static_cast<void*>(const_cast< UIActionSimpleMachineAddGroup*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimpleMachineAddGroup::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimpleMachineSettings[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimpleMachineSettings[] = {
+    "UIActionSimpleMachineSettings\0"
+};
+
+void UIActionSimpleMachineSettings::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimpleMachineSettings::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimpleMachineSettings::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimpleMachineSettings,
+      qt_meta_data_UIActionSimpleMachineSettings, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimpleMachineSettings::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimpleMachineSettings::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimpleMachineSettings::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimpleMachineSettings))
+        return static_cast<void*>(const_cast< UIActionSimpleMachineSettings*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimpleMachineSettings::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimpleMachineClone[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimpleMachineClone[] = {
+    "UIActionSimpleMachineClone\0"
+};
+
+void UIActionSimpleMachineClone::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimpleMachineClone::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimpleMachineClone::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimpleMachineClone,
+      qt_meta_data_UIActionSimpleMachineClone, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimpleMachineClone::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimpleMachineClone::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimpleMachineClone::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimpleMachineClone))
+        return static_cast<void*>(const_cast< UIActionSimpleMachineClone*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimpleMachineClone::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimpleMachineRemove[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimpleMachineRemove[] = {
+    "UIActionSimpleMachineRemove\0"
+};
+
+void UIActionSimpleMachineRemove::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimpleMachineRemove::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimpleMachineRemove::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimpleMachineRemove,
+      qt_meta_data_UIActionSimpleMachineRemove, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimpleMachineRemove::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimpleMachineRemove::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimpleMachineRemove::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimpleMachineRemove))
+        return static_cast<void*>(const_cast< UIActionSimpleMachineRemove*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimpleMachineRemove::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionStateCommonStartOrShow[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionStateCommonStartOrShow[] = {
+    "UIActionStateCommonStartOrShow\0"
+};
+
+void UIActionStateCommonStartOrShow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionStateCommonStartOrShow::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionStateCommonStartOrShow::staticMetaObject = {
+    { &UIActionState::staticMetaObject, qt_meta_stringdata_UIActionStateCommonStartOrShow,
+      qt_meta_data_UIActionStateCommonStartOrShow, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionStateCommonStartOrShow::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionStateCommonStartOrShow::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionStateCommonStartOrShow::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionStateCommonStartOrShow))
+        return static_cast<void*>(const_cast< UIActionStateCommonStartOrShow*>(this));
+    return UIActionState::qt_metacast(_clname);
+}
+
+int UIActionStateCommonStartOrShow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionState::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionToggleCommonPauseAndResume[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionToggleCommonPauseAndResume[] = {
+    "UIActionToggleCommonPauseAndResume\0"
+};
+
+void UIActionToggleCommonPauseAndResume::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionToggleCommonPauseAndResume::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionToggleCommonPauseAndResume::staticMetaObject = {
+    { &UIActionToggle::staticMetaObject, qt_meta_stringdata_UIActionToggleCommonPauseAndResume,
+      qt_meta_data_UIActionToggleCommonPauseAndResume, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionToggleCommonPauseAndResume::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionToggleCommonPauseAndResume::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionToggleCommonPauseAndResume::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionToggleCommonPauseAndResume))
+        return static_cast<void*>(const_cast< UIActionToggleCommonPauseAndResume*>(this));
+    return UIActionToggle::qt_metacast(_clname);
+}
+
+int UIActionToggleCommonPauseAndResume::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionToggle::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimpleCommonReset[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimpleCommonReset[] = {
+    "UIActionSimpleCommonReset\0"
+};
+
+void UIActionSimpleCommonReset::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimpleCommonReset::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimpleCommonReset::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimpleCommonReset,
+      qt_meta_data_UIActionSimpleCommonReset, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimpleCommonReset::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimpleCommonReset::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimpleCommonReset::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimpleCommonReset))
+        return static_cast<void*>(const_cast< UIActionSimpleCommonReset*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimpleCommonReset::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimpleCommonDiscard[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimpleCommonDiscard[] = {
+    "UIActionSimpleCommonDiscard\0"
+};
+
+void UIActionSimpleCommonDiscard::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimpleCommonDiscard::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimpleCommonDiscard::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimpleCommonDiscard,
+      qt_meta_data_UIActionSimpleCommonDiscard, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimpleCommonDiscard::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimpleCommonDiscard::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimpleCommonDiscard::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimpleCommonDiscard))
+        return static_cast<void*>(const_cast< UIActionSimpleCommonDiscard*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimpleCommonDiscard::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimpleCommonRefresh[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimpleCommonRefresh[] = {
+    "UIActionSimpleCommonRefresh\0"
+};
+
+void UIActionSimpleCommonRefresh::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimpleCommonRefresh::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimpleCommonRefresh::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimpleCommonRefresh,
+      qt_meta_data_UIActionSimpleCommonRefresh, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimpleCommonRefresh::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimpleCommonRefresh::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimpleCommonRefresh::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimpleCommonRefresh))
+        return static_cast<void*>(const_cast< UIActionSimpleCommonRefresh*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimpleCommonRefresh::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimpleCommonShowInFileManager[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimpleCommonShowInFileManager[] = {
+    "UIActionSimpleCommonShowInFileManager\0"
+};
+
+void UIActionSimpleCommonShowInFileManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimpleCommonShowInFileManager::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimpleCommonShowInFileManager::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimpleCommonShowInFileManager,
+      qt_meta_data_UIActionSimpleCommonShowInFileManager, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimpleCommonShowInFileManager::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimpleCommonShowInFileManager::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimpleCommonShowInFileManager::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimpleCommonShowInFileManager))
+        return static_cast<void*>(const_cast< UIActionSimpleCommonShowInFileManager*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimpleCommonShowInFileManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimpleCommonCreateShortcut[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimpleCommonCreateShortcut[] = {
+    "UIActionSimpleCommonCreateShortcut\0"
+};
+
+void UIActionSimpleCommonCreateShortcut::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimpleCommonCreateShortcut::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimpleCommonCreateShortcut::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimpleCommonCreateShortcut,
+      qt_meta_data_UIActionSimpleCommonCreateShortcut, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimpleCommonCreateShortcut::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimpleCommonCreateShortcut::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimpleCommonCreateShortcut::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimpleCommonCreateShortcut))
+        return static_cast<void*>(const_cast< UIActionSimpleCommonCreateShortcut*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimpleCommonCreateShortcut::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimpleMachineSortParent[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimpleMachineSortParent[] = {
+    "UIActionSimpleMachineSortParent\0"
+};
+
+void UIActionSimpleMachineSortParent::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimpleMachineSortParent::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimpleMachineSortParent::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimpleMachineSortParent,
+      qt_meta_data_UIActionSimpleMachineSortParent, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimpleMachineSortParent::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimpleMachineSortParent::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimpleMachineSortParent::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimpleMachineSortParent))
+        return static_cast<void*>(const_cast< UIActionSimpleMachineSortParent*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimpleMachineSortParent::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionMenuClose[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionMenuClose[] = {
+    "UIActionMenuClose\0"
+};
+
+void UIActionMenuClose::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionMenuClose::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionMenuClose::staticMetaObject = {
+    { &UIActionMenu::staticMetaObject, qt_meta_stringdata_UIActionMenuClose,
+      qt_meta_data_UIActionMenuClose, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionMenuClose::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionMenuClose::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionMenuClose::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionMenuClose))
+        return static_cast<void*>(const_cast< UIActionMenuClose*>(this));
+    return UIActionMenu::qt_metacast(_clname);
+}
+
+int UIActionMenuClose::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionMenu::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimpleSave[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimpleSave[] = {
+    "UIActionSimpleSave\0"
+};
+
+void UIActionSimpleSave::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimpleSave::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimpleSave::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimpleSave,
+      qt_meta_data_UIActionSimpleSave, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimpleSave::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimpleSave::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimpleSave::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimpleSave))
+        return static_cast<void*>(const_cast< UIActionSimpleSave*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimpleSave::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimpleACPIShutdown[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimpleACPIShutdown[] = {
+    "UIActionSimpleACPIShutdown\0"
+};
+
+void UIActionSimpleACPIShutdown::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimpleACPIShutdown::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimpleACPIShutdown::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimpleACPIShutdown,
+      qt_meta_data_UIActionSimpleACPIShutdown, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimpleACPIShutdown::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimpleACPIShutdown::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimpleACPIShutdown::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimpleACPIShutdown))
+        return static_cast<void*>(const_cast< UIActionSimpleACPIShutdown*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimpleACPIShutdown::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIActionSimplePowerOff[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIActionSimplePowerOff[] = {
+    "UIActionSimplePowerOff\0"
+};
+
+void UIActionSimplePowerOff::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIActionSimplePowerOff::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIActionSimplePowerOff::staticMetaObject = {
+    { &UIActionSimple::staticMetaObject, qt_meta_stringdata_UIActionSimplePowerOff,
+      qt_meta_data_UIActionSimplePowerOff, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIActionSimplePowerOff::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIActionSimplePowerOff::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIActionSimplePowerOff::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIActionSimplePowerOff))
+        return static_cast<void*>(const_cast< UIActionSimplePowerOff*>(this));
+    return UIActionSimple::qt_metacast(_clname);
+}
+
+int UIActionSimplePowerOff::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UIActionSimple::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+QT_END_MOC_NAMESPACE

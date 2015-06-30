@@ -1,0 +1,23 @@
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeGuestR3Shared/common/math/bignum-amd64-x86.o: /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm \
+   /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac \
+   /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/include/internal/bignum.mac /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/include/internal/bignum.mac:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac:
+
+
+define RuntimeGuestR3Shared_/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm_CMDS_PREV_
+
+@yasm -f elf64 -DASM_FORMAT_ELF -D__YASM__ -Worphan-labels -g dwarf2 -I/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/include/ -I/home/se170/VirtualBox-4.3.28/src/libs/liblzf-3.4/ -I/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/ -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeGuestR3Shared/dtrace/ -I/home/se170/VirtualBox-4.3.28/include/ -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/ -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DIN_RING3 -DVBOX_WITH_DTRACE -DVBOX_WITH_DTRACE_R3 -DIN_GUEST -DIN_GUEST_R3 -DIN_RT_R3 -DGC_ARCH_BITS=64 -DPIC -DIN_RT_R3 -DIN_SUP_R3 -DLDR_WITH_NATIVE -DLDR_WITH_ELF32 -DLDR_WITH_PE -DRT_WITH_VBOX -DRT_WITHOUT_NOCRT_WRAPPERS -DLDR_WITH_KLDR -DRT_WITH_ICONV_CACHE -DLOG_USE_C99 -DRT_WITHOUT_EXEC_ALLOC -l /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeGuestR3Shared/common/math/bignum-amd64-x86.lst -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeGuestR3Shared/common/math/bignum-amd64-x86.o /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm
+@/home/se170/VirtualBox-4.3.28/kBuild/bin/linux.amd64/kmk_redirect -wo /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeGuestR3Shared/common/math/bignum-amd64-x86.o.dep -- yasm -DKBUILD_GENERATING_MAKEFILE_DEPENDENCIES -f elf64 -DASM_FORMAT_ELF -D__YASM__ -Worphan-labels -g dwarf2 -I/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/include/ -I/home/se170/VirtualBox-4.3.28/src/libs/liblzf-3.4/ -I/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include/ -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeGuestR3Shared/dtrace/ -I/home/se170/VirtualBox-4.3.28/include/ -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/ -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DIN_RING3 -DVBOX_WITH_DTRACE -DVBOX_WITH_DTRACE_R3 -DIN_GUEST -DIN_GUEST_R3 -DIN_RT_R3 -DGC_ARCH_BITS=64 -DPIC -DIN_RT_R3 -DIN_SUP_R3 -DLDR_WITH_NATIVE -DLDR_WITH_ELF32 -DLDR_WITH_PE -DRT_WITH_VBOX -DRT_WITHOUT_NOCRT_WRAPPERS -DLDR_WITH_KLDR -DRT_WITH_ICONV_CACHE -DLOG_USE_C99 -DRT_WITHOUT_EXEC_ALLOC -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeGuestR3Shared/common/math/bignum-amd64-x86.o /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/bignum-amd64-x86.asm -M
+@kmk_builtin_cp -f -- "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeGuestR3Shared/common/math/bignum-amd64-x86.o.dep" "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeGuestR3Shared/common/math/bignum-amd64-x86.o.dep.tmp"
+@kmk_builtin_append -n "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeGuestR3Shared/common/math/bignum-amd64-x86.o.dep.tmp" "" ""
+@/home/se170/VirtualBox-4.3.28/kBuild/bin/linux.amd64/kmk_sed  -e 's/^[^ ]*: / /' -e 's/ *\\$//' -e 's/^ *//' -e 's/  */\n/g' -e 's/ *\([^ \n][^ \n]*\)/\1:\n/g' --append "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeGuestR3Shared/common/math/bignum-amd64-x86.o.dep.tmp" "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeGuestR3Shared/common/math/bignum-amd64-x86.o.dep"
+@kmk_builtin_mv -f -- "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeGuestR3Shared/common/math/bignum-amd64-x86.o.dep.tmp" "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeGuestR3Shared/common/math/bignum-amd64-x86.o.dep"
+endef

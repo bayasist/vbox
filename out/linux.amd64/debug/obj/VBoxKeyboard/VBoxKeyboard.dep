@@ -1,0 +1,5 @@
+define VBoxKeyboard_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxKeyboard/VBoxKeyboard.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxKeyboard/VBoxKeyboard.so  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxKeyboard/VBoxKeyboard.map 
+@g++ -shared  -g             '-Wl,-rpath,$ORIGIN' -fPIC  -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxKeyboard/VBoxKeyboard.so -Wl,-soname=VBoxKeyboard.so /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxKeyboard/keyboard.o   -L/usr/X11R6/lib64  -L/usr/X11R6/lib   -lX11   -lpthread   -lm   -lrt   -ldl 
+endef

@@ -1,0 +1,5 @@
+define tstAsmStructs_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstAsmStructs/tstAsmStructs.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstAsmStructs/tstAsmStructs  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstAsmStructs/tstAsmStructs.map 
+@g++  -g             '-Wl,-rpath,$ORIGIN'  -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstAsmStructs/tstAsmStructs /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstAsmStructs/tstAsmStructs.o     -lpthread   -lm   -lrt   -ldl 
+endef

@@ -1,0 +1,5 @@
+define tstRTGetOptArgv_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstRTGetOptArgv/tstRTGetOptArgv.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstRTGetOptArgv/tstRTGetOptArgv  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstRTGetOptArgv/tstRTGetOptArgv.map 
+@g++  -g             '-Wl,-rpath,$ORIGIN/..' '-Wl,-rpath,$ORIGIN'  -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstRTGetOptArgv/tstRTGetOptArgv /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstRTGetOptArgv/tstRTGetOptArgv.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxRT.so   -lpthread   -lm   -lrt   -ldl 
+endef

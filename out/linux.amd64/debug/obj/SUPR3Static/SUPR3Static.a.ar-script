@@ -1,0 +1,10 @@
+CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3Static/SUPR3Static.a
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3Static/SUPLib.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3Static/SUPLibSem.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3Static/SUPLibTracerA.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3Static/SUPR3HardenedIPRT.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3Static/SUPR3HardenedVerify.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3Static/linux/SUPLib-linux.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3Static/gen/SUPR3/TrustAnchorsAndCerts.o
+SAVE
+END

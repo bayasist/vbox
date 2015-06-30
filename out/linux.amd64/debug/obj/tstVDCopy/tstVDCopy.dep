@@ -1,0 +1,5 @@
+define tstVDCopy_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstVDCopy/tstVDCopy.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstVDCopy/tstVDCopy  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstVDCopy/tstVDCopy.map 
+@g++  -g             '-Wl,-rpath,$ORIGIN/..' '-Wl,-rpath,$ORIGIN'  -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstVDCopy/tstVDCopy /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstVDCopy/tstVDCopy.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxDDU.so   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxRT.so   -lpthread   -lm   -lrt   -ldl 
+endef

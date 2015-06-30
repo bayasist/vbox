@@ -1,0 +1,53 @@
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstLdrObjR0/tstLdrDisasmTest.o: \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/testcase/tstLdrDisasmTest.cpp \
+ /home/se170/VirtualBox-4.3.28/include/VBox/dis.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/types.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/cdefs.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/types.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdint.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/nocrt/compiler/compiler.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/nocrt/compiler/gcc.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/disopcode.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/assert.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/string.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/err.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/nocrt/string.h
+
+/home/se170/VirtualBox-4.3.28/include/VBox/dis.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/types.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/cdefs.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/types.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdint.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/nocrt/compiler/compiler.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/nocrt/compiler/gcc.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/disopcode.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/assert.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/string.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/err.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/nocrt/string.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/testcase/tstLdrDisasmTest.cpp:
+
+
+define tstLdrObjR0_/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/testcase/tstLdrDisasmTest.cpp_CMDS_PREV_
+
+@g++ -c -g -nostdinc -g -pipe -Werror -pedantic -Wshadow -Wshadow -Wall -Wextra -Wno-missing-field-initializers -Wno-unused -Wno-trigraphs -fdiagnostics-show-option -Wno-unused-parameter -Wno-long-long -Wno-long-long -Wno-delete-non-virtual-dtor -Wno-variadic-macros -O2 -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-strict-aliasing -fno-exceptions -fno-stack-protector -fno-common -fvisibility-inlines-hidden -fvisibility=hidden -DVBOX_HAVE_VISIBILITY_HIDDEN -DRT_USE_VISIBILITY_DEFAULT -fno-rtti -Wno-array-bounds -m64 -mno-red-zone -mcmodel=kernel -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -fno-asynchronous-unwind-tables -I/home/se170/VirtualBox-4.3.28/include/iprt/nocrt -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstLdrObjR0/dtrace -I/home/se170/VirtualBox-4.3.28/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DRT_LOCK_STRICT -DRT_LOCK_STRICT_ORDER -DIN_RING0 -DIN_RING0_AGNOSTIC -DIPRT_NO_CRT -DRT_WITH_NOCRT_ALIASES -DHC_ARCH_BITS=64 -DGC_ARCH_BITS=64 -DVBOX_WITH_DTRACE -DVBOX_WITH_DTRACE_R0 -DIN_DIS -DIN_RT_R0 -DDIS_CORE_ONLY -DVBOX_SOME_IMPORT_FUNCTION -Wp,-MD,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstLdrObjR0/tstLdrDisasmTest.o.dep -Wp,-MT,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstLdrObjR0/tstLdrDisasmTest.o -Wp,-MP -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstLdrObjR0/tstLdrDisasmTest.o /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/testcase/tstLdrDisasmTest.cpp
+@kmk_builtin_append -n "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstLdrObjR0/tstLdrDisasmTest.o.dep" "" "/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/testcase/tstLdrDisasmTest.cpp:" ""
+endef

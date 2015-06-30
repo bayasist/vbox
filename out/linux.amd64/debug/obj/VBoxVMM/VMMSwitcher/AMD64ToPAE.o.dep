@@ -1,0 +1,58 @@
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxVMM/VMMSwitcher/AMD64ToPAE.o: /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMSwitcher/AMD64ToPAE.asm \
+   /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac \
+   /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMSwitcher/AMD64andLegacy.mac /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac \
+   /home/se170/VirtualBox-4.3.28/include/VBox/apic.mac /home/se170/VirtualBox-4.3.28/include/iprt/x86.mac \
+   /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac /home/se170/VirtualBox-4.3.28/include/VBox/vmm/cpum.mac \
+   /home/se170/VirtualBox-4.3.28/include/VBox/vmm/stam.mac /home/se170/VirtualBox-4.3.28/include/VBox/vmm/vm.mac \
+   /home/se170/VirtualBox-4.3.28/include/VBox/vmm/stam.mac /home/se170/VirtualBox-4.3.28/include/VBox/err.mac \
+   /home/se170/VirtualBox-4.3.28/include/iprt/err.mac /home/se170/VirtualBox-4.3.28/src/VBox/VMM/include/CPUMInternal.mac \
+   /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac /home/se170/VirtualBox-4.3.28/src/VBox/VMM/include/VMMSwitcher.mac \
+   /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+
+
+/home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMSwitcher/AMD64ToPAE.asm:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMSwitcher/AMD64andLegacy.mac:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/apic.mac:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/x86.mac:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/cpum.mac:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/stam.mac:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/vm.mac:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/stam.mac:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/err.mac:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/err.mac:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/VMM/include/CPUMInternal.mac:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/VMM/include/VMMSwitcher.mac:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac:
+
+
+define VBoxVMM_/home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMSwitcher/AMD64ToPAE.asm_CMDS_PREV_
+
+@yasm -f elf64 -DASM_FORMAT_ELF -D__YASM__ -Worphan-labels -g dwarf2 -I/home/se170/VirtualBox-4.3.28/src/VBox/VMM/ -I/home/se170/VirtualBox-4.3.28/src/VBox/VMM/include/ -I/home/se170/VirtualBox-4.3.28/src/VBox/VMM/PATM/ -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxVMM/dtrace/ -I/home/se170/VirtualBox-4.3.28/include/ -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/ -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DIN_RING3 -DHC_ARCH_BITS=64 -DGC_ARCH_BITS=64 -DVBOX_WITH_DTRACE -DVBOX_WITH_DTRACE_R3 -DPIC -DIN_VMM_R3 -DIN_DIS -DIN_GMM_R3 -DIN_DBG -DVBOX_IN_VMM -DVBOX_WITH_FIRST_IEM_STEP -DVBOX_WITH_REM -DVBOX_WITH_MULTI_CORE -DVBOX_WITH_VMMR0_DISABLE_LAPIC_NMI -DVBOX_WITH_PCI_PASSTHROUGH -DVBOX_WITH_DTRACE_RC -DVBOX_WITH_SAFE_STR -DVBOX_WITH_RAW_RING1 -DVBOX_WITH_NEW_MSR_CODE -DVBOX_WITH_USB -DVBOX_WITH_PDM_ASYNC_COMPLETION -DVBOX_WITH_NETSHAPER -DVBOX_WITH_RAW_MODE -DVBOX_WITH_RAW_MODE_NOT_R0 -l /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxVMM/VMMSwitcher/AMD64ToPAE.lst -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxVMM/VMMSwitcher/AMD64ToPAE.o /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMSwitcher/AMD64ToPAE.asm
+@/home/se170/VirtualBox-4.3.28/kBuild/bin/linux.amd64/kmk_redirect -wo /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxVMM/VMMSwitcher/AMD64ToPAE.o.dep -- yasm -DKBUILD_GENERATING_MAKEFILE_DEPENDENCIES -f elf64 -DASM_FORMAT_ELF -D__YASM__ -Worphan-labels -g dwarf2 -I/home/se170/VirtualBox-4.3.28/src/VBox/VMM/ -I/home/se170/VirtualBox-4.3.28/src/VBox/VMM/include/ -I/home/se170/VirtualBox-4.3.28/src/VBox/VMM/PATM/ -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxVMM/dtrace/ -I/home/se170/VirtualBox-4.3.28/include/ -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/ -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DIN_RING3 -DHC_ARCH_BITS=64 -DGC_ARCH_BITS=64 -DVBOX_WITH_DTRACE -DVBOX_WITH_DTRACE_R3 -DPIC -DIN_VMM_R3 -DIN_DIS -DIN_GMM_R3 -DIN_DBG -DVBOX_IN_VMM -DVBOX_WITH_FIRST_IEM_STEP -DVBOX_WITH_REM -DVBOX_WITH_MULTI_CORE -DVBOX_WITH_VMMR0_DISABLE_LAPIC_NMI -DVBOX_WITH_PCI_PASSTHROUGH -DVBOX_WITH_DTRACE_RC -DVBOX_WITH_SAFE_STR -DVBOX_WITH_RAW_RING1 -DVBOX_WITH_NEW_MSR_CODE -DVBOX_WITH_USB -DVBOX_WITH_PDM_ASYNC_COMPLETION -DVBOX_WITH_NETSHAPER -DVBOX_WITH_RAW_MODE -DVBOX_WITH_RAW_MODE_NOT_R0 -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxVMM/VMMSwitcher/AMD64ToPAE.o /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMSwitcher/AMD64ToPAE.asm -M
+@kmk_builtin_cp -f -- "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxVMM/VMMSwitcher/AMD64ToPAE.o.dep" "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxVMM/VMMSwitcher/AMD64ToPAE.o.dep.tmp"
+@kmk_builtin_append -n "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxVMM/VMMSwitcher/AMD64ToPAE.o.dep.tmp" "" ""
+@/home/se170/VirtualBox-4.3.28/kBuild/bin/linux.amd64/kmk_sed  -e 's/^[^ ]*: / /' -e 's/ *\\$//' -e 's/^ *//' -e 's/  */\n/g' -e 's/ *\([^ \n][^ \n]*\)/\1:\n/g' --append "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxVMM/VMMSwitcher/AMD64ToPAE.o.dep.tmp" "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxVMM/VMMSwitcher/AMD64ToPAE.o.dep"
+@kmk_builtin_mv -f -- "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxVMM/VMMSwitcher/AMD64ToPAE.o.dep.tmp" "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxVMM/VMMSwitcher/AMD64ToPAE.o.dep"
+endef

@@ -1,0 +1,5 @@
+define SUPUninstall_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPUninstall/SUPUninstall.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPUninstall/SUPUninstall  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPUninstall/SUPUninstall.map 
+@g++  -g             '-Wl,-rpath,$ORIGIN'  -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPUninstall/SUPUninstall /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPUninstall/SUPUninstall.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxRT.so   -lpthread   -lm   -lrt   -ldl 
+endef

@@ -1,0 +1,5 @@
+define VBoxCPP_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxCPP/VBoxCPP.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxCPP/VBoxCPP  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxCPP/VBoxCPP.map 
+@g++  -g                -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxCPP/VBoxCPP /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxCPP/VBoxCPP.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxCPP/scmstream.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/lib/RuntimeBldProg.a   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/lib/VBox-kStuffStaticBldProg.a   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/lib/RuntimeBldProg.a   -lpthread   -lm   -lrt   -ldl   -lcrypt   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/lib/RuntimeBldProg.a   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/lib/VBox-kStuffStaticBldProg.a   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/lib/RuntimeBldProg.a   -lpthread   -lm   -lrt   -ldl 
+endef

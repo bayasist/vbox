@@ -1,0 +1,5 @@
+define VBoxSharedFolders_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxSharedFolders/VBoxSharedFolders.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxSharedFolders/VBoxSharedFolders.so  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxSharedFolders/VBoxSharedFolders.map 
+@g++ -shared  -g             '-Wl,-rpath,$ORIGIN' -fPIC  -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxSharedFolders/VBoxSharedFolders.so -Wl,-soname=VBoxSharedFolders.so /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxSharedFolders/service.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxSharedFolders/shflhandle.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxSharedFolders/vbsf.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxSharedFolders/mappings.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxVMM.so   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxRT.so   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/lib/VBoxREM.so   -lpthread   -lm   -lrt   -ldl 
+endef

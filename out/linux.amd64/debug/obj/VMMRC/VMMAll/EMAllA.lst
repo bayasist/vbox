@@ -1,0 +1,2130 @@
+     1                                 %line 1+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+     2                                 
+     3                                 
+     4                                 
+     5                                 
+     6                                 
+     7                                 
+     8                                 
+     9                                 
+    10                                 
+    11                                 
+    12                                 
+    13                                 
+    14                                 
+    15                                 
+    16                                 
+    17                                 
+    18                                 
+    19                                 
+    20                                 
+    21                                 
+    22                                 %line 1+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+    23                                 
+    24                                 
+    25                                 
+    26                                 
+    27                                 
+    28                                 
+    29                                 
+    30                                 
+    31                                 
+    32                                 
+    33                                 
+    34                                 
+    35                                 
+    36                                 
+    37                                 
+    38                                 
+    39                                 
+    40                                 
+    41                                 
+    42                                 
+    43                                 
+    44                                 
+    45                                 
+    46                                 
+    47                                 
+    48                                 %line 28+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+    49                                 
+    50                                 
+    51                                 
+    52                                 
+    53                                 %line 37+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+    54                                 
+    55                                 %line 1+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    56                                 
+    57                                 
+    58                                 
+    59                                 
+    60                                 
+    61                                 
+    62                                 
+    63                                 
+    64                                 
+    65                                 
+    66                                 
+    67                                 
+    68                                 
+    69                                 
+    70                                 
+    71                                 
+    72                                 
+    73                                 
+    74                                 
+    75                                 
+    76                                 
+    77                                 
+    78                                 
+    79                                 
+    80                                 
+    81                                 %line 28+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    82                                 
+    83                                 
+    84                                 
+    85                                 
+    86                                 
+    87                                 
+    88                                 %line 35+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    89                                 
+    90                                 %line 37+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    91                                 
+    92                                 %line 39+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    93                                 
+    94                                 %line 41+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    95                                 
+    96                                 %line 43+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    97                                 
+    98                                 %line 45+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    99                                 
+   100                                 %line 47+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   101                                 
+   102                                 %line 49+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   103                                 
+   104                                 %line 51+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   105                                 
+   106                                 %line 53+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   107                                 
+   108                                 %line 55+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   109                                 
+   110                                 %line 57+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   111                                 
+   112                                 %line 59+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   113                                 
+   114                                 %line 61+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   115                                 
+   116                                 %line 63+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   117                                 
+   118                                 %line 65+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   119                                 
+   120                                 %line 67+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   121                                 
+   122                                 
+   123                                 
+   124                                 
+   125                                 
+   126                                 %line 73+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   127                                 
+   128                                 
+   129                                 
+   130                                 %line 77+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   131                                 
+   132                                 
+   133                                 %line 84+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   134                                 
+   135                                 
+   136                                 
+   137                                 %line 92+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   138                                 
+   139                                 
+   140                                 
+   141                                 %line 100+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   142                                 
+   143                                 
+   144                                 
+   145                                 %line 108+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   146                                 
+   147                                 
+   148                                 
+   149                                 %line 116+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   150                                 
+   151                                 
+   152                                 
+   153                                 
+   154                                 %line 121+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   155                                 
+   156                                 
+   157                                 
+   158                                 %line 125+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   159                                 
+   160                                 
+   161                                 
+   162                                 %line 129+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   163                                 
+   164                                 
+   165                                 
+   166                                 
+   167                                 
+   168                                 %line 137+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   169                                 
+   170                                 
+   171                                 
+   172                                 
+   173                                 %line 157+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   174                                 
+   175                                 
+   176                                 
+   177                                 %line 165+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   178                                 
+   179                                 
+   180                                 
+   181                                 %line 177+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   182                                 
+   183                                 
+   184                                 
+   185                                 
+   186                                 %line 188+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   187                                 
+   188                                 
+   189                                 
+   190                                 %line 211+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   191                                 
+   192                                 
+   193                                 
+   194                                 
+   195                                 
+   196                                 %line 222+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   197                                 
+   198                                 
+   199                                 
+   200                                 %line 236+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   201                                 
+   202                                 
+   203                                 
+   204                                 %line 249+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   205                                 
+   206                                 
+   207                                 
+   208                                 %line 263+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   209                                 
+   210                                 
+   211                                 
+   212                                 %line 274+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   213                                 
+   214                                 
+   215                                 
+   216                                 %line 288+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   217                                 
+   218                                 
+   219                                 
+   220                                 %line 302+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   221                                 
+   222                                 
+   223                                 
+   224                                 
+   225                                 
+   226                                 
+   227                                 
+   228                                 
+   229                                 %line 356+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   230                                 
+   231                                 %line 363+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   232                                 
+   233                                 
+   234                                 
+   235                                 
+   236                                 %line 376+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   237                                 
+   238                                 
+   239                                 
+   240                                 
+   241                                 
+   242                                 
+   243                                 
+   244                                 %line 396+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   245                                 
+   246                                 
+   247                                 
+   248                                 %line 408+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   249                                 
+   250                                 
+   251                                 
+   252                                 %line 420+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   253                                 
+   254                                 
+   255                                 
+   256                                 
+   257                                 
+   258                                 %line 432+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   259                                 
+   260                                 
+   261                                 
+   262                                 %line 442+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   263                                 
+   264                                 
+   265                                 
+   266                                 %line 452+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   267                                 
+   268                                 
+   269                                 
+   270                                 %line 462+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   271                                 
+   272                                 
+   273                                 
+   274                                 %line 472+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   275                                 
+   276                                 
+   277                                 
+   278                                 
+   279                                 
+   280                                 %line 482+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   281                                 
+   282                                 
+   283                                 
+   284                                 
+   285                                 %line 491+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   286                                 
+   287                                 
+   288                                 
+   289                                 %line 499+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   290                                 
+   291                                 
+   292                                 
+   293                                 %line 507+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   294                                 
+   295                                 
+   296                                 
+   297                                 
+   298                                 
+   299                                 %line 517+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   300                                 
+   301                                 
+   302                                 
+   303                                 
+   304                                 %line 526+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   305                                 
+   306                                 
+   307                                 
+   308                                 %line 534+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   309                                 
+   310                                 
+   311                                 
+   312                                 %line 542+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   313                                 
+   314                                 
+   315                                 
+   316                                 
+   317                                 
+   318                                 %line 552+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   319                                 
+   320                                 
+   321                                 
+   322                                 
+   323                                 %line 561+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   324                                 
+   325                                 
+   326                                 
+   327                                 %line 569+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   328                                 
+   329                                 
+   330                                 
+   331                                 %line 577+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   332                                 
+   333                                 
+   334                                 
+   335                                 
+   336                                 
+   337                                 %line 587+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   338                                 
+   339                                 
+   340                                 
+   341                                 
+   342                                 %line 596+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   343                                 
+   344                                 %line 599+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   345                                 
+   346                                 
+   347                                 
+   348                                 %line 607+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   349                                 
+   350                                 
+   351                                 
+   352                                 %line 615+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   353                                 
+   354                                 
+   355                                 
+   356                                 
+   357                                 %line 620+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   358                                 
+   359                                 
+   360                                 
+   361                                 
+   362                                 %line 625+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   363                                 
+   364                                 
+   365                                 
+   366                                 %line 629+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   367                                 
+   368                                 
+   369                                 
+   370                                 %line 633+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   371                                 
+   372                                 
+   373                                 
+   374                                 
+   375                                 
+   376                                 
+   377                                 
+   378                                 
+   379                                 
+   380                                 
+   381                                 
+   382                                 
+   383                                 
+   384                                 
+   385                                 
+   386                                 %line 666+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   387                                 
+   388                                 
+   389                                 
+   390                                 
+   391                                 
+   392                                 %line 672+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   393                                 
+   394                                 
+   395                                 
+   396                                 
+   397                                 %line 677+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   398                                 
+   399                                 
+   400                                 
+   401                                 %line 681+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   402                                 
+   403                                 
+   404                                 
+   405                                 %line 685+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   406                                 
+   407                                 
+   408                                 
+   409                                 
+   410                                 
+   411                                 %line 691+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   412                                 
+   413                                 
+   414                                 
+   415                                 
+   416                                 %line 696+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   417                                 
+   418                                 
+   419                                 
+   420                                 %line 700+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   421                                 
+   422                                 
+   423                                 
+   424                                 %line 704+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   425                                 
+   426                                 
+   427                                 
+   428                                 
+   429                                 
+   430                                 
+   431                                 
+   432                                 
+   433                                 %line 721+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   434                                 
+   435                                 
+   436                                 
+   437                                 
+   438                                 
+   439                                 
+   440                                 
+   441                                 
+   442                                 
+   443                                 
+   444                                 
+   445                                 
+   446                                 
+   447                                 
+   448                                 %line 752+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   449                                 
+   450                                 
+   451                                 
+   452                                 
+   453                                 
+   454                                 
+   455                                 
+   456                                 
+   457                                 
+   458                                 
+   459                                 
+   460                                 
+   461                                 
+   462                                 %line 770+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   463                                 
+   464                                 
+   465                                 
+   466                                 
+   467                                 
+   468                                 
+   469                                 
+   470                                 %line 791+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   471                                 
+   472                                 %line 797+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   473                                 
+   474                                 
+   475                                 
+   476                                 
+   477                                 
+   478                                 
+   479                                 
+   480                                 
+   481                                 
+   482                                 
+   483                                 
+   484                                 
+   485                                 
+   486                                 
+   487                                 
+   488                                 
+   489                                 
+   490                                 
+   491                                 
+   492                                 
+   493                                 
+   494                                 
+   495                                 
+   496                                 
+   497                                 
+   498                                 
+   499                                 
+   500                                 
+   501                                 
+   502                                 
+   503                                 
+   504                                 
+   505                                 
+   506                                 %line 853+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   507                                 
+   508                                 
+   509                                 
+   510                                 
+   511                                 
+   512                                 
+   513                                 
+   514                                 
+   515                                 
+   516                                 
+   517                                 %line 873+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   518                                 
+   519                                 
+   520                                 
+   521                                 %line 886+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   522                                 
+   523                                 %line 39+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   524                                 
+   525                                 
+   526                                 
+   527                                 
+   528                                 %line 51+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   529                                 
+   530                                 
+   531                                 %line 66+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   532                                 
+   533                                 
+   534                                 
+   535                                 
+   536                                 
+   537                                 
+   538                                 
+   539                                 %line 116+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   540                                 
+   541                                 
+   542                                 
+   543                                 
+   544                                 
+   545                                 
+   546                                 %line 159+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   547                                 
+   548                                 %line 195+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   549                                 
+   550                                 %line 203+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   551                                 
+   552                                 
+   553                                 
+   554                                 
+   555                                 %line 232+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   556                                 
+   557                                 
+   558                                 
+   559                                 
+   560                                 
+   561                                 %line 260+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   562                                 
+   563                                 %line 284+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   564                                 
+   565                                 %line 292+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   566                                 
+   567                                 
+   568                                 
+   569                                 
+   570                                 %line 331+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   571                                 
+   572                                 
+   573                                 
+   574                                 
+   575                                 
+   576                                 %line 369+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   577                                 
+   578                                 %line 403+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   579                                 
+   580                                 %line 411+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   581                                 
+   582                                 
+   583                                 
+   584                                 
+   585                                 
+   586                                 %line 453+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   587                                 
+   588                                 
+   589                                 
+   590                                 
+   591                                 
+   592                                 %line 494+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   593                                 
+   594                                 %line 531+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   595                                 
+   596                                 %line 539+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   597                                 
+   598                                 
+   599                                 
+   600                                 
+   601                                 %line 579+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   602                                 
+   603                                 
+   604                                 
+   605                                 
+   606                                 
+   607                                 %line 621+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   608                                 
+   609                                 %line 659+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   610                                 
+   611                                 %line 667+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   612                                 
+   613                                 
+   614                                 
+   615                                 
+   616                                 
+   617                                 
+   618                                 %line 701+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   619                                 
+   620                                 %line 730+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   621                                 
+   622                                 %line 738+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   623                                 
+   624                                 
+   625                                 
+   626                                 
+   627                                 
+   628                                 %line 756+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   629                                 
+   630                                 
+   631                                 
+   632                                 
+   633                                 
+   634                                 %line 773+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   635                                 
+   636                                 %line 775+1 /home/se170/VirtualBox-4.3.28/include/VBox/asmdefs.mac
+   637                                 
+   638                                 %line 1+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   639                                 
+   640                                 
+   641                                 
+   642                                 
+   643                                 
+   644                                 
+   645                                 
+   646                                 
+   647                                 
+   648                                 
+   649                                 
+   650                                 
+   651                                 
+   652                                 
+   653                                 
+   654                                 
+   655                                 
+   656                                 
+   657                                 
+   658                                 
+   659                                 
+   660                                 
+   661                                 
+   662                                 
+   663                                 
+   664                                 
+   665                                 %line 29+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   666                                 
+   667                                 
+   668                                 %line 52+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   669                                 
+   670                                 %line 54+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   671                                 
+   672                                 
+   673                                 
+   674                                 
+   675                                 
+   676                                 [absolute 0]
+   677                                 %line 59+0 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   678                                 X86FSTENV32P:
+   679                                 %line 60+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   680                                  .FCW resw 1
+   681                                  .padding1 resw 1
+   682                                  .FSW resw 1
+   683                                  .padding2 resw 1
+   684                                  .FTW resw 1
+   685                                  .padding3 resw 1
+   686                                  .FPUIP resd 1
+   687                                  .FPUCS resw 1
+   688                                  .FOP resw 1
+   689                                  .FPUDP resd 1
+   690                                  .FPUDS resw 1
+   691                                  .padding4 resw 1
+   692                                 X86FSTENV32P_size:
+   693                                 %line 72+0 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   694                                 [section .text]
+   695                                 %line 73+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   696                                 
+   697                                 
+   698                                 
+   699                                 
+   700                                 
+   701                                 [absolute 0]
+   702                                 %line 78+0 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   703                                 X86FXSTATE:
+   704                                 %line 79+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   705                                  .FCW resw 1
+   706                                  .FSW resw 1
+   707                                  .FTW resw 1
+   708                                  .FOP resw 1
+   709                                  .FPUIP resd 1
+   710                                  .FPUCS resw 1
+   711                                  .Rsrvd1 resw 1
+   712                                  .FPUDP resd 1
+   713                                  .FPUDS resw 1
+   714                                  .Rsrvd2 resw 1
+   715                                  .MXCSR resd 1
+   716                                  .MXCSR_MASK resd 1
+   717                                  .st0 resd 4
+   718                                  .st1 resd 4
+   719                                  .st2 resd 4
+   720                                  .st3 resd 4
+   721                                  .st4 resd 4
+   722                                  .st5 resd 4
+   723                                  .st6 resd 4
+   724                                  .st7 resd 4
+   725                                  .xmm0 resd 4
+   726                                  .xmm1 resd 4
+   727                                  .xmm2 resd 4
+   728                                  .xmm3 resd 4
+   729                                  .xmm4 resd 4
+   730                                  .xmm5 resd 4
+   731                                  .xmm6 resd 4
+   732                                  .xmm7 resd 4
+   733                                  .xmm8 resd 4
+   734                                  .xmm9 resd 4
+   735                                  .xmm10 resd 4
+   736                                  .xmm11 resd 4
+   737                                  .xmm12 resd 4
+   738                                  .xmm13 resd 4
+   739                                  .xmm14 resd 4
+   740                                  .xmm15 resd 4
+   741                                  .au32RsrvdRest resd 24
+   742                                 X86FXSTATE_size:
+   743                                 %line 116+0 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   744                                 [section .text]
+   745                                 %line 117+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   746                                 
+   747                                 
+   748                                 [absolute 0]
+   749                                 %line 119+0 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   750                                 X86TSS16:
+   751                                 %line 120+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   752                                  .selPrev resw 1
+   753                                  .sp0 resw 1
+   754                                  .ss0 resw 1
+   755                                  .sp1 resw 1
+   756                                  .ss1 resw 1
+   757                                  .sp2 resw 1
+   758                                  .ss2 resw 1
+   759                                  .ip resw 1
+   760                                  .flags resw 1
+   761                                  .ax resw 1
+   762                                  .cx resw 1
+   763                                  .dx resw 1
+   764                                  .bx resw 1
+   765                                  .sp resw 1
+   766                                  .bp resw 1
+   767                                  .si resw 1
+   768                                  .di resw 1
+   769                                  .es resw 1
+   770                                  .cs resw 1
+   771                                  .ss resw 1
+   772                                  .ds resw 1
+   773                                  .selLdt resw 1
+   774                                 X86TSS16_size:
+   775                                 %line 142+0 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   776                                 [section .text]
+   777                                 %line 144+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   778                                 
+   779                                 
+   780                                 [absolute 0]
+   781                                 %line 146+0 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   782                                 X86TSS32:
+   783                                 %line 147+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   784                                  .selPrev resw 1
+   785                                  .padding1 resw 1
+   786                                  .esp0 resd 1
+   787                                  .ss0 resw 1
+   788                                  .padding_ss0 resw 1
+   789                                  .esp1 resd 1
+   790                                  .ss1 resw 1
+   791                                  .padding_ss1 resw 1
+   792                                  .esp2 resd 1
+   793                                  .ss2 resw 1
+   794                                  .padding_ss2 resw 1
+   795                                  .cr3 resd 1
+   796                                  .eip resd 1
+   797                                  .eflags resd 1
+   798                                  .eax resd 1
+   799                                  .ecx resd 1
+   800                                  .edx resd 1
+   801                                  .ebx resd 1
+   802                                  .esp resd 1
+   803                                  .ebp resd 1
+   804                                  .esi resd 1
+   805                                  .edi resd 1
+   806                                  .es resw 1
+   807                                  .padding_es resw 1
+   808                                  .cs resw 1
+   809                                  .padding_cs resw 1
+   810                                  .ss resw 1
+   811                                  .padding_ss resw 1
+   812                                  .ds resw 1
+   813                                  .padding_ds resw 1
+   814                                  .fs resw 1
+   815                                  .padding_fs resw 1
+   816                                  .gs resw 1
+   817                                  .padding_gs resw 1
+   818                                  .selLdt resw 1
+   819                                  .padding_ldt resw 1
+   820                                  .fDebugTrap resw 1
+   821                                  .offIoBitmap resw 1
+   822                                  .IntRedirBitmap resb 32
+   823                                 X86TSS32_size:
+   824                                 %line 186+0 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   825                                 [section .text]
+   826                                 %line 187+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   827                                 
+   828                                 
+   829                                 [absolute 0]
+   830                                 %line 189+0 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   831                                 X86TSS64:
+   832                                 %line 190+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   833                                  .u32Reserved resd 1
+   834                                  .rsp0 resq 1
+   835                                  .rsp1 resq 1
+   836                                  .rsp2 resq 1
+   837                                  .u32Reserved2 resd 2
+   838                                  .ist1 resq 1
+   839                                  .ist2 resq 1
+   840                                  .ist3 resq 1
+   841                                  .ist4 resq 1
+   842                                  .ist5 resq 1
+   843                                  .ist6 resq 1
+   844                                  .ist7 resq 1
+   845                                  .u16Reserved resw 5
+   846                                  .offIoBitmap resw 1
+   847                                  .IntRedirBitmap resb 32
+   848                                 X86TSS64_size:
+   849                                 %line 205+0 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   850                                 [section .text]
+   851                                 %line 207+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   852                                 
+   853                                 %line 209+1 /home/se170/VirtualBox-4.3.28/include/iprt/x86extra.mac
+   854                                 
+   855                                 %line 24+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+   856                                 
+   857                                 
+   858                                 
+   859                                 %line 32+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+   860                                 
+   861                                 
+   862                                 
+   863                                 %line 40+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+   864                                 
+   865                                 
+   866                                 
+   867                                 %line 50+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+   868                                 
+   869                                 
+   870                                 
+   871                                 
+   872                                 
+   873                                 %line 59+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+   874                                 
+   875                                 
+   876                                 [section .text]
+   877                                 
+   878                                 
+   879                                 
+   880                                 
+   881                                 
+   882                                 
+   883                                 
+   884                                 
+   885                                 
+   886                                 
+   887                                 
+   888                                 [align 16]
+   889                                 [global EMEmulateCmp:function hidden]
+   890                                 %line 74+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+   891                                 EMEmulateCmp:
+   892                                 %line 84+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+   893 00000000 8B442410                mov eax, [esp + 10
+   894 00000004 8B4C2404                mov ecx, [esp + 04
+   895 00000008 8B542408                mov edx, [esp + 08
+   896                                 %line 88+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+   897                                 
+   898                                 
+   899                                 %line 94+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+   900 0000000C 3C04                    cmp al, 4
+   901 0000000E 7407                    je short .do_dword
+   902 00000010 3C02                    cmp al, 2
+   903 00000012 7407                    je short .do_word
+   904 00000014 3C01                    cmp al, 1
+   905 00000016 7408                    je short .do_byte
+   906 00000018 CC                      int3
+   907                                 
+   908                                 
+   909                                 %line 108+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+   910                                 
+   911                                 .do_dword:
+   912 00000019 39D1                    cmp ecx, edx
+   913 0000001B EB05                    jmp short .done
+   914                                 
+   915                                 .do_word:
+   916 0000001D 6639D1                  cmp cx, dx
+   917 00000020 EB00                    jmp short .done
+   918                                 
+   919                                 .do_byte:
+   920 00000022 38D1                    cmp cl, dl
+   921                                 
+   922                                 
+   923                                 .done:
+   924 00000024 9C                      pushf
+   925 00000025 58                      pop eax
+   926 00000026 C3                      retn
+   927                                 [global EMEmulateCmp_EndProc:function hidden]
+   928                                 %line 125+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+   929                                 EMEmulateCmp_EndProc:
+   930                                 [size EMEmulateCmp EMEmulateCmp_EndProc - EMEmulateCmp]
+   931                                 [size EMEmulateCmp_EndProc 0]
+   932 00000027 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+   933                                 %line 126+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+   934                                 
+   935                                 
+   936                                 
+   937                                 
+   938                                 
+   939                                 
+   940                                 
+   941                                 
+   942                                 
+   943                                 
+   944                                 
+   945                                 
+   946                                 [align 16]
+   947                                 [global EMEmulateAnd:function hidden]
+   948                                 %line 139+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+   949                                 EMEmulateAnd:
+   950                                 %line 149+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+   951 00000030 8B442410                mov eax, [esp + 10
+   952 00000034 8B4C2404                mov ecx, [esp + 04
+   953 00000038 8B542408                mov edx, [esp + 08
+   954                                 %line 153+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+   955                                 
+   956                                 
+   957                                 %line 159+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+   958 0000003C 3C04                    cmp al, 4
+   959 0000003E 7407                    je short .do_dword
+   960 00000040 3C02                    cmp al, 2
+   961 00000042 7407                    je short .do_word
+   962 00000044 3C01                    cmp al, 1
+   963 00000046 7408                    je short .do_byte
+   964 00000048 CC                      int3
+   965                                 
+   966                                 
+   967                                 %line 173+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+   968                                 
+   969                                 .do_dword:
+   970 00000049 2111                    and [ecx], edx
+   971 0000004B EB05                    jmp short .done
+   972                                 
+   973                                 .do_word:
+   974 0000004D 662111                  and [ecx], dx
+   975 00000050 EB00                    jmp short .done
+   976                                 
+   977                                 .do_byte:
+   978 00000052 2011                    and [ecx], dl
+   979                                 
+   980                                 
+   981                                 .done:
+   982 00000054 9C                      pushf
+   983 00000055 58                      pop eax
+   984 00000056 C3                      retn
+   985                                 
+   986                                 %line 206+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+   987                                 [global EMEmulateAnd_EndProc:function hidden]
+   988                                 %line 206+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+   989                                 EMEmulateAnd_EndProc:
+   990                                 [size EMEmulateAnd EMEmulateAnd_EndProc - EMEmulateAnd]
+   991                                 [size EMEmulateAnd_EndProc 0]
+   992 00000057 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+   993                                 %line 207+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+   994                                 
+   995                                 
+   996                                 
+   997                                 
+   998                                 
+   999                                 
+  1000                                 
+  1001                                 
+  1002                                 
+  1003                                 
+  1004                                 
+  1005                                 
+  1006                                 [align 16]
+  1007                                 [global EMEmulateLockAnd:function hidden]
+  1008                                 %line 220+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1009                                 EMEmulateLockAnd:
+  1010                                 %line 231+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1011 00000060 8B442410                mov eax, [esp + 10
+  1012 00000064 8B4C2404                mov ecx, [esp + 04
+  1013 00000068 8B542408                mov edx, [esp + 08
+  1014                                 %line 235+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1015                                 
+  1016                                 
+  1017                                 %line 241+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1018 0000006C 3C04                    cmp al, 4
+  1019 0000006E 7407                    je short .do_dword
+  1020 00000070 3C02                    cmp al, 2
+  1021 00000072 7408                    je short .do_word
+  1022 00000074 3C01                    cmp al, 1
+  1023 00000076 740A                    je short .do_byte
+  1024 00000078 CC                      int3
+  1025                                 
+  1026                                 
+  1027                                 %line 255+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1028                                 
+  1029                                 .do_dword:
+  1030 00000079 F02111                  lock and [ecx], edx
+  1031 0000007C EB07                    jmp short .done
+  1032                                 
+  1033                                 .do_word:
+  1034 0000007E 66F02111                lock and [ecx], dx
+  1035 00000082 EB01                    jmp short .done
+  1036                                 
+  1037                                 .do_byte:
+  1038 00000084 F02011                  lock and [ecx], dl
+  1039                                 
+  1040                                 
+  1041                                 .done:
+  1042 00000087 9C                      pushf
+  1043                                 %line 274+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1044 00000088 8B442418                mov eax, [esp + 14
+  1045 0000008C 8F00                    pop dword [eax]
+  1046                                 %line 277+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1047 0000008E B800000000              mov eax, 0
+  1048 00000093 C3                      retn
+  1049                                 
+  1050                                 %line 295+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1051                                 [global EMEmulateLockAnd_EndProc:function hidden]
+  1052                                 %line 295+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1053                                 EMEmulateLockAnd_EndProc:
+  1054                                 [size EMEmulateLockAnd EMEmulateLockAnd_EndProc - EMEmulateLockAnd]
+  1055                                 [size EMEmulateLockAnd_EndProc 0]
+  1056 00000094 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1057                                 %line 296+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1058                                 
+  1059                                 
+  1060                                 
+  1061                                 
+  1062                                 
+  1063                                 
+  1064                                 
+  1065                                 
+  1066                                 
+  1067                                 
+  1068                                 
+  1069                                 [align 16]
+  1070                                 [global EMEmulateOr:function hidden]
+  1071                                 %line 308+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1072                                 EMEmulateOr:
+  1073                                 %line 318+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1074 000000A0 8B442410                mov eax, [esp + 10
+  1075 000000A4 8B4C2404                mov ecx, [esp + 04
+  1076 000000A8 8B542408                mov edx, [esp + 08
+  1077                                 %line 322+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1078                                 
+  1079                                 
+  1080                                 %line 328+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1081 000000AC 3C04                    cmp al, 4
+  1082 000000AE 7407                    je short .do_dword
+  1083 000000B0 3C02                    cmp al, 2
+  1084 000000B2 7407                    je short .do_word
+  1085 000000B4 3C01                    cmp al, 1
+  1086 000000B6 7408                    je short .do_byte
+  1087 000000B8 CC                      int3
+  1088                                 
+  1089                                 
+  1090                                 %line 342+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1091                                 
+  1092                                 .do_dword:
+  1093 000000B9 0911                    or [ecx], edx
+  1094 000000BB EB05                    jmp short .done
+  1095                                 
+  1096                                 .do_word:
+  1097 000000BD 660911                  or [ecx], dx
+  1098 000000C0 EB00                    jmp short .done
+  1099                                 
+  1100                                 .do_byte:
+  1101 000000C2 0811                    or [ecx], dl
+  1102                                 
+  1103                                 
+  1104                                 .done:
+  1105 000000C4 9C                      pushf
+  1106 000000C5 58                      pop eax
+  1107 000000C6 C3                      retn
+  1108                                 
+  1109                                 %line 375+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1110                                 [global EMEmulateOr_EndProc:function hidden]
+  1111                                 %line 375+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1112                                 EMEmulateOr_EndProc:
+  1113                                 [size EMEmulateOr EMEmulateOr_EndProc - EMEmulateOr]
+  1114                                 [size EMEmulateOr_EndProc 0]
+  1115 000000C7 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1116                                 %line 376+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1117                                 
+  1118                                 
+  1119                                 
+  1120                                 
+  1121                                 
+  1122                                 
+  1123                                 
+  1124                                 
+  1125                                 
+  1126                                 
+  1127                                 
+  1128                                 
+  1129                                 [align 16]
+  1130                                 [global EMEmulateLockOr:function hidden]
+  1131                                 %line 389+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1132                                 EMEmulateLockOr:
+  1133                                 %line 400+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1134 000000D0 8B442410                mov eax, [esp + 10
+  1135 000000D4 8B4C2404                mov ecx, [esp + 04
+  1136 000000D8 8B542408                mov edx, [esp + 08
+  1137                                 %line 404+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1138                                 
+  1139                                 
+  1140                                 %line 410+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1141 000000DC 3C04                    cmp al, 4
+  1142 000000DE 7407                    je short .do_dword
+  1143 000000E0 3C02                    cmp al, 2
+  1144 000000E2 7408                    je short .do_word
+  1145 000000E4 3C01                    cmp al, 1
+  1146 000000E6 740A                    je short .do_byte
+  1147 000000E8 CC                      int3
+  1148                                 
+  1149                                 
+  1150                                 %line 424+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1151                                 
+  1152                                 .do_dword:
+  1153 000000E9 F00911                  lock or [ecx], edx
+  1154 000000EC EB07                    jmp short .done
+  1155                                 
+  1156                                 .do_word:
+  1157 000000EE 66F00911                lock or [ecx], dx
+  1158 000000F2 EB01                    jmp short .done
+  1159                                 
+  1160                                 .do_byte:
+  1161 000000F4 F00811                  lock or [ecx], dl
+  1162                                 
+  1163                                 
+  1164                                 .done:
+  1165 000000F7 9C                      pushf
+  1166                                 %line 443+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1167 000000F8 8B442418                mov eax, [esp + 14
+  1168 000000FC 8F00                    pop dword [eax]
+  1169                                 %line 446+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1170 000000FE B800000000              mov eax, 0
+  1171 00000103 C3                      retn
+  1172                                 
+  1173                                 %line 464+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1174                                 [global EMEmulateLockOr_EndProc:function hidden]
+  1175                                 %line 464+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1176                                 EMEmulateLockOr_EndProc:
+  1177                                 [size EMEmulateLockOr EMEmulateLockOr_EndProc - EMEmulateLockOr]
+  1178                                 [size EMEmulateLockOr_EndProc 0]
+  1179 00000104 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1180                                 %line 465+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1181                                 
+  1182                                 
+  1183                                 
+  1184                                 
+  1185                                 
+  1186                                 
+  1187                                 
+  1188                                 
+  1189                                 
+  1190                                 
+  1191                                 
+  1192                                 
+  1193                                 [align 16]
+  1194                                 [global EMEmulateXor:function hidden]
+  1195                                 %line 478+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1196                                 EMEmulateXor:
+  1197                                 %line 488+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1198 00000110 8B442410                mov eax, [esp + 10
+  1199 00000114 8B4C2404                mov ecx, [esp + 04
+  1200 00000118 8B542408                mov edx, [esp + 08
+  1201                                 %line 492+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1202                                 
+  1203                                 
+  1204                                 %line 498+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1205 0000011C 3C04                    cmp al, 4
+  1206 0000011E 7407                    je short .do_dword
+  1207 00000120 3C02                    cmp al, 2
+  1208 00000122 7407                    je short .do_word
+  1209 00000124 3C01                    cmp al, 1
+  1210 00000126 7408                    je short .do_byte
+  1211 00000128 CC                      int3
+  1212                                 
+  1213                                 
+  1214                                 %line 512+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1215                                 
+  1216                                 .do_dword:
+  1217 00000129 3111                    xor [ecx], edx
+  1218 0000012B EB05                    jmp short .done
+  1219                                 
+  1220                                 .do_word:
+  1221 0000012D 663111                  xor [ecx], dx
+  1222 00000130 EB00                    jmp short .done
+  1223                                 
+  1224                                 .do_byte:
+  1225 00000132 3011                    xor [ecx], dl
+  1226                                 
+  1227                                 
+  1228                                 .done:
+  1229 00000134 9C                      pushf
+  1230 00000135 58                      pop eax
+  1231 00000136 C3                      retn
+  1232                                 
+  1233                                 %line 545+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1234                                 [global EMEmulateXor_EndProc:function hidden]
+  1235                                 %line 545+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1236                                 EMEmulateXor_EndProc:
+  1237                                 [size EMEmulateXor EMEmulateXor_EndProc - EMEmulateXor]
+  1238                                 [size EMEmulateXor_EndProc 0]
+  1239 00000137 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1240                                 %line 546+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1241                                 
+  1242                                 
+  1243                                 
+  1244                                 
+  1245                                 
+  1246                                 
+  1247                                 
+  1248                                 
+  1249                                 
+  1250                                 
+  1251                                 
+  1252                                 [align 16]
+  1253                                 [global EMEmulateLockXor:function hidden]
+  1254                                 %line 558+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1255                                 EMEmulateLockXor:
+  1256                                 %line 569+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1257 00000140 8B442410                mov eax, [esp + 10
+  1258 00000144 8B4C2404                mov ecx, [esp + 04
+  1259 00000148 8B542408                mov edx, [esp + 08
+  1260                                 %line 573+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1261                                 
+  1262                                 
+  1263                                 %line 579+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1264 0000014C 3C04                    cmp al, 4
+  1265 0000014E 7407                    je short .do_dword
+  1266 00000150 3C02                    cmp al, 2
+  1267 00000152 7408                    je short .do_word
+  1268 00000154 3C01                    cmp al, 1
+  1269 00000156 740A                    je short .do_byte
+  1270 00000158 CC                      int3
+  1271                                 
+  1272                                 
+  1273                                 %line 593+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1274                                 
+  1275                                 .do_dword:
+  1276 00000159 F03111                  lock xor [ecx], edx
+  1277 0000015C EB07                    jmp short .done
+  1278                                 
+  1279                                 .do_word:
+  1280 0000015E 66F03111                lock xor [ecx], dx
+  1281 00000162 EB01                    jmp short .done
+  1282                                 
+  1283                                 .do_byte:
+  1284 00000164 F03011                  lock xor [ecx], dl
+  1285                                 
+  1286                                 
+  1287                                 .done:
+  1288 00000167 9C                      pushf
+  1289                                 %line 612+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1290 00000168 8B442418                mov eax, [esp + 14
+  1291 0000016C 8F00                    pop dword [eax]
+  1292                                 %line 615+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1293 0000016E B800000000              mov eax, 0
+  1294 00000173 C3                      retn
+  1295                                 
+  1296                                 %line 633+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1297                                 [global EMEmulateLockXor_EndProc:function hidden]
+  1298                                 %line 633+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1299                                 EMEmulateLockXor_EndProc:
+  1300                                 [size EMEmulateLockXor EMEmulateLockXor_EndProc - EMEmulateLockXor]
+  1301                                 [size EMEmulateLockXor_EndProc 0]
+  1302 00000174 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1303                                 %line 634+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1304                                 
+  1305                                 
+  1306                                 
+  1307                                 
+  1308                                 
+  1309                                 
+  1310                                 
+  1311                                 
+  1312                                 
+  1313                                 
+  1314                                 [align 16]
+  1315                                 [global EMEmulateInc:function hidden]
+  1316                                 %line 645+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1317                                 EMEmulateInc:
+  1318                                 %line 654+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1319 00000180 8B442408                mov eax, [esp + 08
+  1320 00000184 8B4C2404                mov ecx, [esp + 04
+  1321                                 %line 657+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1322                                 
+  1323                                 
+  1324                                 %line 663+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1325 00000188 3C04                    cmp al, 4
+  1326 0000018A 7407                    je short .do_dword
+  1327 0000018C 3C02                    cmp al, 2
+  1328 0000018E 7407                    je short .do_word
+  1329 00000190 3C01                    cmp al, 1
+  1330 00000192 7408                    je short .do_byte
+  1331 00000194 CC                      int3
+  1332                                 
+  1333                                 
+  1334                                 %line 677+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1335                                 
+  1336                                 .do_dword:
+  1337 00000195 FF01                    inc dword [ecx]
+  1338 00000197 EB07                    jmp short .done
+  1339                                 
+  1340                                 .do_word:
+  1341 00000199 66FF01                  inc word [ecx]
+  1342 0000019C EB02                    jmp short .done
+  1343                                 
+  1344                                 .do_byte:
+  1345 0000019E FE01                    inc byte [ecx]
+  1346 000001A0 EBFE                    jmp short .done
+  1347                                 
+  1348                                 
+  1349                                 .done:
+  1350 000001A2 9C                      pushf
+  1351 000001A3 58                      pop eax
+  1352 000001A4 C3                      retn
+  1353                                 [global EMEmulateInc_EndProc:function hidden]
+  1354                                 %line 695+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1355                                 EMEmulateInc_EndProc:
+  1356                                 [size EMEmulateInc EMEmulateInc_EndProc - EMEmulateInc]
+  1357                                 [size EMEmulateInc_EndProc 0]
+  1358 000001A5 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1359                                 %line 696+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1360                                 
+  1361                                 
+  1362                                 
+  1363                                 
+  1364                                 
+  1365                                 
+  1366                                 
+  1367                                 
+  1368                                 
+  1369                                 
+  1370                                 
+  1371                                 [align 16]
+  1372                                 [global EMEmulateDec:function hidden]
+  1373                                 %line 708+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1374                                 EMEmulateDec:
+  1375                                 %line 717+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1376 000001B0 8B442408                mov eax, [esp + 08
+  1377 000001B4 8B4C2404                mov ecx, [esp + 04
+  1378                                 %line 720+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1379                                 
+  1380                                 
+  1381                                 %line 726+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1382 000001B8 3C04                    cmp al, 4
+  1383 000001BA 7407                    je short .do_dword
+  1384 000001BC 3C02                    cmp al, 2
+  1385 000001BE 7407                    je short .do_word
+  1386 000001C0 3C01                    cmp al, 1
+  1387 000001C2 7408                    je short .do_byte
+  1388 000001C4 CC                      int3
+  1389                                 
+  1390                                 
+  1391                                 %line 740+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1392                                 
+  1393                                 .do_dword:
+  1394 000001C5 FF09                    dec dword [ecx]
+  1395 000001C7 EB07                    jmp short .done
+  1396                                 
+  1397                                 .do_word:
+  1398 000001C9 66FF09                  dec word [ecx]
+  1399 000001CC EB02                    jmp short .done
+  1400                                 
+  1401                                 .do_byte:
+  1402 000001CE FE09                    dec byte [ecx]
+  1403 000001D0 EBFE                    jmp short .done
+  1404                                 
+  1405                                 
+  1406                                 .done:
+  1407 000001D2 9C                      pushf
+  1408 000001D3 58                      pop eax
+  1409 000001D4 C3                      retn
+  1410                                 [global EMEmulateDec_EndProc:function hidden]
+  1411                                 %line 758+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1412                                 EMEmulateDec_EndProc:
+  1413                                 [size EMEmulateDec EMEmulateDec_EndProc - EMEmulateDec]
+  1414                                 [size EMEmulateDec_EndProc 0]
+  1415 000001D5 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1416                                 %line 759+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1417                                 
+  1418                                 
+  1419                                 
+  1420                                 
+  1421                                 
+  1422                                 
+  1423                                 
+  1424                                 
+  1425                                 
+  1426                                 
+  1427                                 
+  1428                                 
+  1429                                 [align 16]
+  1430                                 [global EMEmulateAdd:function hidden]
+  1431                                 %line 772+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1432                                 EMEmulateAdd:
+  1433                                 %line 782+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1434 000001E0 8B442410                mov eax, [esp + 10
+  1435 000001E4 8B4C2404                mov ecx, [esp + 04
+  1436 000001E8 8B542408                mov edx, [esp + 08
+  1437                                 %line 786+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1438                                 
+  1439                                 
+  1440                                 %line 792+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1441 000001EC 3C04                    cmp al, 4
+  1442 000001EE 7407                    je short .do_dword
+  1443 000001F0 3C02                    cmp al, 2
+  1444 000001F2 7407                    je short .do_word
+  1445 000001F4 3C01                    cmp al, 1
+  1446 000001F6 7408                    je short .do_byte
+  1447 000001F8 CC                      int3
+  1448                                 
+  1449                                 
+  1450                                 %line 806+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1451                                 
+  1452                                 .do_dword:
+  1453 000001F9 0111                    add [ecx], edx
+  1454 000001FB EB05                    jmp short .done
+  1455                                 
+  1456                                 .do_word:
+  1457 000001FD 660111                  add [ecx], dx
+  1458 00000200 EB00                    jmp short .done
+  1459                                 
+  1460                                 .do_byte:
+  1461 00000202 0011                    add [ecx], dl
+  1462                                 
+  1463                                 
+  1464                                 .done:
+  1465 00000204 9C                      pushf
+  1466 00000205 58                      pop eax
+  1467 00000206 C3                      retn
+  1468                                 
+  1469                                 %line 839+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1470                                 [global EMEmulateAdd_EndProc:function hidden]
+  1471                                 %line 839+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1472                                 EMEmulateAdd_EndProc:
+  1473                                 [size EMEmulateAdd EMEmulateAdd_EndProc - EMEmulateAdd]
+  1474                                 [size EMEmulateAdd_EndProc 0]
+  1475 00000207 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1476                                 %line 840+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1477                                 
+  1478                                 
+  1479                                 
+  1480                                 
+  1481                                 
+  1482                                 
+  1483                                 
+  1484                                 
+  1485                                 
+  1486                                 
+  1487                                 
+  1488                                 
+  1489                                 [align 16]
+  1490                                 [global EMEmulateAdcWithCarrySet:function hidden]
+  1491                                 %line 853+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1492                                 EMEmulateAdcWithCarrySet:
+  1493                                 %line 863+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1494 00000210 8B442410                mov eax, [esp + 10
+  1495 00000214 8B4C2404                mov ecx, [esp + 04
+  1496 00000218 8B542408                mov edx, [esp + 08
+  1497                                 %line 867+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1498                                 
+  1499                                 
+  1500                                 %line 873+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1501 0000021C 3C04                    cmp al, 4
+  1502 0000021E 7407                    je short .do_dword
+  1503 00000220 3C02                    cmp al, 2
+  1504 00000222 7408                    je short .do_word
+  1505 00000224 3C01                    cmp al, 1
+  1506 00000226 740A                    je short .do_byte
+  1507 00000228 CC                      int3
+  1508                                 
+  1509                                 
+  1510                                 %line 888+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1511                                 
+  1512                                 .do_dword:
+  1513 00000229 F9                      stc
+  1514 0000022A 1111                    adc [ecx], edx
+  1515 0000022C EB07                    jmp short .done
+  1516                                 
+  1517                                 .do_word:
+  1518 0000022E F9                      stc
+  1519 0000022F 661111                  adc [ecx], dx
+  1520 00000232 EB01                    jmp short .done
+  1521                                 
+  1522                                 .do_byte:
+  1523 00000234 F9                      stc
+  1524 00000235 1011                    adc [ecx], dl
+  1525                                 
+  1526                                 
+  1527                                 .done:
+  1528 00000237 9C                      pushf
+  1529 00000238 58                      pop eax
+  1530 00000239 C3                      retn
+  1531                                 
+  1532                                 %line 925+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1533                                 [global EMEmulateAdcWithCarrySet_EndProc:function hidden]
+  1534                                 %line 925+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1535                                 EMEmulateAdcWithCarrySet_EndProc:
+  1536                                 [size EMEmulateAdcWithCarrySet EMEmulateAdcWithCarrySet_EndProc - EMEmulateAdcWithCarrySet]
+  1537                                 [size EMEmulateAdcWithCarrySet_EndProc 0]
+  1538 0000023A CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1539                                 %line 926+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1540                                 
+  1541                                 
+  1542                                 
+  1543                                 
+  1544                                 
+  1545                                 
+  1546                                 
+  1547                                 
+  1548                                 
+  1549                                 
+  1550                                 
+  1551                                 
+  1552                                 [align 16]
+  1553                                 [global EMEmulateSub:function hidden]
+  1554                                 %line 939+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1555                                 EMEmulateSub:
+  1556                                 %line 949+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1557 00000240 8B442410                mov eax, [esp + 10
+  1558 00000244 8B4C2404                mov ecx, [esp + 04
+  1559 00000248 8B542408                mov edx, [esp + 08
+  1560                                 %line 953+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1561                                 
+  1562                                 
+  1563                                 %line 959+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1564 0000024C 3C04                    cmp al, 4
+  1565 0000024E 7407                    je short .do_dword
+  1566 00000250 3C02                    cmp al, 2
+  1567 00000252 7407                    je short .do_word
+  1568 00000254 3C01                    cmp al, 1
+  1569 00000256 7408                    je short .do_byte
+  1570 00000258 CC                      int3
+  1571                                 
+  1572                                 
+  1573                                 %line 973+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1574                                 
+  1575                                 .do_dword:
+  1576 00000259 2911                    sub [ecx], edx
+  1577 0000025B EB05                    jmp short .done
+  1578                                 
+  1579                                 .do_word:
+  1580 0000025D 662911                  sub [ecx], dx
+  1581 00000260 EB00                    jmp short .done
+  1582                                 
+  1583                                 .do_byte:
+  1584 00000262 2811                    sub [ecx], dl
+  1585                                 
+  1586                                 
+  1587                                 .done:
+  1588 00000264 9C                      pushf
+  1589 00000265 58                      pop eax
+  1590 00000266 C3                      retn
+  1591                                 
+  1592                                 %line 1006+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1593                                 [global EMEmulateSub_EndProc:function hidden]
+  1594                                 %line 1006+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1595                                 EMEmulateSub_EndProc:
+  1596                                 [size EMEmulateSub EMEmulateSub_EndProc - EMEmulateSub]
+  1597                                 [size EMEmulateSub_EndProc 0]
+  1598 00000267 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1599                                 %line 1007+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1600                                 
+  1601                                 
+  1602                                 
+  1603                                 
+  1604                                 
+  1605                                 
+  1606                                 
+  1607                                 
+  1608                                 
+  1609                                 
+  1610                                 
+  1611                                 [align 16]
+  1612                                 [global EMEmulateBtr:function hidden]
+  1613                                 %line 1019+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1614                                 EMEmulateBtr:
+  1615                                 %line 1026+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1616 00000270 8B4C2404                mov ecx, [esp + 04
+  1617 00000274 8B542408                mov edx, [esp + 08
+  1618                                 %line 1029+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1619                                 
+  1620 00000278 83E207                  and edx, 7
+  1621 0000027B 0FB311                  btr [ecx], edx
+  1622                                 
+  1623                                 
+  1624 0000027E 9C                      pushf
+  1625 0000027F 58                      pop eax
+  1626 00000280 C3                      retn
+  1627                                 [global EMEmulateBtr_EndProc:function hidden]
+  1628                                 %line 1037+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1629                                 EMEmulateBtr_EndProc:
+  1630                                 [size EMEmulateBtr EMEmulateBtr_EndProc - EMEmulateBtr]
+  1631                                 [size EMEmulateBtr_EndProc 0]
+  1632 00000281 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1633                                 %line 1038+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1634                                 
+  1635                                 
+  1636                                 
+  1637                                 
+  1638                                 
+  1639                                 
+  1640                                 
+  1641                                 
+  1642                                 
+  1643                                 
+  1644                                 [align 16]
+  1645                                 [global EMEmulateLockBtr:function hidden]
+  1646                                 %line 1049+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1647                                 EMEmulateLockBtr:
+  1648                                 %line 1059+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1649 00000290 8B4C2404                mov ecx, [esp + 04
+  1650 00000294 8B542408                mov edx, [esp + 08
+  1651 00000298 8B442410                mov eax, [esp + 10
+  1652                                 %line 1063+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1653                                 
+  1654 0000029C F00FB311                lock btr [ecx], edx
+  1655                                 
+  1656                                 
+  1657 000002A0 9C                      pushf
+  1658 000002A1 5A                      pop edx
+  1659 000002A2 8910                    mov [eax], edx
+  1660 000002A4 B800000000              mov eax, 0
+  1661 000002A9 C3                      retn
+  1662                                 [global EMEmulateLockBtr_EndProc:function hidden]
+  1663                                 %line 1072+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1664                                 EMEmulateLockBtr_EndProc:
+  1665                                 [size EMEmulateLockBtr EMEmulateLockBtr_EndProc - EMEmulateLockBtr]
+  1666                                 [size EMEmulateLockBtr_EndProc 0]
+  1667 000002AA CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1668                                 %line 1073+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1669                                 
+  1670                                 
+  1671                                 
+  1672                                 
+  1673                                 
+  1674                                 
+  1675                                 
+  1676                                 
+  1677                                 
+  1678                                 
+  1679                                 
+  1680                                 [align 16]
+  1681                                 [global EMEmulateBtc:function hidden]
+  1682                                 %line 1085+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1683                                 EMEmulateBtc:
+  1684                                 %line 1092+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1685 000002B0 8B4C2404                mov ecx, [esp + 04
+  1686 000002B4 8B542408                mov edx, [esp + 08
+  1687                                 %line 1095+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1688                                 
+  1689 000002B8 83E207                  and edx, 7
+  1690 000002BB 0FBB11                  btc [ecx], edx
+  1691                                 
+  1692                                 
+  1693 000002BE 9C                      pushf
+  1694 000002BF 58                      pop eax
+  1695 000002C0 C3                      retn
+  1696                                 [global EMEmulateBtc_EndProc:function hidden]
+  1697                                 %line 1103+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1698                                 EMEmulateBtc_EndProc:
+  1699                                 [size EMEmulateBtc EMEmulateBtc_EndProc - EMEmulateBtc]
+  1700                                 [size EMEmulateBtc_EndProc 0]
+  1701 000002C1 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1702                                 %line 1104+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1703                                 
+  1704                                 
+  1705                                 
+  1706                                 
+  1707                                 
+  1708                                 
+  1709                                 
+  1710                                 
+  1711                                 
+  1712                                 
+  1713                                 
+  1714                                 [align 16]
+  1715                                 [global EMEmulateBts:function hidden]
+  1716                                 %line 1116+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1717                                 EMEmulateBts:
+  1718                                 %line 1123+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1719 000002D0 8B4C2404                mov ecx, [esp + 04
+  1720 000002D4 8B542408                mov edx, [esp + 08
+  1721                                 %line 1126+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1722                                 
+  1723 000002D8 83E207                  and edx, 7
+  1724 000002DB 0FAB11                  bts [ecx], edx
+  1725                                 
+  1726                                 
+  1727 000002DE 9C                      pushf
+  1728 000002DF 58                      pop eax
+  1729 000002E0 C3                      retn
+  1730                                 [global EMEmulateBts_EndProc:function hidden]
+  1731                                 %line 1134+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1732                                 EMEmulateBts_EndProc:
+  1733                                 [size EMEmulateBts EMEmulateBts_EndProc - EMEmulateBts]
+  1734                                 [size EMEmulateBts_EndProc 0]
+  1735 000002E1 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1736                                 %line 1135+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1737                                 
+  1738                                 
+  1739                                 
+  1740                                 
+  1741                                 
+  1742                                 
+  1743                                 
+  1744                                 
+  1745                                 
+  1746                                 
+  1747                                 
+  1748                                 
+  1749                                 
+  1750                                 [align 16]
+  1751                                 [global EMEmulateLockCmpXchg:function hidden]
+  1752                                 %line 1149+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1753                                 EMEmulateLockCmpXchg:
+  1754                                 %line 1150+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1755 000002F0 53                      push ebx
+  1756                                 %line 1164+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1757 000002F1 8B4C2408                mov ecx, [esp + 04
+  1758 000002F5 8B5C240C                mov ebx, [esp + 08
+  1759 000002F9 8B542410                mov edx, [esp + 0c
+  1760 000002FD 8B442418                mov eax, [esp + 14
+  1761                                 %line 1169+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1762                                 
+  1763                                 %line 1174+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1764 00000301 3C04                    cmp al, 4
+  1765 00000303 7407                    je short .do_dword
+  1766 00000305 3C02                    cmp al, 2
+  1767 00000307 740D                    je short .do_word
+  1768 00000309 3C01                    cmp al, 1
+  1769 0000030B 7415                    je short .do_byte
+  1770 0000030D CC                      int3
+  1771                                 
+  1772                                 %line 1191+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1773                                 
+  1774                                 .do_dword:
+  1775                                 
+  1776 0000030E 8B03                    mov eax, dword [ebx]
+  1777                                 
+  1778 00000310 F00FB111                lock cmpxchg dword [ecx], edx
+  1779 00000314 8903                    mov dword [ebx], eax
+  1780 00000316 EB12                    jmp short .done
+  1781                                 
+  1782                                 .do_word:
+  1783                                 
+  1784 00000318 8B03                    mov eax, dword [ebx]
+  1785                                 
+  1786 0000031A 66F00FB111              lock cmpxchg word [ecx], dx
+  1787 0000031F 668903                  mov word [ebx], ax
+  1788 00000322 EB06                    jmp short .done
+  1789                                 
+  1790                                 .do_byte:
+  1791                                 
+  1792 00000324 8B03                    mov eax, dword [ebx]
+  1793                                 
+  1794 00000326 F00FB011                lock cmpxchg byte [ecx], dl
+  1795 0000032A 8803                    mov byte [ebx], al
+  1796                                 
+  1797                                 .done:
+  1798                                 
+  1799 0000032C 9C                      pushf
+  1800 0000032D 58                      pop eax
+  1801                                 
+  1802 0000032E 5B                      pop ebx
+  1803 0000032F C3                      retn
+  1804                                 
+  1805                                 %line 1242+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1806                                 [global EMEmulateLockCmpXchg_EndProc:function hidden]
+  1807                                 %line 1242+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1808                                 EMEmulateLockCmpXchg_EndProc:
+  1809                                 [size EMEmulateLockCmpXchg EMEmulateLockCmpXchg_EndProc - EMEmulateLockCmpXchg]
+  1810                                 [size EMEmulateLockCmpXchg_EndProc 0]
+  1811 00000330 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1812                                 %line 1243+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1813                                 
+  1814                                 
+  1815                                 
+  1816                                 
+  1817                                 
+  1818                                 
+  1819                                 
+  1820                                 
+  1821                                 
+  1822                                 
+  1823                                 
+  1824                                 
+  1825                                 
+  1826                                 [align 16]
+  1827                                 [global EMEmulateCmpXchg:function hidden]
+  1828                                 %line 1257+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1829                                 EMEmulateCmpXchg:
+  1830                                 %line 1258+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1831 00000340 53                      push ebx
+  1832                                 %line 1272+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1833 00000341 8B4C2408                mov ecx, [esp + 04
+  1834 00000345 8B5C240C                mov ebx, [esp + 08
+  1835 00000349 8B542410                mov edx, [esp + 0c
+  1836 0000034D 8B442418                mov eax, [esp + 14
+  1837                                 %line 1277+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1838                                 
+  1839                                 %line 1282+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1840 00000351 3C04                    cmp al, 4
+  1841 00000353 7407                    je short .do_dword
+  1842 00000355 3C02                    cmp al, 2
+  1843 00000357 740C                    je short .do_word
+  1844 00000359 3C01                    cmp al, 1
+  1845 0000035B 7413                    je short .do_byte
+  1846 0000035D CC                      int3
+  1847                                 
+  1848                                 %line 1299+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1849                                 
+  1850                                 .do_dword:
+  1851                                 
+  1852 0000035E 8B03                    mov eax, dword [ebx]
+  1853                                 
+  1854 00000360 0FB111                  cmpxchg dword [ecx], edx
+  1855 00000363 8903                    mov dword [ebx], eax
+  1856 00000365 EB10                    jmp short .done
+  1857                                 
+  1858                                 .do_word:
+  1859                                 
+  1860 00000367 8B03                    mov eax, dword [ebx]
+  1861                                 
+  1862 00000369 660FB111                cmpxchg word [ecx], dx
+  1863 0000036D 668903                  mov word [ebx], ax
+  1864 00000370 EB05                    jmp short .done
+  1865                                 
+  1866                                 .do_byte:
+  1867                                 
+  1868 00000372 8B03                    mov eax, dword [ebx]
+  1869                                 
+  1870 00000374 0FB011                  cmpxchg byte [ecx], dl
+  1871 00000377 8803                    mov byte [ebx], al
+  1872                                 
+  1873                                 .done:
+  1874                                 
+  1875 00000379 9C                      pushf
+  1876 0000037A 58                      pop eax
+  1877                                 
+  1878 0000037B 5B                      pop ebx
+  1879 0000037C C3                      retn
+  1880                                 
+  1881                                 %line 1350+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1882                                 [global EMEmulateCmpXchg_EndProc:function hidden]
+  1883                                 %line 1350+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1884                                 EMEmulateCmpXchg_EndProc:
+  1885                                 [size EMEmulateCmpXchg EMEmulateCmpXchg_EndProc - EMEmulateCmpXchg]
+  1886                                 [size EMEmulateCmpXchg_EndProc 0]
+  1887 0000037D CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1888                                 %line 1351+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1889                                 
+  1890                                 
+  1891                                 
+  1892                                 
+  1893                                 
+  1894                                 
+  1895                                 
+  1896                                 
+  1897                                 
+  1898                                 
+  1899                                 
+  1900                                 
+  1901                                 
+  1902                                 
+  1903                                 [align 16]
+  1904                                 [global EMEmulateLockCmpXchg8b:function hidden]
+  1905                                 %line 1366+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1906                                 EMEmulateLockCmpXchg8b:
+  1907                                 %line 1367+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1908 00000390 55                      push ebp
+  1909 00000391 53                      push ebx
+  1910                                 %line 1386+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1911 00000392 8B6C240C                mov ebp, [esp + 04
+  1912 00000396 8B442410                mov eax, [esp + 08
+  1913 0000039A 8B00                    mov eax, dword [eax]
+  1914 0000039C 8B542414                mov edx, [esp + 0c
+  1915 000003A0 8B12                    mov edx, dword [edx]
+  1916 000003A2 8B5C2418                mov ebx, [esp + 10
+  1917 000003A6 8B4C241C                mov ecx, [esp + 14
+  1918                                 %line 1394+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1919                                 
+  1920                                 %line 1398+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1921 000003AA F00FC74D00              lock cmpxchg8b qword [ebp]
+  1922                                 %line 1400+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1923                                 
+  1924                                 %line 1410+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1925 000003AF 8B5C2410                mov ebx, dword [esp + 08
+  1926 000003B3 8903                    mov dword [ebx], eax
+  1927 000003B5 8B5C2414                mov ebx, dword [esp + 0c
+  1928 000003B9 8913                    mov dword [ebx], edx
+  1929                                 %line 1415+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1930                                 
+  1931 000003BB 9C                      pushf
+  1932 000003BC 58                      pop eax
+  1933                                 
+  1934 000003BD 5B                      pop ebx
+  1935 000003BE 5D                      pop ebp
+  1936 000003BF C3                      retn
+  1937                                 [global EMEmulateLockCmpXchg8b_EndProc:function hidden]
+  1938                                 %line 1422+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1939                                 EMEmulateLockCmpXchg8b_EndProc:
+  1940                                 [size EMEmulateLockCmpXchg8b EMEmulateLockCmpXchg8b_EndProc - EMEmulateLockCmpXchg8b]
+  1941                                 [size EMEmulateLockCmpXchg8b_EndProc 0]
+  1942 000003C0 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1943                                 %line 1423+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1944                                 
+  1945                                 
+  1946                                 
+  1947                                 
+  1948                                 
+  1949                                 
+  1950                                 
+  1951                                 
+  1952                                 
+  1953                                 
+  1954                                 
+  1955                                 
+  1956                                 
+  1957                                 [align 16]
+  1958                                 [global EMEmulateCmpXchg8b:function hidden]
+  1959                                 %line 1437+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1960                                 EMEmulateCmpXchg8b:
+  1961                                 %line 1438+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1962 000003D0 55                      push ebp
+  1963 000003D1 53                      push ebx
+  1964                                 %line 1457+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1965 000003D2 8B6C240C                mov ebp, [esp + 04
+  1966 000003D6 8B442410                mov eax, [esp + 08
+  1967 000003DA 8B00                    mov eax, dword [eax]
+  1968 000003DC 8B542414                mov edx, [esp + 0c
+  1969 000003E0 8B12                    mov edx, dword [edx]
+  1970 000003E2 8B5C2418                mov ebx, [esp + 10
+  1971 000003E6 8B4C241C                mov ecx, [esp + 14
+  1972                                 %line 1465+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1973                                 
+  1974                                 %line 1469+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1975 000003EA 0FC74D00                cmpxchg8b qword [ebp]
+  1976                                 %line 1471+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1977                                 
+  1978                                 %line 1481+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1979 000003EE 8B5C2410                mov ebx, dword [esp + 08
+  1980 000003F2 8903                    mov dword [ebx], eax
+  1981 000003F4 8B5C2414                mov ebx, dword [esp + 0c
+  1982 000003F8 8913                    mov dword [ebx], edx
+  1983                                 %line 1486+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1984                                 
+  1985                                 
+  1986 000003FA 9C                      pushf
+  1987 000003FB 58                      pop eax
+  1988                                 
+  1989 000003FC 5B                      pop ebx
+  1990 000003FD 5D                      pop ebp
+  1991 000003FE C3                      retn
+  1992                                 [global EMEmulateCmpXchg8b_EndProc:function hidden]
+  1993                                 %line 1494+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1994                                 EMEmulateCmpXchg8b_EndProc:
+  1995                                 [size EMEmulateCmpXchg8b EMEmulateCmpXchg8b_EndProc - EMEmulateCmpXchg8b]
+  1996                                 [size EMEmulateCmpXchg8b_EndProc 0]
+  1997 000003FF CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  1998                                 %line 1495+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  1999                                 
+  2000                                 
+  2001                                 
+  2002                                 
+  2003                                 
+  2004                                 
+  2005                                 
+  2006                                 
+  2007                                 
+  2008                                 
+  2009                                 
+  2010                                 [align 16]
+  2011                                 [global EMEmulateLockXAdd:function hidden]
+  2012                                 %line 1507+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  2013                                 EMEmulateLockXAdd:
+  2014                                 %line 1517+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  2015 00000410 8B44240C                mov eax, [esp + 0c
+  2016 00000414 8B4C2404                mov ecx, [esp + 04
+  2017 00000418 8B542408                mov edx, [esp + 08
+  2018                                 %line 1521+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  2019                                 
+  2020                                 
+  2021                                 %line 1527+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  2022 0000041C 3C04                    cmp al, 4
+  2023 0000041E 7407                    je short .do_dword
+  2024 00000420 3C02                    cmp al, 2
+  2025 00000422 740D                    je short .do_word
+  2026 00000424 3C01                    cmp al, 1
+  2027 00000426 7415                    je short .do_byte
+  2028 00000428 CC                      int3
+  2029                                 
+  2030                                 
+  2031                                 %line 1543+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  2032                                 
+  2033                                 .do_dword:
+  2034 00000429 8B02                    mov eax, dword [edx]
+  2035 0000042B F00FC101                lock xadd dword [ecx], eax
+  2036 0000042F 8902                    mov dword [edx], eax
+  2037 00000431 EB12                    jmp short .done
+  2038                                 
+  2039                                 .do_word:
+  2040 00000433 8B02                    mov eax, dword [edx]
+  2041 00000435 66F00FC101              lock xadd word [ecx], ax
+  2042 0000043A 668902                  mov word [edx], ax
+  2043 0000043D EB06                    jmp short .done
+  2044                                 
+  2045                                 .do_byte:
+  2046 0000043F 8B02                    mov eax, dword [edx]
+  2047 00000441 F00FC001                lock xadd byte [ecx], al
+  2048 00000445 8802                    mov byte [edx], al
+  2049                                 
+  2050                                 .done:
+  2051                                 
+  2052 00000447 9C                      pushf
+  2053 00000448 58                      pop eax
+  2054                                 
+  2055 00000449 C3                      retn
+  2056                                 
+  2057                                 %line 1584+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  2058                                 [global EMEmulateLockXAdd_EndProc:function hidden]
+  2059                                 %line 1584+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  2060                                 EMEmulateLockXAdd_EndProc:
+  2061                                 [size EMEmulateLockXAdd EMEmulateLockXAdd_EndProc - EMEmulateLockXAdd]
+  2062                                 [size EMEmulateLockXAdd_EndProc 0]
+  2063 0000044A CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  2064                                 %line 1585+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  2065                                 
+  2066                                 
+  2067                                 
+  2068                                 
+  2069                                 
+  2070                                 
+  2071                                 
+  2072                                 
+  2073                                 
+  2074                                 
+  2075                                 [align 16]
+  2076                                 [global EMEmulateXAdd:function hidden]
+  2077                                 %line 1596+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  2078                                 EMEmulateXAdd:
+  2079                                 %line 1606+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  2080 00000450 8B44240C                mov eax, [esp + 0c
+  2081 00000454 8B4C2404                mov ecx, [esp + 04
+  2082 00000458 8B542408                mov edx, [esp + 08
+  2083                                 %line 1610+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  2084                                 
+  2085                                 
+  2086                                 %line 1616+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  2087 0000045C 3C04                    cmp al, 4
+  2088 0000045E 7407                    je short .do_dword
+  2089 00000460 3C02                    cmp al, 2
+  2090 00000462 740C                    je short .do_word
+  2091 00000464 3C01                    cmp al, 1
+  2092 00000466 7413                    je short .do_byte
+  2093 00000468 CC                      int3
+  2094                                 
+  2095                                 
+  2096                                 %line 1632+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  2097                                 
+  2098                                 .do_dword:
+  2099 00000469 8B02                    mov eax, dword [edx]
+  2100 0000046B 0FC101                  xadd dword [ecx], eax
+  2101 0000046E 8902                    mov dword [edx], eax
+  2102 00000470 EB10                    jmp short .done
+  2103                                 
+  2104                                 .do_word:
+  2105 00000472 8B02                    mov eax, dword [edx]
+  2106 00000474 660FC101                xadd word [ecx], ax
+  2107 00000478 668902                  mov word [edx], ax
+  2108 0000047B EB05                    jmp short .done
+  2109                                 
+  2110                                 .do_byte:
+  2111 0000047D 8B02                    mov eax, dword [edx]
+  2112 0000047F 0FC001                  xadd byte [ecx], al
+  2113 00000482 8802                    mov byte [edx], al
+  2114                                 
+  2115                                 .done:
+  2116                                 
+  2117 00000484 9C                      pushf
+  2118 00000485 58                      pop eax
+  2119                                 
+  2120 00000486 C3                      retn
+  2121                                 
+  2122                                 %line 1673+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  2123                                 [global EMEmulateXAdd_EndProc:function hidden]
+  2124                                 %line 1673+0 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  2125                                 EMEmulateXAdd_EndProc:
+  2126                                 [size EMEmulateXAdd EMEmulateXAdd_EndProc - EMEmulateXAdd]
+  2127                                 [size EMEmulateXAdd_EndProc 0]
+  2128 00000487 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+  2129                                 %line 1674+1 /home/se170/VirtualBox-4.3.28/src/VBox/VMM/VMMAll/EMAllA.asm
+  2130                                 

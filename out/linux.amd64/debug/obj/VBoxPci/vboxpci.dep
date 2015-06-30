@@ -1,0 +1,5 @@
+define VBoxPci_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxPci/vboxpci.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxPci/vboxpci.ko  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxPci/vboxpci.map 
+@ld -r  -g                -m elf_x86_64 -r   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxPci/vboxpci.ko /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxPci/VBoxPci.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxPci/linux/VBoxPci-linux.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/lib/SUPR0IdcClient.a 
+endef

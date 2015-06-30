@@ -1,0 +1,5 @@
+define VBoxVolInfo_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxVolInfo/VBoxVolInfo.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxVolInfo/VBoxVolInfo  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxVolInfo/VBoxVolInfo.map 
+@g++  -g             '-Wl,-rpath,$ORIGIN'  -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxVolInfo/VBoxVolInfo /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxVolInfo/src-helper-apps/VBoxVolInfo.o     -ldevmapper 
+endef

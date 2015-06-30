@@ -1,0 +1,5 @@
+define VMMR3Imp_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3Imp/VMMR3Imp.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3Imp/VMMR3Imp.so  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3Imp/VMMR3Imp.map 
+@g++ -shared  -g             '-Wl,-rpath,$ORIGIN' -fPIC  -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3Imp/VMMR3Imp.so -Wl,-soname=VBoxVMM.so /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3Imp/gen/VMMR3ImpImp.o     -lpthread   -lm   -lrt   -ldl 
+endef

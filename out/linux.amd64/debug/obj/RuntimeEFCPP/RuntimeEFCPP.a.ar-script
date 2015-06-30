@@ -1,0 +1,4 @@
+CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeEFCPP/RuntimeEFCPP.a
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeEFCPP/r3/alloc-ef-cpp.o
+SAVE
+END

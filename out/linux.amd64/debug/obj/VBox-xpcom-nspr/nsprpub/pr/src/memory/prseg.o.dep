@@ -1,0 +1,419 @@
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-nspr/nsprpub/pr/src/memory/prseg.o: \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/nsprpub/pr/src/memory/prseg.c \
+ /usr/include/stdc-predef.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/nsprpub/pr/include/private/primpl.h \
+ /usr/include/pthread.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/sched.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/bits/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/xlocale.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/nspr.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/pratom.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtypes.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prcpucfg.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/md/_linux.cfg \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/obsolete/protypes.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prlock.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prbit.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prclist.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prcmon.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prmon.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prinrval.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prcvar.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prdtoa.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prenv.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prerror.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prerr.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prinet.h \
+ /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/sys/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h /usr/include/netinet/in.h \
+ /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/arpa/inet.h \
+ /usr/include/netdb.h /usr/include/rpc/netdb.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo.h \
+ /usr/include/x86_64-linux-gnu/bits/netdb.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prinit.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prthread.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prwin16.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prio.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prlong.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtime.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/pripcsem.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prlink.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prlog.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prmem.h \
+ /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prmwait.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prnetdb.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prprf.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prproces.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prrng.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prrwlock.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prshm.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prshma.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prsystem.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtpool.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtrace.h \
+ /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/nsprpub/pr/include/private/prpriv.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/private/pprio.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtypes.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prio.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/private/pprthred.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/md/prosdep.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/md/_linux.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prthread.h \
+ /usr/include/x86_64-linux-gnu/sys/poll.h \
+ /usr/include/x86_64-linux-gnu/bits/poll.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/md/_unixos.h \
+ /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /usr/include/x86_64-linux-gnu/sys/stat.h \
+ /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/dirent.h \
+ /usr/include/x86_64-linux-gnu/bits/dirent.h \
+ /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prmem.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prclist.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h \
+ /usr/include/x86_64-linux-gnu/sys/mman.h \
+ /usr/include/x86_64-linux-gnu/bits/mman.h \
+ /usr/include/x86_64-linux-gnu/bits/mman-linux.h /usr/include/string.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/md/_unix_errors.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/md/_pth.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/obsolete/probslet.h \
+ /usr/include/x86_64-linux-gnu/sys/sem.h \
+ /usr/include/x86_64-linux-gnu/sys/ipc.h \
+ /usr/include/x86_64-linux-gnu/bits/ipctypes.h \
+ /usr/include/x86_64-linux-gnu/bits/ipc.h \
+ /usr/include/x86_64-linux-gnu/bits/sem.h
+
+/usr/include/stdc-predef.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/nsprpub/pr/include/private/primpl.h:
+
+/usr/include/pthread.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/sched.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/nspr.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/pratom.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtypes.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prcpucfg.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/md/_linux.cfg:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/obsolete/protypes.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prlock.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prbit.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prclist.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prcmon.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prmon.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prinrval.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prcvar.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prdtoa.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prenv.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prerror.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prerr.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prinet.h:
+
+/usr/include/x86_64-linux-gnu/sys/socket.h:
+
+/usr/include/x86_64-linux-gnu/sys/uio.h:
+
+/usr/include/x86_64-linux-gnu/bits/uio.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket_type.h:
+
+/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
+
+/usr/include/x86_64-linux-gnu/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/x86_64-linux-gnu/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/x86_64-linux-gnu/bits/in.h:
+
+/usr/include/arpa/inet.h:
+
+/usr/include/netdb.h:
+
+/usr/include/rpc/netdb.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo.h:
+
+/usr/include/x86_64-linux-gnu/bits/netdb.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prinit.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prthread.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prwin16.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prio.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prlong.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtime.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/pripcsem.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prlink.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prlog.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prmem.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prmwait.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prnetdb.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prprf.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prproces.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prrng.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prrwlock.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prshm.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prshma.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prsystem.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtpool.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtrace.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/nsprpub/pr/include/private/prpriv.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/private/pprio.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtypes.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prio.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/private/pprthred.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/md/prosdep.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/md/_linux.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prthread.h:
+
+/usr/include/x86_64-linux-gnu/sys/poll.h:
+
+/usr/include/x86_64-linux-gnu/bits/poll.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/md/_unixos.h:
+
+/usr/include/unistd.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/x86_64-linux-gnu/sys/stat.h:
+
+/usr/include/x86_64-linux-gnu/bits/stat.h:
+
+/usr/include/dirent.h:
+
+/usr/include/x86_64-linux-gnu/bits/dirent.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prmem.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prclist.h:
+
+/usr/include/x86_64-linux-gnu/sys/time.h:
+
+/usr/include/x86_64-linux-gnu/sys/mman.h:
+
+/usr/include/x86_64-linux-gnu/bits/mman.h:
+
+/usr/include/x86_64-linux-gnu/bits/mman-linux.h:
+
+/usr/include/string.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/md/_unix_errors.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/md/_pth.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/obsolete/probslet.h:
+
+/usr/include/x86_64-linux-gnu/sys/sem.h:
+
+/usr/include/x86_64-linux-gnu/sys/ipc.h:
+
+/usr/include/x86_64-linux-gnu/bits/ipctypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/ipc.h:
+
+/usr/include/x86_64-linux-gnu/bits/sem.h:
+
+/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/nsprpub/pr/src/memory/prseg.c:
+
+
+define VBox-xpcom-nspr_/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/nsprpub/pr/src/memory/prseg.c_CMDS_PREV_
+
+@gcc -c -g -g -pipe -Wall -Wno-unused -Wno-parentheses -Wno-uninitialized -fvisibility=hidden -DVBOX_HAVE_VISIBILITY_HIDDEN -DRT_USE_VISIBILITY_DEFAULT -fdiagnostics-show-option -fPIC -pthread -ansi -m64 -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/nsprpub/pr/include/private -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-nspr -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/build -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/ds -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/io -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/base -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/components -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/threads -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/proxy/src -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/xpcom/reflect/xptcall/src -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/ipc/ipcd/client/src -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/ipc/ipcd/shared/src -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/ipc/ipcd/extensions/lock/src -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/ipc/ipcd/extensions/transmngr/src -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/ipc/ipcd/extensions/dconnect/src -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/ipc/ipcd/extensions/transmngr/common -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/ipcd -I/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4 -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-nspr/dtrace -I/home/se170/VirtualBox-4.3.28/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DRT_LOCK_STRICT -DRT_LOCK_STRICT_ORDER -DMOZILLA_CLIENT=1 -DNDEBUG=1 -D_IMPL_NS_COM -DXPCOM_DLL_BASE=\"VBoxXPCOM\" -DMOZ_DLL_SUFFIX=\".so\" -DIN_RING3 -DVBOX_USE_IPRT_IN_XPCOM -DVBOX_WITH_XPCOM_NAMESPACE_CLEANUP -DMOZ_PRESERVE_PIC -D_NSPR_BUILD_ -DHAVE_LCHOWN=1 -DHAVE_STRERROR=1 -DFORCE_PR_LOG -DVBOX_USE_IPRT_IN_NSPR -DOSTYPE=\"Linux2.6\" -DOSARCH=\"Linux\" -DXP_UNIX=1 -D_GNU_SOURCE -DHAVE_VISIBILITY_ATTRIBUTE=1 -DLINUX=1 -D_POSIX_SOURCE=1 -D_BSD_SOURCE=1 -D_SVID_SOURCE=1 -D_REENTRANT=1 -D_LARGEFILE64_SOURCE=1 -DHAVE_FCNTL_FILE_LOCKING=1 -DHAVE_CVAR_BUILT_ON_SEM -D_PR_PTHREADS -DHAVE_VA_LIST_AS_ARRAY -DHAVE_VA_COPY -DVA_COPY\(a\,b\)=__builtin_va_copy\(a\,b\) -Wp,-MD,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-nspr/nsprpub/pr/src/memory/prseg.o.dep -Wp,-MT,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-nspr/nsprpub/pr/src/memory/prseg.o -Wp,-MP -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-nspr/nsprpub/pr/src/memory/prseg.o /home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/nsprpub/pr/src/memory/prseg.c
+@kmk_builtin_append -n "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBox-xpcom-nspr/nsprpub/pr/src/memory/prseg.o.dep" "" "/home/se170/VirtualBox-4.3.28/src/libs/xpcom18a4/nsprpub/pr/src/memory/prseg.c:" ""
+endef

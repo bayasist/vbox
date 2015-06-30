@@ -1,0 +1,4 @@
+Log created: 2015-06-26T06:00:13.666216000Z
+Executable: /opt/VirtualBox/VBoxSVC
+Arg[0]: /opt/VirtualBox/VBoxSVC
+Arg[1]: --auto-shutdown

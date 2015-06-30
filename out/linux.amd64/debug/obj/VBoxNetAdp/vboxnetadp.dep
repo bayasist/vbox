@@ -1,0 +1,5 @@
+define VBoxNetAdp_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxNetAdp/vboxnetadp.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxNetAdp/vboxnetadp.ko  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxNetAdp/vboxnetadp.map 
+@ld -r  -g                -m elf_x86_64 -r   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxNetAdp/vboxnetadp.ko /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxNetAdp/linux/VBoxNetAdp-linux.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxNetAdp/VBoxNetAdp.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/lib/SUPR0IdcClient.a 
+endef

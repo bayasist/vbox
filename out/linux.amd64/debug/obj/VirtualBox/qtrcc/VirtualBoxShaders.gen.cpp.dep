@@ -1,0 +1,61 @@
+\
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxShaders.tmp.gen.cpp: \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/VirtualBoxShaders.qrc \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/cconvApplyAYUV.c \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/cconvAYUV.c \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/cconvBGR.c \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/cconvUYVY.c \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/cconvYUY2.c \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/cconvYV12.c \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/ckeyDst_void.c \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/ckeyDst.c \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/ckeyDst2.c \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/mainOverlay.c \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/mainOverlayNoCKey.c \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/splitBGRA.c \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/mainOverlayNoDiscard.c \
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/mainOverlayNoDiscard2.c \
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/cconvApplyAYUV.c:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/cconvAYUV.c:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/cconvBGR.c:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/cconvUYVY.c:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/cconvYUY2.c:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/cconvYV12.c:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/ckeyDst_void.c:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/ckeyDst.c:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/ckeyDst2.c:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/mainOverlay.c:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/mainOverlayNoCKey.c:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/splitBGRA.c:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/mainOverlayNoDiscard.c:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/shaders/mainOverlayNoDiscard2.c:
+
+
+
+define VirtualBox_/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/VirtualBoxShaders.qrc_QT4_RCC_CMDS_PREV_
+
+@kmk_builtin_rm -f /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxShaders.tmp.gen.cpp   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxShaders.gen.cpp.dep
+@/usr/share/qt4/bin/rcc -name SHADERS -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxShaders.tmp.gen.cpp /home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/VirtualBoxShaders.qrc
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxShaders.gen.cpp.dep '\'
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxShaders.gen.cpp.dep '/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxShaders.tmp.gen.cpp: \'
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxShaders.gen.cpp.dep '/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/VirtualBoxShaders.qrc \'
+@/home/se170/VirtualBox-4.3.28/kBuild/bin/linux.amd64/kmk_sed -e '/^[[:blank:]]*<file[[:blank:]][^>]*>/!d' -e 's/^.*<file[[:blank:]][^>]*>\([^<]*\)<\/file>.*$/\1/' -e 's|^[^/][^:]|/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/&|' -e 's|$| \\|' --append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxShaders.gen.cpp.dep /home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/VirtualBoxShaders.qrc
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxShaders.gen.cpp.dep
+@/home/se170/VirtualBox-4.3.28/kBuild/bin/linux.amd64/kmk_sed -e '/^[[:blank:]]*<file[[:blank:]][^>]*>/!d' -e 's/^.*<file[[:blank:]][^>]*>\([^<]*\)<\/file>.*$/\1/' -e 's|^[^/][^:]|/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/&|' -e 's|$|:\n|' --append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxShaders.gen.cpp.dep /home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/VirtualBoxShaders.qrc
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxShaders.gen.cpp.dep
+@kmk_builtin_cp --changed -f /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxShaders.tmp.gen.cpp /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtrcc/VirtualBoxShaders.gen.cpp
+endef

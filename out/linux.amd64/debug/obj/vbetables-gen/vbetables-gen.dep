@@ -1,0 +1,5 @@
+define vbetables-gen_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vbetables-gen/vbetables-gen.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vbetables-gen/vbetables-gen  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vbetables-gen/vbetables-gen.map 
+@g++  -g                -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vbetables-gen/vbetables-gen /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vbetables-gen/vbetables-gen.o     -lpthread   -lm   -lrt   -ldl 
+endef

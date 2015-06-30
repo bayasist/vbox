@@ -1,0 +1,701 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'UIIndicatorsPool.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'UIIndicatorsPool.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_UIIndicatorHardDisks[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIIndicatorHardDisks[] = {
+    "UIIndicatorHardDisks\0"
+};
+
+void UIIndicatorHardDisks::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIIndicatorHardDisks::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIIndicatorHardDisks::staticMetaObject = {
+    { &QIStateIndicator::staticMetaObject, qt_meta_stringdata_UIIndicatorHardDisks,
+      qt_meta_data_UIIndicatorHardDisks, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIIndicatorHardDisks::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIIndicatorHardDisks::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIIndicatorHardDisks::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIIndicatorHardDisks))
+        return static_cast<void*>(const_cast< UIIndicatorHardDisks*>(this));
+    return QIStateIndicator::qt_metacast(_clname);
+}
+
+int UIIndicatorHardDisks::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QIStateIndicator::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIIndicatorOpticalDisks[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIIndicatorOpticalDisks[] = {
+    "UIIndicatorOpticalDisks\0"
+};
+
+void UIIndicatorOpticalDisks::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIIndicatorOpticalDisks::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIIndicatorOpticalDisks::staticMetaObject = {
+    { &QIStateIndicator::staticMetaObject, qt_meta_stringdata_UIIndicatorOpticalDisks,
+      qt_meta_data_UIIndicatorOpticalDisks, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIIndicatorOpticalDisks::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIIndicatorOpticalDisks::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIIndicatorOpticalDisks::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIIndicatorOpticalDisks))
+        return static_cast<void*>(const_cast< UIIndicatorOpticalDisks*>(this));
+    return QIStateIndicator::qt_metacast(_clname);
+}
+
+int UIIndicatorOpticalDisks::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QIStateIndicator::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIIndicatorFloppyDisks[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIIndicatorFloppyDisks[] = {
+    "UIIndicatorFloppyDisks\0"
+};
+
+void UIIndicatorFloppyDisks::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIIndicatorFloppyDisks::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIIndicatorFloppyDisks::staticMetaObject = {
+    { &QIStateIndicator::staticMetaObject, qt_meta_stringdata_UIIndicatorFloppyDisks,
+      qt_meta_data_UIIndicatorFloppyDisks, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIIndicatorFloppyDisks::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIIndicatorFloppyDisks::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIIndicatorFloppyDisks::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIIndicatorFloppyDisks))
+        return static_cast<void*>(const_cast< UIIndicatorFloppyDisks*>(this));
+    return QIStateIndicator::qt_metacast(_clname);
+}
+
+int UIIndicatorFloppyDisks::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QIStateIndicator::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIIndicatorNetwork[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      20,   19,   19,   19, 0x09,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIIndicatorNetwork[] = {
+    "UIIndicatorNetwork\0\0sltUpdateNetworkIPs()\0"
+};
+
+void UIIndicatorNetwork::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        UIIndicatorNetwork *_t = static_cast<UIIndicatorNetwork *>(_o);
+        switch (_id) {
+        case 0: _t->sltUpdateNetworkIPs(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIIndicatorNetwork::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIIndicatorNetwork::staticMetaObject = {
+    { &QIStateIndicator::staticMetaObject, qt_meta_stringdata_UIIndicatorNetwork,
+      qt_meta_data_UIIndicatorNetwork, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIIndicatorNetwork::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIIndicatorNetwork::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIIndicatorNetwork::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIIndicatorNetwork))
+        return static_cast<void*>(const_cast< UIIndicatorNetwork*>(this));
+    return QIStateIndicator::qt_metacast(_clname);
+}
+
+int UIIndicatorNetwork::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QIStateIndicator::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    }
+    return _id;
+}
+static const uint qt_meta_data_UIIndicatorUSB[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIIndicatorUSB[] = {
+    "UIIndicatorUSB\0"
+};
+
+void UIIndicatorUSB::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIIndicatorUSB::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIIndicatorUSB::staticMetaObject = {
+    { &QIStateIndicator::staticMetaObject, qt_meta_stringdata_UIIndicatorUSB,
+      qt_meta_data_UIIndicatorUSB, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIIndicatorUSB::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIIndicatorUSB::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIIndicatorUSB::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIIndicatorUSB))
+        return static_cast<void*>(const_cast< UIIndicatorUSB*>(this));
+    return QIStateIndicator::qt_metacast(_clname);
+}
+
+int UIIndicatorUSB::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QIStateIndicator::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIIndicatorSharedFolders[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIIndicatorSharedFolders[] = {
+    "UIIndicatorSharedFolders\0"
+};
+
+void UIIndicatorSharedFolders::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIIndicatorSharedFolders::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIIndicatorSharedFolders::staticMetaObject = {
+    { &QIStateIndicator::staticMetaObject, qt_meta_stringdata_UIIndicatorSharedFolders,
+      qt_meta_data_UIIndicatorSharedFolders, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIIndicatorSharedFolders::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIIndicatorSharedFolders::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIIndicatorSharedFolders::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIIndicatorSharedFolders))
+        return static_cast<void*>(const_cast< UIIndicatorSharedFolders*>(this));
+    return QIStateIndicator::qt_metacast(_clname);
+}
+
+int UIIndicatorSharedFolders::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QIStateIndicator::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIIndicatorVideoCapture[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       3,   19, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      32,   25,   24,   24, 0x0a,
+
+ // properties: name, type, flags
+      53,   46, 0x06095001,
+      72,   46, 0x06095001,
+      91,   46, 0x06095103,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIIndicatorVideoCapture[] = {
+    "UIIndicatorVideoCapture\0\0iState\0"
+    "setState(int)\0double\0rotationAngleStart\0"
+    "rotationAngleFinal\0rotationAngle\0"
+};
+
+void UIIndicatorVideoCapture::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        UIIndicatorVideoCapture *_t = static_cast<UIIndicatorVideoCapture *>(_o);
+        switch (_id) {
+        case 0: _t->setState((*reinterpret_cast< int(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData UIIndicatorVideoCapture::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIIndicatorVideoCapture::staticMetaObject = {
+    { &QIStateIndicator::staticMetaObject, qt_meta_stringdata_UIIndicatorVideoCapture,
+      qt_meta_data_UIIndicatorVideoCapture, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIIndicatorVideoCapture::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIIndicatorVideoCapture::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIIndicatorVideoCapture::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIIndicatorVideoCapture))
+        return static_cast<void*>(const_cast< UIIndicatorVideoCapture*>(this));
+    return QIStateIndicator::qt_metacast(_clname);
+}
+
+int UIIndicatorVideoCapture::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QIStateIndicator::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    }
+#ifndef QT_NO_PROPERTIES
+      else if (_c == QMetaObject::ReadProperty) {
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< double*>(_v) = rotationAngleStart(); break;
+        case 1: *reinterpret_cast< double*>(_v) = rotationAngleFinal(); break;
+        case 2: *reinterpret_cast< double*>(_v) = rotationAngle(); break;
+        }
+        _id -= 3;
+    } else if (_c == QMetaObject::WriteProperty) {
+        void *_v = _a[0];
+        switch (_id) {
+        case 2: setRotationAngle(*reinterpret_cast< double*>(_v)); break;
+        }
+        _id -= 3;
+    } else if (_c == QMetaObject::ResetProperty) {
+        _id -= 3;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 3;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 3;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 3;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 3;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 3;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+static const uint qt_meta_data_UIIndicatorFeatures[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIIndicatorFeatures[] = {
+    "UIIndicatorFeatures\0"
+};
+
+void UIIndicatorFeatures::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIIndicatorFeatures::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIIndicatorFeatures::staticMetaObject = {
+    { &QIStateIndicator::staticMetaObject, qt_meta_stringdata_UIIndicatorFeatures,
+      qt_meta_data_UIIndicatorFeatures, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIIndicatorFeatures::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIIndicatorFeatures::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIIndicatorFeatures::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIIndicatorFeatures))
+        return static_cast<void*>(const_cast< UIIndicatorFeatures*>(this));
+    return QIStateIndicator::qt_metacast(_clname);
+}
+
+int UIIndicatorFeatures::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QIStateIndicator::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_UIIndicatorMouse[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      25,   18,   17,   17, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIIndicatorMouse[] = {
+    "UIIndicatorMouse\0\0iState\0setState(int)\0"
+};
+
+void UIIndicatorMouse::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        UIIndicatorMouse *_t = static_cast<UIIndicatorMouse *>(_o);
+        switch (_id) {
+        case 0: _t->setState((*reinterpret_cast< int(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData UIIndicatorMouse::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIIndicatorMouse::staticMetaObject = {
+    { &QIStateIndicator::staticMetaObject, qt_meta_stringdata_UIIndicatorMouse,
+      qt_meta_data_UIIndicatorMouse, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIIndicatorMouse::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIIndicatorMouse::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIIndicatorMouse::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIIndicatorMouse))
+        return static_cast<void*>(const_cast< UIIndicatorMouse*>(this));
+    return QIStateIndicator::qt_metacast(_clname);
+}
+
+int UIIndicatorMouse::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QIStateIndicator::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    }
+    return _id;
+}
+static const uint qt_meta_data_UIIndicatorKeyboard[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_UIIndicatorKeyboard[] = {
+    "UIIndicatorKeyboard\0"
+};
+
+void UIIndicatorKeyboard::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData UIIndicatorKeyboard::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject UIIndicatorKeyboard::staticMetaObject = {
+    { &QIStateIndicator::staticMetaObject, qt_meta_stringdata_UIIndicatorKeyboard,
+      qt_meta_data_UIIndicatorKeyboard, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &UIIndicatorKeyboard::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *UIIndicatorKeyboard::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *UIIndicatorKeyboard::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_UIIndicatorKeyboard))
+        return static_cast<void*>(const_cast< UIIndicatorKeyboard*>(this));
+    return QIStateIndicator::qt_metacast(_clname);
+}
+
+int UIIndicatorKeyboard::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QIStateIndicator::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+QT_END_MOC_NAMESPACE

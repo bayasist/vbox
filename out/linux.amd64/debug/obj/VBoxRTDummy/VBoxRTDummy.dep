@@ -1,0 +1,5 @@
+define VBoxRTDummy_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxRTDummy/VBoxRTDummy.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxRTDummy/VBoxRTDummy.so  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxRTDummy/VBoxRTDummy.map 
+@g++ -shared  -g             '-Wl,-rpath,$ORIGIN' -fPIC  -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxRTDummy/VBoxRTDummy.so -Wl,-soname=VBoxRTDummy.so      /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxRT.so   -lpthread   -lm   -lrt   -ldl 
+endef

@@ -1,0 +1,4 @@
+CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLTest/VBoxOGLTest.a
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxOGLTest/OpenGLTest/OpenGLTest.o
+SAVE
+END

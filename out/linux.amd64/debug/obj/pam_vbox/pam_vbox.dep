@@ -1,0 +1,5 @@
+define pam_vbox_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/pam_vbox/pam_vbox.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/pam_vbox/pam_vbox.so  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/pam_vbox/pam_vbox.map 
+@gcc -shared  -g              -fPIC  -Wl,-z,noexecstack -Wl,--as-needed -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/pam_vbox/pam_vbox.so -Wl,-soname=pam_vbox.so /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/pam_vbox/pam_vbox.o     -lpam   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/lib/additions/RuntimeGuestR3Shared.a   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/lib/additions/VBoxGuestR3LibShared.a   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/lib/additions/RuntimeGuestR3Shared.a   -lpthread   -lrt   -lm   -ldl 
+endef

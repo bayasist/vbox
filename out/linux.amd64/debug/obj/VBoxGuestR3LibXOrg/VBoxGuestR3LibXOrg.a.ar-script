@@ -1,0 +1,11 @@
+CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibXOrg/VBoxGuestR3LibXOrg.a
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibXOrg/VBoxGuestR3Lib.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibXOrg/VBoxGuestR3LibGR.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibXOrg/VBoxGuestR3LibGuestProp.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibXOrg/VBoxGuestR3LibMouse.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibXOrg/VBoxGuestR3LibMisc.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibXOrg/VBoxGuestR3LibSeamless.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibXOrg/VBoxGuestR3LibVideo.o
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxGuestR3LibXOrg/VBoxGuestR3LibRuntimeXF86.o
+SAVE
+END

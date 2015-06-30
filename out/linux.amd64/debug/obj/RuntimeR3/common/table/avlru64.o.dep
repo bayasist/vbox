@@ -1,0 +1,124 @@
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeR3/common/table/avlru64.o: \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/table/avlru64.cpp \
+ /usr/include/stdc-predef.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/avl.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/types.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdint.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/assert.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/err.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/table/avl_Base.cpp.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/table/avl_Get.cpp.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/table/avl_GetBestFit.cpp.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/table/avl_Range.cpp.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/table/avl_RemoveBestFit.cpp.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/table/avl_DoWithAll.cpp.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/table/avl_Destroy.cpp.h
+
+/usr/include/stdc-predef.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/avl.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/types.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdint.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/assert.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/err.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/table/avl_Base.cpp.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/table/avl_Get.cpp.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/table/avl_GetBestFit.cpp.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/table/avl_Range.cpp.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/table/avl_RemoveBestFit.cpp.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/table/avl_DoWithAll.cpp.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/table/avl_Destroy.cpp.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/table/avlru64.cpp:
+
+
+define RuntimeR3_/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/table/avlru64.cpp_CMDS_PREV_
+
+@g++ -c -g -g -pipe -pedantic -Wshadow -Wshadow -Wall -Wextra -Wno-missing-field-initializers -Wno-unused -Wno-trigraphs -fdiagnostics-show-option -Wno-unused-parameter -Wno-long-long -Wno-long-long -Wno-delete-non-virtual-dtor -Wno-variadic-macros -O0 -fno-omit-frame-pointer -fno-strict-aliasing -fvisibility=hidden -DVBOX_HAVE_VISIBILITY_HIDDEN -DRT_USE_VISIBILITY_DEFAULT -fvisibility-inlines-hidden -Werror -m64 -I/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/include -I/home/se170/VirtualBox-4.3.28/src/libs/liblzf-3.4 -I/home/se170/VirtualBox-4.3.28/src/libs/kStuff/kStuff/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeR3/dtrace -I/usr/include/libxml2 -I/home/se170/VirtualBox-4.3.28/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DRT_LOCK_STRICT -DRT_LOCK_STRICT_ORDER -D_REENTRANT -DIN_RT_STATIC -DIN_RT_R3 -DIN_SUP_STATIC -DIN_RING3 -DHC_ARCH_BITS=64 -DGC_ARCH_BITS=64 -DVBOX_WITH_DTRACE -DVBOX_WITH_DTRACE_R3 -DIN_RT_R3 -DIN_SUP_R3 -DLDR_WITH_NATIVE -DLDR_WITH_ELF32 -DLDR_WITH_PE -DRT_WITH_VBOX -DRT_NO_GIP -DRT_WITHOUT_NOCRT_WRAPPERS -DIPRT_WITH_OPENSSL -DLDR_WITH_KLDR -DRT_WITH_ICONV_CACHE -Wp,-MD,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeR3/common/table/avlru64.o.dep -Wp,-MT,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeR3/common/table/avlru64.o -Wp,-MP -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeR3/common/table/avlru64.o /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/table/avlru64.cpp
+@kmk_builtin_append -n "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/RuntimeR3/common/table/avlru64.o.dep" "" "/home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/table/avlru64.cpp:" ""
+endef

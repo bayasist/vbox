@@ -1,0 +1,5 @@
+define VBoxAuth_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxAuth/VBoxAuth.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxAuth/VBoxAuth.so  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxAuth/VBoxAuth.map 
+@g++ -shared  -g             '-Wl,-rpath,$ORIGIN' -fPIC  -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxAuth/VBoxAuth.so -Wl,-soname=VBoxAuth.so /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxAuth/pam/VBoxAuthPAM.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxRT.so   -ldl   -lpthread   -lm   -lrt   -ldl 
+endef

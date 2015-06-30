@@ -1,0 +1,5 @@
+define VBoxHostChannel_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxHostChannel/VBoxHostChannel.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxHostChannel/VBoxHostChannel.so  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxHostChannel/VBoxHostChannel.map 
+@g++ -shared  -g             '-Wl,-rpath,$ORIGIN' -fPIC  -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxHostChannel/VBoxHostChannel.so -Wl,-soname=VBoxHostChannel.so /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxHostChannel/service.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxHostChannel/HostChannel.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxVMM.so   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxRT.so   -lpthread   -lm   -lrt   -ldl 
+endef

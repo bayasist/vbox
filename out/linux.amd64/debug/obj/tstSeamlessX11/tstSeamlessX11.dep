@@ -1,0 +1,5 @@
+define tstSeamlessX11_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSeamlessX11/tstSeamlessX11.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSeamlessX11/tstSeamlessX11  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSeamlessX11/tstSeamlessX11.map 
+@g++  -g             '-Wl,-rpath,$ORIGIN/..' '-Wl,-rpath,$ORIGIN'  -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSeamlessX11/tstSeamlessX11 /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSeamlessX11/testcase/tstSeamlessX11.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSeamlessX11/seamless.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstSeamlessX11/seamless-x11.o   -L/usr/X11R6/lib64  -L/usr/X11R6/lib   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxRT.so   -lXext   -lXmu   -lX11   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxRT.so   -lpthread   -lm   -lrt   -ldl 
+endef

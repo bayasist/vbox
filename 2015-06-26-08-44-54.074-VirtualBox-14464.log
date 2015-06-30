@@ -1,0 +1,13 @@
+Log created: 2015-06-26T08:44:54.747041000Z
+Executable: /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VirtualBox
+Arg[0]: /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VirtualBox
+Arg[1]: --comment
+Arg[2]: test
+Arg[3]: --startvm
+Arg[4]: c612a20d-2185-4e87-ae25-9d2351f9cdef
+Arg[5]: --no-startvm-errormsgbox
+
+!!Assertion Failed!!
+Expression: pThis->hDevice != (intptr_t)NIL_RTFILE
+Location  : /home/se170/VirtualBox-4.3.28/src/VBox/HostDrivers/Support/linux/SUPLib-linux.cpp(179) int suplibOsIOCtl(PSUPLIBDATA, uintptr_t, void*, size_t)
+SUPLIB not initiated successfully!

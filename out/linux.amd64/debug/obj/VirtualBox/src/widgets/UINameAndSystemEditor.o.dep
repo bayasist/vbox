@@ -1,0 +1,984 @@
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/src/widgets/UINameAndSystemEditor.o: \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/widgets/UINameAndSystemEditor.cpp \
+ /usr/include/stdc-predef.h /usr/include/qt4/QtGui/QGridLayout \
+ /usr/include/qt4/QtGui/qgridlayout.h /usr/include/qt4/QtGui/qlayout.h \
+ /usr/include/qt4/QtCore/qobject.h /usr/include/qt4/QtCore/qobjectdefs.h \
+ /usr/include/qt4/QtCore/qnamespace.h /usr/include/qt4/QtCore/qglobal.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h \
+ /usr/include/qt4/QtCore/qconfig.h /usr/include/c++/4.9/algorithm \
+ /usr/include/c++/4.9/utility \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/os_defines.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/cpu_defines.h \
+ /usr/include/c++/4.9/bits/stl_relops.h \
+ /usr/include/c++/4.9/bits/stl_pair.h /usr/include/c++/4.9/bits/move.h \
+ /usr/include/c++/4.9/bits/concept_check.h \
+ /usr/include/c++/4.9/bits/stl_algobase.h \
+ /usr/include/c++/4.9/bits/functexcept.h \
+ /usr/include/c++/4.9/bits/exception_defines.h \
+ /usr/include/c++/4.9/bits/cpp_type_traits.h \
+ /usr/include/c++/4.9/ext/type_traits.h \
+ /usr/include/c++/4.9/ext/numeric_traits.h \
+ /usr/include/c++/4.9/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.9/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.9/debug/debug.h \
+ /usr/include/c++/4.9/bits/stl_iterator.h \
+ /usr/include/c++/4.9/bits/ptr_traits.h \
+ /usr/include/c++/4.9/bits/predefined_ops.h \
+ /usr/include/c++/4.9/bits/stl_algo.h /usr/include/c++/4.9/cstdlib \
+ /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/c++/4.9/bits/algorithmfwd.h \
+ /usr/include/c++/4.9/bits/stl_heap.h \
+ /usr/include/c++/4.9/bits/stl_tempbuf.h \
+ /usr/include/c++/4.9/bits/stl_construct.h /usr/include/c++/4.9/new \
+ /usr/include/c++/4.9/exception \
+ /usr/include/c++/4.9/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.9/ext/alloc_traits.h \
+ /usr/include/c++/4.9/bits/allocator.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/c++allocator.h \
+ /usr/include/c++/4.9/ext/new_allocator.h \
+ /usr/include/c++/4.9/bits/memoryfwd.h \
+ /usr/include/qt4/QtCore/qfeatures.h /usr/include/qt4/QtCore/qstring.h \
+ /usr/include/qt4/QtCore/qchar.h /usr/include/qt4/QtCore/qbytearray.h \
+ /usr/include/qt4/QtCore/qatomic.h /usr/include/qt4/QtCore/qbasicatomic.h \
+ /usr/include/qt4/QtCore/qatomic_arch.h \
+ /usr/include/qt4/QtCore/qatomic_x86_64.h /usr/include/string.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h \
+ /usr/include/c++/4.9/string /usr/include/c++/4.9/bits/stringfwd.h \
+ /usr/include/c++/4.9/bits/char_traits.h \
+ /usr/include/c++/4.9/bits/postypes.h /usr/include/c++/4.9/cwchar \
+ /usr/include/wchar.h /usr/include/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/c++/4.9/bits/localefwd.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/c++locale.h \
+ /usr/include/c++/4.9/clocale /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/4.9/iosfwd \
+ /usr/include/c++/4.9/cctype /usr/include/ctype.h \
+ /usr/include/c++/4.9/bits/ostream_insert.h \
+ /usr/include/c++/4.9/bits/cxxabi_forced.h \
+ /usr/include/c++/4.9/bits/stl_function.h \
+ /usr/include/c++/4.9/backward/binders.h \
+ /usr/include/c++/4.9/bits/range_access.h \
+ /usr/include/c++/4.9/bits/basic_string.h \
+ /usr/include/c++/4.9/ext/atomicity.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/gthr.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/timex.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/atomic_word.h \
+ /usr/include/c++/4.9/bits/basic_string.tcc \
+ /usr/include/qt4/QtCore/qlist.h /usr/include/qt4/QtCore/qiterator.h \
+ /usr/include/qt4/QtCore/qalgorithms.h /usr/include/c++/4.9/iterator \
+ /usr/include/c++/4.9/ostream /usr/include/c++/4.9/ios \
+ /usr/include/c++/4.9/bits/ios_base.h \
+ /usr/include/c++/4.9/bits/locale_classes.h \
+ /usr/include/c++/4.9/bits/locale_classes.tcc \
+ /usr/include/c++/4.9/streambuf /usr/include/c++/4.9/bits/streambuf.tcc \
+ /usr/include/c++/4.9/bits/basic_ios.h \
+ /usr/include/c++/4.9/bits/locale_facets.h /usr/include/c++/4.9/cwctype \
+ /usr/include/wctype.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/ctype_base.h \
+ /usr/include/c++/4.9/bits/streambuf_iterator.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/ctype_inline.h \
+ /usr/include/c++/4.9/bits/locale_facets.tcc \
+ /usr/include/c++/4.9/bits/basic_ios.tcc \
+ /usr/include/c++/4.9/bits/ostream.tcc /usr/include/c++/4.9/istream \
+ /usr/include/c++/4.9/bits/istream.tcc \
+ /usr/include/c++/4.9/bits/stream_iterator.h /usr/include/c++/4.9/list \
+ /usr/include/c++/4.9/bits/stl_list.h /usr/include/c++/4.9/bits/list.tcc \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/qt4/QtCore/qscopedpointer.h \
+ /usr/include/qt4/QtGui/qlayoutitem.h \
+ /usr/include/qt4/QtGui/qsizepolicy.h /usr/include/qt4/QtCore/qrect.h \
+ /usr/include/qt4/QtCore/qsize.h /usr/include/qt4/QtCore/qpoint.h \
+ /usr/include/qt4/QtCore/qmargins.h /usr/include/qt4/QtGui/qboxlayout.h \
+ /usr/include/qt4/QtGui/qgridlayout.h /usr/include/qt4/QtGui/QVBoxLayout \
+ /usr/include/qt4/QtGui/qboxlayout.h /usr/include/qt4/QtGui/QLabel \
+ /usr/include/qt4/QtGui/qlabel.h /usr/include/qt4/QtGui/qframe.h \
+ /usr/include/qt4/QtGui/qwidget.h /usr/include/qt4/QtGui/qwindowdefs.h \
+ /usr/include/qt4/QtGui/qpaintdevice.h /usr/include/qt4/QtGui/qpalette.h \
+ /usr/include/qt4/QtGui/qcolor.h /usr/include/qt4/QtGui/qrgb.h \
+ /usr/include/qt4/QtCore/qstringlist.h \
+ /usr/include/qt4/QtCore/qdatastream.h \
+ /usr/include/qt4/QtCore/qiodevice.h /usr/include/qt4/QtCore/qregexp.h \
+ /usr/include/qt4/QtCore/qstringmatcher.h /usr/include/qt4/QtGui/qbrush.h \
+ /usr/include/qt4/QtCore/qpair.h /usr/include/qt4/QtCore/qvector.h \
+ /usr/include/c++/4.9/vector \
+ /usr/include/c++/4.9/bits/stl_uninitialized.h \
+ /usr/include/c++/4.9/bits/stl_vector.h \
+ /usr/include/c++/4.9/bits/stl_bvector.h \
+ /usr/include/c++/4.9/bits/vector.tcc /usr/include/qt4/QtGui/qmatrix.h \
+ /usr/include/qt4/QtGui/qpolygon.h /usr/include/qt4/QtGui/qregion.h \
+ /usr/include/qt4/QtCore/qline.h /usr/include/qt4/QtGui/qtransform.h \
+ /usr/include/qt4/QtGui/qpainterpath.h /usr/include/qt4/QtGui/qimage.h \
+ /usr/include/qt4/QtGui/qpixmap.h \
+ /usr/include/qt4/QtCore/qsharedpointer.h \
+ /usr/include/qt4/QtCore/qshareddata.h \
+ /usr/include/qt4/QtCore/qsharedpointer_impl.h \
+ /usr/include/qt4/QtGui/qfont.h /usr/include/qt4/QtGui/qfontmetrics.h \
+ /usr/include/qt4/QtGui/qfontinfo.h /usr/include/qt4/QtGui/qcursor.h \
+ /usr/include/qt4/QtGui/qkeysequence.h /usr/include/qt4/QtGui/QLineEdit \
+ /usr/include/qt4/QtGui/qlineedit.h /usr/include/qt4/QtGui/qtextcursor.h \
+ /usr/include/qt4/QtGui/qtextformat.h /usr/include/qt4/QtCore/qvariant.h \
+ /usr/include/qt4/QtCore/qmetatype.h /usr/include/qt4/QtCore/qmap.h \
+ /usr/include/c++/4.9/map /usr/include/c++/4.9/bits/stl_tree.h \
+ /usr/include/c++/4.9/bits/stl_map.h \
+ /usr/include/c++/4.9/bits/stl_multimap.h /usr/include/qt4/QtCore/qhash.h \
+ /usr/include/qt4/QtGui/qpen.h /usr/include/qt4/QtGui/qtextoption.h \
+ /usr/include/qt4/QtGui/QComboBox /usr/include/qt4/QtGui/qcombobox.h \
+ /usr/include/qt4/QtGui/qabstractitemdelegate.h \
+ /usr/include/qt4/QtGui/qstyleoption.h \
+ /usr/include/qt4/QtGui/qabstractspinbox.h \
+ /usr/include/qt4/QtGui/qvalidator.h /usr/include/qt4/QtCore/qlocale.h \
+ /usr/include/qt4/QtGui/qicon.h /usr/include/qt4/QtGui/qslider.h \
+ /usr/include/qt4/QtGui/qabstractslider.h /usr/include/qt4/QtGui/qstyle.h \
+ /usr/include/qt4/QtGui/qtabbar.h /usr/include/qt4/QtGui/qtabwidget.h \
+ /usr/include/qt4/QtGui/qrubberband.h \
+ /usr/include/qt4/QtCore/qabstractitemmodel.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/widgets/UINameAndSystemEditor.h \
+ /usr/include/qt4/QtGui/QWidget /usr/include/qt4/QtGui/qwidget.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/globals/QIWithRetranslateUI.h \
+ /usr/include/qt4/QtGui/QApplication \
+ /usr/include/qt4/QtGui/qapplication.h \
+ /usr/include/qt4/QtCore/qcoreapplication.h \
+ /usr/include/qt4/QtCore/qcoreevent.h \
+ /usr/include/qt4/QtCore/qeventloop.h /usr/include/qt4/QtCore/QEvent \
+ /usr/include/qt4/QtCore/qcoreevent.h /usr/include/qt4/QtCore/QObject \
+ /usr/include/qt4/QtCore/qobject.h /usr/include/qt4/QtGui/QGraphicsWidget \
+ /usr/include/qt4/QtGui/qgraphicswidget.h \
+ /usr/include/qt4/QtGui/qgraphicslayoutitem.h \
+ /usr/include/qt4/QtGui/qevent.h /usr/include/qt4/QtGui/qmime.h \
+ /usr/include/qt4/QtCore/qmimedata.h /usr/include/qt4/QtGui/qdrag.h \
+ /usr/include/qt4/QtCore/qset.h /usr/include/qt4/QtCore/qfile.h \
+ /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/qt4/QtGui/qgraphicsitem.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/globals/VBoxGlobal.h \
+ /usr/include/qt4/QtGui/QLayout /usr/include/qt4/QtGui/qlayout.h \
+ /usr/include/qt4/QtGui/QMenu /usr/include/qt4/QtGui/qmenu.h \
+ /usr/include/qt4/QtGui/qaction.h /usr/include/qt4/QtGui/qactiongroup.h \
+ /usr/include/qt4/QtGui/QStyle /usr/include/qt4/QtGui/qstyle.h \
+ /usr/include/qt4/QtCore/QHash /usr/include/qt4/QtCore/qhash.h \
+ /usr/include/qt4/QtGui/QFileIconProvider \
+ /usr/include/qt4/QtGui/qfileiconprovider.h \
+ /usr/include/qt4/QtCore/qfileinfo.h \
+ /usr/include/qt4/QtCore/QReadWriteLock \
+ /usr/include/qt4/QtCore/qreadwritelock.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/globals/UIDefs.h \
+ /usr/include/qt4/QtCore/QStringList \
+ /usr/include/qt4/QtCore/qstringlist.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/include/COMEnums.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/globals/COMDefs.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/com/com.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/com/defs.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/types.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdint.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h /usr/include/stdint.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsID.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nscore.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/xpcom-config.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtypes.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prcpucfg.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/md/_linux.cfg \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/obsolete/protypes.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsError.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/com/array.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsMemory.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIMemory.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsISupports.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsrootidl.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nscore.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtime.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prlong.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtypes.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsISupportsBase.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsISupportsUtils.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsDebug.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsISupportsImpl.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prthread.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prinrval.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/pratom.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prlock.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsTraceRefcnt.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIClassInfo.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIProgrammingLanguage.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/com/ptr.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/com/assert.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/assert.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/cpp/list.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/cpp/meta.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/mem.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/string.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/err.h \
+ /usr/include/qt4/QtCore/QString /usr/include/qt4/QtCore/qstring.h \
+ /usr/include/qt4/QtCore/QRect /usr/include/qt4/QtCore/qrect.h \
+ /usr/include/qt4/QtCore/QUuid /usr/include/qt4/QtCore/quuid.h \
+ /usr/include/qt4/QtCore/QVector /usr/include/qt4/QtCore/qvector.h \
+ /usr/include/qt4/QtCore/QMetaType /usr/include/qt4/QtCore/qmetatype.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsXPCOM.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsXPCOMCID.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIComponentManager.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsComponentManagerUtils.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsCOMPtr.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsComponentManagerObsolete.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIComponentManagerObsolete.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIFactory.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsComponentManagerObsolete.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/VirtualBox_XPCOM.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIException.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/log.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/log.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/alloc.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/medium/UIMediumDefs.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/VBoxGlobalSettings.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/globals/CIShared.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/com/Guid.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/com/string.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/cpp/ministring.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/uuid.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/include/CHost.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/include/CVirtualBox.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/include/CSession.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/include/CGuestOSType.h
+
+/usr/include/stdc-predef.h:
+
+/usr/include/qt4/QtGui/QGridLayout:
+
+/usr/include/qt4/QtGui/qgridlayout.h:
+
+/usr/include/qt4/QtGui/qlayout.h:
+
+/usr/include/qt4/QtCore/qobject.h:
+
+/usr/include/qt4/QtCore/qobjectdefs.h:
+
+/usr/include/qt4/QtCore/qnamespace.h:
+
+/usr/include/qt4/QtCore/qglobal.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h:
+
+/usr/include/qt4/QtCore/qconfig.h:
+
+/usr/include/c++/4.9/algorithm:
+
+/usr/include/c++/4.9/utility:
+
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/c++config.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/cpu_defines.h:
+
+/usr/include/c++/4.9/bits/stl_relops.h:
+
+/usr/include/c++/4.9/bits/stl_pair.h:
+
+/usr/include/c++/4.9/bits/move.h:
+
+/usr/include/c++/4.9/bits/concept_check.h:
+
+/usr/include/c++/4.9/bits/stl_algobase.h:
+
+/usr/include/c++/4.9/bits/functexcept.h:
+
+/usr/include/c++/4.9/bits/exception_defines.h:
+
+/usr/include/c++/4.9/bits/cpp_type_traits.h:
+
+/usr/include/c++/4.9/ext/type_traits.h:
+
+/usr/include/c++/4.9/ext/numeric_traits.h:
+
+/usr/include/c++/4.9/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/4.9/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/4.9/debug/debug.h:
+
+/usr/include/c++/4.9/bits/stl_iterator.h:
+
+/usr/include/c++/4.9/bits/ptr_traits.h:
+
+/usr/include/c++/4.9/bits/predefined_ops.h:
+
+/usr/include/c++/4.9/bits/stl_algo.h:
+
+/usr/include/c++/4.9/cstdlib:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/c++/4.9/bits/algorithmfwd.h:
+
+/usr/include/c++/4.9/bits/stl_heap.h:
+
+/usr/include/c++/4.9/bits/stl_tempbuf.h:
+
+/usr/include/c++/4.9/bits/stl_construct.h:
+
+/usr/include/c++/4.9/new:
+
+/usr/include/c++/4.9/exception:
+
+/usr/include/c++/4.9/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/4.9/ext/alloc_traits.h:
+
+/usr/include/c++/4.9/bits/allocator.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/c++allocator.h:
+
+/usr/include/c++/4.9/ext/new_allocator.h:
+
+/usr/include/c++/4.9/bits/memoryfwd.h:
+
+/usr/include/qt4/QtCore/qfeatures.h:
+
+/usr/include/qt4/QtCore/qstring.h:
+
+/usr/include/qt4/QtCore/qchar.h:
+
+/usr/include/qt4/QtCore/qbytearray.h:
+
+/usr/include/qt4/QtCore/qatomic.h:
+
+/usr/include/qt4/QtCore/qbasicatomic.h:
+
+/usr/include/qt4/QtCore/qatomic_arch.h:
+
+/usr/include/qt4/QtCore/qatomic_x86_64.h:
+
+/usr/include/string.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h:
+
+/usr/include/c++/4.9/string:
+
+/usr/include/c++/4.9/bits/stringfwd.h:
+
+/usr/include/c++/4.9/bits/char_traits.h:
+
+/usr/include/c++/4.9/bits/postypes.h:
+
+/usr/include/c++/4.9/cwchar:
+
+/usr/include/wchar.h:
+
+/usr/include/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/c++/4.9/bits/localefwd.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/c++locale.h:
+
+/usr/include/c++/4.9/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/c++/4.9/iosfwd:
+
+/usr/include/c++/4.9/cctype:
+
+/usr/include/ctype.h:
+
+/usr/include/c++/4.9/bits/ostream_insert.h:
+
+/usr/include/c++/4.9/bits/cxxabi_forced.h:
+
+/usr/include/c++/4.9/bits/stl_function.h:
+
+/usr/include/c++/4.9/backward/binders.h:
+
+/usr/include/c++/4.9/bits/range_access.h:
+
+/usr/include/c++/4.9/bits/basic_string.h:
+
+/usr/include/c++/4.9/ext/atomicity.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/gthr.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/atomic_word.h:
+
+/usr/include/c++/4.9/bits/basic_string.tcc:
+
+/usr/include/qt4/QtCore/qlist.h:
+
+/usr/include/qt4/QtCore/qiterator.h:
+
+/usr/include/qt4/QtCore/qalgorithms.h:
+
+/usr/include/c++/4.9/iterator:
+
+/usr/include/c++/4.9/ostream:
+
+/usr/include/c++/4.9/ios:
+
+/usr/include/c++/4.9/bits/ios_base.h:
+
+/usr/include/c++/4.9/bits/locale_classes.h:
+
+/usr/include/c++/4.9/bits/locale_classes.tcc:
+
+/usr/include/c++/4.9/streambuf:
+
+/usr/include/c++/4.9/bits/streambuf.tcc:
+
+/usr/include/c++/4.9/bits/basic_ios.h:
+
+/usr/include/c++/4.9/bits/locale_facets.h:
+
+/usr/include/c++/4.9/cwctype:
+
+/usr/include/wctype.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/ctype_base.h:
+
+/usr/include/c++/4.9/bits/streambuf_iterator.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/ctype_inline.h:
+
+/usr/include/c++/4.9/bits/locale_facets.tcc:
+
+/usr/include/c++/4.9/bits/basic_ios.tcc:
+
+/usr/include/c++/4.9/bits/ostream.tcc:
+
+/usr/include/c++/4.9/istream:
+
+/usr/include/c++/4.9/bits/istream.tcc:
+
+/usr/include/c++/4.9/bits/stream_iterator.h:
+
+/usr/include/c++/4.9/list:
+
+/usr/include/c++/4.9/bits/stl_list.h:
+
+/usr/include/c++/4.9/bits/list.tcc:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/qt4/QtCore/qscopedpointer.h:
+
+/usr/include/qt4/QtGui/qlayoutitem.h:
+
+/usr/include/qt4/QtGui/qsizepolicy.h:
+
+/usr/include/qt4/QtCore/qrect.h:
+
+/usr/include/qt4/QtCore/qsize.h:
+
+/usr/include/qt4/QtCore/qpoint.h:
+
+/usr/include/qt4/QtCore/qmargins.h:
+
+/usr/include/qt4/QtGui/qboxlayout.h:
+
+/usr/include/qt4/QtGui/qgridlayout.h:
+
+/usr/include/qt4/QtGui/QVBoxLayout:
+
+/usr/include/qt4/QtGui/qboxlayout.h:
+
+/usr/include/qt4/QtGui/QLabel:
+
+/usr/include/qt4/QtGui/qlabel.h:
+
+/usr/include/qt4/QtGui/qframe.h:
+
+/usr/include/qt4/QtGui/qwidget.h:
+
+/usr/include/qt4/QtGui/qwindowdefs.h:
+
+/usr/include/qt4/QtGui/qpaintdevice.h:
+
+/usr/include/qt4/QtGui/qpalette.h:
+
+/usr/include/qt4/QtGui/qcolor.h:
+
+/usr/include/qt4/QtGui/qrgb.h:
+
+/usr/include/qt4/QtCore/qstringlist.h:
+
+/usr/include/qt4/QtCore/qdatastream.h:
+
+/usr/include/qt4/QtCore/qiodevice.h:
+
+/usr/include/qt4/QtCore/qregexp.h:
+
+/usr/include/qt4/QtCore/qstringmatcher.h:
+
+/usr/include/qt4/QtGui/qbrush.h:
+
+/usr/include/qt4/QtCore/qpair.h:
+
+/usr/include/qt4/QtCore/qvector.h:
+
+/usr/include/c++/4.9/vector:
+
+/usr/include/c++/4.9/bits/stl_uninitialized.h:
+
+/usr/include/c++/4.9/bits/stl_vector.h:
+
+/usr/include/c++/4.9/bits/stl_bvector.h:
+
+/usr/include/c++/4.9/bits/vector.tcc:
+
+/usr/include/qt4/QtGui/qmatrix.h:
+
+/usr/include/qt4/QtGui/qpolygon.h:
+
+/usr/include/qt4/QtGui/qregion.h:
+
+/usr/include/qt4/QtCore/qline.h:
+
+/usr/include/qt4/QtGui/qtransform.h:
+
+/usr/include/qt4/QtGui/qpainterpath.h:
+
+/usr/include/qt4/QtGui/qimage.h:
+
+/usr/include/qt4/QtGui/qpixmap.h:
+
+/usr/include/qt4/QtCore/qsharedpointer.h:
+
+/usr/include/qt4/QtCore/qshareddata.h:
+
+/usr/include/qt4/QtCore/qsharedpointer_impl.h:
+
+/usr/include/qt4/QtGui/qfont.h:
+
+/usr/include/qt4/QtGui/qfontmetrics.h:
+
+/usr/include/qt4/QtGui/qfontinfo.h:
+
+/usr/include/qt4/QtGui/qcursor.h:
+
+/usr/include/qt4/QtGui/qkeysequence.h:
+
+/usr/include/qt4/QtGui/QLineEdit:
+
+/usr/include/qt4/QtGui/qlineedit.h:
+
+/usr/include/qt4/QtGui/qtextcursor.h:
+
+/usr/include/qt4/QtGui/qtextformat.h:
+
+/usr/include/qt4/QtCore/qvariant.h:
+
+/usr/include/qt4/QtCore/qmetatype.h:
+
+/usr/include/qt4/QtCore/qmap.h:
+
+/usr/include/c++/4.9/map:
+
+/usr/include/c++/4.9/bits/stl_tree.h:
+
+/usr/include/c++/4.9/bits/stl_map.h:
+
+/usr/include/c++/4.9/bits/stl_multimap.h:
+
+/usr/include/qt4/QtCore/qhash.h:
+
+/usr/include/qt4/QtGui/qpen.h:
+
+/usr/include/qt4/QtGui/qtextoption.h:
+
+/usr/include/qt4/QtGui/QComboBox:
+
+/usr/include/qt4/QtGui/qcombobox.h:
+
+/usr/include/qt4/QtGui/qabstractitemdelegate.h:
+
+/usr/include/qt4/QtGui/qstyleoption.h:
+
+/usr/include/qt4/QtGui/qabstractspinbox.h:
+
+/usr/include/qt4/QtGui/qvalidator.h:
+
+/usr/include/qt4/QtCore/qlocale.h:
+
+/usr/include/qt4/QtGui/qicon.h:
+
+/usr/include/qt4/QtGui/qslider.h:
+
+/usr/include/qt4/QtGui/qabstractslider.h:
+
+/usr/include/qt4/QtGui/qstyle.h:
+
+/usr/include/qt4/QtGui/qtabbar.h:
+
+/usr/include/qt4/QtGui/qtabwidget.h:
+
+/usr/include/qt4/QtGui/qrubberband.h:
+
+/usr/include/qt4/QtCore/qabstractitemmodel.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/widgets/UINameAndSystemEditor.h:
+
+/usr/include/qt4/QtGui/QWidget:
+
+/usr/include/qt4/QtGui/qwidget.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/globals/QIWithRetranslateUI.h:
+
+/usr/include/qt4/QtGui/QApplication:
+
+/usr/include/qt4/QtGui/qapplication.h:
+
+/usr/include/qt4/QtCore/qcoreapplication.h:
+
+/usr/include/qt4/QtCore/qcoreevent.h:
+
+/usr/include/qt4/QtCore/qeventloop.h:
+
+/usr/include/qt4/QtCore/QEvent:
+
+/usr/include/qt4/QtCore/qcoreevent.h:
+
+/usr/include/qt4/QtCore/QObject:
+
+/usr/include/qt4/QtCore/qobject.h:
+
+/usr/include/qt4/QtGui/QGraphicsWidget:
+
+/usr/include/qt4/QtGui/qgraphicswidget.h:
+
+/usr/include/qt4/QtGui/qgraphicslayoutitem.h:
+
+/usr/include/qt4/QtGui/qevent.h:
+
+/usr/include/qt4/QtGui/qmime.h:
+
+/usr/include/qt4/QtCore/qmimedata.h:
+
+/usr/include/qt4/QtGui/qdrag.h:
+
+/usr/include/qt4/QtCore/qset.h:
+
+/usr/include/qt4/QtCore/qfile.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/usr/include/qt4/QtGui/qgraphicsitem.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/globals/VBoxGlobal.h:
+
+/usr/include/qt4/QtGui/QLayout:
+
+/usr/include/qt4/QtGui/qlayout.h:
+
+/usr/include/qt4/QtGui/QMenu:
+
+/usr/include/qt4/QtGui/qmenu.h:
+
+/usr/include/qt4/QtGui/qaction.h:
+
+/usr/include/qt4/QtGui/qactiongroup.h:
+
+/usr/include/qt4/QtGui/QStyle:
+
+/usr/include/qt4/QtGui/qstyle.h:
+
+/usr/include/qt4/QtCore/QHash:
+
+/usr/include/qt4/QtCore/qhash.h:
+
+/usr/include/qt4/QtGui/QFileIconProvider:
+
+/usr/include/qt4/QtGui/qfileiconprovider.h:
+
+/usr/include/qt4/QtCore/qfileinfo.h:
+
+/usr/include/qt4/QtCore/QReadWriteLock:
+
+/usr/include/qt4/QtCore/qreadwritelock.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/globals/UIDefs.h:
+
+/usr/include/qt4/QtCore/QStringList:
+
+/usr/include/qt4/QtCore/qstringlist.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/include/COMEnums.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/globals/COMDefs.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/com/com.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/com/defs.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/types.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdint.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsID.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nscore.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/xpcom-config.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtypes.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prcpucfg.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/md/_linux.cfg:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/obsolete/protypes.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsError.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/com/array.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsMemory.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIMemory.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsISupports.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsrootidl.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nscore.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtime.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prlong.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtypes.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsISupportsBase.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsISupportsUtils.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsDebug.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsISupportsImpl.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prthread.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prinrval.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/pratom.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prlock.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsTraceRefcnt.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIClassInfo.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIProgrammingLanguage.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/com/ptr.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/com/assert.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/assert.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/cpp/list.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/cpp/meta.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/mem.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/string.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/err.h:
+
+/usr/include/qt4/QtCore/QString:
+
+/usr/include/qt4/QtCore/qstring.h:
+
+/usr/include/qt4/QtCore/QRect:
+
+/usr/include/qt4/QtCore/qrect.h:
+
+/usr/include/qt4/QtCore/QUuid:
+
+/usr/include/qt4/QtCore/quuid.h:
+
+/usr/include/qt4/QtCore/QVector:
+
+/usr/include/qt4/QtCore/qvector.h:
+
+/usr/include/qt4/QtCore/QMetaType:
+
+/usr/include/qt4/QtCore/qmetatype.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsXPCOM.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsXPCOMCID.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIComponentManager.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsComponentManagerUtils.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsCOMPtr.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsComponentManagerObsolete.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIComponentManagerObsolete.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIFactory.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsComponentManagerObsolete.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/VirtualBox_XPCOM.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIException.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/log.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/log.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/alloc.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/medium/UIMediumDefs.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/VBoxGlobalSettings.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/globals/CIShared.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/com/Guid.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/com/string.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/cpp/ministring.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/uuid.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/include/CHost.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/include/CVirtualBox.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/include/CSession.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/include/CGuestOSType.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/widgets/UINameAndSystemEditor.cpp:
+
+
+define VirtualBox_/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/widgets/UINameAndSystemEditor.cpp_CMDS_PREV_
+
+@g++ -c -g -g -pipe -Wall -Wextra -Wno-missing-field-initializers -Wno-trigraphs -fdiagnostics-show-option -Wno-unused-parameter -frtti -fno-exceptions -Wno-non-virtual-dtor -Wno-long-long -fshort-wchar -fno-strict-aliasing -fvisibility=hidden -DVBOX_HAVE_VISIBILITY_HIDDEN -DRT_USE_VISIBILITY_DEFAULT -fvisibility-inlines-hidden -Wno-delete-non-virtual-dtor -Wno-switch -pthread -m64 -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/converter -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/extensions -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/extensions/graphics -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/globals -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/medium -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/platform -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/platform/darwin -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/platform/win -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/platform/x11 -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/runtime -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/runtime/fullscreen -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/runtime/normal -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/runtime/scale -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/runtime/seamless -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/selector -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/selector/graphics/chooser -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/selector/graphics/details -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/settings -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/settings/global -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/settings/machine -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/widgets -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/widgets/graphics -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/wizards -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/wizards/newvm -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/wizards/newvd -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/wizards/clonevm -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/wizards/clonevd -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/wizards/exportappliance -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/wizards/importappliance -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/wizards/firstrun -I/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/net -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/string -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/ipcd -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtNetwork -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4 -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtmoc -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/qtuic -I/home/se170/VirtualBox-4.3.28/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DRT_LOCK_STRICT -DRT_LOCK_STRICT_ORDER -DIN_RING3 -DQT_NO_DEBUG -DQT_THREAD_SUPPORT -DQT_SHARED -DHAVE_CONFIG_H -DHC_ARCH_BITS=64 -DGC_ARCH_BITS=64 -DVBOX_WITH_XPCOM -DVBOX_WITH_XPCOM_NAMESPACE_CLEANUP -DVBOX_WITH_ALSA -DVBOX_WITH_PULSE -DVBOX_WITH_E1000 -DVBOX_WITH_NETFLT -DVBOX_WITH_VDE -DVBOX_WITH_UDPTUNNEL -DVBOX_WITH_EXTPACK -DVBOX_WITH_EHCI -DVBOX_WITH_DRAG_AND_DROP -DVBOX_WITH_CRHGSMI -DVBOX_WITH_VIRTIO -DVBOX_WITH_WDDM -DVBOX_WITH_CROGL -DVBOX_WITH_DEBUGGER_GUI -DVBOX_WITH_DEBUGGER_GUI_MENU -DVBOX_WITH_VIDEOHWACCEL -DVBOX_GUI_USE_QGL -DVBOX_GUI_WITH_NETWORK_MANAGER -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DVBOX_CHECK_STATE -D_REENTRANT -DVBOX_GUI_USE_QIMAGE -Wp,-MD,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/src/widgets/UINameAndSystemEditor.o.dep -Wp,-MT,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/src/widgets/UINameAndSystemEditor.o -Wp,-MP -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/src/widgets/UINameAndSystemEditor.o /home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/widgets/UINameAndSystemEditor.cpp
+@kmk_builtin_append -n "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VirtualBox/src/widgets/UINameAndSystemEditor.o.dep" "" "/home/se170/VirtualBox-4.3.28/src/VBox/Frontends/VirtualBox/src/widgets/UINameAndSystemEditor.cpp:" ""
+endef

@@ -1,0 +1,470 @@
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstUSBProxyLinux/tstUSBProxyLinux.o: \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Main/testcase/tstUSBProxyLinux.cpp \
+ /usr/include/stdc-predef.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Main/include/USBProxyService.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/usb.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/types.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/cdefs.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/types.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdint.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/usbfilter.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/assert.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Main/include/VirtualBoxBase.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/thread.h \
+ /usr/include/c++/4.9/list /usr/include/c++/4.9/bits/stl_algobase.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/os_defines.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/cpu_defines.h \
+ /usr/include/c++/4.9/bits/functexcept.h \
+ /usr/include/c++/4.9/bits/exception_defines.h \
+ /usr/include/c++/4.9/bits/cpp_type_traits.h \
+ /usr/include/c++/4.9/ext/type_traits.h \
+ /usr/include/c++/4.9/ext/numeric_traits.h \
+ /usr/include/c++/4.9/bits/stl_pair.h /usr/include/c++/4.9/bits/move.h \
+ /usr/include/c++/4.9/bits/concept_check.h \
+ /usr/include/c++/4.9/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.9/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.9/debug/debug.h \
+ /usr/include/c++/4.9/bits/stl_iterator.h \
+ /usr/include/c++/4.9/bits/ptr_traits.h \
+ /usr/include/c++/4.9/bits/predefined_ops.h \
+ /usr/include/c++/4.9/bits/allocator.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/c++allocator.h \
+ /usr/include/c++/4.9/ext/new_allocator.h /usr/include/c++/4.9/new \
+ /usr/include/c++/4.9/exception \
+ /usr/include/c++/4.9/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.9/bits/memoryfwd.h \
+ /usr/include/c++/4.9/bits/range_access.h \
+ /usr/include/c++/4.9/bits/stl_list.h /usr/include/c++/4.9/bits/list.tcc \
+ /usr/include/c++/4.9/map /usr/include/c++/4.9/bits/stl_tree.h \
+ /usr/include/c++/4.9/bits/stl_function.h \
+ /usr/include/c++/4.9/backward/binders.h \
+ /usr/include/c++/4.9/ext/alloc_traits.h \
+ /usr/include/c++/4.9/bits/stl_map.h \
+ /usr/include/c++/4.9/bits/stl_multimap.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/com/AutoLock.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/com/string.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsMemory.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIMemory.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsISupports.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsrootidl.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nscore.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/xpcom-config.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtypes.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prcpucfg.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/md/_linux.cfg \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/obsolete/protypes.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsError.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtime.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prlong.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtypes.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsISupportsBase.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsID.h \
+ /usr/include/string.h /usr/include/xlocale.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsISupportsUtils.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsDebug.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsISupportsImpl.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prthread.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prinrval.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/pratom.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prlock.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsTraceRefcnt.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nscore.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIClassInfo.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIProgrammingLanguage.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/com/defs.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsID.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/com/assert.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/mem.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/cpp/ministring.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/string.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/err.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/cpp/list.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/cpp/meta.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/com/Guid.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/uuid.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/com/VirtualBox.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/VirtualBox_XPCOM.h \
+ /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIException.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/com/ptr.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Main/include/VirtualBoxImpl.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Main/include/objectslist.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Main/include/HostUSBDeviceImpl.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Main/include/USBDeviceFilterImpl.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Main/include/Matching.h \
+ /usr/include/c++/4.9/limits /usr/include/c++/4.9/algorithm \
+ /usr/include/c++/4.9/utility /usr/include/c++/4.9/bits/stl_relops.h \
+ /usr/include/c++/4.9/bits/stl_algo.h /usr/include/c++/4.9/cstdlib \
+ /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/c++/4.9/bits/algorithmfwd.h \
+ /usr/include/c++/4.9/bits/stl_heap.h \
+ /usr/include/c++/4.9/bits/stl_tempbuf.h \
+ /usr/include/c++/4.9/bits/stl_construct.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Main/include/Logging.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/log.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/log.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Main/include/HostHardwareLinux.h \
+ /usr/include/c++/4.9/vector \
+ /usr/include/c++/4.9/bits/stl_uninitialized.h \
+ /usr/include/c++/4.9/bits/stl_vector.h \
+ /usr/include/c++/4.9/bits/stl_bvector.h \
+ /usr/include/c++/4.9/bits/vector.tcc \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Main/include/vector.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Main/include/USBGetDevices.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/err.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/env.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/test.h
+
+/usr/include/stdc-predef.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Main/include/USBProxyService.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/usb.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/types.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/cdefs.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/types.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdint.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/usbfilter.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/assert.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Main/include/VirtualBoxBase.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/thread.h:
+
+/usr/include/c++/4.9/list:
+
+/usr/include/c++/4.9/bits/stl_algobase.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/c++config.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/os_defines.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/cpu_defines.h:
+
+/usr/include/c++/4.9/bits/functexcept.h:
+
+/usr/include/c++/4.9/bits/exception_defines.h:
+
+/usr/include/c++/4.9/bits/cpp_type_traits.h:
+
+/usr/include/c++/4.9/ext/type_traits.h:
+
+/usr/include/c++/4.9/ext/numeric_traits.h:
+
+/usr/include/c++/4.9/bits/stl_pair.h:
+
+/usr/include/c++/4.9/bits/move.h:
+
+/usr/include/c++/4.9/bits/concept_check.h:
+
+/usr/include/c++/4.9/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/4.9/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/4.9/debug/debug.h:
+
+/usr/include/c++/4.9/bits/stl_iterator.h:
+
+/usr/include/c++/4.9/bits/ptr_traits.h:
+
+/usr/include/c++/4.9/bits/predefined_ops.h:
+
+/usr/include/c++/4.9/bits/allocator.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/c++allocator.h:
+
+/usr/include/c++/4.9/ext/new_allocator.h:
+
+/usr/include/c++/4.9/new:
+
+/usr/include/c++/4.9/exception:
+
+/usr/include/c++/4.9/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/4.9/bits/memoryfwd.h:
+
+/usr/include/c++/4.9/bits/range_access.h:
+
+/usr/include/c++/4.9/bits/stl_list.h:
+
+/usr/include/c++/4.9/bits/list.tcc:
+
+/usr/include/c++/4.9/map:
+
+/usr/include/c++/4.9/bits/stl_tree.h:
+
+/usr/include/c++/4.9/bits/stl_function.h:
+
+/usr/include/c++/4.9/backward/binders.h:
+
+/usr/include/c++/4.9/ext/alloc_traits.h:
+
+/usr/include/c++/4.9/bits/stl_map.h:
+
+/usr/include/c++/4.9/bits/stl_multimap.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/com/AutoLock.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/com/string.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsMemory.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIMemory.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsISupports.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsrootidl.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nscore.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/xpcom-config.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtypes.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prcpucfg.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/md/_linux.cfg:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/obsolete/protypes.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsError.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtime.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prlong.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prtypes.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsISupportsBase.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsID.h:
+
+/usr/include/string.h:
+
+/usr/include/xlocale.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsISupportsUtils.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsDebug.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsISupportsImpl.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prthread.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prinrval.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/pratom.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub/prlock.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsTraceRefcnt.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nscore.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIClassInfo.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIProgrammingLanguage.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/com/defs.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom/nsID.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/com/assert.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/mem.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/cpp/ministring.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/string.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/err.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/cpp/list.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/cpp/meta.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/com/Guid.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/uuid.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/com/VirtualBox.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/VirtualBox_XPCOM.h:
+
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsIException.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/com/ptr.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Main/include/VirtualBoxImpl.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Main/include/objectslist.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Main/include/HostUSBDeviceImpl.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Main/include/USBDeviceFilterImpl.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Main/include/Matching.h:
+
+/usr/include/c++/4.9/limits:
+
+/usr/include/c++/4.9/algorithm:
+
+/usr/include/c++/4.9/utility:
+
+/usr/include/c++/4.9/bits/stl_relops.h:
+
+/usr/include/c++/4.9/bits/stl_algo.h:
+
+/usr/include/c++/4.9/cstdlib:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/c++/4.9/bits/algorithmfwd.h:
+
+/usr/include/c++/4.9/bits/stl_heap.h:
+
+/usr/include/c++/4.9/bits/stl_tempbuf.h:
+
+/usr/include/c++/4.9/bits/stl_construct.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Main/include/Logging.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/log.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/log.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Main/include/HostHardwareLinux.h:
+
+/usr/include/c++/4.9/vector:
+
+/usr/include/c++/4.9/bits/stl_uninitialized.h:
+
+/usr/include/c++/4.9/bits/stl_vector.h:
+
+/usr/include/c++/4.9/bits/stl_bvector.h:
+
+/usr/include/c++/4.9/bits/vector.tcc:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Main/include/vector.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Main/include/USBGetDevices.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/err.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/env.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/test.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Main/testcase/tstUSBProxyLinux.cpp:
+
+
+define tstUSBProxyLinux_/home/se170/VirtualBox-4.3.28/src/VBox/Main/testcase/tstUSBProxyLinux.cpp_CMDS_PREV_
+
+@g++ -c -g -g -pipe -Wall -Wextra -Wno-missing-field-initializers -Wno-unused -Wno-trigraphs -fdiagnostics-show-option -Wno-unused-parameter -Wno-long-long -Wno-long-long -Wno-delete-non-virtual-dtor -Wno-variadic-macros -O0 -fno-omit-frame-pointer -fno-strict-aliasing -fvisibility=hidden -DVBOX_HAVE_VISIBILITY_HIDDEN -DRT_USE_VISIBILITY_DEFAULT -fvisibility-inlines-hidden -Wno-sign-compare -m64 -I/home/se170/VirtualBox-4.3.28/src/VBox/Main/testcase -I/home/se170/VirtualBox-4.3.28/src/VBox/Main/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/nsprpub -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/sdk/bindings/xpcom/include/xpcom -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstUSBProxyLinux/dtrace -I/home/se170/VirtualBox-4.3.28/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DRT_LOCK_STRICT -DRT_LOCK_STRICT_ORDER -DIN_RING3 -DHC_ARCH_BITS=64 -DGC_ARCH_BITS=64 -DVBOX_WITH_DTRACE -DVBOX_WITH_DTRACE_R3 -DUNIT_TEST -DVBOX_WITH_USB -DVBOX_USB_WITH_SYSFS -DVBOX_WITH_XPCOM -Wp,-MD,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstUSBProxyLinux/tstUSBProxyLinux.o.dep -Wp,-MT,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstUSBProxyLinux/tstUSBProxyLinux.o -Wp,-MP -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstUSBProxyLinux/tstUSBProxyLinux.o /home/se170/VirtualBox-4.3.28/src/VBox/Main/testcase/tstUSBProxyLinux.cpp
+@kmk_builtin_append -n "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstUSBProxyLinux/tstUSBProxyLinux.o.dep" "" "/home/se170/VirtualBox-4.3.28/src/VBox/Main/testcase/tstUSBProxyLinux.cpp:" ""
+endef

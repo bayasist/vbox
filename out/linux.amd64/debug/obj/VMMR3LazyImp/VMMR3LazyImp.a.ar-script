@@ -1,0 +1,4 @@
+CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3LazyImp/VMMR3LazyImp.a
+ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VMMR3LazyImp/gen/VMMR3LazyLoad.o
+SAVE
+END

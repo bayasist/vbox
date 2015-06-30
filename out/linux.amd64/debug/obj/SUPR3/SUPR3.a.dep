@@ -1,0 +1,9 @@
+define SUPR3_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/SUPR3.a.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/SUPR3.a /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/SUPR3.a.ar-script /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/SUPR3.imp.a 
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/SUPR3.a.ar-script 'CREATE /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/SUPR3.a'
+@kmk_builtin_append -n /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/SUPR3.a.ar-script  'ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/SUPLib.o'  'ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/SUPLibSem.o'  'ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/SUPLibTracerA.o'  'ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/SUPR3HardenedIPRT.o'  'ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/SUPR3HardenedVerify.o'  'ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/linux/SUPLib-linux.o'  'ADDMOD /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/gen/TrustAnchorsAndCerts.o' 
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/SUPR3.a.ar-script 'SAVE'
+@kmk_builtin_append /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/SUPR3.a.ar-script 'END'
+@/home/se170/VirtualBox-4.3.28/kBuild/bin/linux.amd64/kmk_redirect -rti /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/SUPR3/SUPR3.a.ar-script -- ar -M
+endef

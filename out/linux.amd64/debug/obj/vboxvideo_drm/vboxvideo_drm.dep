@@ -1,0 +1,5 @@
+define vboxvideo_drm_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxvideo_drm/vboxvideo_drm.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxvideo_drm/vboxvideo_drm.ko  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxvideo_drm/vboxvideo_drm.map 
+@ld -r  -g                -m elf_x86_64 -r   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxvideo_drm/vboxvideo_drm.ko /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/vboxvideo_drm/vboxvideo_drm.o    
+endef

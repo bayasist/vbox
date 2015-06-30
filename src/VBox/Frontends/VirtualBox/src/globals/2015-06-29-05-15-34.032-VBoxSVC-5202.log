@@ -1,0 +1,4 @@
+Log created: 2015-06-29T05:15:34.326635000Z
+Executable: /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxSVC
+Arg[0]: /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxSVC
+Arg[1]: --auto-shutdown

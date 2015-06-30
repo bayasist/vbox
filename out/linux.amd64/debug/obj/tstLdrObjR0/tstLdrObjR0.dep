@@ -1,0 +1,9 @@
+define tstLdrObjR0_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstLdrObjR0/tstLdrObjR0.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstLdrObjR0/tstLdrObjR0.r0  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstLdrObjR0/tstLdrObjR0.map /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstLdrObjR0/tstLdrObjR0.debug
+@ld -r  -g             -nostdlib -Bsymbolic -g -e Entrypoint      -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstLdrObjR0/tstLdrObjR0.r0 /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstLdrObjR0/tstLdrObjR0.o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstLdrObjR0/tstLdrDisasmTest.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/lib/DisasmR0.a   /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/lib/RuntimeR0.a   /usr/lib/gcc/x86_64-linux-gnu/4.9/libgcc.a 
+@objcopy --only-keep-debug /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstLdrObjR0/tstLdrObjR0.r0 /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstLdrObjR0/tstLdrObjR0.debug
+@kmk_builtin_chmod a-x /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstLdrObjR0/tstLdrObjR0.debug
+@objcopy --strip-debug --strip-unneeded --add-gnu-debuglink=/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstLdrObjR0/tstLdrObjR0.debug /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstLdrObjR0/tstLdrObjR0.r0
+if readelf -S /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstLdrObjR0/tstLdrObjR0.r0|grep -q "[cd]tors"; then echo "Found ctors/dtors in /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstLdrObjR0/tstLdrObjR0.r0!"; exit 1; fi
+endef

@@ -1,0 +1,5 @@
+define tstRTStrAlloc_CMDS_PREV_
+
+@kmk_builtin_rm -f -- /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstRTStrAlloc/tstRTStrAlloc.dep /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstRTStrAlloc/tstRTStrAlloc  /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstRTStrAlloc/tstRTStrAlloc.map 
+@g++  -g             '-Wl,-rpath,$ORIGIN/..' '-Wl,-rpath,$ORIGIN'  -Wl,-z,noexecstack -Wl,--as-needed -Wl,-z,origin -m64   -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstRTStrAlloc/tstRTStrAlloc /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/tstRTStrAlloc/tstRTStrAlloc.o     /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/bin/VBoxRT.so   -lpthread   -lm   -lrt   -ldl 
+endef

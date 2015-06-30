@@ -1,0 +1,230 @@
+/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxDD/Bus/MsixCommon.o: \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/Bus/MsixCommon.cpp \
+ /usr/include/stdc-predef.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/pci.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/cdefs.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/types.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/types.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdint.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/assert.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/Bus/PCIInternal.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/string.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/err.h /usr/include/string.h \
+ /usr/include/xlocale.h /home/se170/VirtualBox-4.3.28/include/VBox/msi.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmdev.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmqueue.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmcritsect.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/critsect.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/thread.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/lockvalidator.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmthread.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmifs.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/sg.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/hgcmsvc.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/err.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmins.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmcommon.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/iom.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/dis.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/disopcode.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/tm.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/time.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/ssm.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/vmapi.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/stam.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/cfgm.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/dbgf.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/log.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/log.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/vmm.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/sup.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/cpuset.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/mp.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/asm.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/dbgfsel.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/x86.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/dbg.h \
+ /home/se170/VirtualBox-4.3.28/include/iprt/ldr.h \
+ /home/se170/VirtualBox-4.3.28/include/VBox/vmm/mm.h \
+ /home/se170/VirtualBox-4.3.28/src/VBox/Devices/Bus/MsiCommon.h
+
+/usr/include/stdc-predef.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/pci.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/cdefs.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/cdefs.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/types.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/types.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdint.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/stdarg.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/assert.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/Bus/PCIInternal.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/string.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/err.h:
+
+/usr/include/string.h:
+
+/usr/include/xlocale.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/msi.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmdev.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmqueue.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmcritsect.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/critsect.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/thread.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/lockvalidator.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmthread.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmifs.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/sg.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/hgcmsvc.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/err.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmins.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/pdmcommon.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/iom.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/dis.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/disopcode.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/tm.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/time.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/ssm.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/vmapi.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/stam.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/cfgm.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/dbgf.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/log.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/log.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/vmm.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/sup.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/cpuset.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/mp.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/asm.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/dbgfsel.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/x86.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/dbg.h:
+
+/home/se170/VirtualBox-4.3.28/include/iprt/ldr.h:
+
+/home/se170/VirtualBox-4.3.28/include/VBox/vmm/mm.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/Bus/MsiCommon.h:
+
+/home/se170/VirtualBox-4.3.28/src/VBox/Devices/Bus/MsixCommon.cpp:
+
+
+define VBoxDD_/home/se170/VirtualBox-4.3.28/src/VBox/Devices/Bus/MsixCommon.cpp_CMDS_PREV_
+
+@g++ -c -g -g -pipe -pedantic -Wshadow -Wshadow -Wall -Wextra -Wno-missing-field-initializers -Wno-unused -Wno-trigraphs -fdiagnostics-show-option -Wno-unused-parameter -Wno-long-long -Wno-long-long -Wno-delete-non-virtual-dtor -Wno-variadic-macros -O0 -fno-omit-frame-pointer -fno-strict-aliasing -fvisibility=hidden -DVBOX_HAVE_VISIBILITY_HIDDEN -DRT_USE_VISIBILITY_DEFAULT -fvisibility-inlines-hidden -fPIC -m64 -I/home/se170/VirtualBox-4.3.28/src/VBox/Devices/Bus -I/home/se170/VirtualBox-4.3.28/src/VBox/Devices/build -I/home/se170/VirtualBox-4.3.28/src/VBox/Devices/Network/slirp -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxDD/dtrace -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxDD/dtrace -I/home/se170/VirtualBox-4.3.28/include -I/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug -DVBOX -DVBOX_OSE -DVBOX_WITH_64_BITS_GUESTS -DVBOX_WITH_DEBUGGER -DDEBUG -DDEBUG_se170 -DDEBUG_USERNAME=se170 -DRT_OS_LINUX -D_FILE_OFFSET_BITS=64 -DRT_ARCH_AMD64 -D__AMD64__ -DRT_LOCK_STRICT -DRT_LOCK_STRICT_ORDER -DIN_RING3 -DHC_ARCH_BITS=64 -DGC_ARCH_BITS=64 -DVBOX_WITH_DTRACE -DVBOX_WITH_DTRACE_R3 -DPIC -DVBOX_ACPI -DVBOX_HGCM_HOST_CODE -DVBOX_WITH_HGCM -DVBOX_WITH_DMI_CHASSIS -DVBOX_WITH_DMI_OEMSTRINGS -DVBOX_WITH_DTRACE -DVBOX_WITH_CRHGSMI -DVBOXWDDM_WITH_VBVA -DVBOX_WITH_VIDEOHWACCEL -DVBOX_WITH_HGSMI -DVBOX_WITH_WDDM -DVBOX_WITH_VMSVGA -DVBOX_WITH_VDMA -DVBOX_WITH_PXE_ROM -DVBOX_WITH_USB -DVBOX_WITH_VUSB -DVBOX_WITH_INIP -DVBOX_WITH_E1000 -DVBOX_WITH_VIRTIO -DVBOX_WITH_UDPTUNNEL -DVBOX_WITH_VDE -DVBOX_WITH_NETSHAPER -DVBOX_WITH_AHCI -DIN_AHCI_R3 -DVBOX_WITH_BUSLOGIC -DVBOX_WITH_LSILOGIC -DVBOX_WITH_PDM_ASYNC_COMPLETION -DVBOX_WITH_SCSI -DVBOX_WITH_EFI -DVBOX_WITH_MSI_DEVICES -DVBOX_WITH_NETFLT -DVUSB_HAVE_USBPROXY_DEVICE -DVBOX_USB_WITH_SYSFS -DVBOX_WITH_ALSA -DVBOX_WITH_PULSE -Wp,-MD,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxDD/Bus/MsixCommon.o.dep -Wp,-MT,/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxDD/Bus/MsixCommon.o -Wp,-MP -o /home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxDD/Bus/MsixCommon.o /home/se170/VirtualBox-4.3.28/src/VBox/Devices/Bus/MsixCommon.cpp
+@kmk_builtin_append -n "/home/se170/VirtualBox-4.3.28/out/linux.amd64/debug/obj/VBoxDD/Bus/MsixCommon.o.dep" "" "/home/se170/VirtualBox-4.3.28/src/VBox/Devices/Bus/MsixCommon.cpp:" ""
+endef

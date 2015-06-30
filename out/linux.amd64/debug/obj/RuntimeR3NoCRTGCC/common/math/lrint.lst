@@ -1,0 +1,520 @@
+     1                                 %line 1+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/lrint.asm
+     2                                 
+     3                                 
+     4                                 
+     5                                 
+     6                                 
+     7                                 
+     8                                 
+     9                                 
+    10                                 
+    11                                 
+    12                                 
+    13                                 
+    14                                 
+    15                                 
+    16                                 
+    17                                 
+    18                                 
+    19                                 
+    20                                 
+    21                                 
+    22                                 
+    23                                 
+    24                                 
+    25                                 
+    26                                 
+    27                                 
+    28                                 %line 1+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    29                                 
+    30                                 
+    31                                 
+    32                                 
+    33                                 
+    34                                 
+    35                                 
+    36                                 
+    37                                 
+    38                                 
+    39                                 
+    40                                 
+    41                                 
+    42                                 
+    43                                 
+    44                                 
+    45                                 
+    46                                 
+    47                                 
+    48                                 
+    49                                 
+    50                                 
+    51                                 
+    52                                 
+    53                                 
+    54                                 %line 28+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    55                                 
+    56                                 
+    57                                 
+    58                                 
+    59                                 
+    60                                 
+    61                                 %line 35+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    62                                 
+    63                                 %line 37+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    64                                 
+    65                                 %line 39+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    66                                 
+    67                                 %line 41+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    68                                 
+    69                                 %line 43+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    70                                 
+    71                                 %line 45+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    72                                 
+    73                                 %line 47+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    74                                 
+    75                                 %line 49+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    76                                 
+    77                                 %line 51+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    78                                 
+    79                                 %line 53+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    80                                 
+    81                                 %line 55+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    82                                 
+    83                                 %line 57+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    84                                 
+    85                                 %line 59+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    86                                 
+    87                                 %line 61+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    88                                 
+    89                                 %line 63+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    90                                 
+    91                                 %line 65+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    92                                 
+    93                                 %line 67+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+    94                                 
+    95                                 
+    96                                 
+    97                                 
+    98                                 
+    99                                 %line 73+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   100                                 
+   101                                 
+   102                                 
+   103                                 %line 77+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   104                                 
+   105                                 
+   106                                 %line 84+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   107                                 
+   108                                 
+   109                                 
+   110                                 %line 92+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   111                                 
+   112                                 
+   113                                 
+   114                                 %line 100+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   115                                 
+   116                                 
+   117                                 
+   118                                 %line 108+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   119                                 
+   120                                 
+   121                                 
+   122                                 %line 116+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   123                                 
+   124                                 
+   125                                 
+   126                                 
+   127                                 %line 121+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   128                                 
+   129                                 
+   130                                 
+   131                                 %line 125+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   132                                 
+   133                                 
+   134                                 
+   135                                 %line 129+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   136                                 
+   137                                 
+   138                                 
+   139                                 
+   140                                 
+   141                                 %line 137+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   142                                 
+   143                                 
+   144                                 
+   145                                 
+   146                                 %line 157+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   147                                 
+   148                                 
+   149                                 
+   150                                 %line 165+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   151                                 
+   152                                 
+   153                                 
+   154                                 %line 177+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   155                                 
+   156                                 
+   157                                 
+   158                                 
+   159                                 %line 188+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   160                                 
+   161                                 
+   162                                 
+   163                                 %line 211+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   164                                 
+   165                                 
+   166                                 
+   167                                 
+   168                                 
+   169                                 %line 222+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   170                                 
+   171                                 
+   172                                 
+   173                                 %line 236+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   174                                 
+   175                                 
+   176                                 
+   177                                 %line 249+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   178                                 
+   179                                 
+   180                                 
+   181                                 %line 263+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   182                                 
+   183                                 
+   184                                 
+   185                                 %line 274+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   186                                 
+   187                                 
+   188                                 
+   189                                 %line 288+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   190                                 
+   191                                 
+   192                                 
+   193                                 %line 302+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   194                                 
+   195                                 
+   196                                 
+   197                                 
+   198                                 
+   199                                 
+   200                                 
+   201                                 
+   202                                 %line 356+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   203                                 
+   204                                 %line 363+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   205                                 
+   206                                 
+   207                                 
+   208                                 
+   209                                 %line 376+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   210                                 
+   211                                 
+   212                                 
+   213                                 
+   214                                 
+   215                                 
+   216                                 
+   217                                 %line 396+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   218                                 
+   219                                 
+   220                                 
+   221                                 %line 408+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   222                                 
+   223                                 
+   224                                 
+   225                                 %line 420+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   226                                 
+   227                                 
+   228                                 
+   229                                 
+   230                                 
+   231                                 %line 432+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   232                                 
+   233                                 
+   234                                 
+   235                                 %line 442+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   236                                 
+   237                                 
+   238                                 
+   239                                 %line 452+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   240                                 
+   241                                 
+   242                                 
+   243                                 %line 462+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   244                                 
+   245                                 
+   246                                 
+   247                                 %line 472+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   248                                 
+   249                                 
+   250                                 
+   251                                 
+   252                                 
+   253                                 %line 482+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   254                                 
+   255                                 
+   256                                 
+   257                                 
+   258                                 %line 491+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   259                                 
+   260                                 
+   261                                 
+   262                                 %line 499+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   263                                 
+   264                                 
+   265                                 
+   266                                 %line 507+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   267                                 
+   268                                 
+   269                                 
+   270                                 
+   271                                 
+   272                                 %line 517+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   273                                 
+   274                                 
+   275                                 
+   276                                 
+   277                                 %line 526+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   278                                 
+   279                                 
+   280                                 
+   281                                 %line 534+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   282                                 
+   283                                 
+   284                                 
+   285                                 %line 542+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   286                                 
+   287                                 
+   288                                 
+   289                                 
+   290                                 
+   291                                 %line 552+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   292                                 
+   293                                 
+   294                                 
+   295                                 
+   296                                 %line 561+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   297                                 
+   298                                 
+   299                                 
+   300                                 %line 569+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   301                                 
+   302                                 
+   303                                 
+   304                                 %line 577+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   305                                 
+   306                                 
+   307                                 
+   308                                 
+   309                                 
+   310                                 %line 587+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   311                                 
+   312                                 
+   313                                 
+   314                                 
+   315                                 %line 596+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   316                                 
+   317                                 %line 599+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   318                                 
+   319                                 
+   320                                 
+   321                                 %line 607+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   322                                 
+   323                                 
+   324                                 
+   325                                 %line 615+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   326                                 
+   327                                 
+   328                                 
+   329                                 
+   330                                 %line 620+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   331                                 
+   332                                 
+   333                                 
+   334                                 
+   335                                 %line 625+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   336                                 
+   337                                 
+   338                                 
+   339                                 %line 629+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   340                                 
+   341                                 
+   342                                 
+   343                                 %line 633+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   344                                 
+   345                                 
+   346                                 
+   347                                 
+   348                                 
+   349                                 
+   350                                 
+   351                                 
+   352                                 
+   353                                 
+   354                                 
+   355                                 
+   356                                 
+   357                                 
+   358                                 
+   359                                 %line 666+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   360                                 
+   361                                 
+   362                                 
+   363                                 
+   364                                 
+   365                                 %line 672+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   366                                 
+   367                                 
+   368                                 
+   369                                 
+   370                                 %line 677+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   371                                 
+   372                                 
+   373                                 
+   374                                 %line 681+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   375                                 
+   376                                 
+   377                                 
+   378                                 %line 685+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   379                                 
+   380                                 
+   381                                 
+   382                                 
+   383                                 
+   384                                 %line 691+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   385                                 
+   386                                 
+   387                                 
+   388                                 
+   389                                 %line 696+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   390                                 
+   391                                 
+   392                                 
+   393                                 %line 700+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   394                                 
+   395                                 
+   396                                 
+   397                                 %line 704+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   398                                 
+   399                                 
+   400                                 
+   401                                 
+   402                                 
+   403                                 
+   404                                 
+   405                                 
+   406                                 %line 721+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   407                                 
+   408                                 
+   409                                 
+   410                                 
+   411                                 
+   412                                 
+   413                                 
+   414                                 
+   415                                 
+   416                                 
+   417                                 
+   418                                 
+   419                                 
+   420                                 
+   421                                 %line 746+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   422                                 
+   423                                 %line 752+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   424                                 
+   425                                 
+   426                                 
+   427                                 
+   428                                 
+   429                                 
+   430                                 
+   431                                 
+   432                                 
+   433                                 
+   434                                 
+   435                                 
+   436                                 
+   437                                 %line 770+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   438                                 
+   439                                 
+   440                                 
+   441                                 
+   442                                 
+   443                                 
+   444                                 
+   445                                 %line 791+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   446                                 
+   447                                 %line 797+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   448                                 
+   449                                 
+   450                                 
+   451                                 
+   452                                 
+   453                                 
+   454                                 
+   455                                 
+   456                                 
+   457                                 
+   458                                 
+   459                                 
+   460                                 
+   461                                 
+   462                                 
+   463                                 
+   464                                 
+   465                                 
+   466                                 
+   467                                 
+   468                                 
+   469                                 
+   470                                 
+   471                                 
+   472                                 
+   473                                 
+   474                                 
+   475                                 
+   476                                 
+   477                                 
+   478                                 
+   479                                 
+   480                                 
+   481                                 %line 853+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   482                                 
+   483                                 
+   484                                 
+   485                                 
+   486                                 
+   487                                 
+   488                                 
+   489                                 
+   490                                 
+   491                                 
+   492                                 %line 873+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   493                                 
+   494                                 
+   495                                 
+   496                                 %line 886+1 /home/se170/VirtualBox-4.3.28/include/iprt/asmdefs.mac
+   497                                 
+   498                                 %line 28+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/lrint.asm
+   499                                 
+   500                                 [section .text]
+   501                                 
+   502                                 
+   503                                 
+   504                                 
+   505                                 
+   506                                 [global nocrt_lrint:function hidden]
+   507                                 %line 35+0 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/lrint.asm
+   508                                 nocrt_lrint:
+   509                                 %line 37+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/lrint.asm
+   510 00000000 F2480F2DC0              cvtsd2si rax, xmm0
+   511                                 %line 50+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/lrint.asm
+   512 00000005 C3                      ret
+   513                                 [global nocrt_lrint_EndProc:function hidden]
+   514                                 %line 51+0 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/lrint.asm
+   515                                 nocrt_lrint_EndProc:
+   516                                 [size nocrt_lrint nocrt_lrint_EndProc - nocrt_lrint]
+   517                                 [size nocrt_lrint_EndProc 0]
+   518 00000006 CCCCCCCC                db 0xCC, 0xCC, 0xCC, 0xCC
+   519                                 %line 52+1 /home/se170/VirtualBox-4.3.28/src/VBox/Runtime/common/math/lrint.asm
+   520                                 

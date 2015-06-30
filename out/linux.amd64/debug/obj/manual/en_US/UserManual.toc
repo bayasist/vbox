@@ -1,0 +1,497 @@
+\contentsline {chapter}{\numberline {1}First steps}{11}{chapter.1}
+\contentsline {section}{\numberline {1.1}Why is virtualization useful?}{12}{section.1.1}
+\contentsline {section}{\numberline {1.2}Some terminology}{12}{section.1.2}
+\contentsline {section}{\numberline {1.3}Features overview}{13}{section.1.3}
+\contentsline {section}{\numberline {1.4}Supported host operating systems}{15}{section.1.4}
+\contentsline {section}{\numberline {1.5}Installing VirtualBox and extension packs}{16}{section.1.5}
+\contentsline {section}{\numberline {1.6}Starting VirtualBox}{17}{section.1.6}
+\contentsline {section}{\numberline {1.7}Creating your first virtual machine}{18}{section.1.7}
+\contentsline {section}{\numberline {1.8}Running your virtual machine}{21}{section.1.8}
+\contentsline {subsection}{\numberline {1.8.1}Starting a new VM for the first time}{21}{subsection.1.8.1}
+\contentsline {subsection}{\numberline {1.8.2}Capturing and releasing keyboard and mouse}{22}{subsection.1.8.2}
+\contentsline {subsection}{\numberline {1.8.3}Typing special characters}{23}{subsection.1.8.3}
+\contentsline {subsection}{\numberline {1.8.4}Changing removable media}{24}{subsection.1.8.4}
+\contentsline {subsection}{\numberline {1.8.5}Resizing the machine's window}{24}{subsection.1.8.5}
+\contentsline {subsection}{\numberline {1.8.6}Saving the state of the machine}{25}{subsection.1.8.6}
+\contentsline {section}{\numberline {1.9}Using VM groups}{26}{section.1.9}
+\contentsline {section}{\numberline {1.10}Snapshots}{27}{section.1.10}
+\contentsline {subsection}{\numberline {1.10.1}Taking, restoring and deleting snapshots}{27}{subsection.1.10.1}
+\contentsline {subsection}{\numberline {1.10.2}Snapshot contents}{29}{subsection.1.10.2}
+\contentsline {section}{\numberline {1.11}Virtual machine configuration}{30}{section.1.11}
+\contentsline {section}{\numberline {1.12}Removing virtual machines}{30}{section.1.12}
+\contentsline {section}{\numberline {1.13}Cloning virtual machines}{30}{section.1.13}
+\contentsline {section}{\numberline {1.14}Importing and exporting virtual machines}{31}{section.1.14}
+\contentsline {section}{\numberline {1.15}Global Settings}{33}{section.1.15}
+\contentsline {section}{\numberline {1.16}Alternative front-ends}{33}{section.1.16}
+\contentsline {chapter}{\numberline {2}Installation details}{35}{chapter.2}
+\contentsline {section}{\numberline {2.1}Installing on Windows hosts}{35}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Prerequisites}{35}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Performing the installation}{35}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Uninstallation}{36}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Unattended installation}{36}{subsection.2.1.4}
+\contentsline {section}{\numberline {2.2}Installing on Mac OS X hosts}{37}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Performing the installation}{37}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Uninstallation}{37}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Unattended installation}{37}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Installing on Linux hosts}{37}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Prerequisites}{37}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}The VirtualBox kernel module}{38}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Performing the installation}{39}{subsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.3.1}Installing VirtualBox from a Debian/Ubuntu package}{39}{subsubsection.2.3.3.1}
+\contentsline {subsubsection}{\numberline {2.3.3.2}Using the alternative installer (VirtualBox.run)}{39}{subsubsection.2.3.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3.3}Performing a manual installation}{40}{subsubsection.2.3.3.3}
+\contentsline {subsubsection}{\numberline {2.3.3.4}Updating and uninstalling VirtualBox}{41}{subsubsection.2.3.3.4}
+\contentsline {subsubsection}{\numberline {2.3.3.5}Automatic installation of Debian packages}{41}{subsubsection.2.3.3.5}
+\contentsline {subsubsection}{\numberline {2.3.3.6}Automatic installation of .rpm packages}{42}{subsubsection.2.3.3.6}
+\contentsline {subsubsection}{\numberline {2.3.3.7}Automatic installation options}{42}{subsubsection.2.3.3.7}
+\contentsline {subsection}{\numberline {2.3.4}The vboxusers group}{42}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Starting VirtualBox on Linux}{42}{subsection.2.3.5}
+\contentsline {section}{\numberline {2.4}Installing on Solaris hosts}{43}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Performing the installation}{43}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}The vboxuser group}{43}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Starting VirtualBox on Solaris}{44}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Uninstallation}{44}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}Unattended installation}{44}{subsection.2.4.5}
+\contentsline {subsection}{\numberline {2.4.6}Configuring a zone for running VirtualBox}{44}{subsection.2.4.6}
+\contentsline {chapter}{\numberline {3}Configuring virtual machines}{45}{chapter.3}
+\contentsline {section}{\numberline {3.1}Supported guest operating systems}{45}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Mac OS X guests}{46}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}64-bit guests}{46}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Emulated hardware}{47}{section.3.2}
+\contentsline {section}{\numberline {3.3}General settings}{48}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}``{}Basic''{} tab}{48}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}``{}Advanced''{} tab}{48}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}``{}Description''{} tab}{49}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}System settings}{49}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}``{}Motherboard''{} tab}{49}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}``{}Processor''{} tab}{51}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}``{}Acceleration''{} tab}{51}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Display settings}{51}{section.3.5}
+\contentsline {section}{\numberline {3.6}Storage settings}{52}{section.3.6}
+\contentsline {section}{\numberline {3.7}Audio settings}{54}{section.3.7}
+\contentsline {section}{\numberline {3.8}Network settings}{54}{section.3.8}
+\contentsline {section}{\numberline {3.9}Serial ports}{55}{section.3.9}
+\contentsline {section}{\numberline {3.10}USB support}{56}{section.3.10}
+\contentsline {subsection}{\numberline {3.10.1}USB settings}{56}{subsection.3.10.1}
+\contentsline {subsection}{\numberline {3.10.2}Implementation notes for Windows and Linux hosts}{58}{subsection.3.10.2}
+\contentsline {section}{\numberline {3.11}Shared folders}{58}{section.3.11}
+\contentsline {section}{\numberline {3.12}Alternative firmware (EFI)}{58}{section.3.12}
+\contentsline {subsection}{\numberline {3.12.1}Video modes in EFI}{59}{subsection.3.12.1}
+\contentsline {subsection}{\numberline {3.12.2}Specifying boot arguments}{59}{subsection.3.12.2}
+\contentsline {chapter}{\numberline {4}Guest Additions}{60}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{60}{section.4.1}
+\contentsline {section}{\numberline {4.2}Installing and Maintaining Guest Additions}{61}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Guest Additions for Windows}{61}{subsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}Installation}{62}{subsubsection.4.2.1.1}
+\contentsline {subsubsection}{\numberline {4.2.1.2}Updating the Windows Guest Additions}{63}{subsubsection.4.2.1.2}
+\contentsline {subsubsection}{\numberline {4.2.1.3}Unattended Installation}{63}{subsubsection.4.2.1.3}
+\contentsline {paragraph}{\nonumberline VeriSign Code Signing CA}{64}{section*.2}
+\contentsline {paragraph}{\nonumberline Oracle Corporation}{64}{section*.3}
+\contentsline {subsubsection}{\numberline {4.2.1.4}Manual file extraction}{65}{subsubsection.4.2.1.4}
+\contentsline {subsection}{\numberline {4.2.2}Guest Additions for Linux}{65}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}Installing the Linux Guest Additions}{65}{subsubsection.4.2.2.1}
+\contentsline {paragraph}{\nonumberline Ubuntu}{66}{section*.4}
+\contentsline {paragraph}{\nonumberline Fedora}{66}{section*.5}
+\contentsline {paragraph}{\nonumberline openSUSE}{67}{section*.6}
+\contentsline {paragraph}{\nonumberline SuSE Linux Enterprise Desktop (SLED)}{67}{section*.7}
+\contentsline {paragraph}{\nonumberline Mandrake}{67}{section*.8}
+\contentsline {paragraph}{\nonumberline Oracle Linux, Red Hat Enterprise Linux and CentOS}{68}{section*.9}
+\contentsline {paragraph}{\nonumberline Debian}{68}{section*.10}
+\contentsline {subsubsection}{\numberline {4.2.2.2}Graphics and mouse integration}{68}{subsubsection.4.2.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.3}Updating the Linux Guest Additions}{69}{subsubsection.4.2.2.3}
+\contentsline {subsubsection}{\numberline {4.2.2.4}Uninstalling the Linux Guest Additions}{69}{subsubsection.4.2.2.4}
+\contentsline {subsection}{\numberline {4.2.3}Guest Additions for Solaris}{69}{subsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.3.1}Installing the Solaris Guest Additions}{69}{subsubsection.4.2.3.1}
+\contentsline {subsubsection}{\numberline {4.2.3.2}Uninstalling the Solaris Guest Additions}{70}{subsubsection.4.2.3.2}
+\contentsline {subsubsection}{\numberline {4.2.3.3}Updating the Solaris Guest Additions}{70}{subsubsection.4.2.3.3}
+\contentsline {subsection}{\numberline {4.2.4}Guest Additions for OS/2}{70}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Shared folders}{70}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Manual mounting}{71}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Automatic mounting}{72}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Hardware-accelerated graphics}{73}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Hardware 3D acceleration (OpenGL and Direct3D 8/9)}{73}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Hardware 2D video acceleration for Windows guests}{74}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Seamless windows}{74}{section.4.5}
+\contentsline {section}{\numberline {4.6}Guest properties}{75}{section.4.6}
+\contentsline {section}{\numberline {4.7}Guest control}{77}{section.4.7}
+\contentsline {section}{\numberline {4.8}Memory overcommitment}{77}{section.4.8}
+\contentsline {subsection}{\numberline {4.8.1}Memory ballooning}{77}{subsection.4.8.1}
+\contentsline {subsection}{\numberline {4.8.2}Page Fusion}{78}{subsection.4.8.2}
+\contentsline {chapter}{\numberline {5}Virtual storage}{80}{chapter.5}
+\contentsline {section}{\numberline {5.1}Hard disk controllers: IDE, SATA (AHCI), SCSI, SAS}{80}{section.5.1}
+\contentsline {section}{\numberline {5.2}Disk image files (VDI, VMDK, VHD, HDD)}{82}{section.5.2}
+\contentsline {section}{\numberline {5.3}The Virtual Media Manager}{83}{section.5.3}
+\contentsline {section}{\numberline {5.4}Special image write modes}{85}{section.5.4}
+\contentsline {section}{\numberline {5.5}Differencing images}{86}{section.5.5}
+\contentsline {section}{\numberline {5.6}Cloning disk images}{88}{section.5.6}
+\contentsline {section}{\numberline {5.7}Host I/O caching}{89}{section.5.7}
+\contentsline {section}{\numberline {5.8}Limiting bandwidth for disk images}{90}{section.5.8}
+\contentsline {section}{\numberline {5.9}CD/DVD support}{90}{section.5.9}
+\contentsline {section}{\numberline {5.10}iSCSI servers}{91}{section.5.10}
+\contentsline {chapter}{\numberline {6}Virtual networking}{92}{chapter.6}
+\contentsline {section}{\numberline {6.1}Virtual networking hardware}{92}{section.6.1}
+\contentsline {section}{\numberline {6.2}Introduction to networking modes}{93}{section.6.2}
+\contentsline {section}{\numberline {6.3}Network Address Translation (NAT)}{94}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Configuring port forwarding with NAT}{94}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}PXE booting with NAT}{95}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}NAT limitations}{95}{subsection.6.3.3}
+\contentsline {section}{\numberline {6.4}Network Address Translation Service (experimental)}{96}{section.6.4}
+\contentsline {section}{\numberline {6.5}Bridged networking}{97}{section.6.5}
+\contentsline {section}{\numberline {6.6}Internal networking}{98}{section.6.6}
+\contentsline {section}{\numberline {6.7}Host-only networking}{99}{section.6.7}
+\contentsline {section}{\numberline {6.8}UDP Tunnel networking}{100}{section.6.8}
+\contentsline {section}{\numberline {6.9}VDE networking}{100}{section.6.9}
+\contentsline {section}{\numberline {6.10}Limiting bandwidth for network I/O}{101}{section.6.10}
+\contentsline {section}{\numberline {6.11}Improving network performance}{102}{section.6.11}
+\contentsline {chapter}{\numberline {7}Remote virtual machines}{103}{chapter.7}
+\contentsline {section}{\numberline {7.1}Remote display (VRDP support)}{103}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Common third-party RDP viewers}{103}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}VBoxHeadless, the remote desktop server}{104}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Step by step: creating a virtual machine on a headless server}{105}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}Remote USB}{107}{subsection.7.1.4}
+\contentsline {subsection}{\numberline {7.1.5}RDP authentication}{107}{subsection.7.1.5}
+\contentsline {subsection}{\numberline {7.1.6}RDP encryption}{108}{subsection.7.1.6}
+\contentsline {subsection}{\numberline {7.1.7}Multiple connections to the VRDP server}{109}{subsection.7.1.7}
+\contentsline {subsection}{\numberline {7.1.8}Multiple remote monitors}{110}{subsection.7.1.8}
+\contentsline {subsection}{\numberline {7.1.9}VRDP video redirection}{110}{subsection.7.1.9}
+\contentsline {subsection}{\numberline {7.1.10}VRDP customization}{110}{subsection.7.1.10}
+\contentsline {section}{\numberline {7.2}Teleporting}{111}{section.7.2}
+\contentsline {chapter}{\numberline {8}VBoxManage}{113}{chapter.8}
+\contentsline {section}{\numberline {8.1}Introduction}{113}{section.8.1}
+\contentsline {section}{\numberline {8.2}Commands overview}{114}{section.8.2}
+\contentsline {section}{\numberline {8.3}General options}{122}{section.8.3}
+\contentsline {section}{\numberline {8.4}VBoxManage list}{122}{section.8.4}
+\contentsline {section}{\numberline {8.5}VBoxManage showvminfo}{123}{section.8.5}
+\contentsline {section}{\numberline {8.6}VBoxManage registervm / unregistervm}{124}{section.8.6}
+\contentsline {section}{\numberline {8.7}VBoxManage createvm}{125}{section.8.7}
+\contentsline {section}{\numberline {8.8}VBoxManage modifyvm}{125}{section.8.8}
+\contentsline {subsection}{\numberline {8.8.1}General settings}{125}{subsection.8.8.1}
+\contentsline {subsection}{\numberline {8.8.2}Networking settings}{128}{subsection.8.8.2}
+\contentsline {subsubsection}{\numberline {8.8.2.1}NAT Networking settings.}{129}{subsubsection.8.8.2.1}
+\contentsline {subsection}{\numberline {8.8.3}Serial port, audio, clipboard and USB settings}{130}{subsection.8.8.3}
+\contentsline {subsection}{\numberline {8.8.4}Remote machine settings}{130}{subsection.8.8.4}
+\contentsline {subsection}{\numberline {8.8.5}Teleporting settings}{131}{subsection.8.8.5}
+\contentsline {section}{\numberline {8.9}VBoxManage clonevm}{132}{section.8.9}
+\contentsline {section}{\numberline {8.10}VBoxManage import}{133}{section.8.10}
+\contentsline {section}{\numberline {8.11}VBoxManage export}{134}{section.8.11}
+\contentsline {section}{\numberline {8.12}VBoxManage startvm}{134}{section.8.12}
+\contentsline {section}{\numberline {8.13}VBoxManage controlvm}{135}{section.8.13}
+\contentsline {section}{\numberline {8.14}VBoxManage discardstate}{136}{section.8.14}
+\contentsline {section}{\numberline {8.15}VBoxManage adoptstate}{136}{section.8.15}
+\contentsline {section}{\numberline {8.16}VBoxManage snapshot}{136}{section.8.16}
+\contentsline {section}{\numberline {8.17}VBoxManage closemedium}{137}{section.8.17}
+\contentsline {section}{\numberline {8.18}VBoxManage storageattach}{137}{section.8.18}
+\contentsline {section}{\numberline {8.19}VBoxManage storagectl}{139}{section.8.19}
+\contentsline {section}{\numberline {8.20}VBoxManage bandwidthctl}{140}{section.8.20}
+\contentsline {section}{\numberline {8.21}VBoxManage showhdinfo}{141}{section.8.21}
+\contentsline {section}{\numberline {8.22}VBoxManage createhd}{141}{section.8.22}
+\contentsline {section}{\numberline {8.23}VBoxManage modifyhd}{142}{section.8.23}
+\contentsline {section}{\numberline {8.24}VBoxManage clonehd}{143}{section.8.24}
+\contentsline {section}{\numberline {8.25}VBoxManage convertfromraw}{143}{section.8.25}
+\contentsline {section}{\numberline {8.26}VBoxManage getextradata/setextradata}{144}{section.8.26}
+\contentsline {section}{\numberline {8.27}VBoxManage setproperty}{144}{section.8.27}
+\contentsline {section}{\numberline {8.28}VBoxManage usbfilter add/modify/remove}{145}{section.8.28}
+\contentsline {section}{\numberline {8.29}VBoxManage sharedfolder add/remove}{146}{section.8.29}
+\contentsline {section}{\numberline {8.30}VBoxManage guestproperty}{146}{section.8.30}
+\contentsline {section}{\numberline {8.31}VBoxManage guestcontrol}{147}{section.8.31}
+\contentsline {section}{\numberline {8.32}VBoxManage debugvm}{154}{section.8.32}
+\contentsline {section}{\numberline {8.33}VBoxManage metrics}{155}{section.8.33}
+\contentsline {section}{\numberline {8.34}VBoxManage hostonlyif}{156}{section.8.34}
+\contentsline {section}{\numberline {8.35}VBoxManage dhcpserver}{156}{section.8.35}
+\contentsline {section}{\numberline {8.36}VBoxManage extpack}{157}{section.8.36}
+\contentsline {chapter}{\numberline {9}Advanced topics}{158}{chapter.9}
+\contentsline {section}{\numberline {9.1}VBoxSDL, the simplified VM displayer}{158}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Introduction}{158}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Secure labeling with VBoxSDL}{158}{subsection.9.1.2}
+\contentsline {subsection}{\numberline {9.1.3}Releasing modifiers with VBoxSDL on Linux}{159}{subsection.9.1.3}
+\contentsline {section}{\numberline {9.2}Automated guest logons}{160}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Automated Windows guest logons}{160}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Automated Linux/Unix guest logons}{161}{subsection.9.2.2}
+\contentsline {subsubsection}{\numberline {9.2.2.1}VirtualBox Greeter for Ubuntu / LightDM}{163}{subsubsection.9.2.2.1}
+\contentsline {section}{\numberline {9.3}Advanced configuration for Windows guests}{164}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}Automated Windows system preparation}{164}{subsection.9.3.1}
+\contentsline {section}{\numberline {9.4}Advanced configuration for Linux and Solaris guests}{165}{section.9.4}
+\contentsline {subsection}{\numberline {9.4.1}Manual setup of selected guest services on Linux}{165}{subsection.9.4.1}
+\contentsline {subsection}{\numberline {9.4.2}Guest graphics and mouse driver setup in depth}{165}{subsection.9.4.2}
+\contentsline {section}{\numberline {9.5}CPU hot-plugging}{166}{section.9.5}
+\contentsline {section}{\numberline {9.6}PCI passthrough}{167}{section.9.6}
+\contentsline {section}{\numberline {9.7}Webcam passthrough}{168}{section.9.7}
+\contentsline {subsection}{\numberline {9.7.1}Using a host webcam in the guest}{168}{subsection.9.7.1}
+\contentsline {subsection}{\numberline {9.7.2}Windows hosts}{169}{subsection.9.7.2}
+\contentsline {subsection}{\numberline {9.7.3}Mac OS X hosts}{169}{subsection.9.7.3}
+\contentsline {subsection}{\numberline {9.7.4}Linux hosts}{170}{subsection.9.7.4}
+\contentsline {section}{\numberline {9.8}Advanced display configuration}{170}{section.9.8}
+\contentsline {subsection}{\numberline {9.8.1}Custom VESA resolutions}{170}{subsection.9.8.1}
+\contentsline {subsection}{\numberline {9.8.2}Configuring the maximum resolution of guests when using the graphical frontend}{170}{subsection.9.8.2}
+\contentsline {section}{\numberline {9.9}Advanced storage configuration}{171}{section.9.9}
+\contentsline {subsection}{\numberline {9.9.1}Using a raw host hard disk from a guest}{171}{subsection.9.9.1}
+\contentsline {subsubsection}{\numberline {9.9.1.1}Access to entire physical hard disk}{171}{subsubsection.9.9.1.1}
+\contentsline {subsubsection}{\numberline {9.9.1.2}Access to individual physical hard disk partitions}{172}{subsubsection.9.9.1.2}
+\contentsline {subsection}{\numberline {9.9.2}Configuring the hard disk vendor product data (VPD)}{173}{subsection.9.9.2}
+\contentsline {subsection}{\numberline {9.9.3}Access iSCSI targets via Internal Networking}{173}{subsection.9.9.3}
+\contentsline {section}{\numberline {9.10}Legacy commands for using serial ports}{174}{section.9.10}
+\contentsline {section}{\numberline {9.11}Fine-tuning the VirtualBox NAT engine}{174}{section.9.11}
+\contentsline {subsection}{\numberline {9.11.1}Configuring the address of a NAT network interface}{174}{subsection.9.11.1}
+\contentsline {subsection}{\numberline {9.11.2}Configuring the boot server (next server) of a NAT network interface}{175}{subsection.9.11.2}
+\contentsline {subsection}{\numberline {9.11.3}Tuning TCP/IP buffers for NAT}{175}{subsection.9.11.3}
+\contentsline {subsection}{\numberline {9.11.4}Binding NAT sockets to a specific interface}{175}{subsection.9.11.4}
+\contentsline {subsection}{\numberline {9.11.5}Enabling DNS proxy in NAT mode}{175}{subsection.9.11.5}
+\contentsline {subsection}{\numberline {9.11.6}Using the host's resolver as a DNS proxy in NAT mode}{176}{subsection.9.11.6}
+\contentsline {subsubsection}{\numberline {9.11.6.1}User-defined host name resolving}{176}{subsubsection.9.11.6.1}
+\contentsline {subsection}{\numberline {9.11.7}Configuring aliasing of the NAT engine}{176}{subsection.9.11.7}
+\contentsline {section}{\numberline {9.12}Configuring the BIOS DMI information}{177}{section.9.12}
+\contentsline {subsection}{\numberline {9.12.1}DMI BIOS information (type 0)}{177}{subsection.9.12.1}
+\contentsline {subsection}{\numberline {9.12.2}DMI system information (type 1)}{177}{subsection.9.12.2}
+\contentsline {subsection}{\numberline {9.12.3}DMI board information (type 2)}{177}{subsection.9.12.3}
+\contentsline {subsection}{\numberline {9.12.4}DMI system enclosure or chassis (type 3)}{178}{subsection.9.12.4}
+\contentsline {subsection}{\numberline {9.12.5}DMI processor informatiion (type 4)}{178}{subsection.9.12.5}
+\contentsline {subsection}{\numberline {9.12.6}DMI OEM strings (type 11)}{178}{subsection.9.12.6}
+\contentsline {section}{\numberline {9.13}Configuring the custom ACPI table}{178}{section.9.13}
+\contentsline {section}{\numberline {9.14}Fine-tuning timers and time synchronization}{179}{section.9.14}
+\contentsline {subsection}{\numberline {9.14.1}Configuring the guest time stamp counter (TSC) to reflect guest execution}{179}{subsection.9.14.1}
+\contentsline {subsection}{\numberline {9.14.2}Accelerate or slow down the guest clock}{179}{subsection.9.14.2}
+\contentsline {subsection}{\numberline {9.14.3}Tuning the Guest Additions time synchronization parameters}{179}{subsection.9.14.3}
+\contentsline {subsection}{\numberline {9.14.4}Disabling the Guest Additions time synchronization}{180}{subsection.9.14.4}
+\contentsline {section}{\numberline {9.15}Installing the alternate bridged networking driver on Solaris 11 hosts}{180}{section.9.15}
+\contentsline {section}{\numberline {9.16}VirtualBox VNIC templates for VLANs on Solaris 11 hosts}{181}{section.9.16}
+\contentsline {section}{\numberline {9.17}Configuring multiple host-only network interfaces on Solaris hosts}{181}{section.9.17}
+\contentsline {section}{\numberline {9.18}Configuring the VirtualBox CoreDumper on Solaris hosts}{182}{section.9.18}
+\contentsline {section}{\numberline {9.19}Locking down the VirtualBox manager GUI}{182}{section.9.19}
+\contentsline {subsection}{\numberline {9.19.1}Customizing the VM manager}{182}{subsection.9.19.1}
+\contentsline {subsection}{\numberline {9.19.2}VM selector customization}{183}{subsection.9.19.2}
+\contentsline {subsection}{\numberline {9.19.3}Configure VM selector menu entries}{183}{subsection.9.19.3}
+\contentsline {subsection}{\numberline {9.19.4}Configure VM window menu entries}{184}{subsection.9.19.4}
+\contentsline {subsection}{\numberline {9.19.5}Configure VM window status bar entries}{187}{subsection.9.19.5}
+\contentsline {subsection}{\numberline {9.19.6}Configure VM window visual modes}{187}{subsection.9.19.6}
+\contentsline {subsection}{\numberline {9.19.7}Host Key customization}{188}{subsection.9.19.7}
+\contentsline {subsection}{\numberline {9.19.8}Action when terminating the VM}{188}{subsection.9.19.8}
+\contentsline {subsection}{\numberline {9.19.9}Action for handling a Guru Meditation}{189}{subsection.9.19.9}
+\contentsline {subsection}{\numberline {9.19.10}Configuring automatic mouse capturing}{189}{subsection.9.19.10}
+\contentsline {subsection}{\numberline {9.19.11}Requesting legacy full-screen mode}{189}{subsection.9.19.11}
+\contentsline {section}{\numberline {9.20}Starting the VirtualBox web service automatically}{190}{section.9.20}
+\contentsline {subsection}{\numberline {9.20.1}Linux: starting the webservice via \texttt {init}}{190}{subsection.9.20.1}
+\contentsline {subsection}{\numberline {9.20.2}Solaris: starting the web service via SMF}{190}{subsection.9.20.2}
+\contentsline {subsection}{\numberline {9.20.3}Mac OS X: starting the webservice via launchd}{191}{subsection.9.20.3}
+\contentsline {section}{\numberline {9.21}VirtualBox Watchdog}{191}{section.9.21}
+\contentsline {subsection}{\numberline {9.21.1}Memory ballooning control}{191}{subsection.9.21.1}
+\contentsline {subsection}{\numberline {9.21.2}Host isolation detection}{192}{subsection.9.21.2}
+\contentsline {subsection}{\numberline {9.21.3}More information}{193}{subsection.9.21.3}
+\contentsline {subsection}{\numberline {9.21.4}Linux: starting the watchdog service via \texttt {init}}{193}{subsection.9.21.4}
+\contentsline {subsection}{\numberline {9.21.5}Solaris: starting the watchdog service via SMF}{194}{subsection.9.21.5}
+\contentsline {section}{\numberline {9.22}Other extension packs}{194}{section.9.22}
+\contentsline {section}{\numberline {9.23}Starting virtual machines during system boot}{195}{section.9.23}
+\contentsline {subsection}{\numberline {9.23.1}Linux: starting the autostart service via \texttt {init}}{195}{subsection.9.23.1}
+\contentsline {subsection}{\numberline {9.23.2}Solaris: starting the autostart service via SMF}{195}{subsection.9.23.2}
+\contentsline {subsection}{\numberline {9.23.3}Mac OS X: starting the autostart service via launchd}{196}{subsection.9.23.3}
+\contentsline {section}{\numberline {9.24}VirtualBox expert storage management}{196}{section.9.24}
+\contentsline {section}{\numberline {9.25}Handling of host power management events}{196}{section.9.25}
+\contentsline {section}{\numberline {9.26}Experimental support for passing through SSE4.1 / SSE4.2 instructions}{197}{section.9.26}
+\contentsline {section}{\numberline {9.27}Support for keyboard indicators synchronization}{197}{section.9.27}
+\contentsline {chapter}{\numberline {10}Technical background}{198}{chapter.10}
+\contentsline {section}{\numberline {10.1}Where VirtualBox stores its files}{198}{section.10.1}
+\contentsline {subsection}{\numberline {10.1.1}Machines created by VirtualBox version 4.0 or later}{198}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.2}Machines created by VirtualBox versions before 4.0}{199}{subsection.10.1.2}
+\contentsline {subsection}{\numberline {10.1.3}Global configuration data}{199}{subsection.10.1.3}
+\contentsline {subsection}{\numberline {10.1.4}Summary of 4.0 configuration changes}{200}{subsection.10.1.4}
+\contentsline {subsection}{\numberline {10.1.5}VirtualBox XML files}{200}{subsection.10.1.5}
+\contentsline {section}{\numberline {10.2}VirtualBox executables and components}{200}{section.10.2}
+\contentsline {section}{\numberline {10.3}Hardware vs. software virtualization}{202}{section.10.3}
+\contentsline {section}{\numberline {10.4}Details about software virtualization}{203}{section.10.4}
+\contentsline {section}{\numberline {10.5}Details about hardware virtualization}{205}{section.10.5}
+\contentsline {section}{\numberline {10.6}Nested paging and VPIDs}{206}{section.10.6}
+\contentsline {chapter}{\numberline {11}VirtualBox programming interfaces}{208}{chapter.11}
+\contentsline {chapter}{\numberline {12}Troubleshooting}{209}{chapter.12}
+\contentsline {section}{\numberline {12.1}Procedures and tools}{209}{section.12.1}
+\contentsline {subsection}{\numberline {12.1.1}Categorizing and isolating problems}{209}{subsection.12.1.1}
+\contentsline {subsection}{\numberline {12.1.2}Collecting debugging information}{210}{subsection.12.1.2}
+\contentsline {subsection}{\numberline {12.1.3}The built-in VM debugger}{210}{subsection.12.1.3}
+\contentsline {subsection}{\numberline {12.1.4}VM core format}{212}{subsection.12.1.4}
+\contentsline {section}{\numberline {12.2}General}{213}{section.12.2}
+\contentsline {subsection}{\numberline {12.2.1}Guest shows IDE/SATA errors for file-based images on slow host file system}{213}{subsection.12.2.1}
+\contentsline {subsection}{\numberline {12.2.2}Responding to guest IDE/SATA flush requests}{214}{subsection.12.2.2}
+\contentsline {subsection}{\numberline {12.2.3}Performance variation with frequency boosting}{214}{subsection.12.2.3}
+\contentsline {subsection}{\numberline {12.2.4}Frequency scaling effect on CPU usage}{214}{subsection.12.2.4}
+\contentsline {subsection}{\numberline {12.2.5}Inaccurate Windows CPU usage reporting}{215}{subsection.12.2.5}
+\contentsline {subsection}{\numberline {12.2.6}Poor performance caused by host power management}{215}{subsection.12.2.6}
+\contentsline {subsection}{\numberline {12.2.7}GUI: 2D Video Acceleration option is grayed out}{215}{subsection.12.2.7}
+\contentsline {section}{\numberline {12.3}Windows guests}{215}{section.12.3}
+\contentsline {subsection}{\numberline {12.3.1}Windows bluescreens after changing VM configuration}{215}{subsection.12.3.1}
+\contentsline {subsection}{\numberline {12.3.2}Windows 0x101 bluescreens with SMP enabled (IPI timeout)}{216}{subsection.12.3.2}
+\contentsline {subsection}{\numberline {12.3.3}Windows 2000 installation failures}{216}{subsection.12.3.3}
+\contentsline {subsection}{\numberline {12.3.4}How to record bluescreen information from Windows guests}{216}{subsection.12.3.4}
+\contentsline {subsection}{\numberline {12.3.5}No networking in Windows Vista guests}{216}{subsection.12.3.5}
+\contentsline {subsection}{\numberline {12.3.6}Windows guests may cause a high CPU load}{217}{subsection.12.3.6}
+\contentsline {subsection}{\numberline {12.3.7}Long delays when accessing shared folders}{217}{subsection.12.3.7}
+\contentsline {subsection}{\numberline {12.3.8}USB tablet coordinates wrong in Windows 98 guests}{217}{subsection.12.3.8}
+\contentsline {subsection}{\numberline {12.3.9}Windows guests are removed from an Active Directory domain after restoring a snapshot}{217}{subsection.12.3.9}
+\contentsline {subsection}{\numberline {12.3.10}Restoring d3d8.dll and d3d9.dll}{217}{subsection.12.3.10}
+\contentsline {section}{\numberline {12.4}Linux and X11 guests}{219}{section.12.4}
+\contentsline {subsection}{\numberline {12.4.1}Linux guests may cause a high CPU load}{219}{subsection.12.4.1}
+\contentsline {subsection}{\numberline {12.4.2}AMD Barcelona CPUs}{219}{subsection.12.4.2}
+\contentsline {subsection}{\numberline {12.4.3}Buggy Linux 2.6 kernel versions}{219}{subsection.12.4.3}
+\contentsline {subsection}{\numberline {12.4.4}Shared clipboard, auto-resizing and seamless desktop in X11 guests}{219}{subsection.12.4.4}
+\contentsline {section}{\numberline {12.5}Solaris guests}{220}{section.12.5}
+\contentsline {subsection}{\numberline {12.5.1}Older Solaris 10 releases crash in 64-bit mode}{220}{subsection.12.5.1}
+\contentsline {subsection}{\numberline {12.5.2}Solaris 8 5/01 and earlier may crash on startup}{220}{subsection.12.5.2}
+\contentsline {section}{\numberline {12.6}Windows hosts}{220}{section.12.6}
+\contentsline {subsection}{\numberline {12.6.1}VBoxSVC out-of-process COM server issues}{220}{subsection.12.6.1}
+\contentsline {subsection}{\numberline {12.6.2}CD/DVD changes not recognized}{220}{subsection.12.6.2}
+\contentsline {subsection}{\numberline {12.6.3}Sluggish response when using Microsoft RDP client}{221}{subsection.12.6.3}
+\contentsline {subsection}{\numberline {12.6.4}Running an iSCSI initiator and target on a single system}{221}{subsection.12.6.4}
+\contentsline {subsection}{\numberline {12.6.5}Bridged networking adapters missing}{221}{subsection.12.6.5}
+\contentsline {subsection}{\numberline {12.6.6}Host-only networking adapters cannot be created}{222}{subsection.12.6.6}
+\contentsline {section}{\numberline {12.7}Linux hosts}{222}{section.12.7}
+\contentsline {subsection}{\numberline {12.7.1}Linux kernel module refuses to load}{222}{subsection.12.7.1}
+\contentsline {subsection}{\numberline {12.7.2}Linux host CD/DVD drive not found}{222}{subsection.12.7.2}
+\contentsline {subsection}{\numberline {12.7.3}Linux host CD/DVD drive not found (older distributions)}{222}{subsection.12.7.3}
+\contentsline {subsection}{\numberline {12.7.4}Linux host floppy not found}{223}{subsection.12.7.4}
+\contentsline {subsection}{\numberline {12.7.5}Strange guest IDE error messages when writing to CD/DVD}{223}{subsection.12.7.5}
+\contentsline {subsection}{\numberline {12.7.6}VBoxSVC IPC issues}{223}{subsection.12.7.6}
+\contentsline {subsection}{\numberline {12.7.7}USB not working}{223}{subsection.12.7.7}
+\contentsline {subsection}{\numberline {12.7.8}PAX/grsec kernels}{224}{subsection.12.7.8}
+\contentsline {subsection}{\numberline {12.7.9}Linux kernel vmalloc pool exhausted}{224}{subsection.12.7.9}
+\contentsline {section}{\numberline {12.8}Solaris hosts}{225}{section.12.8}
+\contentsline {subsection}{\numberline {12.8.1}Cannot start VM, not enough contiguous memory}{225}{subsection.12.8.1}
+\contentsline {subsection}{\numberline {12.8.2}VM aborts with out of memory errors on Solaris 10 hosts}{225}{subsection.12.8.2}
+\contentsline {chapter}{\numberline {13}Security guide}{226}{chapter.13}
+\contentsline {section}{\numberline {13.1}Overview}{226}{section.13.1}
+\contentsline {subsection}{\numberline {13.1.1}General Security Principles}{226}{subsection.13.1.1}
+\contentsline {section}{\numberline {13.2}Secure Installation and Configuration}{226}{section.13.2}
+\contentsline {subsection}{\numberline {13.2.1}Installation Overview}{226}{subsection.13.2.1}
+\contentsline {subsection}{\numberline {13.2.2}Post Installation Configuration}{227}{subsection.13.2.2}
+\contentsline {section}{\numberline {13.3}Security Features}{227}{section.13.3}
+\contentsline {subsection}{\numberline {13.3.1}The Security Model}{227}{subsection.13.3.1}
+\contentsline {subsection}{\numberline {13.3.2}Secure Configuration of Virtual Machines}{227}{subsection.13.3.2}
+\contentsline {subsubsection}{\numberline {13.3.2.1}Networking}{227}{subsubsection.13.3.2.1}
+\contentsline {subsubsection}{\numberline {13.3.2.2}VRDP remote desktop authentication}{228}{subsubsection.13.3.2.2}
+\contentsline {subsubsection}{\numberline {13.3.2.3}Clipboard}{228}{subsubsection.13.3.2.3}
+\contentsline {subsubsection}{\numberline {13.3.2.4}Shared folders}{228}{subsubsection.13.3.2.4}
+\contentsline {subsubsection}{\numberline {13.3.2.5}3D graphics acceleration}{228}{subsubsection.13.3.2.5}
+\contentsline {subsubsection}{\numberline {13.3.2.6}CD/DVD passthrough}{228}{subsubsection.13.3.2.6}
+\contentsline {subsubsection}{\numberline {13.3.2.7}USB passthrough}{228}{subsubsection.13.3.2.7}
+\contentsline {subsection}{\numberline {13.3.3}Configuring and Using Authentication}{228}{subsection.13.3.3}
+\contentsline {subsection}{\numberline {13.3.4}Potentially insecure operations}{229}{subsection.13.3.4}
+\contentsline {subsection}{\numberline {13.3.5}Encryption}{229}{subsection.13.3.5}
+\contentsline {chapter}{\numberline {14}Known limitations}{230}{chapter.14}
+\contentsline {section}{\numberline {14.1}Experimental Features}{230}{section.14.1}
+\contentsline {section}{\numberline {14.2}Known Issues}{230}{section.14.2}
+\contentsline {chapter}{\numberline {15}Change log}{233}{chapter.15}
+\contentsline {section}{\numberline {15.1}Version 4.3.28 (2015-05-13)}{233}{section.15.1}
+\contentsline {section}{\numberline {15.2}Version 4.3.26 (2015-03-16)}{234}{section.15.2}
+\contentsline {section}{\numberline {15.3}Version 4.3.24 (2015-03-02)}{235}{section.15.3}
+\contentsline {section}{\numberline {15.4}Version 4.3.22 (2015-02-12)}{235}{section.15.4}
+\contentsline {section}{\numberline {15.5}Version 4.3.20 (2014-11-21)}{237}{section.15.5}
+\contentsline {section}{\numberline {15.6}Version 4.3.18 (2014-10-10)}{238}{section.15.6}
+\contentsline {section}{\numberline {15.7}Version 4.3.16 (2014-09-09)}{239}{section.15.7}
+\contentsline {section}{\numberline {15.8}Version 4.3.14 (2014-07-15)}{241}{section.15.8}
+\contentsline {section}{\numberline {15.9}Version 4.3.12 (2014-05-16)}{242}{section.15.9}
+\contentsline {section}{\numberline {15.10}Version 4.3.10 (2014-03-26)}{243}{section.15.10}
+\contentsline {section}{\numberline {15.11}Version 4.3.8 (2014-02-25)}{244}{section.15.11}
+\contentsline {section}{\numberline {15.12}Version 4.3.6 (2013-12-18)}{246}{section.15.12}
+\contentsline {section}{\numberline {15.13}Version 4.3.4 (2013-11-29)}{247}{section.15.13}
+\contentsline {section}{\numberline {15.14}Version 4.3.2 (2013-11-01)}{249}{section.15.14}
+\contentsline {section}{\numberline {15.15}Version 4.3.0 (2013-10-15)}{250}{section.15.15}
+\contentsline {section}{\numberline {15.16}Version 4.2.22 (2014-01-10)}{253}{section.15.16}
+\contentsline {section}{\numberline {15.17}Version 4.2.20 (2013-11-28)}{253}{section.15.17}
+\contentsline {section}{\numberline {15.18}Version 4.2.18 (2013-09-06)}{255}{section.15.18}
+\contentsline {section}{\numberline {15.19}Version 4.2.16 (2013-07-04)}{255}{section.15.19}
+\contentsline {section}{\numberline {15.20}Version 4.2.14 (2013-06-21)}{256}{section.15.20}
+\contentsline {section}{\numberline {15.21}Version 4.2.12 (2013-04-12)}{257}{section.15.21}
+\contentsline {section}{\numberline {15.22}Version 4.2.10 (2013-03-05)}{259}{section.15.22}
+\contentsline {section}{\numberline {15.23}Version 4.2.8 (2013-02-20)}{259}{section.15.23}
+\contentsline {section}{\numberline {15.24}Version 4.2.6 (2012-12-19)}{261}{section.15.24}
+\contentsline {section}{\numberline {15.25}Version 4.2.4 (2012-10-26)}{262}{section.15.25}
+\contentsline {section}{\numberline {15.26}Version 4.2.2 (2012-10-18)}{263}{section.15.26}
+\contentsline {section}{\numberline {15.27}Version 4.2.0 (2012-09-13)}{264}{section.15.27}
+\contentsline {section}{\numberline {15.28}Version 4.1.18 (2012-06-06)}{266}{section.15.28}
+\contentsline {section}{\numberline {15.29}Version 4.1.16 (2012-05-22)}{266}{section.15.29}
+\contentsline {section}{\numberline {15.30}Version 4.1.14 (2012-04-13)}{267}{section.15.30}
+\contentsline {section}{\numberline {15.31}Version 4.1.12 (2012-04-03)}{268}{section.15.31}
+\contentsline {section}{\numberline {15.32}Version 4.1.10 (2012-03-13)}{268}{section.15.32}
+\contentsline {section}{\numberline {15.33}Version 4.1.8 (2011-12-19)}{270}{section.15.33}
+\contentsline {section}{\numberline {15.34}Version 4.1.6 (2011-11-04)}{270}{section.15.34}
+\contentsline {section}{\numberline {15.35}Version 4.1.4 (2011-10-03)}{271}{section.15.35}
+\contentsline {section}{\numberline {15.36}Version 4.1.2 (2011-08-15)}{273}{section.15.36}
+\contentsline {section}{\numberline {15.37}Version 4.1.0 (2011-07-19)}{274}{section.15.37}
+\contentsline {section}{\numberline {15.38}Version 4.0.14 (2011-10-13)}{277}{section.15.38}
+\contentsline {section}{\numberline {15.39}Version 4.0.12 (2011-07-15)}{278}{section.15.39}
+\contentsline {section}{\numberline {15.40}Version 4.0.10 (2011-06-22)}{279}{section.15.40}
+\contentsline {section}{\numberline {15.41}Version 4.0.8 (2011-05-16)}{280}{section.15.41}
+\contentsline {section}{\numberline {15.42}Version 4.0.6 (2011-04-21)}{281}{section.15.42}
+\contentsline {section}{\numberline {15.43}Version 4.0.4 (2011-02-17)}{283}{section.15.43}
+\contentsline {section}{\numberline {15.44}Version 4.0.2 (2011-01-18)}{285}{section.15.44}
+\contentsline {section}{\numberline {15.45}Version 4.0.0 (2010-12-22)}{286}{section.15.45}
+\contentsline {section}{\numberline {15.46}Version 3.2.12 (2010-11-30)}{288}{section.15.46}
+\contentsline {section}{\numberline {15.47}Version 3.2.10 (2010-10-08)}{290}{section.15.47}
+\contentsline {section}{\numberline {15.48}Version 3.2.8 (2010-08-05)}{292}{section.15.48}
+\contentsline {section}{\numberline {15.49}Version 3.2.6 (2010-06-25)}{293}{section.15.49}
+\contentsline {section}{\numberline {15.50}Version 3.2.4 (2010-06-07)}{295}{section.15.50}
+\contentsline {section}{\numberline {15.51}Version 3.2.2 (2010-06-02)}{296}{section.15.51}
+\contentsline {section}{\numberline {15.52}Version 3.2.0 (2010-05-18)}{297}{section.15.52}
+\contentsline {section}{\numberline {15.53}Version 3.1.8 (2010-05-10)}{299}{section.15.53}
+\contentsline {section}{\numberline {15.54}Version 3.1.6 (2010-03-25)}{300}{section.15.54}
+\contentsline {section}{\numberline {15.55}Version 3.1.4 (2010-02-12)}{302}{section.15.55}
+\contentsline {section}{\numberline {15.56}Version 3.1.2 (2009-12-17)}{304}{section.15.56}
+\contentsline {section}{\numberline {15.57}Version 3.1.0 (2009-11-30)}{305}{section.15.57}
+\contentsline {section}{\numberline {15.58}Version 3.0.12 (2009-11-10)}{307}{section.15.58}
+\contentsline {section}{\numberline {15.59}Version 3.0.10 (2009-10-29)}{308}{section.15.59}
+\contentsline {section}{\numberline {15.60}Version 3.0.8 (2009-10-02)}{309}{section.15.60}
+\contentsline {section}{\numberline {15.61}Version 3.0.6 (2009-09-09)}{310}{section.15.61}
+\contentsline {section}{\numberline {15.62}Version 3.0.4 (2009-08-04)}{313}{section.15.62}
+\contentsline {section}{\numberline {15.63}Version 3.0.2 (2009-07-10)}{314}{section.15.63}
+\contentsline {section}{\numberline {15.64}Version 3.0.0 (2009-06-30)}{315}{section.15.64}
+\contentsline {section}{\numberline {15.65}Version 2.2.4 (2009-05-29)}{317}{section.15.65}
+\contentsline {section}{\numberline {15.66}Version 2.2.2 (2009-04-27)}{319}{section.15.66}
+\contentsline {section}{\numberline {15.67}Version 2.2.0 (2009-04-08)}{320}{section.15.67}
+\contentsline {section}{\numberline {15.68}Version 2.1.4 (2009-02-16)}{322}{section.15.68}
+\contentsline {section}{\numberline {15.69}Version 2.1.2 (2009-01-21)}{324}{section.15.69}
+\contentsline {section}{\numberline {15.70}Version 2.1.0 (2008-12-17)}{327}{section.15.70}
+\contentsline {section}{\numberline {15.71}Version 2.0.8 (2009-03-10)}{328}{section.15.71}
+\contentsline {section}{\numberline {15.72}Version 2.0.6 (2008-11-21)}{329}{section.15.72}
+\contentsline {section}{\numberline {15.73}Version 2.0.4 (2008-10-24)}{330}{section.15.73}
+\contentsline {section}{\numberline {15.74}Version 2.0.2 (2008-09-12)}{331}{section.15.74}
+\contentsline {section}{\numberline {15.75}Version 2.0.0 (2008-09-04)}{333}{section.15.75}
+\contentsline {chapter}{\numberline {16}Third-party materials and licenses}{334}{chapter.16}
+\contentsline {section}{\numberline {16.1}Materials}{334}{section.16.1}
+\contentsline {section}{\numberline {16.2}Licenses}{337}{section.16.2}
+\contentsline {subsection}{\numberline {16.2.1}GNU General Public License (GPL)}{337}{subsection.16.2.1}
+\contentsline {subsection}{\numberline {16.2.2}GNU Lesser General Public License (LGPL)}{341}{subsection.16.2.2}
+\contentsline {subsection}{\numberline {16.2.3}Mozilla Public License (MPL)}{346}{subsection.16.2.3}
+\contentsline {subsection}{\numberline {16.2.4}MIT License}{352}{subsection.16.2.4}
+\contentsline {subsection}{\numberline {16.2.5}X Consortium License (X11)}{352}{subsection.16.2.5}
+\contentsline {subsection}{\numberline {16.2.6}zlib license}{352}{subsection.16.2.6}
+\contentsline {subsection}{\numberline {16.2.7}OpenSSL license}{352}{subsection.16.2.7}
+\contentsline {subsection}{\numberline {16.2.8}Slirp license}{353}{subsection.16.2.8}
+\contentsline {subsection}{\numberline {16.2.9}liblzf license}{354}{subsection.16.2.9}
+\contentsline {subsection}{\numberline {16.2.10}libpng license}{354}{subsection.16.2.10}
+\contentsline {subsection}{\numberline {16.2.11}lwIP license}{354}{subsection.16.2.11}
+\contentsline {subsection}{\numberline {16.2.12}libxml license}{355}{subsection.16.2.12}
+\contentsline {subsection}{\numberline {16.2.13}libxslt licenses}{355}{subsection.16.2.13}
+\contentsline {subsection}{\numberline {16.2.14}gSOAP Public License Version 1.3a}{356}{subsection.16.2.14}
+\contentsline {subsection}{\numberline {16.2.15}Chromium licenses}{361}{subsection.16.2.15}
+\contentsline {subsubsection}{\numberline {16.2.15.1}Main license}{361}{subsubsection.16.2.15.1}
+\contentsline {subsubsection}{\numberline {16.2.15.2}COPYRIGHT.LLNL file}{362}{subsubsection.16.2.15.2}
+\contentsline {subsubsection}{\numberline {16.2.15.3}COPYRIGHT.REDHAT file}{362}{subsubsection.16.2.15.3}
+\contentsline {subsection}{\numberline {16.2.16}curl license}{363}{subsection.16.2.16}
+\contentsline {subsection}{\numberline {16.2.17}libgd license}{363}{subsection.16.2.17}
+\contentsline {subsection}{\numberline {16.2.18}BSD license from Intel}{364}{subsection.16.2.18}
+\contentsline {subsection}{\numberline {16.2.19}libjpeg License}{364}{subsection.16.2.19}
+\contentsline {subsection}{\numberline {16.2.20}x86 SIMD extension for IJG JPEG library license}{365}{subsection.16.2.20}
+\contentsline {subsection}{\numberline {16.2.21}FreeBSD license}{365}{subsection.16.2.21}
+\contentsline {subsection}{\numberline {16.2.22}NetBSD license}{366}{subsection.16.2.22}
+\contentsline {subsection}{\numberline {16.2.23}PCRE license}{366}{subsection.16.2.23}
+\contentsline {subsection}{\numberline {16.2.24}libffi license}{367}{subsection.16.2.24}
+\contentsline {subsection}{\numberline {16.2.25}FLTK license}{368}{subsection.16.2.25}
+\contentsline {subsection}{\numberline {16.2.26}Expat license}{368}{subsection.16.2.26}
+\contentsline {subsection}{\numberline {16.2.27}Fontconfig license}{368}{subsection.16.2.27}
+\contentsline {subsection}{\numberline {16.2.28}Freetype license}{369}{subsection.16.2.28}
+\contentsline {paragraph}{\nonumberline Introduction}{369}{section*.11}
+\contentsline {paragraph}{\nonumberline Legal Terms}{369}{section*.13}
+\contentsline {paragraph}{\nonumberline 0. Definitions}{369}{section*.14}
+\contentsline {paragraph}{\nonumberline 1. No Warranty}{370}{section*.15}
+\contentsline {paragraph}{\nonumberline 2. Redistribution}{370}{section*.16}
+\contentsline {paragraph}{\nonumberline 3. Advertising}{370}{section*.17}
+\contentsline {paragraph}{\nonumberline 4. Contacts}{370}{section*.18}
+\contentsline {subsection}{\numberline {16.2.29}VPX License}{371}{subsection.16.2.29}
+\contentsline {chapter}{\numberline {17}VirtualBox privacy information}{372}{chapter.17}
+\contentsline {chapter}{\nonumberline Glossary}{373}{chapter*.19}
